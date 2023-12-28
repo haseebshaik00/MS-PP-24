@@ -25,3 +25,6 @@ Keeping a tab of my forthcoming 2 years journey. Please ignore!
 - userAuth (auth0)
 - AWS Rekognition
 - Deployment
+
+## Miscellaneous topics
+website design principles, Website Architectures, virtualDOM n shadowDOM, Pub/Sub, Push Notifications, Passportjs, Browser native APIs, application infrastructure, model schema, heroku, mongo atlas, postman
