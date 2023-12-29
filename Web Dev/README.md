@@ -27,4 +27,6 @@ Keeping a tab of my forthcoming 2 years journey. Please ignore!
 - Deployment
 
 ## Miscellaneous topics
-website design principles, Website Architectures, virtualDOM n shadowDOM, Pub/Sub, Push Notifications, Passportjs, Browser native APIs, application infrastructure, model schema, heroku, mongo atlas, postman
+website design principles, Website Architectures, virtualDOM n shadowDOM, Pub/Sub, Push Notifications, Passportjs, Browser native APIs (Location, User Data), application infrastructure, model schema, heroku, mongo atlas, postman
+
+https://www.geeksforgeeks.org/node-js-vs-express-js/

@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "formulahendry.auto-close-tag",
+        "ritwickdey.liveserver",
+        "davidanson.vscode-markdownlint"
+    ]
+}
