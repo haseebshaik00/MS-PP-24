@@ -203,5 +203,16 @@
     <!-- in iframe3 same page is embedded in the iframe, but the iframe doesn't go into recursion but stops after 1 render -->
     <iframe name="frames3" src="./2-html-basics.html" height="200" width="400" frameborder="1"></iframe>
 
+    <!-- Media -->
+    <h4><u>Media</u></h4>    
+    <img src="./public/media/pic.jpg" height="400" width="600" alt="Batman">
+    <video src="./public/media/video.mp4" height="400" width="400" controls autoplay preload="auto"></video>
+    <!-- info for preload
+    auto - all data gets downloaded and whole video starts downoading as soon as the page gets loaded
+    metadata - only metadata like video time and thumbnail gets downloaded and chunks of video are downloaded as the video progresses
+    none - nothing is downloaded, but starts when it the video is played
+    once the page is refreshed after playing the video remains in the cache hence the video isn't downloaded again  -->
+    <audio controls src="./public/media/audio.mp3" autoplay>d</audio>
+    
 </body>
 </html>
