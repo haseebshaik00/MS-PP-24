@@ -62,7 +62,7 @@ d) block and inline elements ~ elements can be changed to one another changing t
 e) form <https://github.com/haseebshaik00/FullStack_NodeJS_Live_March2020/blob/master/Lecture02/more-with-html/forms.html> : names is mainly used to refer the elements where as id is mainly used by js, form elements : input "input" many types~password, email,number has min and max attributes too, color, file, checkbox, radio; date; textarea "textarea-/textarea" adjust size with rows and cols; select with options "select option-/option /select" ~ multiple attribute can also be use in this  
 f) more form tags : button "button-/button" ~ type="submit" or "reset";  
 g) form action="" The HTML form action attribute defines where to send the form data when a form is submitted in an HTML document.  
-h) The method attribute specifies how to send form-data (the form-data is sent to the page specified in the action attribute). The form-data can be sent as URL variables (with method="get" ) or as HTTP post transaction (with method="post").  
+h) The method attribute specifies how to send form-data (the form-data is sent to the page specified in the action attribute). The form-data can be sent as URL variables (with method="get" ) or as HTTP post transaction (with method="post"). The default HTTP method when submitting form data is GET.  
 
 **2) CSS**  
 a) referred in the head tag using - <link rel="stylesheet" href="./style.css">    

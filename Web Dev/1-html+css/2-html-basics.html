@@ -212,7 +212,86 @@
     metadata - only metadata like video time and thumbnail gets downloaded and chunks of video are downloaded as the video progresses
     none - nothing is downloaded, but starts when it the video is played
     once the page is refreshed after playing the video remains in the cache hence the video isn't downloaded again  -->
-    <audio controls src="./public/media/audio.mp3" autoplay>d</audio>
+    <audio src="./public/media/audio.mp3" controls autoplay>d</audio>
     
+    <!-- Forms -->
+    <h4><u>Forms</u></h4>
+    <form action="" method="">
+        <!-- Next, you add the for attribute to the <label> element, where the value of for is the same as the id in the <input> element. -->
+        <label for="name">Name: </label>
+        <input id="name" type="text">
+        <br><br>
+        <label for="email">Email: </label>
+        <input id="email" type="email">
+        <br><br>
+        <label for="password">Password: </label>
+        <input id="password" type="password">
+        <br><br>
+        <label for="address">Address: </label>
+        <textarea id="address" id="clientAddress" cols="30" rows="10">Enter address here!</textarea>
+        <br><br>
+        <label for="color">Fav Color: </label>
+        <input id="color" type="color">
+        <br><br>
+        <label for="age">Age: </label>
+        <input id="age" type="number" min="1" max="80">
+        <br><br>
+        <label for="dob">DOB: </label>
+        <input id="dob" type="date">
+        <br><br>
+        <label for="resume">Resume: </label>
+        <input id="resume" type="file">
+        <br><br>
+        <ul type="none">
+            <h4>Radio: </h4>
+            <li>
+                <input name="radioOpt" id="r1" type="radio">
+                <label for="r1">Radio 1</label>
+            </li>
+            <li>
+                <input name="radioOpt" id="r2" type="radio">
+                <label for="r2">Radio 2</label>
+            </li><li>
+                <input name="radioOpt" id="r3" type="radio">
+                <label for="r3">Radio 3</label>
+            </li>
+        </ul>
+        <ul type="none">
+            <h4>Checkbox: </h4>
+            <li>
+                <input id="c1" type="checkbox">
+                <label for="c1">Black Mirror</label>
+            </li>
+            <li>
+                <input id="c2" type="checkbox">
+                <label for="c2">YOU</label>
+            </li><li>
+                <input id="c3" type="checkbox">
+                <label for="c3">The Boys</label>
+            </li>
+        </ul>
+        <br>
+        <label for="anime">Anime: </label>
+        <select name="animeName" id="anime">
+            <option value=""></option>
+            <option value="AOT">AOT</option>
+            <option value="JJK">JJK</option>
+            <option value="Tokyo Revengers">Tokyo Revengers</option>
+            <option value="Death Note">Death Note</option>
+            <option value="Chainsaw Man">Chainsaw Man</option>
+        </select>
+        <br><br>
+        <label for="multianime">Multiple Anime: </label>
+        <select name="animeMultiName" id="multianime" multiple>
+            <option value="AOT">AOT</option>
+            <option value="JJK">JJK</option>
+            <option value="Tokyo Revengers">Tokyo Revengers</option>
+            <option value="Death Note">Death Note</option>
+            <option value="Chainsaw Man">Chainsaw Man</option>
+        </select>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+
 </body>
 </html>
