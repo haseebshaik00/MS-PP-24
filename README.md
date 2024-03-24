@@ -21,3 +21,19 @@ Keeping a tab of my forthcoming 2 years journey. Please ignore!
 - <https://takeuforward.org/system-design/complete-system-design-roadmap-with-videos-for-sdes/>
 
 4) Interview Prep
+
+5) Roadmaps to study for:
+
+- <https://roadmap.sh/full-stack>
+  - <https://roadmap.sh/frontend>
+    - <https://roadmap.sh/react>
+  - <https://roadmap.sh/backend>
+    - <https://roadmap.sh/javascript>
+    - <https://roadmap.sh/nodejs>
+  - DB
+    - <https://roadmap.sh/sql>
+    - <https://roadmap.sh/mongodb>
+  - <https://roadmap.sh/devops>
+    - <https://roadmap.sh/aws>
+    - <https://roadmap.sh/docker>
+    - <https://roadmap.sh/kubernetes>

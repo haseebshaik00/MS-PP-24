@@ -68,6 +68,8 @@ h) The method attribute specifies how to send form-data (the form-data is sent t
 a) referred in the head tag using - <link rel="stylesheet" href="./style.css">    
 b) used for styling texts, styling boxes and css layout  
 c) selectors - type, class(.), id(#), universal(*), attribute exampls- input[disabled] or input[type=text]  
+selectors documentation: <https://www.w3.org/TR/selectors-3/>  
+difference betn * *|* ns|* \* <https://stackoverflow.com/questions/34987370/what-is-the-difference-between-and-in-css>  
 d) combinators - adjacent sibling selector(+), general sibling selector(~), child selector(>), descendent selector(" "), or(,)  
 e) pseudo selectors used with an ":" - hover, active and focus  
 f) more pseudo selectors - nth-child(), last-child, first-child, placeholder, link, visited  
