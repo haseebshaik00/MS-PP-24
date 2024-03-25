@@ -121,7 +121,7 @@
     </table>
     <br><br>
     <!-- Table Properties -->
-    <table align="center" border="1" cellSpacing="20" rowSpacing="20">
+    <table align="center" border="1" cellSpacing="20" cellPadding="10">
         <thead>
             <tr>
                 <th>Name</th>
@@ -194,11 +194,15 @@
     <!-- Open page in iframe -->
     <ul>
         <h4><u>Open Pages in iframe</u></h4>
+        <!-- put the iframe name in the target of the <a> tag (also mention what link you want to open obviously through the href 
+            attribute) where you want to the href link to render -->
         <li><a href="https://www.example.com" target="frames1">Render example.com in iframe1</a></li>
         <li><a href="./3-html-inner-link.html" target="frames2">Render 3-html-inner-link.html in iframe2</a></li>
         <li><a href="./2-html-basics.html" target="frames2">Render 2-html-basics.html in iframe2</a></li>
+        
         <!-- trigerring further targets the very same iframe not the inside one -->
         <li>See termination of recursion in 3rd box of iframe</li>
+        
         <li><a href="https://www.google.com" target="_parent">Parent Page google</a></li>
         <li><a href="https://www.google.com" target="_top">Top Page google</a></li>
     </ul>
@@ -222,6 +226,7 @@
     <h4><u>Forms</u></h4>
     <form action="" method="">
         <!-- Next, you add the for attribute to the <label> element, where the value of for is the same as the id in the <input> element. -->
+        <!-- label for is matched with element id -->
         <label for="name">Name: </label>
         <input id="name" type="text">
         <br><br>
@@ -232,7 +237,7 @@
         <input id="password" type="password">
         <br><br>
         <label for="address">Address: </label>
-        <textarea id="address" id="clientAddress" cols="30" rows="10">Enter address here!</textarea>
+        <textarea id="address" cols="30" rows="10">Enter address here!</textarea>
         <br><br>
         <label for="color">Fav Color: </label>
         <input id="color" type="color">
@@ -249,28 +254,29 @@
         <ul type="none">
             <h4>Radio: </h4>
             <li>
-                <input name="radioOpt" id="r1" type="radio">
+                <input name="radioOpt" id="r1" value="radio1" type="radio">
                 <label for="r1">Radio 1</label>
             </li>
             <li>
-                <input name="radioOpt" id="r2" type="radio">
+                <input name="radioOpt" id="r2" value="radio2" type="radio">
                 <label for="r2">Radio 2</label>
-            </li><li>
-                <input name="radioOpt" id="r3" type="radio">
+            </li>
+            <li>
+                <input name="radioOpt" id="r3" value="radio3" type="radio">
                 <label for="r3">Radio 3</label>
             </li>
         </ul>
         <ul type="none">
             <h4>Checkbox: </h4>
             <li>
-                <input id="c1" type="checkbox">
+                <input id="c1" name="Check1" value="Check1" type="checkbox">
                 <label for="c1">Black Mirror</label>
             </li>
             <li>
-                <input id="c2" type="checkbox">
+                <input id="c2" name="Check2" value="Check2" type="checkbox">
                 <label for="c2">YOU</label>
             </li><li>
-                <input id="c3" type="checkbox">
+                <input id="c3" name="Check3" value="Check3" type="checkbox">
                 <label for="c3">The Boys</label>
             </li>
         </ul>
