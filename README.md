@@ -37,3 +37,8 @@ Keeping a tab of my forthcoming 2 years journey. Please ignore!
     - <https://roadmap.sh/aws>
     - <https://roadmap.sh/docker>
     - <https://roadmap.sh/kubernetes>
+
+6) Concepts to study later on:
+
+- Various web architectures
+- 

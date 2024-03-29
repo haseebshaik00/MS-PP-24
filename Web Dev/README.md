@@ -72,13 +72,16 @@ selectors documentation: <https://www.w3.org/TR/selectors-3/>
 difference betn * *|* ns|* \* <https://stackoverflow.com/questions/34987370/what-is-the-difference-between-and-in-css>  
 d) combinators - adjacent sibling selector(+), general sibling selector(~), child selector(>), descendent selector(" "), or(,)  
 e) pseudo selectors used with an ":" - hover, active and focus  
-f) more pseudo selectors - nth-child(), last-child, first-child, placeholder, link, visited  
+f) more pseudo selectors - nth-child(), last-child, first-child, placeholder, link, visited + pseudo elements   
 g) id has 1:1 mapping whereas classses have many:many mapping  
 h) body selector affects only body tag whereas * affects every tags individually  
 i) overriding preference "id>class>element>*"  
 j) if a body selector is written twice the second one will overwrite the same properties present in the first one  
-k) css "inline-internal-external" file tags which are written last gets the higher priority and in this inline has 
+k) css "inline-internal-external" file link tags which are written last in the head tag gets the higher priority and in this inline has 
 the highest precedence  
+l) Multiple combinator: A, B  
+m) ul li li {} - this also works as a descendent combinator  
+
 **more css attributes**  
 l) font-sizes : pt (typewriter font-10pt, browser default font-14pt); px; em(1em - width of character 'm' in default font size); vh-(1/100th of window height); vw-view width  
 m) transform: skew, rotate, scale, translate  

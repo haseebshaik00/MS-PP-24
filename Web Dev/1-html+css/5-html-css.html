@@ -1,26 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
     <!-- external css -->
     <link rel="stylesheet" href="./style.css">
-    
+
     <!-- internal CSS -->
     <style>
         div {
-            color: pink;
-            background-color: red;
-            font-size: 10pt; 
-            /* font size usually mentioned in pts .. 14pts default browser */
-            border: 1px solid black;
-
+            color: brown;
+            font-size: 10pt;
+            /* font size usually mentioned in pts .. 14pt default browser rem or px or % */
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid black;
         }
     </style>
 </head>
+
 <body>
     <div>This is first div</div>
-    <p style="font-weight: bold;">This is first paragh</p> <!-- inline CSS -->
+    
+    <!-- inline CSS -->
+    <p class="paraClass" style="font-weight: bold;">This is first paragh</p>
+    <input type="text" name="name" placeholder="Name">
+    <button class="btn">SUBMIT</button>
+    <div id="div1">
+        This is div with id
+        <div id="div2">
+            this is the second 
+            <div id="div3">
+                d <br> this is the third div
+            </div>
+        </div>
+    </div>
+
+    <!-- For Selectors -->
+    <div>
+        <h1>Heading 1</h1>
+        <p>Paragh 1</p>
+        <p>Paragh 2</p>
+        <p>Paragh 3</p>
+        <section>
+            <p>Child Paragh 4</p>
+            <div>
+                <p>Descendent Paragh 5</p>
+                <p>Descendent Paragh 6</p>
+                <p>Descendent Paragh 7</p>
+            </div>
+        </section>
+    </div>
+
+    <ul>
+        <li>
+            1
+            <ul>
+                <li>1.1
+                    <ul>
+                        <li>1.1.1</li>
+                        <li>1.1.2</li>
+                    </ul>
+                </li>
+                <li>1.2</li>
+            </ul>
+        </li>
+        <li>
+            2
+            <ul>
+                <li>2.1</li>
+                <li>2.2</li>
+            </ul>
+        </li>
+        <li>
+            3
+        </li>
+    </ul>
+
 </body>
+
 </html>

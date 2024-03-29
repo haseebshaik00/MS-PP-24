@@ -1,0 +1,102 @@
+/* Universal Selector */
+* {
+   font-family: monospace; 
+}
+
+/* Type Selector */
+input{
+    background-color: pink;
+}
+
+/* ID Selector */
+#div1 {
+    background-color: red;
+}
+
+#div2 {
+    background-color: yellow;
+}
+
+#div3 {    
+    background-color: green;
+}
+
+/* Class Selector */
+.paraClass{
+    font-size: 20pt;
+}
+
+.btn{
+    background-color: green;
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+/* Pseudo Selectors */
+input:focus{
+    background-color: red;
+}
+
+.btn:hover{
+    background-color: lightgreen;
+}
+
+.btn:active{
+    background-color: lightblue;
+}
+
+/* Selects the first element of p siblings */
+p:nth-child(1) {
+    background: red;
+}
+
+/* Selects every third element among any group of siblings */
+:nth-child(3) {
+    background: yellow;
+}
+
+input::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    color: red;
+  }
+
+/* more pseudo selectors - nth-child(), last-child, first-child, placeholder, link, visited   */
+
+/* Attribute Selector */
+[type="text"]{
+    font-style: italic;
+}
+
+/* Combinators */
+/* Adjacent */
+h1 + p {
+    font-size: 15pt;
+}
+
+/* General Sibling */
+h1 ~ p {
+    font-weight: bolder;
+}
+
+/* Child */
+section > p {
+    font-style: italic;
+}
+
+/* Descendent */
+section p {
+    text-decoration: underline;
+}
+
+ul li ul{
+    display: none;
+}
+
+ul > li > ul{
+    display: none;
+}
+
+ul > li:hover > ul{
+    display: block;
+}
