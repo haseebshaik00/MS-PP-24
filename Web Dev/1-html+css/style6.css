@@ -1,0 +1,45 @@
+body{
+    background-color: lightcoral;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    border: solid blue 1px;
+    background-color: blueviolet;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+}
+
+.one{
+    transform: skewX(20deg);
+    transform: skewY(20deg);
+    transform: skew(60deg, 20deg);
+    /* transform: skew(60deg); = transform: skewX(20deg); */
+}
+
+.two{
+    transform: rotateY(45deg);
+    /* transform: rotate(45deg); = transform: rotateZ(45deg); */
+}
+
+.three{
+    transform: scale(2,2);
+    /* transform: scale(2); = transform: scale(2,2); */
+    transform: scaleX(2);
+    transform: scaleY(3);
+}
+
+.four{
+    /* transform: translateX(200px); = transform: translate(200px); */
+    transform: translateY(200px);
+    transform: translate(200px, 200px);
+}
+
+.five{
+    transform: translate(100px) rotate(60deg);
+}
