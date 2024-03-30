@@ -1,0 +1,73 @@
+.container{
+    background-color: olivedrab;
+    height: 400px;
+    width: 500px;
+    margin: auto;
+    margin-top: 150px;
+    border: solid 2px darkolivegreen;
+    box-shadow: greenyellow 2px 2px 5px;
+    border-radius: 2px;
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    display: inline-block;
+    margin: 20px;
+    border: solid 2px whitesmoke;
+    border-radius: 2px;
+}
+
+.player{
+    transform: translateY(150px);
+    transition: 1s linear;
+}
+
+.enemy{
+    animation: run 2s ease-in 0s infinite;
+    animation-play-state: paused;
+}
+
+.one{
+    animation-timing-function: ease-in;
+}
+
+.two{
+    animation-timing-function: ease-out;
+}
+
+.three{
+    animation-timing-function: linear;
+}
+
+.four{
+    animation-timing-function: ease-in-out;
+}
+
+.container:hover .enemy{
+    animation-play-state: running;
+}
+
+.container:active .player{
+    animation: move 1s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes run {
+    0%{
+
+    }
+    50%{
+        transform: translateY(300px);
+    }
+    100%{
+
+    }
+}
+
+@keyframes move {
+    100%{
+        transform: translateY(150px) translateX(400px);
+    }
+}

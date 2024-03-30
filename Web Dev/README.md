@@ -79,7 +79,7 @@ i) overriding preference "id>class>element>*"
 j) if a body selector is written twice the second one will overwrite the same properties present in the first one  
 k) css "inline-internal-external" file link tags which are written last in the head tag gets the higher priority and in this inline has 
 the highest precedence  
-l) Multiple combinator: A, B  
+l) Multiple combinator: A, B : The selector A, B selects all elements A and B. As the name suggests, it simply groups the selectors into one   
 m) ul li li {} - this also works as a descendent combinator  
 n) div.btn{} - a div with class button  
 
