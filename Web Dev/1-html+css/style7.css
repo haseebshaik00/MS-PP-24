@@ -1,0 +1,30 @@
+.btn{
+    background-color:deepskyblue;
+    height: 50px;
+    width: 100px;
+    margin: 40px;
+    padding: 40px;
+    font-weight: bolder;
+    font-size: 25pt;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    border: solid lightblue 1px;
+    border-radius: 25px;
+    box-shadow: indigo 10px 10px 5px;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+.btn:hover{
+    background-color: aquamarine;
+    transform: translate(-5px, -5px);
+    box-shadow: indigo 20px 20px 10px;
+}
+
+.btn:active{
+
+    background-color: blueviolet;
+    box-shadow: indigo 5px 5px 2px;
+    transform: translate(5px, 5px);
+}

@@ -81,6 +81,7 @@ k) css "inline-internal-external" file link tags which are written last in the h
 the highest precedence  
 l) Multiple combinator: A, B  
 m) ul li li {} - this also works as a descendent combinator  
+n) div.btn{} - a div with class button  
 
 **more css attributes**  
 l) font-sizes : pt (typewriter font-10pt, browser default font-14pt); px; em(1em - width of character 'm' in default font size); vh-(1/100th of window height); vw-view width  
