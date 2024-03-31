@@ -1,0 +1,102 @@
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss_mediaqueries_ex2 */
+
+/* In the above example the item width is changed where in this file the container width is changed -- change width using % */
+/* Better version using flex - https://www.w3schools.com/css/tryit.asp?filename=trycss_mediaqueries_flex */
+.container{
+    background-color: red;
+    height: 300px;
+    width: 1000px;
+    margin: 50px;
+    border: solid 1px crimson;
+    border-radius: 1px;
+    box-shadow: rebeccapurple 3px 3px 10px;
+    display: flex;
+}
+
+.container2{
+    background-color: blue;
+    height: 300px;
+    width: 1200px;
+    margin: 50px;
+    border: solid 1px crimson;
+    border-radius: 1px;
+    box-shadow: rebeccapurple 3px 3px 10px;
+}
+
+.box{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    font-family: monospace;
+    border: solid 1px whitesmoke;
+    box-shadow: whitesmoke 0.5px 0.5px 10px;
+    border-radius: 5px;
+    font-size: larger;
+    text-align: center;
+    line-height: 40px;
+}
+
+.box1{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    font-family: monospace;
+    border: solid 1px whitesmoke;
+    box-shadow: whitesmoke 0.5px 0.5px 10px;
+    border-radius: 5px;
+    font-size: larger;
+    text-align: center;
+    line-height: 40px;
+}
+
+/* for min-width start with min pixels and go on -- min-width means keep this property from this point -- kind of min start */
+/* use for starting point of development in mobiles */
+@media only screen and (min-width: 600px) {
+    .box {background-color: pink;}
+  }
+
+@media only screen and (min-width: 800px) {
+    .box {background-color: orange;}
+  }
+
+@media only screen and (min-width: 1200px) {
+    .box {background-color: black;}
+  }
+
+/* for max-width start with max pixels and keep decreasing -- max-width means keep this property till this point -- kind of max limit */
+/* use for starting point of development in computers */
+@media only screen and (max-width: 1200px) {
+    .box1 {background-color: pink;}
+    .container{
+        flex-wrap: wrap;
+        width: 80%;
+        background-color: blue;
+    }
+    .container2{
+        width: 80%;
+    }
+  }
+
+@media only screen and (max-width: 800px) {
+    .box1 {background-color: orange;}
+    .container{
+        width: 60%;
+        flex-wrap: wrap;
+    }
+    .container2{
+        width: 60%;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    .box1 {background-color: white;}
+    .container{
+        width: 40%;
+        flex-wrap: wrap;
+    }
+    .container2{
+        width: 40%;
+    }
+  }

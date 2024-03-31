@@ -97,13 +97,18 @@ q) use text-align:center; to align text in the center of div
 **3) CSS Flexbox**  
 a) <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
 b) display: flex;
-c) flex-wrap: wrap;
+c) flex-wrap: wrap; // flex-flow: wrap row;
 d) flex-direction: row; /* the above two statements short form : flex-flow:row wrap*/
 e) justify-content: flex-end; /* how items within a row are aligned in order*/
 f) align-items: baseline; /* align items within the row perpendicularly*/
 g) align-content: flex-end; /* how rows all together are aligned*/
 h) gap: 20px 30px;
-i) text-align: center;
+i) order: 1;
+j) flex-grow: 3;
+k) flex-shrink: 0;
+l) flex-basis: 200px;
+m) flex: 3 0 200px;
+n) align-self: center;
 
 **4) Media Queries**
 a) All possible queries  
