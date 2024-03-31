@@ -1,0 +1,31 @@
+.container{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    border: solid 1px crimson;
+    border-radius: 1px;
+    box-shadow: rebeccapurple 3px 3px 10px;
+    display: inline-flex;
+
+    /* flex properties*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: end;
+    align-items: baseline;
+}
+
+.box{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    font-family: monospace;
+    border: solid 1px whitesmoke;
+    box-shadow: whitesmoke 0.5px 0.5px 10px;
+    border-radius: 5px;
+    font-size: larger;
+    text-align: center;
+    line-height: 40px;
+}
