@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    height: 400px;
+    width: 400px;
+    background-color: lightcoral;
+    border: solid 1px red;
+    margin: 10px;
+    padding: 10px;
+}
+
+.box{
+    height: 60px;
+    width: 50px;
+    background-color: lightskyblue;
+    margin: 2px;
+    padding: 2px;
+}
+
+.pcontainer{
+    position: relative;
+    top: 300px;
+    left: 600px;
+}
+
+.one{
+    position: static;
+    top: 100px;
+    left: 200px;
+}
+
+.one{
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+.two{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+.three{
+    position: fixed;
+    top: 100px;
+    left: 1000px;
+}
+
+.five{
+    position: sticky;
+    top: 50px;
+    bottom: 100px;
+}
+
+
+.one{
+    position: static;/*default : left right all this are not applied to this*/
+    left: 100px;
+    top: 90px;
+}
+
+.one{
+    position: relative;/*changes its position with respect to its original position - moves with the page while scrolling*/
+    left: 100px;
+    top: 90px;
+    border: dotted 3px red;
+}
+
+.three{
+    position: absolute;/*positioned relative to the nearest positioned ancestor (parent)
+    However; if an absolute positioned element has no positioned ancestors, 
+    it uses the document body - moves with the page while scrolling
+    Note: Absolute positioned elements are removed from the normal flow, and can overlap elements.*/
+    left: 100px;
+    top: 200px;
+    border: dotted 3px black;
+}
+
+.two{
+    position: fixed;/*fixes its position from viewport of the page - doesn't moves with scrolling*/
+    left: 100px;
+    top: 100px;
+    z-index: 1;
+    /* If two positioned elements overlap each other without a z-index specified, 
+    the element defined last in the HTML code will be shown on top: */
+}
+
+.five{
+    position: sticky;/*An element with position: sticky; is positioned based on the user's scroll position.
+    A sticky element toggles between relative and fixed, depending on the scroll position. 
+    It is positioned relative until a given offset position is met in the viewport - then it "sticks" 
+    in place (like position:fixed).*/   
+    left: 20px;
+    top: 100px;
+    bottom: 100px;
+}

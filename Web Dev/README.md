@@ -143,6 +143,9 @@ a) All possible queries
 }
 
 **5) JS**  
+- strongly typed lang vs weakly typed lang - can be judged comparitively java is stronger typed that javascript ; also strongly typed language means we have ways to write more strongly data typed lang  
+- statistically vs dyanamically typed lang - lang where datatype checking happens at compile time -  statistically typed lang  
+- Javascript - Weakly and Dyanamically typed lang  
 a) <script async defer type="text/javascript" src="script.js"></script> : syntax for js file integration  
 <https://www.w3schools.com/tags/att_script_async.asp>  
 b) datatypes : (number,string,boolean,object,function,undefined)  
