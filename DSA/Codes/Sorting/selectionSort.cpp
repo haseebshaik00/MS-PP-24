@@ -2,7 +2,15 @@
 using namespace std;
 
 void selectionSort(int a[], int n){
-
+    int min_index=0;
+    for(int i=0;i<n-1;i++){
+        min_index=i;
+        for(int j=i+1; j<n; j++){
+            if(a[min_index] > a[j])
+                min_index = j;
+        }
+        swap(a[i], a[min_index]);
+    }
 }
 
 int main(){
@@ -17,7 +25,7 @@ int main(){
         cin>>a[i];
     selectionSort(a, n);
     for(int i=0;i<n;i++)
-        cout<<a[i]<<"\n";
+        cout<<a[i]<<" ";
 
     return 0;
 }
