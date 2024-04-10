@@ -8,3 +8,9 @@ II) Sorting
 3) Insertion Sort: https://www.geeksforgeeks.org/insertion-sort/  
 4) STL sort with Comparator: https://www.geeksforgeeks.org/sort-c-stl/
 5) Bubble Sort with Comparator: https://coderanch.com/t/374811/java/Bubble-Sort-Set-Comparator
+
+III) Arrays
+1) Generating Subarrays:
+2) Maximum Subarray O(n^3):   
+3) Maximum Subarray O(n^2):   
+4) Maximum Subarray O(n):
