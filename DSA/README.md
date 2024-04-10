@@ -7,4 +7,10 @@ detailed explanation: https://stackoverflow.com/questions/31162367/significance-
 - Size of an array  
 - memset(a, 0, n);  
 - STL <https://www.geeksforgeeks.org/the-c-standard-template-library-stl/> & stl algorithms + functions with comparators
--  
+- 
+
+
+
+## TODO
+- pass function as argument
+- learn all libraries
