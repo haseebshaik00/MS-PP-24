@@ -6,4 +6,5 @@ detailed explanation: https://stackoverflow.com/questions/31162367/significance-
 - C++ libraries list + C++ STL  
 - Size of an array  
 - memset(a, 0, n);  
-- 
+- STL <https://www.geeksforgeeks.org/the-c-standard-template-library-stl/> & stl algorithms + functions with comparators
+-  
