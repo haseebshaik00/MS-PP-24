@@ -4,5 +4,6 @@ I) Searching
 
 II) Sorting
 1) Bubble Sort: https://www.geeksforgeeks.org/bubble-sort/
-2) Selection Sort: 
-3) Insertion Sort: 
+2) Selection Sort: https://www.geeksforgeeks.org/selection-sort/  
+3) Insertion Sort: https://www.geeksforgeeks.org/insertion-sort/  
+4) 
