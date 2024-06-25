@@ -17,6 +17,7 @@ int main(){
             for(int k=i; k<=j; k++){
                 currentSum += a[k];
             }
+            // smax = max(smax, s);
             if(currentSum > sum){
                 sum = currentSum;
                 left = i;

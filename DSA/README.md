@@ -16,7 +16,8 @@ detailed explanation: https://stackoverflow.com/questions/31162367/significance-
 - pass function as argument
 - learn all libraries
 - C++ libs and STL
-- 
+- macros
+- tertiary operator time
 
 ## C++ Libraries
 
