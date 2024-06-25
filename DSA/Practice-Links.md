@@ -11,6 +11,6 @@ II) Sorting
 
 III) Arrays
 1) Generating Subarrays: 
-2) Maximum Subarray O(n^3): 
-3) Maximum Subarray O(n^2): 
+2) Maximum Subarray O(n^3): https://www.scaler.com/topics/maximum-subarray-sum/
+3) Maximum Subarray O(n^2): https://www.scaler.com/topics/maximum-subarray-sum/
 4) Maximum Subarray O(n): Kadance Algo: https://leetcode.com/problems/maximum-subarray/
