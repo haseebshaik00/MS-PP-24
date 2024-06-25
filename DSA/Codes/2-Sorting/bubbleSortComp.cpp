@@ -8,8 +8,8 @@ bool compare(int a, int b){
 void bubbleSortComp(int a[], int n, bool (&comp)(int a, int b)){
     for(int i=0; i<n-1; i++)
         for(int j=0; j<n-1-i; j++)
-            if(comp(a[j+1], a[j]))
-                swap(a[j+1], a[j]);
+            if(comp(a[j], a[j+1]))
+                swap(a[j], a[j+1]);
 }
 
 int main(){
