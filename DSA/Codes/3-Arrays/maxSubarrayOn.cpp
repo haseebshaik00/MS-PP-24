@@ -11,7 +11,7 @@ int main(){
     memset(a, n, 0);
     for(int i=0; i<n; i++)
         cin>>a[i];
-    int csum=0, sumMax=0;
+    int csum=0, sumMax=INT_MIN;
     for(int i=0; i<n; i++){
         csum += a[i];
         sumMax = max(csum, sumMax);

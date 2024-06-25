@@ -14,3 +14,5 @@ III) Arrays
 2) Maximum Subarray O(n^3): https://www.scaler.com/topics/maximum-subarray-sum/
 3) Maximum Subarray O(n^2): https://www.scaler.com/topics/maximum-subarray-sum/
 4) Maximum Subarray O(n): Kadance Algo: https://leetcode.com/problems/maximum-subarray/
+5) Two Pointer Approach: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
+6) 
