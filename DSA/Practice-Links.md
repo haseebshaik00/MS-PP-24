@@ -15,4 +15,5 @@ III) Arrays
 3) Maximum Subarray O(n^2): https://www.scaler.com/topics/maximum-subarray-sum/
 4) Maximum Subarray O(n): Kadance Algo: https://leetcode.com/problems/maximum-subarray/
 5) Two Pointer Approach: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
-6) 
+6) Two Pointer 3 sum: https://www.geeksforgeeks.org/find-a-triplet-that-sum-to-a-given-value/
+7) 
