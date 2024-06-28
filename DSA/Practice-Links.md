@@ -19,4 +19,8 @@ III) Arrays
 
 IV) 2D Arrays
 1) Wave Print: 
-2) 
+2) Spiral Print: 
+3) Piyush and Magical Park: 
+4) Rotate Image: 
+5) Staircase Search: 
+6) 2D character Array: 
