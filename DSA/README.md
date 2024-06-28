@@ -9,7 +9,8 @@ detailed explanation: https://stackoverflow.com/questions/31162367/significance-
 - memset(a, 0, n);  
 - STL <https://www.geeksforgeeks.org/the-c-standard-template-library-stl/>
 - Boolean Comparator
-- 
+- https://www.geeksforgeeks.org/pass-array-to-functions-in-cpp/
+- https://www.geeksforgeeks.org/pass-2d-array-parameter-to-functions-in-cpp/
 
 
 ## TODO
@@ -28,4 +29,4 @@ detailed explanation: https://stackoverflow.com/questions/31162367/significance-
 ### #include\<algorithm>
 - min() max()
 - sort()
-- 
+- reverse()
