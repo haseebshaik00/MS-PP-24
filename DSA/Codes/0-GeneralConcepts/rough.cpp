@@ -5,8 +5,8 @@ int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    char a[] = {'h','i'};
-    cout<<a<<endl;
+    char c[] = "haseeb";
+    cout<<sizeof(c)<<" "<<strlen(c); // 7
 
     return 0;
 }

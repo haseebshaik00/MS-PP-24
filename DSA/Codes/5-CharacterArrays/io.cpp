@@ -26,7 +26,7 @@ int main(){
     char aa[100][100];
     int n;
     cin>>n;
-    cin.get();
+    cin.get(); // to dump enter key value
     for(int i=0; i<n; i++)
         cin.getline(aa[i], 100);
     for(int i=0; i<n; i++)
@@ -36,7 +36,8 @@ int main(){
     char b[] = "ji"; // delimeter is automatically appended in the end hence; sizeof = 3 ; strlen(b)=2;
     // cout<<b<<endl; - prints address of b
 
-
+    char c[] = "haseeb";
+    cout<<sizeof(c)<<" "<<strlen(c); // 7 6
 
     return 0;
 }
