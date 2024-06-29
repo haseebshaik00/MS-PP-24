@@ -24,3 +24,13 @@ IV) 2D Arrays
 4) Rotate Image: 
 5) Staircase Search: 
 6) 2D character Array: 
+
+V) Character Array
+1) Input Output
+2) Reading Sentence
+3) Palindrome
+4) Removing Duplicate
+5) Largest String
+
+VI) Strings
+1) 

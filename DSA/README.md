@@ -20,12 +20,15 @@ detailed explanation: https://stackoverflow.com/questions/31162367/significance-
 - macros
 - tertiary operator time
 
-## C++ Libraries
+## Char Array func
+- strlen(c);
+- strcpy(a, b) = copies b to a
+- 
 
+## C++ Libraries
 - #include\<climits>: INT_MIN, INT_MAX
 
 ## C++ STL : Algorithms | Containers | Functors | Iterators
-
 ### #include\<algorithm>
 - min() max()
 - sort()
