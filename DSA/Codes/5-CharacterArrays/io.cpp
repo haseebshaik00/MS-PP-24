@@ -7,8 +7,9 @@ int main(){
 
     char c[][12] = {{'h','i','\0'}, {'y','o','\0'}};
     char d[10] = "haseeb";
-    // char a[] - not allowed should define size;
-    // char c[2] = "zoom"; - not allowed
+    char e[] = {'2','2', '\0'}; //allowed
+    // char a[]; - not allowed should define size;
+    // char c[2] = "zoom"; - not allowed - size is less
     cout<<c[0]<<" "<<c[0][1]<<" "<<d<<" "<<d[2]<<endl;
 
     char s[10], r[10];
@@ -33,11 +34,11 @@ int main(){
         cout<<aa[i]<<" ";
 
     char b[] = {'h', 'i', '\0'}; // sizeof = 3 ; strlen(b)=2;
-    char b[] = "ji"; // delimeter is automatically appended in the end hence; sizeof = 3 ; strlen(b)=2;
+    char g[] = "ji"; // delimeter is automatically appended in the end hence; sizeof = 3 ; strlen(b)=2;
     // cout<<b<<endl; - prints address of b
 
-    char c[] = "haseeb";
-    cout<<sizeof(c)<<" "<<strlen(c); // 7 6
+    char cd[] = "haseeb";
+    cout<<sizeof(cd)<<" "<<strlen(cd); // 7 6
 
     return 0;
 }
