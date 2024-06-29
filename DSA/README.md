@@ -11,6 +11,8 @@ detailed explanation: https://stackoverflow.com/questions/31162367/significance-
 - Boolean Comparator
 - https://www.geeksforgeeks.org/pass-array-to-functions-in-cpp/
 - https://www.geeksforgeeks.org/pass-2d-array-parameter-to-functions-in-cpp/
+- https://www.geeksforgeeks.org/difference-between-null-strings-and-empty-string-in-cpp/
+- 
 
 
 ## TODO
@@ -23,7 +25,6 @@ detailed explanation: https://stackoverflow.com/questions/31162367/significance-
 ## Char Array func
 - strlen(c);
 - strcpy(a, b) = copies b to a
-- 
 
 ## C++ Libraries
 - #include\<climits>: INT_MIN, INT_MAX

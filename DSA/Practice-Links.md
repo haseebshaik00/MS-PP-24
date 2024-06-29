@@ -33,4 +33,7 @@ V) Character Array
 5) Largest String
 
 VI) Strings
-1) 
+1) Strings Basics
+2) String Sorting
+3) STL String Tokenizer
+4) 
