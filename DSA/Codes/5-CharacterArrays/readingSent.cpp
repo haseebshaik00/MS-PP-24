@@ -19,7 +19,8 @@ int main(){
     cin.tie(NULL);
 
     char a[1000];
-    cin.getline(a, 1000);
+    cin.getline(a, 1000); // takes sentences as default delimeter is '\n'
+    cin.getline(a, 1000, '$');
     cout<<a<<endl;;
     readLine(a, 100, '#');
     cout<<a<<endl;
