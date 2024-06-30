@@ -39,5 +39,8 @@ int main(){
     for(auto it : str1)
         cout<<it;
 
+    string s2 = "abcd";
+    cout<<s2+2; // cd
+
     return 0;
 }

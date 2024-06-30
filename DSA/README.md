@@ -12,6 +12,8 @@ detailed explanation: https://stackoverflow.com/questions/31162367/significance-
 - https://www.geeksforgeeks.org/pass-array-to-functions-in-cpp/
 - https://www.geeksforgeeks.org/pass-2d-array-parameter-to-functions-in-cpp/
 - https://www.geeksforgeeks.org/difference-between-null-strings-and-empty-string-in-cpp/
+- https://www.geeksforgeeks.org/whats-difference-between-char-s-and-char-s-in-c/ 
+- https://www.geeksforgeeks.org/memory-layout-of-c-program/
 - 
 
 

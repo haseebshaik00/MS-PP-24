@@ -7,7 +7,8 @@ int main(){
 
     char d[5] = "zoom";
     char c[] = "haseeb";
-    cout<<sizeof(c)<<" "<<strlen(c); // 7
+    cout<<sizeof(c)<<" "<<strlen(c)<<endl; // 7
+    cout<<c + 3;
 
     return 0;
 }
