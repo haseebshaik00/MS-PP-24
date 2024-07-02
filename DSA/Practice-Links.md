@@ -32,8 +32,11 @@ V) Character Array (22)
 3) Removing Duplicate
 4) Largest String
 
-VI) Strings ()
+VI) Strings (26)
 - Strings Basics
 1) String Sorting
 2) STL String Tokenizer
-3)  
+3) Make your own tokenizer
+4) String challenge: https://online.codingblocks.com/app/player/303566/content/301496/7135/lecture# 
+
+VII) 

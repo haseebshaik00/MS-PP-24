@@ -36,3 +36,4 @@ detailed explanation: https://stackoverflow.com/questions/31162367/significance-
 - min() max()
 - sort()
 - reverse()
+- pair<dataType, dataType> s[n];
