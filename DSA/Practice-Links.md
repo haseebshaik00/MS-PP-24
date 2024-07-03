@@ -39,4 +39,7 @@ VI) Strings (26)
 3) Make your own tokenizer
 4) String challenge: https://online.codingblocks.com/app/player/303566/content/301496/7135/lecture# 
 
-VII) 
+VII) Problem solving in 2D Arrays
+1) Sum of all submatrices O(n^6):
+2) Sum of all submatrices O(n^4):
+3) Sum of all submatrices O(n^2):
