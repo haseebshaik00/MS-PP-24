@@ -24,6 +24,7 @@ IV) 2D Arrays (18)
 4) Rotate Image: 
 5) Staircase Search: 
 - 2D character Array: 
+- 2D Array Dynamic Allocation:  
 
 V) Character Array (22)
 - Input Output
@@ -43,3 +44,5 @@ VII) Problem solving in 2D Arrays
 1) Sum of all submatrices O(n^6):
 2) Sum of all submatrices O(n^4):
 3) Sum of all submatrices O(n^2):
+4) Submatrix Sum Query: 
+5) 
