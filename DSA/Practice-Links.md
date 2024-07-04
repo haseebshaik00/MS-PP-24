@@ -44,5 +44,6 @@ VII) Problem solving in 2D Arrays
 1) Sum of all submatrices O(n^6):
 2) Sum of all submatrices O(n^4):
 3) Sum of all submatrices O(n^2):
-4) Submatrix Sum Query: 
-5) 
+4) Submatrix Sum Query: https://www.geeksforgeeks.org/submatrix-sum-queries/
+5) Max Sum Submatrix Sorted Row and Column: https://www.geeksforgeeks.org/maximum-sum-of-any-submatrix-of-a-matrix-which-is-sorted-row-wise-and-column-wise/
+6) 
