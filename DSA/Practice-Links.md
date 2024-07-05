@@ -47,8 +47,8 @@ VII) Problem solving in 2D Arrays (31)
 4) Submatrix Sum Query: https://www.geeksforgeeks.org/submatrix-sum-queries/
 5) Max Sum Submatrix Sorted Row and Column: https://www.geeksforgeeks.org/maximum-sum-of-any-submatrix-of-a-matrix-which-is-sorted-row-wise-and-column-wise/
 
-VIII) Array Challenges
+VIII) Array Challenges ()
 1) 
 
-IX) String Challenges
+IX) String Challenges ()
 1) 
