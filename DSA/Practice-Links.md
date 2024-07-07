@@ -50,7 +50,7 @@ VII) Problem solving in 2D Arrays (31)
 VIII) Array Challenges ()
 1) Rain Water Harvesting: https://www.geeksforgeeks.org/trapping-rain-water/ 
 2) Max Circular subarray Sum: https://www.geeksforgeeks.org/maximum-contiguous-circular-sum/ 
-3) 
+3) Max Sum Bitonic Subarray: 
 
 IX) String Challenges ()
 1) 
