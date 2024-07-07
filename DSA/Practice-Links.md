@@ -48,7 +48,9 @@ VII) Problem solving in 2D Arrays (31)
 5) Max Sum Submatrix Sorted Row and Column: https://www.geeksforgeeks.org/maximum-sum-of-any-submatrix-of-a-matrix-which-is-sorted-row-wise-and-column-wise/
 
 VIII) Array Challenges ()
-1) 
+1) Rain Water Harvesting: https://www.geeksforgeeks.org/trapping-rain-water/ 
+2) Max Circular subarray Sum: https://www.geeksforgeeks.org/maximum-contiguous-circular-sum/ 
+3) 
 
 IX) String Challenges ()
 1) 
