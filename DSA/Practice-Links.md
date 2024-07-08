@@ -47,7 +47,7 @@ VII) Problem solving in 2D Arrays (31)
 4) Submatrix Sum Query: https://www.geeksforgeeks.org/submatrix-sum-queries/
 5) Max Sum Submatrix Sorted Row and Column: https://www.geeksforgeeks.org/maximum-sum-of-any-submatrix-of-a-matrix-which-is-sorted-row-wise-and-column-wise/
 
-VIII) Array Challenges ()
+VIII) Array Challenges (38)
 1) Rain Water Harvesting: https://www.geeksforgeeks.org/trapping-rain-water/ 
 2) Max Circular subarray Sum: https://www.geeksforgeeks.org/maximum-contiguous-circular-sum/ 
 3) Max length Bitonic Subarray: https://www.geeksforgeeks.org/maximum-length-bitonic-subarray/
