@@ -51,7 +51,10 @@ VIII) Array Challenges ()
 1) Rain Water Harvesting: https://www.geeksforgeeks.org/trapping-rain-water/ 
 2) Max Circular subarray Sum: https://www.geeksforgeeks.org/maximum-contiguous-circular-sum/ 
 3) Max length Bitonic Subarray: https://www.geeksforgeeks.org/maximum-length-bitonic-subarray/
-4) 
+4) Biggest Number: https://www.geeksforgeeks.org/given-an-array-of-numbers-arrange-the-numbers-to-form-the-biggest-number/
+5) Chewbacca Number: https://github.com/jackiehluo/practice/blob/master/codeforces/500s/514a-chewbacca-and-number.cpp
+6) Sum of 2 arrays: https://www.geeksforgeeks.org/add-two-numbers-represented-by-two-arrays/
+7) Factorial of a big number: https://www.geeksforgeeks.org/factorial-large-number/
 
 IX) String Challenges ()
 1) 
