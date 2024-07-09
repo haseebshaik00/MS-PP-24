@@ -57,4 +57,9 @@ VIII) Array Challenges (38)
 7) Factorial of a big number: https://www.geeksforgeeks.org/factorial-large-number/
 
 IX) String Challenges ()
-1) 
+1) Upper Lower Case:
+2) Max Frequency Character: 
+3) Can Your Read This: 
+4) Palindrome: 
+5) 
+6) 
