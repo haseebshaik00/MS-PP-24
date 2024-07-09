@@ -60,6 +60,6 @@ IX) String Challenges ()
 1) Upper Lower Case:
 2) Max Frequency Character: 
 3) Can Your Read This: 
-4) Palindrome: 
-5) 
+4) Palindrome Recursive: 
+5) String Compression: 
 6) 
