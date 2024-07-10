@@ -56,11 +56,12 @@ VIII) Array Challenges (38)
 6) Sum of 2 arrays: https://www.geeksforgeeks.org/add-two-numbers-represented-by-two-arrays/
 7) Factorial of a big number: https://www.geeksforgeeks.org/factorial-large-number/
 
-IX) String Challenges ()
+IX) String Challenges (46)
 1) Upper Lower Case:
 2) Max Frequency Character: 
 3) Can Your Read This: 
 4) Palindrome Recursive: 
 5) String Compression: 
 6) Sanket and Strings(sliding window): 
-7) 
+7) Ultra Fast Mathematician:
+8) Is CB No.: 
