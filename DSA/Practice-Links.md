@@ -62,4 +62,5 @@ IX) String Challenges ()
 3) Can Your Read This: 
 4) Palindrome Recursive: 
 5) String Compression: 
-6) 
+6) Sanket and Strings(sliding window): 
+7) 
