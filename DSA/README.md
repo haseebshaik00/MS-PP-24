@@ -16,6 +16,7 @@ detailed explanation: https://stackoverflow.com/questions/31162367/significance-
 - https://www.geeksforgeeks.org/memory-layout-of-c-program/
 - https://www.youtube.com/watch?v=m1UzSfgjA4Y 
 - sort() - By default, it uses QuickSort, but if QuickSort is doing unfair partitioning and taking more than N*logN time, it switches to HeapSort. When the array size becomes very small, it switches to InsertionSort. 
+- https://stackoverflow.com/questions/42638999/why-cant-i-increment-an-array
 
 
 ## TODO
