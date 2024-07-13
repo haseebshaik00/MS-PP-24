@@ -64,3 +64,8 @@ IX) String Challenges (45)
 5) String Compression: 
 6) Sanket and Strings(sliding window): 
 7) Is CB No.: 
+
+X) STL (3)
+1) Money Problem: 
+2) Next Permutation: 
+3) Activity Selection Problem: 
