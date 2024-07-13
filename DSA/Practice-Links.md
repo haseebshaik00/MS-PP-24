@@ -57,15 +57,18 @@ VIII) Array Challenges (38)
 7) Factorial of a big number: https://www.geeksforgeeks.org/factorial-large-number/
 
 IX) String Challenges (45)
-1) Upper Lower Case:
-2) Max Frequency Character: 
-3) Can Your Read This: 
-4) Palindrome Recursive: 
-5) String Compression: 
-6) Sanket and Strings(sliding window): 
-7) Is CB No.: 
+1) Upper Lower Case: https://www.geeksforgeeks.org/isupper-islower-application-c/
+2) Max Frequency Character: https://www.geeksforgeeks.org/return-maximum-occurring-character-in-the-input-string/
+3) Can Your Read This: https://www.geeksforgeeks.org/implementing-of-strtok-function-in-c/
+4) Palindrome Recursive: https://www.geeksforgeeks.org/recursive-function-check-string-palindrome/
+5) String Compression: https://www.geeksforgeeks.org/valid-compressed-string/
+6) Sanket and Strings(sliding window): https://discuss.codingblocks.com/t/sanket-and-strings-dsa-question-practicing-strings/155569
+7) Is CB No.: https://discuss.codingblocks.com/t/finding-cb-numbers/135077
 
-X) STL (3)
-1) Money Problem: 
-2) Next Permutation: 
-3) Activity Selection Problem: 
+X) STL (48)
+1) Money Problem: https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/
+2) Next Permutation: https://www.geeksforgeeks.org/next-permutation/
+3) Activity Selection Problem: https://www.geeksforgeeks.org/activity-selection-problem-greedy-algo-1/
+
+XI) Bit Masking ()
+1) 
