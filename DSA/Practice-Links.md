@@ -70,5 +70,17 @@ X) STL (48)
 2) Next Permutation: https://www.geeksforgeeks.org/next-permutation/
 3) Activity Selection Problem: https://www.geeksforgeeks.org/activity-selection-problem-greedy-algo-1/
 
-XI) Bit Masking ()
+X) Binary Search ()
+1) 
+
+XI) Searching and Sorting ()
+1) 
+
+XII) Vectors ()
+- Basics
+1) Car Sorting Problem: 
+2) Container Design: 
+3) Templates:  
+
+XIII) Bit Masking ()
 1) 
