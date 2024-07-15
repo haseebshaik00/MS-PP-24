@@ -82,6 +82,8 @@ XII) Vectors ()
 2) Container Design & Templates: https://github.com/haseebshaik00/MS-PP-24/blob/main/DSA/Codes/11-Vectors/vectorClass.cpp & https://github.com/haseebshaik00/MS-PP-24/blob/main/DSA/Codes/11-Vectors/vector.h 
 
 XIII) Bit Masking ()
-1) Unique Number 1: 
+1) Unique Number 1:
 2) Bit Manipulation 1:
-3) Bit Manipulation 2:
+3) Replace bits n m: 
+4) 
+5) 
