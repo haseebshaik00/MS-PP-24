@@ -85,5 +85,6 @@ XIII) Bit Masking ()
 1) Unique Number 1:
 2) Bit Manipulation 1:
 3) Replace bits n m: 
-4) 
-5) 
+4) Count set bits:
+5) Decimal to Binary: 
+6) 
