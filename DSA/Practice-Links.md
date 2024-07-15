@@ -79,8 +79,7 @@ XI) Searching and Sorting ()
 XII) Vectors ()
 - Basics
 1) Car Sorting Problem (Vector n Class): https://www.geeksforgeeks.org/sorting-a-vector-in-c/ & https://discuss.codingblocks.com/t/car-sorting-problem/41147/2
-2) Container Design: 
-3) Templates: 
+2) Container Design & Templates: https://github.com/haseebshaik00/MS-PP-24/blob/main/DSA/Codes/11-Vectors/vectorClass.cpp & https://github.com/haseebshaik00/MS-PP-24/blob/main/DSA/Codes/11-Vectors/vector.h 
 
 XIII) Bit Masking ()
 1) 
