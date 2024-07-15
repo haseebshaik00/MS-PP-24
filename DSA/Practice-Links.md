@@ -87,4 +87,7 @@ XIII) Bit Masking ()
 3) Replace bits n m: 
 4) Count set bits:
 5) Decimal to Binary: 
-6) 
+6) Unique Number 2:
+7) Unique Number 3:
+8) Fast Exponentiation:
+9) Subsets: 
