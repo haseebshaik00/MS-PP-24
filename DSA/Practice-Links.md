@@ -83,4 +83,5 @@ XII) Vectors ()
 
 XIII) Bit Masking ()
 1) Unique Number 1: 
-2) 
+2) Bit Manipulation 1:
+3) Bit Manipulation 2:
