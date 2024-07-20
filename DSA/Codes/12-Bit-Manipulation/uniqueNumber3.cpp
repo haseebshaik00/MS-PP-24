@@ -2,27 +2,26 @@
 using namespace std;
 
 int main(){
-    ios_base::sync_with_stdio(false);
+	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
 
-    int n, bitXor=0, pos=-1, subAns=0, bitXorCopy=0, subAns1=0;
+	int n, d, p=1, ans=0;
 	cin>>n;
-	int a[n];
-	for(int i=0; i<n; i++)
-		cin>>a[i];
-	for(int i=0; i<n; i++)
-		bitXor ^= a[i];
-	bitXorCopy = bitXor;
-	while(pos==-1){
-		if(bitXorCopy & 1)
-			pos++;
-		bitXorCopy>>1;
-	}
+	int c[64]= {0};
 	for(int i=0; i<n; i++){
-		if(a[i] & (1<<pos))
-			subAns ^= a[i];
+		cin>>d;
+		int j=0;
+		while(d>0){
+			c[j] += (d & 1);
+			d = d>>1; 
+			j++;
+		}
 	}
-	subAns1 = subAns ^ bitXor;
-	cout<<min(subAns, subAns1)<<" "<<max(subAns, subAns1);
-    return 0;
+	for(int i=0; i<64; i++){
+		if(c[i]%3) ans += (p*(c[i]%3));
+		p = p<<1;
+	}
+	cout<<ans;
+
+	return 0;
 }
