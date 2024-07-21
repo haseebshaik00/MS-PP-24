@@ -70,18 +70,18 @@ X) STL (48)
 2) Next Permutation: https://www.geeksforgeeks.org/next-permutation/
 3) Activity Selection Problem: https://www.geeksforgeeks.org/activity-selection-problem-greedy-algo-1/
 
-X) Binary Search ()
+XI) Binary Search ()
 1) 
 
-XI) Searching and Sorting ()
+XII) Searching and Sorting ()
 1) 
 
-XII) Vectors ()
+XIII) Vectors ()
 - Basics
 1) Car Sorting Problem (Vector n Class): https://www.geeksforgeeks.org/sorting-a-vector-in-c/ & https://discuss.codingblocks.com/t/car-sorting-problem/41147/2
 2) Container Design & Templates: https://github.com/haseebshaik00/MS-PP-24/blob/main/DSA/Codes/11-Vectors/vectorClass.cpp & https://github.com/haseebshaik00/MS-PP-24/blob/main/DSA/Codes/11-Vectors/vector.h 
 
-XIII) Bit Masking ()
+XIV) Bit Masking ()
 1) Unique Number 1:
 2) Bit Manipulation:
 3) Replace bits n m: 
@@ -93,3 +93,13 @@ XIII) Bit Masking ()
 9) Subsets: 
 10) Xor in range a->b : 
 11) Max xor in range a b: https://www.geeksforgeeks.org/maximum-xor-value-of-a-pair-from-a-range/
+
+XV) Number Theory ()
+1) Prime Seive: 
+2) 
+
+
+
+* TODO
+1) https://www.geeksforgeeks.org/maximum-xor-of-two-numbers-in-an-array/
+
