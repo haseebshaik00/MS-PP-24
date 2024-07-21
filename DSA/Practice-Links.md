@@ -91,3 +91,5 @@ XIII) Bit Masking ()
 7) Unique Number 3:
 8) Fast Exponentiation: 
 9) Subsets: 
+10) Xor in range a->b : 
+11) Max xor in range a b: https://www.geeksforgeeks.org/maximum-xor-value-of-a-pair-from-a-range/
