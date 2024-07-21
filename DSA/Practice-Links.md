@@ -96,7 +96,7 @@ XIV) Bit Masking ()
 
 XV) Number Theory ()
 1) Prime Seive: 
-2) 
+2) Prime Visits: https://github.com/Mugdha-Hazra/CODING-BLOCKS-COMPETITIVE-CODING-COURSE/blob/main/Prime%20Visits.cpp
 
 
 
