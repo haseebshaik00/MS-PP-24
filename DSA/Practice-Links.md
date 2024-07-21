@@ -112,4 +112,5 @@ XV) Number Theory ()
 
 * TODO
 1) https://www.geeksforgeeks.org/maximum-xor-of-two-numbers-in-an-array/
-
+2) Prime Seive TLE
+3) 

@@ -1,5 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
+# define m 100001
+bool prime[m]={false};
+vector<int> primes;
+vector<pair<int, int>> factor;
 
 void primeSeive(bool a[], int n){
     a[0] = a[1] = false;
@@ -12,7 +16,7 @@ void primeSeive(bool a[], int n){
                 a[i] = false;
 }
 
-void factors(vector<int> primes, vector<pair<int, int>> &factor, int n){
+void factors(int n){
     int l=primes.size(), c;
     for(int i=0; i<=l & (primes[i]*primes[i])<=n; i++){
         c=0;
@@ -29,15 +33,12 @@ int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int n, m=100;
+    int n;
     cin>>n;
-    bool prime[m]={false};
-    vector<int> primes;
-    vector<pair<int, int>> factor;
     primeSeive(prime, m);
     for(int i=2; i<=n; i++)
         if(prime[i]) primes.push_back(i);
-    factors(primes, factor, n);
+    factors(n);
     for(auto x:factor)
         cout<<x.first<<" "<<x.second<<endl;
     return 0;
