@@ -102,7 +102,11 @@ XV) Number Theory ()
 1) Prime Seive: 
 2) Prime Visits: https://github.com/Mugdha-Hazra/CODING-BLOCKS-COMPETITIVE-CODING-COURSE/blob/main/Prime%20Visits.cpp
 3) Prime Factorization Opt: 
-4) 
+4) Prime Factorization Seive: 
+5) Counting Divisors: 
+6) GCD: 
+7) LCM: 
+8) 
 
 
 
