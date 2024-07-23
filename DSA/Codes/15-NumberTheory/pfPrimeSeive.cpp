@@ -1,9 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-# define m 100001
-bool prime[m]={false};
-vector<int> primes;
-vector<pair<int, int>> factor;
 
 void primeSeive(bool a[], int n){
     a[0] = a[1] = false;
@@ -12,21 +8,21 @@ void primeSeive(bool a[], int n){
         a[i] = true;
     for(int i=3; i<=n; i+=2)
         if(a[i])
-            for(int j=i*i; i<=n; j+=(2*i))
-                a[i] = false;
+            for(int j=i*i; j<=n; j+=(2*i))
+                a[j] = false;
 }
 
-void factors(int n){
+void factors(vector<int> primes, int n){
     int l=primes.size(), c;
-    for(int i=0; i<=l & (primes[i]*primes[i])<=n; i++){
+    for(int i=0; i<l; i++){
         c=0;
         while(n%primes[i] == 0){
             c++;
             n /= primes[i];
         }
-        factor.push_back(make_pair(primes[i], c));
+        if(c) cout<<primes[i]<<" "<<c<<endl;
     }
-    if(n!=1) factor.push_back(make_pair(n, 1));
+    if(n!=1) cout<<n<<" "<<"1"<<endl;
 }
 
 int main(){
@@ -35,11 +31,12 @@ int main(){
 
     int n;
     cin>>n;
-    primeSeive(prime, m);
+    bool a[n]={false};
+    primeSeive(a, n);
+    vector<int> primes;
     for(int i=2; i<=n; i++)
-        if(prime[i]) primes.push_back(i);
-    factors(n);
-    for(auto x:factor)
-        cout<<x.first<<" "<<x.second<<endl;
+        if(a[i]) primes.push_back(i);
+    factors(primes, n);
+
     return 0;
 }

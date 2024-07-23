@@ -1,62 +1,45 @@
+/*
+finding the smallest factor that divides the number,
+saving it as a factor and updating the number by dividing it by the factor.
+This process is done recursively till the number becomes 1 after division, which means no other factors are possible.
 
-// C++ program to find prime factorization of a
-// number n in O(Log n) time with precomputation
-// allowed.
-#include "bits/stdc++.h"
+The calculation is done using sieve of eratosthenes which reduces the time complexity in finding the smallest prime factor.
+time: O(log n)
+*/
+#include <iostream>
 using namespace std;
+int primes[100001];
 
-#define MAXN 100001
-vector<int> spf(MAXN + 1, 1);
+void sieveOfEratosthenes(int N) {
 
-// Calculating SPF (Smallest Prime Factor) for every
-// number till MAXN.
-// Time Complexity : O(nloglogn)
-void sieve()
-{
-    // stores smallest prime factor for every number
+   N+=2;
+   primes[1] = 1;
+   for (int i=2; i<N; i++)
+      primes[i] = i;
+   for (int i=4; i<N; i+=2)
+      primes[i] = 2;
+   for (int i=3; i*i<N; i++) {
+      if (primes[i] == i) {
+         for (int j=i*i; j<N; j+=i)
+            if (primes[j]==j)
+               primes[j] = i;
+      }
+   }
+}
+void findPrimeFactors(int num) {
 
-    spf[0] = 0;
-    for (int i = 2; i <= MAXN; i++) {
-        if (spf[i] == 1) { // if the number is prime ,mark
-                           // all its multiples who havent
-                           // gotten their spf yet
-            for (int j = i; j <= MAXN; j += i) {
-                if (spf[j]== 1) // if its smallest prime factor is
-                          // 1 means its spf hasnt been
-                          // found yet so change it to i
-                    spf[j] = i;
-            }
-        }
-    }
+   sieveOfEratosthenes(num);
+   int factor;
+   while (num != 1) {
+      factor = primes[num];
+      cout<<factor<<" ";
+      num /= factor;
+   }
 }
 
-// A O(log n) function returning primefactorization
-// by dividing by smallest prime factor at every step
-vector<int> getFactorization(int x)
-{
-    vector<int> ret;
-    while (x != 1) {
-        ret.push_back(spf[x]);
-        x = x / spf[x];
-    }
-    return ret;
+int main() {
+   int N = 45214;
+   cout<<"Prime factorization of the number "<<N<<" using sieve is ";
+   findPrimeFactors(N);
+   return 0;
 }
-
-// driver program for above function
-int main(int argc, char const* argv[])
-{
-    // precalculating Smallest Prime Factor
-    sieve();
-    int x = 12246;
-    cout << "prime factorization for " << x << " : ";
-
-    // calling getFactorization function
-    vector<int> p = getFactorization(x);
-
-    for (int i = 0; i < p.size(); i++)
-        cout << p[i] << " ";
-    cout << endl;
-    return 0;
-}
-//This code has been contributed ny narayan95
-
