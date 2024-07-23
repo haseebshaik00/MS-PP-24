@@ -8,7 +8,7 @@ void primeSeive(int a[]){
 		a[i] = 1;
 	for(int i=3; i<10001; i+=2)
 		if(a[i])
-			for(int j=i*i; j<10001; j+=(i))
+			for(int j=i*i; j<10001; j+=i)
 				a[j] = 0;
 }
 
