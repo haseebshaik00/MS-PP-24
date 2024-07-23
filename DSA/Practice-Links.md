@@ -99,7 +99,7 @@ XV) Number Theory ()
 // Prime No. (1->n)- Brute Force O(n^2); Optimised O(n*root(n)); Prime Seive O(n logn(logn))
 // Prime Factorization - Brute Force O(n); Optimised O(root(n)); Prime Seive O(n logn(logn) + log(n))
 
-1) Prime Seive: 
+1) Prime Seive: https://www.geeksforgeeks.org/sieve-of-eratosthenes/
 2) Prime Visits: https://github.com/Mugdha-Hazra/CODING-BLOCKS-COMPETITIVE-CODING-COURSE/blob/main/Prime%20Visits.cpp
 3) Prime Factorization Opt: 
 4) Prime Factorization Seive: 
