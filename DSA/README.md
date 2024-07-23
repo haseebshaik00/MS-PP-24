@@ -26,9 +26,10 @@ detailed explanation: https://stackoverflow.com/questions/31162367/significance-
 - macros
 - tertiary operator time
 
-## Char Array func
+## Char Array func <cstring>
 - strlen(c);
 - strcpy(a, b) = copies b to a
+- memset(a, 0, n)
 
 ## C++ Libraries
 - #include\<climits>: INT_MIN, INT_MAX

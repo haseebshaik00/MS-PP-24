@@ -106,7 +106,9 @@ XV) Number Theory ()
 5) Counting Divisors: 
 6) GCD: 
 7) LCM: 
-8) 
+// modulo properties
+8) Divisble Subarrays: 
+9) 
 
 
 
