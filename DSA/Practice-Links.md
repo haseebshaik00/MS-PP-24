@@ -108,7 +108,8 @@ XV) Number Theory ()
 7) LCM: 
 // modulo properties
 8) Divisble Subarrays: 
-9) 
+9) Modular Exponentiation
+10) 
 
 
 
