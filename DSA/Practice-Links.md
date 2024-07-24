@@ -71,7 +71,9 @@ X) STL (48)
 3) Activity Selection Problem: https://www.geeksforgeeks.org/activity-selection-problem-greedy-algo-1/
 
 XI) Binary Search ()
-1) 
+1) First & Last Occurence: 
+2) Monotonic Spaces:
+3) 
 
 XII) Searching and Sorting ()
 1) 
