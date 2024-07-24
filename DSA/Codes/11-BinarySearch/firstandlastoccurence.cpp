@@ -43,5 +43,7 @@ int main(){
     cout<<firstOccurence(a, n, k)<<endl;
     cout<<lastOccurence(a, n, k)<<endl;
 
+    cout<<lower_bound(a, a+n, 8)-a<<" "<<upper_bound(a, a+n, 8)-a-1<<endl;
+
     return 0;
 }
