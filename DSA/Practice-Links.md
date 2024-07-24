@@ -109,11 +109,4 @@ XV) Number Theory ()
 // modulo properties
 8) Divisble Subarrays: 
 9) Modular Exponentiation
-10) 
-
-
-
-* TODO
-1) https://www.geeksforgeeks.org/maximum-xor-of-two-numbers-in-an-array/
-2) Prime Seive TLE
-3) 
+10) Inclusion Exclusion Problem: 

@@ -40,3 +40,9 @@ detailed explanation: https://stackoverflow.com/questions/31162367/significance-
 - sort()
 - reverse()
 - pair<dataType, dataType> s[n];
+
+
+* TODO
+1) https://www.geeksforgeeks.org/maximum-xor-of-two-numbers-in-an-array/
+2) Prime Seive TLE
+3) https://github.com/UMANG-GAKHAR/Hackerblocks-practice/blob/master/Prateek%20Loves%20Candy.cpp
