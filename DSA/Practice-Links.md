@@ -74,7 +74,8 @@ XI) Binary Search ()
 1) First & Last Occurence: 
 2) Pivot Element: 
 2) Monotonic Search Spaces:
-3) 
+3) Book Allocation: 
+4) 
 
 XII) Searching and Sorting ()
 1) 
