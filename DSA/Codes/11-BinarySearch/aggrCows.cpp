@@ -6,10 +6,10 @@ bool canKeepCow(int a[], int n, int mid, int c){
     int lastPlace = a[0];
     for(int i=1; i<n; i++){
         if(a[i]-lastPlace >= mid){
-            cnt++;
             lastPlace = a[i];
+            cnt++;
+            if(cnt == c) return true;
         }
-        if(cnt == c) return true;
     }
     return false;
 }
@@ -25,7 +25,7 @@ int main(){
     for(int i=0; i<n; i++)
         cin>>a[i];
     sort(a, a+n);
-    int i=0, j=n-1;
+    int i=0, j=a[n-1]-a[0]; // monotonic search space
     while(i<=j){
         mid = (i+j)/2;
         canKeepCows = canKeepCow(a, n, mid, c);
