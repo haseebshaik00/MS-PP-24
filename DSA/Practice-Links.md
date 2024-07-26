@@ -75,7 +75,9 @@ XI) Binary Search ()
 2) Pivot Element: 
 2) Monotonic Search Spaces:
 3) Book Allocation: 
-4) 
+4) PRATA: 
+5) Winning CB Scholarship: 
+6) Painter's Problem: 
 
 XII) Searching and Sorting ()
 1) 
