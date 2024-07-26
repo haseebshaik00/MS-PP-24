@@ -72,7 +72,8 @@ X) STL (48)
 
 XI) Binary Search ()
 1) First & Last Occurence: 
-2) Monotonic Spaces:
+2) Pivot Element: 
+2) Monotonic Search Spaces:
 3) 
 
 XII) Searching and Sorting ()
