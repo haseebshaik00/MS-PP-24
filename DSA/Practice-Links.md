@@ -80,7 +80,8 @@ XI) Binary Search ()
 6) Painter's Problem: 
 
 XII) Searching and Sorting ()
-1) 
+1) DNF Sort: https://www.youtube.com/watch?v=2C4CQ32961Y
+2) 
 
 XIII) Vectors ()
 - Basics

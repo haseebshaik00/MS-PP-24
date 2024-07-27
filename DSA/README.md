@@ -34,7 +34,7 @@ detailed explanation: https://stackoverflow.com/questions/31162367/significance-
 ## C++ Libraries
 - #include\<climits>: INT_MIN, INT_MAX
 
-## C++ STL : Algorithms | Containers | Functors | Iterators
+## C++ STL : Algorithms <numeric and STL> | Containers | Functors | Iterators
 ### #include\<algorithm>
 - min() max()
 - sort()
@@ -46,3 +46,6 @@ detailed explanation: https://stackoverflow.com/questions/31162367/significance-
 1) https://www.geeksforgeeks.org/maximum-xor-of-two-numbers-in-an-array/
 2) Prime Seive TLE
 3) https://github.com/UMANG-GAKHAR/Hackerblocks-practice/blob/master/Prateek%20Loves%20Candy.cpp
+4) Binary Search EKO/DEFKIN Problem SPOJ
+5) todo - quiz on sorting, quiz on divide and conquer
+6) 
