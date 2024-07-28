@@ -49,4 +49,6 @@ detailed explanation: https://stackoverflow.com/questions/31162367/significance-
 4) Binary Search EKO/DEFKIN Problem SPOJ
 5) todo - quiz on sorting, quiz on divide and conquer
 6) check string uppercase or lowercase
-7) 
+7) return array through a function
+8) radix sort
+9) 
