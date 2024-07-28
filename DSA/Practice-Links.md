@@ -70,7 +70,7 @@ X) STL (48)
 2) Next Permutation: https://www.geeksforgeeks.org/next-permutation/
 3) Activity Selection Problem: https://www.geeksforgeeks.org/activity-selection-problem-greedy-algo-1/
 
-XI) Binary Search ()
+XI) Binary Search (55)
 1) First & Last Occurence: 
 2) Pivot Element: 
 2) Monotonic Search Spaces:
@@ -78,10 +78,11 @@ XI) Binary Search ()
 4) PRATA: 
 5) Winning CB Scholarship: 
 6) Painter's Problem: 
+7) kth Root: 
 
 XII) Searching and Sorting ()
 1) DNF Sort: https://www.youtube.com/watch?v=2C4CQ32961Y
-2) 
+2) Couting Sort: https://www.geeksforgeeks.org/counting-sort/
 
 XIII) Vectors ()
 - Basics
