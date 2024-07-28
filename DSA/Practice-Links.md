@@ -70,7 +70,7 @@ X) STL (48)
 2) Next Permutation: https://www.geeksforgeeks.org/next-permutation/
 3) Activity Selection Problem: https://www.geeksforgeeks.org/activity-selection-problem-greedy-algo-1/
 
-XI) Binary Search (55)
+XI) Binary Search (56)
 1) First & Last Occurence: 
 2) Pivot Element: 
 2) Monotonic Search Spaces:
@@ -79,6 +79,8 @@ XI) Binary Search (55)
 5) Winning CB Scholarship: 
 6) Painter's Problem: 
 7) kth Root: 
+8) Pivot in a sorted rotated array: https://medium.com/@utkarsh.gupta0311/finding-the-pivot-in-a-rotated-and-sorted-array-using-binary-search-in-c-fdac97e566ce
+https://www.youtube.com/watch?v=vF7gk4iaklA
 
 XII) Searching and Sorting ()
 1) DNF Sort: https://www.youtube.com/watch?v=2C4CQ32961Y
