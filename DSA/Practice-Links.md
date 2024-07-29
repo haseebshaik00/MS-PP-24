@@ -122,6 +122,8 @@ XV) Number Theory (81)
 10) Inclusion Exclusion Problem: 
 
 XVI) Recursion (Part 1) ()
-1) Basics - (Factorial, Fibonacci, Inc and Dec)
-2) Is Array sorted
-3) 
+1) Basics - (Factorial, Fibonacci, Inc and Dec): 
+2) Is Array sorted: 
+3) Binary Search: 
+4) Power (O(logN) and O(N)): 
+5) Multiply: 
