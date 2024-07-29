@@ -82,16 +82,16 @@ XI) Binary Search (56)
 8) Pivot in a sorted rotated array: https://medium.com/@utkarsh.gupta0311/finding-the-pivot-in-a-rotated-and-sorted-array-using-binary-search-in-c-fdac97e566ce
 https://www.youtube.com/watch?v=vF7gk4iaklA
 
-XII) Searching and Sorting ()
+XII) Searching and Sorting (58)
 1) DNF Sort: https://www.youtube.com/watch?v=2C4CQ32961Y
 2) Couting Sort: https://www.geeksforgeeks.org/counting-sort/
 
-XIII) Vectors ()
+XIII) Vectors (60)
 - Basics
 1) Car Sorting Problem (Vector n Class): https://www.geeksforgeeks.org/sorting-a-vector-in-c/ & https://discuss.codingblocks.com/t/car-sorting-problem/41147/2
 2) Container Design & Templates: https://github.com/haseebshaik00/MS-PP-24/blob/main/DSA/Codes/11-Vectors/vectorClass.cpp & https://github.com/haseebshaik00/MS-PP-24/blob/main/DSA/Codes/11-Vectors/vector.h 
 
-XIV) Bit Masking ()
+XIV) Bit Masking (71)
 1) Unique Number 1:
 2) Bit Manipulation:
 3) Replace bits n m: 
@@ -104,7 +104,7 @@ XIV) Bit Masking ()
 10) Xor in range a->b : 
 11) Max xor in range a b: https://www.geeksforgeeks.org/maximum-xor-value-of-a-pair-from-a-range/
 
-XV) Number Theory ()
+XV) Number Theory (81)
 // Prime No. - Brute Force O(n); Optimised O(root(n)); Prime Seive O(n logn(logn))
 // Prime No. (1->n)- Brute Force O(n^2); Optimised O(n*root(n)); Prime Seive O(n logn(logn))
 // Prime Factorization - Brute Force O(n); Optimised O(root(n)); Prime Seive O(n logn(logn) + log(n))
@@ -120,3 +120,7 @@ XV) Number Theory ()
 8) Divisble Subarrays: 
 9) Modular Exponentiation
 10) Inclusion Exclusion Problem: 
+
+XVI) Recursion ()
+1) Basics - (Factorial, Fibonacci, Inc and Dec, )
+2) 
