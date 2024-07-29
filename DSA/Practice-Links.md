@@ -121,6 +121,7 @@ XV) Number Theory (81)
 9) Modular Exponentiation
 10) Inclusion Exclusion Problem: 
 
-XVI) Recursion ()
-1) Basics - (Factorial, Fibonacci, Inc and Dec, )
-2) 
+XVI) Recursion (Part 1) ()
+1) Basics - (Factorial, Fibonacci, Inc and Dec)
+2) Is Array sorted
+3) 
