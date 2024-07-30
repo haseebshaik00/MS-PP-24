@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// First Occurence
+
+// Increasing
 int linearS(int a[], int n, int k){
     if(n==0)
         return -1;
@@ -12,6 +15,7 @@ int linearS(int a[], int n, int k){
     return i+1;
 }
 
+// Decreasing
 int linearSLoop(int a[], int n, int i, int k){
     if(i==n)
         return -1;
