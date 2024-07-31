@@ -82,21 +82,21 @@ XI) Binary Search (56)
 8) Pivot in a sorted rotated array: https://medium.com/@utkarsh.gupta0311/finding-the-pivot-in-a-rotated-and-sorted-array-using-binary-search-in-c-fdac97e566ce
 https://www.youtube.com/watch?v=vF7gk4iaklA
 
-XII) Searching and Sorting (58)
+XII) Searching and Sorting (62)
 // Bubble Selection and Insert Sort
 1) DNF Sort: https://www.youtube.com/watch?v=2C4CQ32961Y
 2) Couting Sort: https://www.geeksforgeeks.org/counting-sort/
-3) Merge Sort: 
-4) Quick Sort: 
+3) Merge Sort: https://www.geeksforgeeks.org/merge-sort/
+4) Quick Sort: https://www.geeksforgeeks.org/quick-sort-algorithm/
 5) Wave Sort: https://www.geeksforgeeks.org/sort-array-wave-form-2/
-6) Bucket Sort: 
+6) Bucket Sort: https://www.geeksforgeeks.org/bucket-sort-2/
 
-XIII) Vectors (60)
+XIII) Vectors (64)
 - Basics
 1) Car Sorting Problem (Vector n Class): https://www.geeksforgeeks.org/sorting-a-vector-in-c/ & https://discuss.codingblocks.com/t/car-sorting-problem/41147/2
 2) Container Design & Templates: https://github.com/haseebshaik00/MS-PP-24/blob/main/DSA/Codes/11-Vectors/vectorClass.cpp & https://github.com/haseebshaik00/MS-PP-24/blob/main/DSA/Codes/11-Vectors/vector.h 
 
-XIV) Bit Masking (71)
+XIV) Bit Masking (75)
 1) Unique Number 1:
 2) Bit Manipulation:
 3) Replace bits n m: 
@@ -109,7 +109,7 @@ XIV) Bit Masking (71)
 10) Xor in range a->b : 
 11) Max xor in range a b: https://www.geeksforgeeks.org/maximum-xor-value-of-a-pair-from-a-range/
 
-XV) Number Theory (81)
+XV) Number Theory (85)
 // Prime No. - Brute Force O(n); Optimised O(root(n)); Prime Seive O(n logn(logn))
 // Prime No. (1->n)- Brute Force O(n^2); Optimised O(n*root(n)); Prime Seive O(n logn(logn))
 // Prime Factorization - Brute Force O(n); Optimised O(root(n)); Prime Seive O(n logn(logn) + log(n))
@@ -126,9 +126,26 @@ XV) Number Theory (81)
 9) Modular Exponentiation
 10) Inclusion Exclusion Problem: 
 
-XVI) Recursion (Part 1) ()
+XVI) Recursion (Part 1- Basics) (90)
 1) Basics - (Factorial, Fibonacci, Inc and Dec): 
 2) Is Array sorted: 
 3) Binary Search: 
 4) Power (O(logN) and O(N)): 
 5) Multiply: 
+
+XVII) Recursion (Part 2- Implementation Based) (95)
+1) First Occurence/Linear Search: 
+2) Last Occurence: 
+3) All Occurences: 
+4) Bubble Sort:
+5) Inversion Count: 
+
+XVIII) Recursion (Part 2- Quick Thinking) ()
+1) 2048 Problem: 
+2) stoi: 
+3) replace Pi: 
+4) Tiling Problem: 
+5) Ladders Problem: 
+6) Friends Problem: 
+7) Optimal Binary Strings: 
+8) Tower of Hanoi: 
