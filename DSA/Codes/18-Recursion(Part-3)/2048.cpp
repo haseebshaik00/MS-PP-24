@@ -7,7 +7,7 @@ void printWords(int n){
     if(n==0)
         return;
     printWords(n/10);
-    cout<<words[n]<<" ";
+    cout<<words[n%10]<<" ";
 }
 
 int main(){
