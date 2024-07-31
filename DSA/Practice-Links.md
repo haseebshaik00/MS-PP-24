@@ -140,7 +140,7 @@ XVII) Recursion (Part 2- Implementation Based) (95)
 4) Bubble Sort:
 5) Inversion Count: 
 
-XVIII) Recursion (Part 2- Quick Thinking) ()
+XVIII) Recursion (Part 2- Quick Thinking) (103)
 1) 2048 Problem: 
 2) stoi: 
 3) replace Pi: 

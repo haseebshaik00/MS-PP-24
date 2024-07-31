@@ -6,6 +6,7 @@ string words[10] = {"zero", "one", "two", "three", "four", "five", "six", "seven
 void printWords(int n){
     if(n==0)
         return;
+    // increasing function
     printWords(n/10);
     cout<<words[n%10]<<" ";
 }
