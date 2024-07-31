@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Divide and Conquer Sorting Algo
 void mergeThem(int a[], int s, int e){
     int temp[100] = {0};
     int mid = (s+e)/2;
