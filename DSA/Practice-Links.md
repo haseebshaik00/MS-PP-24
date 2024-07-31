@@ -83,8 +83,13 @@ XI) Binary Search (56)
 https://www.youtube.com/watch?v=vF7gk4iaklA
 
 XII) Searching and Sorting (58)
+// Bubble Selection and Insert Sort
 1) DNF Sort: https://www.youtube.com/watch?v=2C4CQ32961Y
 2) Couting Sort: https://www.geeksforgeeks.org/counting-sort/
+3) Merge Sort: 
+4) Quick Sort: 
+5) Wave Sort: https://www.geeksforgeeks.org/sort-array-wave-form-2/
+6) Bucket Sort: 
 
 XIII) Vectors (60)
 - Basics
