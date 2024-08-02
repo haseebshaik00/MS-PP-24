@@ -149,3 +149,10 @@ XVIII) Recursion (Part 2- Quick Thinking) (103)
 6) Friends Problem: 
 7) Optimal Binary Strings: 
 8) Tower of Hanoi: 
+
+XIX) Recursion (Part 3- Subsequence Based) (108)
+1) Subsequence Generation: 
+2) Generate Brackets: 
+3) 0-1 Knapsack: 
+4) Phone Keyboard: 
+5) String Generation Acode: 
