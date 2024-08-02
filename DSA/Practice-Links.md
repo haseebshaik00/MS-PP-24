@@ -158,8 +158,8 @@ XIX) Recursion (Part 4- Subset Based) (108)
 5) String Generation Acode: 
 
 XX) Recursion (Part 5-Backtracking) (113)
-1) 
-2) 
-3) 
-4) 
-5) 
+1) Rat in a maze: 
+2) Permutation: 
+3) Unique Permutation: 
+4) N-queen Backtracking: 
+5) Sudoku: 
