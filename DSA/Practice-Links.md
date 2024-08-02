@@ -140,7 +140,7 @@ XVII) Recursion (Part 2- Implementation Based) (95)
 4) Bubble Sort:
 5) Inversion Count: 
 
-XVIII) Recursion (Part 2- Quick Thinking) (103)
+XVIII) Recursion (Part 3- Quick Thinking) (103)
 1) 2048 Problem: 
 2) stoi: 
 3) replace Pi: 
@@ -150,9 +150,12 @@ XVIII) Recursion (Part 2- Quick Thinking) (103)
 7) Optimal Binary Strings: 
 8) Tower of Hanoi: 
 
-XIX) Recursion (Part 3- Subsequence Based) (108)
+XIX) Recursion (Part 4- Subset Based) (108)
 1) Subsequence Generation: 
 2) Generate Brackets: 
 3) 0-1 Knapsack: 
 4) Phone Keyboard: 
 5) String Generation Acode: 
+
+XX) Recursion (Part 5-Backtracking) (113)
+1) 
