@@ -52,4 +52,5 @@ detailed explanation: https://stackoverflow.com/questions/31162367/significance-
 7) return array through a function
 8) radix sort
 9) Backtracking webinar
-10) 
+10) math functions - sqrt() etc
+11) 
