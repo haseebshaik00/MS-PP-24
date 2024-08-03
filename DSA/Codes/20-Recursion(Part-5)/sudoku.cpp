@@ -32,7 +32,7 @@ bool sudoku(int mat[10][10], int n, int i, int j){
         return sudoku(mat, n, i+1, 0);
     if(mat[i][j] != 0)
         return sudoku(mat, n, i, j+1);
-    for(int k=1; k<=9; k++){
+    for(int k=1; k<=n; k++){
         if(canPut(mat, n, i, j, k)){
             mat[i][j]=k;
             int putNext = sudoku(mat, n, i, j+1);
