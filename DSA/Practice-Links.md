@@ -163,3 +163,12 @@ XX) Recursion (Part 5-Backtracking) (113)
 3) Unique Permutation: 
 4) N-queen Backtracking: 
 5) Sudoku: 
+
+XXI) Recursion Practice Problems (120)
+1) String Remove Duplicates
+2) Tiling Problem 2:
+3) Move X to end: 
+4) Subset Sum: 
+5) Smart Keypad 1:
+6) Smart Keypad 2:
+7) Optimal Game Strategy:  
