@@ -175,3 +175,7 @@ XXI) Recursion Practice Problems (120)
 8) Sum It Up: 
 9) Funky Chess Board:
 10) Rat chases its cheese:  
+
+XXII) OOPS
+
+XXIII) Generic Programming in C++
