@@ -176,6 +176,6 @@ XXI) Recursion Practice Problems (120)
 9) Funky Chess Board:
 10) Rat chases its cheese:  
 
-XXII) OOPS
+XXII) OOPS:
 
-XXIII) Generic Programming in C++
+XXIII) Generic Programming in C++:

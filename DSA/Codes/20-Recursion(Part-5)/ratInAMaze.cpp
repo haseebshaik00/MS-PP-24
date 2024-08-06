@@ -21,8 +21,8 @@ bool ratMaze(char maze[10][10], int output[10][10], int i, int j){
     output[i][j] = 1;
     bool right = ratMaze(maze, output, i, j+1);
     bool down = ratMaze(maze, output, i+1, j);
-    output[i][j] = 0;
     if(right || down) return true;
+    output[i][j] = 0;
     return false;
 }
 
