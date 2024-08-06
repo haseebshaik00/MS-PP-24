@@ -171,4 +171,7 @@ XXI) Recursion Practice Problems (120)
 4) Subset Sum: 
 5) Smart Keypad 1:
 6) Smart Keypad 2:
-7) Optimal Game Strategy:  
+7) Optimal Game Strategy:
+8) Sum It Up: 
+9) Funky Chess Board:
+10) Rat chases its cheese:  
