@@ -50,8 +50,10 @@ detailed explanation: https://stackoverflow.com/questions/31162367/significance-
 5) todo - quiz on sorting, quiz on divide and conquer
 6) check string uppercase or lowercase
 7) return array through a function
-8) radix sort
+8) shell sort n radix sort
 9) Backtracking webinar
 10) math functions - sqrt() etc
 11) tile 2 recursion - use dp
-12) 
+12) vector initialisation + resize to reduce time required for allocation of new push back
+13) https://www.youtube.com/watch?v=32Ll35mhWg0&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=2 - duplicate element in an array - linked list method
+14) 
