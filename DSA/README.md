@@ -55,5 +55,7 @@ detailed explanation: https://stackoverflow.com/questions/31162367/significance-
 10) math functions - sqrt() etc
 11) tile 2 recursion - use dp
 12) vector initialisation + resize to reduce time required for allocation of new push back
-13) https://www.youtube.com/watch?v=32Ll35mhWg0&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=2 - duplicate element in an array - linked list method
-14) 
+13) Find the duplicate in an array of N+1 integers : duplicate element in an array - linked list method
+https://www.youtube.com/watch?v=32Ll35mhWg0
+14) Duplicates in an array in O(n) time and by using O(1) extra space | Set-3
+https://www.geeksforgeeks.org/duplicates-in-an-array-in-on-time-and-by-using-o1-extra-space-set-3/?ref=ml_lbp 
