@@ -10,9 +10,10 @@ private:
     char *type = new char[10];
 
 public:
+    const int msp=20;
     // Default Constructor - Hidden
     // Overloaded Default Constructor
-    Car(){
+    Car():msp(100){ // Initialization List
         cout<<"Constructor"<<endl;
         price = 0.0;
         modelNo = 0;
@@ -20,15 +21,15 @@ public:
         type = NULL;
     }
     // Parameterized Constructor
-    Car(float p, int m, string n, char *t){
+    Car(float p, int m, string n, char *t, int minprice=99):price(p), msp(minprice){
         cout<<"Parameterized Constructor"<<endl;
-        price=p;
+        // price=p; price already initialized in list
         modelNo=m;
         name=n;
         type=t;
     }
     // Copy Constructor
-    Car(Car &x){
+    Car(const Car &x):msp(x.msp){
         cout<<"Copy Constructor"<<endl;
         price = x.price;
         modelNo = x.modelNo;
@@ -38,7 +39,7 @@ public:
         strcpy(type, x.type);
     }
     // Copy Assignment Operator
-    void operator=(Car &x){
+    void operator=(const Car &x){
         cout<<"Copy Assignment Operator"<<endl;
         price = x.price;
         modelNo = x.modelNo;
@@ -48,40 +49,40 @@ public:
         strcpy(type, x.type);
     }
     // Getters
-    float getPrice(){
+    float getPrice() const{
         return price;
     }
-    int getModel(){
+    int getModel() const{
         return modelNo;
     }
-    string getName(){
+    string getName() const{
         return name;
     }
-    char* getType(){
+    char* getType() const{
         return type;
     }
     // Setters
-    void setPrice(float p){
+    void setPrice(const float p){
         price = p;
     }
-    void setModel(int m){
+    void setModel(const int m){
         modelNo = m;
     }
-    void setName(string n){
+    void setName(const string n){
         name = n;
     }
     void setType(char *t){
         type = t;
     }
     // Member Functions
-    float discount(float n){
+    float discount(const float n){
         price = (1-n/100) * price;
         return (1-n/100) * price;
     }
-    void print(){
-        cout<<"Name: "<<name<<endl<<"Model No.: "<<modelNo<<endl<<"Price: "<<price<<endl<<"Type: "<<type<<endl;
+    void print() const{
+        cout<<"Name: "<<name<<endl<<"Model No.: "<<modelNo<<endl<<"Price: "<<price<<endl<<"Type: "<<type<<endl<<"MSP: "<<msp<<endl;
     }
-    void changeType(){
+    void changeType() const{
         type[6] = 'B';
     }
 
@@ -104,12 +105,13 @@ int main(){
     Car f;
     f=d;
     Car *g = new Car(100.0, 1, "Audi", "Class A");
-    (*e).print();
-    e->print();
+    (*g).print();
+    g->print();
     delete g;
     // c.price = 100.0;
     // c.modelNo = 1;
     // c.name = "Audi";
+    c.print();
     cout<<sizeof(Car)<<" "<<sizeof(c)<<endl;
     d.discount(30);
     d.print();
