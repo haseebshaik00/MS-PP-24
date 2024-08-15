@@ -60,4 +60,5 @@ https://www.youtube.com/watch?v=32Ll35mhWg0
 14) Duplicates in an array in O(n) time and by using O(1) extra space | Set-3
 https://www.geeksforgeeks.org/duplicates-in-an-array-in-on-time-and-by-using-o1-extra-space-set-3/?ref=ml_lbp 
 15) Moore's voting algo
-16) 
+16) oops webinar 2 - vectors n cpp stl
+17) 
