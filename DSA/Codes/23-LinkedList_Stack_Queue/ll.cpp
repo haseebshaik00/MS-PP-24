@@ -177,6 +177,21 @@ Node* middleNode(Node* &head){
     return slow;
 }
 
+Node* kthNode(Node* head, int k){
+    if(k == 0)
+        return head;
+    Node *slow=head, *fast=head;
+    while(k>=0){
+        fast = fast->next;
+        k--;
+    }
+    while(fast!=NULL){
+        slow=slow->next;
+        fast=fast->next;
+    }
+    return slow;
+}
+
 int main(){
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
@@ -225,7 +240,9 @@ int main(){
     print(head);
     //deleteTail(head);
     Node* midNode = middleNode(head);
-    cout<<midNode->data;
+    cout<<midNode->data<<endl;
+    Node* kNode = kthNode(head, 3);
+    print(kNode);
 
 	return 0;
 }
