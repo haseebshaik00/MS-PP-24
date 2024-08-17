@@ -166,6 +166,17 @@ Node* reverseLLRec(Node* head){
     return shead;
 }
 
+Node* middleNode(Node* &head){
+    if(head == NULL || head->next == NULL)
+        return head;
+    Node* slow=head, *fast=head;
+    while(fast->next != NULL && fast->next->next != NULL){
+        slow = slow->next;
+        fast = fast->next->next;
+    }
+    return slow;
+}
+
 int main(){
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
@@ -212,6 +223,9 @@ int main(){
     print(head);
     head = reverseLLRec(head);
     print(head);
+    //deleteTail(head);
+    Node* midNode = middleNode(head);
+    cout<<midNode->data;
 
 	return 0;
 }
