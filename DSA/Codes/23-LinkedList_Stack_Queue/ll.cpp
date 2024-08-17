@@ -17,8 +17,8 @@ int length(Node* head){
         return 0;
     int cnt=0;
     while(head != NULL){
-        head = head->next;
         cnt++;
+        head = head->next;
     }
     return cnt;
 }
@@ -47,7 +47,7 @@ void insertAtMiddle(Node* &head, int p, int d){
         insertAtHead(head, d);
         return;
     }
-    if(p > length(head)+1)
+    if(p >= length(head))
         insertAtTail(head, d);
     Node *n = new Node(d);
     Node *temp = head;
@@ -67,6 +67,43 @@ void print(Node* head){
     cout<<"NULL"<<endl;
 }
 
+void deleteHead(Node* &head){
+    if(head == NULL)
+        return;
+    Node* temp = head->next;
+    delete head;
+    head = temp;
+}
+
+void deleteTail(Node* &head){
+    if(head == NULL)
+        return;
+    if(head->next == NULL)
+        deleteHead(head);
+    Node *temp = head, *prev = NULL;
+    while(temp->next != NULL){
+        prev = temp;
+        temp = temp->next;
+    }
+    delete temp;
+    prev->next = NULL;
+}
+
+void deleteMiddle(Node* &head, int p){
+    if(head == NULL)
+        return;
+    if(p >= length(head))
+        deleteTail(head);
+    Node *temp=head, *prev=NULL;
+    while(p>0){
+        p--;
+        prev = temp;
+        temp = temp->next;
+    }
+    prev->next = temp->next;
+    delete temp;
+}
+
 int main(){
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
@@ -83,6 +120,12 @@ int main(){
     insertAtHead(head, 0);
     insertAtTail(head, 4);
     cout<<"Length of LL: "<<length(head)<<endl;
+    print(head);
+    deleteTail(head);
+    print(head);
+    deleteHead(head);
+    print(head);
+    deleteMiddle(head, 3);
     print(head);
 
 	return 0;
