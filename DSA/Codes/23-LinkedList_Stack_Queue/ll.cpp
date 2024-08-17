@@ -104,6 +104,25 @@ void deleteMiddle(Node* &head, int p){
     delete temp;
 }
 
+bool searchLL(Node *head, int key){
+    if(head == NULL)
+        return false;
+    while(head != NULL){
+        if(head->data == key)
+            return true;
+        head = head->next;
+    }
+    return false;
+}
+
+bool searchLLRec(Node *head, int key){
+    if(head == NULL)
+        return false;
+    if(head->data == key)
+        return true;
+    return searchLLRec(head->next, key);
+}
+
 int main(){
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
@@ -127,6 +146,10 @@ int main(){
     print(head);
     deleteMiddle(head, 3);
     print(head);
+    if(searchLL(head, 3)) cout<<"Present"<<endl;
+    else cout<<"Not Present"<<endl;
+    if(searchLL(head, 1)) cout<<"Present"<<endl;
+    else cout<<"Not Present"<<endl;
 
 	return 0;
 }
