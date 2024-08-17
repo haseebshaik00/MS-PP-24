@@ -192,6 +192,69 @@ Node* kthNode(Node* head, int k){
     return slow;
 }
 
+// Both LL should be sorted
+Node* merge2LL(Node* a, Node* b){
+    if(a == NULL)
+        return b;
+    if(b == NULL)
+        return a;
+    Node *c;
+    if(a->data <= b->data){
+        c=a;
+        c->next = merge2LL(a->next, b);
+    }
+    else{
+        c=b;
+        c->next = merge2LL(a, b->next);
+    }
+    return c;
+}
+
+Node* mergeSort(Node *head){
+    if(head == NULL || head->next == NULL)
+        return head;
+    Node* mid = middleNode(head);
+    Node* a=head, *b= mid->next;
+    mid->next = NULL;
+    a = mergeSort(a);
+    b = mergeSort(b);
+    return merge2LL(a, b);
+}
+
+// Floyd Cycle Detection
+bool hasCycle(Node *head) {
+        if(head==NULL || head->next==NULL)
+            return false;
+        Node *slow=head, *fast=head;
+        while(fast!=NULL && fast->next!=NULL){
+            slow=slow->next;
+            fast=fast->next->next;
+            if(slow==fast)
+                return true;
+        }
+        return false;
+}
+
+// Floyd Cycle Detection
+Node *detectCycle(Node *head) {
+        if(head==NULL || head->next==NULL)
+            return NULL;
+        Node *slow=head, *fast=head;
+        while(fast!=NULL && fast->next!=NULL){
+            slow=slow->next;
+            fast=fast->next->next;
+            if(slow==fast){
+                fast = head;
+                while(fast!=slow){
+                    slow = slow->next;
+                    fast = fast->next;
+                }
+                return slow;
+            }
+        }
+        return NULL;
+    }
+
 int main(){
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
@@ -243,6 +306,12 @@ int main(){
     cout<<midNode->data<<endl;
     Node* kNode = kthNode(head, 3);
     print(kNode);
+    Node* head4 = NULL, *head5 = NULL;
+    cin>>head4>>head5;
+    Node *mergeLL = merge2LL(head4, head5);
+    cout<<mergeLL;
+    head = mergeSort(head);
+    cout<<head;
 
 	return 0;
 }
