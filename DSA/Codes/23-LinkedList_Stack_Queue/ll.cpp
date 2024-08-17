@@ -144,6 +144,28 @@ ostream& operator<<(ostream &os, Node *head){
     return os;
 }
 
+void reverseLL(Node* &head){
+    if(head == NULL)
+        return;
+    Node *prev=NULL, *c=head, *n;
+    while(c!=NULL){
+        n = c->next;
+        c->next = prev;
+        prev = c;
+        c = n;
+    }
+    head = prev;
+}
+
+Node* reverseLLRec(Node* head){
+    if(head->next == NULL || head == NULL)
+        return head;
+    Node* shead = reverseLLRec(head->next);
+    head->next->next = head;
+    head->next = NULL;
+    return shead;
+}
+
 int main(){
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
@@ -176,14 +198,20 @@ int main(){
     if(searchLL(head, 1)) cout<<"Present"<<endl;
     else cout<<"Not Present"<<endl;
 
-    Node* head1 = input();
-    print(head1);
+    //Node* head1 = input();
+    //print(head1);
 
     // operator Overloading
-    Node* head2 = NULL;
-    Node* head3 = NULL;
-    cin>>head1>>head2;
-    cout<<head1<<head2;
+    //Node* head2 = NULL;
+    //Node* head3 = NULL;
+    //cin>>head1>>head2;
+    //cout<<head1<<head2;
+
+    print(head);
+    reverseLL(head);
+    print(head);
+    head = reverseLLRec(head);
+    print(head);
 
 	return 0;
 }
