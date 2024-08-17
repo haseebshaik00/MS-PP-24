@@ -123,11 +123,34 @@ bool searchLLRec(Node *head, int key){
     return searchLLRec(head->next, key);
 }
 
+Node* input(){
+    Node* head = NULL;
+    int d;
+    cin>>d;
+    while(d!=-1){
+        insertAtHead(head, d);
+        cin>>d;
+    }
+    return head;
+}
+
+istream& operator>>(istream &is, Node* &head){
+    head = input();
+    return is;
+}
+
+ostream& operator<<(ostream &os, Node *head){
+    print(head);
+    return os;
+}
+
 int main(){
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
 
     Node *head = NULL;
+
+    // Length, Print, Insertion and Deletion
     insertAtHead(head, 2);
     insertAtHead(head, 7);
     insertAtMiddle(head, 1, 1);
@@ -146,10 +169,21 @@ int main(){
     print(head);
     deleteMiddle(head, 3);
     print(head);
+
+    // Search and Rec Search
     if(searchLL(head, 3)) cout<<"Present"<<endl;
     else cout<<"Not Present"<<endl;
     if(searchLL(head, 1)) cout<<"Present"<<endl;
     else cout<<"Not Present"<<endl;
+
+    Node* head1 = input();
+    print(head1);
+
+    // operator Overloading
+    Node* head2 = NULL;
+    Node* head3 = NULL;
+    cin>>head1>>head2;
+    cout<<head1<<head2;
 
 	return 0;
 }
