@@ -177,8 +177,32 @@ XXI) Recursion Practice Problems (120)
 10) Rat chases its cheese:  
 
 XXII) OOPS:
-1)
+1) Classes & Objects
+2) Data Mmebers n Functions
+3) Getter and Setter
+4) Constructors
+5) Shallow And Copy Constructor
+6) Copy Assignment Operator
+7) Destructor
+8) Initialisation Lists & Consts
 
 XXIII) Generic Programming in C++:
-1) 
+1) Template
+2) Iterator
+3) Comparator
+
+XXIV) Linked Lists: 
+1) Insertion, Deletion, Length, Print, Search, Input, Overload
+2) Reverse
+3) Reverse Recursion
+4) Midpoint
+5) kth Node from End
+6) Merge 2 sorted LL
+7) Merge Sort
+8) Floyd Cycle Detection
+9) Floyd Cycle Removal
+10) DLL
+11) CLL: Insertion n Deletion
+12) Forward List & List STL
+13) List - Adjacency List for Weighted Graphs
 
