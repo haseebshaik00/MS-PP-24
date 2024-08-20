@@ -206,3 +206,7 @@ XXIV) Linked Lists:
 12) Forward List & List STL
 13) List - Adjacency List for Weighted Graphs
 
+XXV) Linked List Challenges: 
+1) Even After Odd
+2) Insertion Sort LL
+
