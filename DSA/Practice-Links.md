@@ -191,7 +191,7 @@ XXIII) Generic Programming in C++:
 2) Iterator
 3) Comparator
 
-XXIV) Linked Lists: (133)
+XXIV) Linked Lists: (130)
 1) Insertion, Deletion, Length, Print, Search, Input, Overload
 2) Reverse
 3) Reverse Recursion
@@ -200,13 +200,12 @@ XXIV) Linked Lists: (133)
 6) Merge 2 sorted LL
 7) Merge Sort
 8) Floyd Cycle Detection
-9) Floyd Cycle Removal
 // DLL
-10) CLL: Insertion n Deletion
+9) CLL: Insertion n Deletion
 // Forward List & List STL
-12) List - Adjacency List for Weighted Graphs
+10) List - Adjacency List for Weighted Graphs
 
-XXV) Linked List Challenges: 
+XXV) Linked List Challenges: (141)
 1) Remove nth node from back of the LL
 2) Add 2 Numbers
 3) Delete a node when a node is given
@@ -217,4 +216,4 @@ XXV) Linked List Challenges:
 8) Flatten
 9) Even After Odd
 10) Insertion Sort LL
-
+11) Floyd Cycle Removal
