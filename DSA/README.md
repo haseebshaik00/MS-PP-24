@@ -62,4 +62,5 @@ https://www.geeksforgeeks.org/duplicates-in-an-array-in-on-time-and-by-using-o1-
 15) Moore's voting algo
 16) oops webinar 1 & 2 - operator n function overloading | vectors n cpp stl
 17) OOPS
-18) 
+18) Reverse a LinkedList in groups of size k - learn recursive soln
+19) 
