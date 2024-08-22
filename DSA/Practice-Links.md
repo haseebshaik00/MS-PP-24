@@ -217,3 +217,6 @@ XXV) Linked List Challenges: (141)
 9) Even After Odd
 10) Insertion Sort LL
 11) Floyd Cycle Removal
+
+XXVI) Stack: ()
+1) 
