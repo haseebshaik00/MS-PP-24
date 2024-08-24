@@ -1,12 +1,13 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+template <class T>
 class Stack{
 private:
-    vector<int> v;
+    vector<T> v;
 
 public:
-    void push(int x){
+    void push(T x){
         v.push_back(x);
     }
 
@@ -16,7 +17,7 @@ public:
         }
     }
 
-    int top(){
+    T top(){
         if(v.empty()) return -1;
         return v.back();
     }
@@ -38,9 +39,9 @@ int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    Stack s;
+    Stack<char> s;
     for(int i=1; i<=5; i++)
-        s.push(i*i);
+        s.push('a');
     s.print();
     while(!s.isEmpty()){
         cout<<s.top()<<" ";
