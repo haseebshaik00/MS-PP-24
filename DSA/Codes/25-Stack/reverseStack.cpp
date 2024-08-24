@@ -20,19 +20,47 @@ void reverseStack(stack<int> &s1){
     }
 }
 
+void insertAtBottom(stack<int> &s, int n){
+    if(s.empty()){
+        s.push(n);
+        return;
+    }
+    int d = s.top();
+    s.pop();
+    insertAtBottom(s, n);
+    s.push(d);
+}
+
+void reverseStackRec(stack<int> &s){
+    if(s.empty())
+        return;
+    int d = s.top();
+    s.pop();
+    reverseStackRec(s);
+    insertAtBottom(s, d);
+}
+
+void print(stack<int> s1){
+    while(!s1.empty()){
+        cout<<s1.top()<<" ";
+        s1.pop();
+    }
+    cout<<endl;
+}
+
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
     stack<int> s1;
     int n=5;
-    for(int i=0; i<n; i++)
+    for(int i=1; i<=5; i++)
         s1.push(i);
+    print(s1);
     reverseStack(s1);
-    while(!s1.empty()){
-        cout<<s1.top()<<" ";
-        s1.pop();
-    }
+    print(s1);
+    reverseStackRec(s1);
+    print(s1);
 
     return 0;
 }
