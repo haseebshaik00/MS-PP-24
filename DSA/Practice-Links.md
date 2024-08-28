@@ -218,5 +218,16 @@ XXV) Linked List Challenges: (141)
 10) Insertion Sort LL
 11) Floyd Cycle Removal
 
-XXVI) Stack: ()
-1) 
+XXVI) Stack: (146)
+// Implementation And STL
+// Min Max Stack
+1) Reverse a Stack
+2) Recursive Reverse
+3) Balanced Paranthesis
+4) Stock Span
+5) Histogram Area
+
+XXVII) Queue: ()
+// Circular Queue, Queue with List and STL Implementation 
+1) First Non repeating char
+2) 
