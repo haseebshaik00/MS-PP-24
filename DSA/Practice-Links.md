@@ -227,7 +227,10 @@ XXVI) Stack: (146)
 4) Stock Span
 5) Histogram Area
 
-XXVII) Queue: ()
+XXVII) Queue: (148)
 // Circular Queue, Queue with List and STL Implementation 
 1) First Non repeating char
-2) 
+2) Max Unique Substring Length
+
+XXVIII) SDQ Challenges ()
+1) 
