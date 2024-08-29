@@ -232,5 +232,6 @@ XXVII) Queue: (148)
 1) First Non repeating char
 2) Max Unique Substring Length
 
-XXVIII) SDQ Challenges ()
-1) 
+XXVIII) SQD Challenges ()
+1) Next Greater Element 2
+2) 
