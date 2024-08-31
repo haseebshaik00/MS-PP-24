@@ -34,3 +34,24 @@ int main(){
 
     return 0;
 }
+
+// int largestRectangleArea(vector<int>& heights) {
+//         stack<int> s;
+//         int cMax=0, tMax=INT_MIN, top, n=heights.size(), i=0;
+//         for(; i<n; i++){
+//             while(!s.empty() && heights[s.top()] > heights[i]){
+//                 top = s.top();
+//                 s.pop();
+//                 cMax = heights[top] * (s.empty() ? i : (i-s.top()-1));
+//                 tMax = max(cMax, tMax);
+//             }
+//             s.push(i);
+//         }
+//         while(!s.empty()){
+//             top = s.top();
+//             s.pop();
+//             cMax = heights[top] * (s.empty() ? i : (i-s.top()-1));
+//             tMax = max(cMax, tMax);
+//         }
+//         return tMax;
+//     }

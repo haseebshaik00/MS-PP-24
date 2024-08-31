@@ -225,7 +225,7 @@ XXVI) Stack: (146)
 2) Recursive Reverse
 3) Balanced Paranthesis
 4) Stock Span
-5) Histogram Area
+5) Histogram Area: https://leetcode.com/problems/largest-rectangle-in-histogram/description/
 
 XXVII) Queue: (148)
 // Circular Queue, Queue with List and STL Implementation 
@@ -233,5 +233,7 @@ XXVII) Queue: (148)
 2) Max Unique Substring Length
 
 XXVIII) SQD Challenges ()
-1) Next Greater Element 2
-2) 
+// stack reverse & reverse rec
+1) Next Greater Element (Leetcode 2)
+2) Redundant Parathesis 
+3) 
