@@ -33,11 +33,33 @@ void preOrderPrint(BTN *root){
     preOrderPrint(root->right);
 }
 
+void inOrderPrint(BTN *root){
+    if(root == NULL)
+        return;
+    inOrderPrint(root->left);
+    cout<<root->data<<" ";
+    inOrderPrint(root->right);
+}
+
+void postOrderPrint(BTN *root){
+    if(root == NULL)
+        return;
+    postOrderPrint(root->left);
+    cout<<root->data<<" ";
+    postOrderPrint(root->right);
+}
+
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
     BTN *root = preorderBuild();
     preOrderPrint(root);
+    cout<<endl;
+    inOrderPrint(root);
+    cout<<endl;
+    postOrderPrint(root);
+    cout<<endl;
+
     return 0;
 }
