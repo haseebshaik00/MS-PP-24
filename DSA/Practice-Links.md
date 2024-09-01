@@ -239,5 +239,12 @@ XXVIII) SQD Challenges (151)
 3) Importance of Time (Deque)
 
 XXIX) Binary Trees ()
-// build and print
+1) build-preorder and print-pre, in, post
+2) Height and printKthLevel
+3) Level Order
+4) BFS and BFS New Line
+5) Count no of nodes and node sum
+6) Diameter O(n^2)
+7) Diameter O(n)
+8) 
 
