@@ -139,6 +139,20 @@ int diameter(BTN *root){
     return max(a, max(b, c));
 }
 
+PairDiameter diameterON(BTN *root){
+    PairDiameter p;
+    if(root == NULL){
+        return p;
+    }
+    PairDiameter leftP = diameterON(root->left);
+    PairDiameter rightP = diameterON(root->right);
+    // avoided the O(N^2) complexity of height calculation for n nodes, instead
+    // doing the height calculation in class object
+    p.height = max(leftP.height, rightP.height)+1;
+    p.diameter = max(leftP.height + rightP.height, max(leftP.diameter, rightP.diameter));
+    return p;
+}
+
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
@@ -157,6 +171,8 @@ int main(){
     countNodesAndSum(root, noOfNodes, nodeSum);
     cout<<"No. of Nodes= "<<noOfNodes<<" "<<"Node Sum= "<<nodeSum<<endl;
     cout<<diameter(root)<<endl;
+    PairDiameter p = diameterON(root);
+    cout<<p.height<<" "<<p.diameter<<endl;
 
     return 0;
 }
