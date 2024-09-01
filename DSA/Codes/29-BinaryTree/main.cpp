@@ -25,6 +25,17 @@ public:
     }
 };
 
+class HeightBalance{
+public:
+    int height;
+    bool isBalanced;
+
+    HeightBalance(){
+        height=0;
+        isBalanced=true;
+    }
+};
+
 BTN* preorderBuild(){
     int d;
     cin>>d;
@@ -164,6 +175,18 @@ int sumReplacement(BTN *root){
     return ans;
 }
 
+HeightBalance heightBalanced(BTN *root){
+    HeightBalance p;
+    if(root == NULL){
+        return p;
+    }
+    HeightBalance l = heightBalanced(root->left);
+    HeightBalance r = heightBalanced(root->right);
+    if(abs(l.height - r.height)>1 || !l.height || !r.height)
+        p.isBalanced = false;
+    return p;
+}
+
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
@@ -186,6 +209,9 @@ int main(){
     cout<<p.height<<" "<<p.diameter<<endl;
     sumReplacement(root);
     cout<<root->data<<endl;
+    HeightBalance b = heightBalanced(root);
+    if(b.isBalanced) cout<<"Height Balanced Tree"<<endl;
+    else cout<<"Not a Height Balanced Tree"<<endl;
 
     return 0;
 }
