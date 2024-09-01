@@ -246,5 +246,7 @@ XXIX) Binary Trees ()
 5) Count no of nodes and node sum
 6) Diameter O(n^2)
 7) Diameter O(n)
-8) 
+8) Sum Replacement
+9) 
+10) 
 
