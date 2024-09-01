@@ -153,7 +153,16 @@ PairDiameter diameterON(BTN *root){
     return p;
 }
 
-
+int sumReplacement(BTN *root){
+    if(root == NULL){
+        return 0;
+    }
+    int l = sumReplacement(root->left);
+    int r = sumReplacement(root->right);
+    int ans = root->data + l + r;
+    root->data = l+r;
+    return ans;
+}
 
 int main(){
     ios_base::sync_with_stdio(false);
@@ -175,6 +184,8 @@ int main(){
     cout<<diameter(root)<<endl;
     PairDiameter p = diameterON(root);
     cout<<p.height<<" "<<p.diameter<<endl;
+    sumReplacement(root);
+    cout<<root->data<<endl;
 
     return 0;
 }
