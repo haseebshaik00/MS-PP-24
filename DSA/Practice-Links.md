@@ -232,8 +232,11 @@ XXVII) Queue: (148)
 1) First Non repeating char
 2) Max Unique Substring Length
 
-XXVIII) SQD Challenges ()
+XXVIII) SQD Challenges (151)
 // stack reverse & reverse rec
 1) Next Greater Element (Leetcode 2)
 2) Redundant Parathesis 
-3) 
+3) Importance of Time (Deque)
+
+XXIX) Binary Trees ()
+// build and print
