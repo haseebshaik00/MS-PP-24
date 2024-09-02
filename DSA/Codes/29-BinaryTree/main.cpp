@@ -187,6 +187,42 @@ HeightBalance heightBalanced(BTN *root){
     return p;
 }
 
+BTN *buildTreeArray(int a[], int s, int e){
+    if(s>e)
+        return NULL;
+    int mid = (s+e)/2;
+    BTN *root = new BTN(a[mid]);
+    root->left = buildTreeArray(a, s, mid-1);
+    root->right = buildTreeArray(a, mid+1, e);
+    return root;
+}
+
+BTN* treeFromPreIn(int pre[], int in[], int s, int e){
+    if(s>e)
+        return NULL;
+    static int i=0;
+    BTN *root = new BTN(pre[i]);
+    int index = -1;
+    for(int j=s; j<=e; j++)
+        if(pre[i] == in[j])
+            index=j;
+    i++;
+    root->left = treeFromPreIn(pre, in, s, index-1);
+    root->right = treeFromPreIn(pre, in, index+1, e);
+    return root;
+}
+
+void rightView(BTN *root, int level, int &maxLevel){
+    if(root==NULL)
+        return;
+    if(level > maxLevel){
+        cout<<root->data<<" ";
+        maxLevel = level;
+    }
+    rightView(root->right, level+1, maxLevel);
+    rightView(root->left, level+1, maxLevel);
+}
+
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
@@ -212,6 +248,15 @@ int main(){
     HeightBalance b = heightBalanced(root);
     if(b.isBalanced) cout<<"Height Balanced Tree"<<endl;
     else cout<<"Not a Height Balanced Tree"<<endl;
+    int a[] = {1, 2, 3, 4, 5, 6, 7};
+    BTN *root2 = buildTreeArray(a, 0, 5);
+    BFSnewLine(root2);
+    int pre[] = {1,2,3,4,8,5,6,7};
+    int in[] = {3,2,8,4,1,6,7,5};
+    BTN* root3 = treeFromPreIn(pre, in, 0, 7);
+    BFSnewLine(root3);
+    int maxLevel=-1;
+    rightView(root3, 0, maxLevel);
 
     return 0;
 }

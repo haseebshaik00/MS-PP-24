@@ -248,5 +248,8 @@ XXIX) Binary Trees ()
 7) Diameter O(n)
 8) Sum Replacement
 9) Height Balanced Treee
-10) 
+10) Balanced Tree from Array
+11) Tree from PRE and POST
+12) Right View
+13) 
 
