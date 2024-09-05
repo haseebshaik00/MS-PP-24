@@ -249,6 +249,14 @@ int printNodesAtKthDistance(BTN *root, BTN* target, int k){
     return -1;
 }
 
+void mirror(BTN* root) {
+    if(root == NULL)
+        return;
+    mirror(root->left);
+    mirror(root->right);
+    swap(root->left, root->right);
+}
+
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
