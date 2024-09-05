@@ -223,6 +223,32 @@ void rightView(BTN *root, int level, int &maxLevel){
     rightView(root->left, level+1, maxLevel);
 }
 
+int printNodesAtKthDistance(BTN *root, BTN* target, int k){
+    if(root == NULL)
+        return -1;
+    if(root == target){
+        printKthLevel(target, k);
+        return 0;
+    }
+    int DL = printNodesAtKthDistance(root->left, target, k);
+    if(DL != -1){
+        if(DL+1 == k)
+            cout<<root->data<<" ";
+        else
+            printKthLevel(root->right, k-2-DL);
+        return DL+1;
+    }
+    int DR = printNodesAtKthDistance(root->right, target, k);
+    if(DR != -1){
+        if(DR+1 == k)
+            cout<<root->data<<" ";
+        else
+            printKthLevel(root->left, k-2-DR);
+        return DR+1;
+    }
+    return -1;
+}
+
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
@@ -254,9 +280,13 @@ int main(){
     int pre[] = {1,2,3,4,8,5,6,7};
     int in[] = {3,2,8,4,1,6,7,5};
     BTN* root3 = treeFromPreIn(pre, in, 0, 7);
+    cout<<endl<<"ROOT3"<<endl;
     BFSnewLine(root3);
     int maxLevel=-1;
     rightView(root3, 0, maxLevel);
+    cout<<endl;
+    BTN* targetRoot = root3->left->right;
+    printNodesAtKthDistance(root3, targetRoot, 2);
 
     return 0;
 }
