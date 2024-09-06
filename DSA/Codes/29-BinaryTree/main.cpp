@@ -36,6 +36,17 @@ public:
     }
 };
 
+class MaxSumPath{
+public:
+    int maxSum;
+    int branchSum;
+
+    MaxSumPath(){
+        maxSum = 0;
+        branchSum = 0;
+    }
+};
+
 BTN* preorderBuild(){
     int d;
     cin>>d;
@@ -271,6 +282,47 @@ BTN* lca(BTN* root, int a, int b){
     return right;
 }
 
+MaxSumPath maxSumPathFunc(BTN *root){
+    MaxSumPath p;
+    if(root == NULL)
+        return p;
+    MaxSumPath left = maxSumPathFunc(root->left);
+    MaxSumPath right = maxSumPathFunc(root->right);
+
+    int op1 = root->data;
+    int op2 = root->data + left.branchSum;
+    int op3 = root->data + right.branchSum;
+    int op4 = root->data + right.branchSum + left.branchSum;
+    int currMax = max(op1, max(op2, max(op3, op4)));
+
+    p.branchSum = max(left.branchSum, max(right.branchSum, 0)) + root->data;
+    p.maxSum = max(left.maxSum , max(right.maxSum, currMax));
+
+    return p;
+}
+
+int distAB(BTN *root, int a, int level){
+    if(root == NULL)
+        return -1;
+    if(root->data == a)
+        return 0;
+    int leftAB = distAB(root->left, a, level+1);
+    if(leftAB != -1){
+        return leftAB+1;
+    }
+    int rightAB = distAB(root->right, a, level+1);
+    if(rightAB != -1){
+        return rightAB+1;
+    }
+}
+
+int minDistNodes(BTN *root, int a, int b){
+    if(root == NULL)
+        return -1;
+    BTN *lcaAB = lca(root, a, b);
+    return distAB(lcaAB, a, 0) + distAB(lcaAB, b, 0);
+}
+
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
@@ -310,6 +362,8 @@ int main(){
     BTN* targetRoot = root3->left->right;
     printNodesAtKthDistance(root3, targetRoot, 2);
     cout<<endl<<"LCA : "<<lca(root3, 6, 7)->data<<endl;
+    cout<<maxSumPathFunc(root3).maxSum<<endl;
+    cout<<minDistNodes(root3, 8, 5)<<endl;
 
     return 0;
 }

@@ -238,7 +238,7 @@ XXVIII) SQD Challenges (151)
 2) Redundant Parathesis 
 3) Importance of Time (Deque)
 
-XXIX) Binary Trees ()
+XXIX) Binary Trees (168)
 1) build-preorder and print-pre, in, post
 2) Height and printKthLevel
 3) Level Order
@@ -254,5 +254,5 @@ XXIX) Binary Trees ()
 13) Nodes at a given distance from K
 14) Mirror BTN
 15) LCA - lowest common ancestor
-16) 
-
+16) Max Sum Path from Node to Node
+17) Shortest dist. betn 2 nodes
