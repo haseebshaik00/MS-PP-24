@@ -257,6 +257,20 @@ void mirror(BTN* root) {
     swap(root->left, root->right);
 }
 
+BTN* lca(BTN* root, int a, int b){
+    if(root == NULL)
+        return NULL;
+    if(root->data == a || root->data == b)
+        return root;
+    BTN* left = lca(root->left, a, b);
+    BTN* right = lca(root->right, a, b);
+    if(left!=NULL && right!=NULL)
+        return root;
+    if(left!=NULL)
+        return left;
+    return right;
+}
+
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
@@ -295,6 +309,7 @@ int main(){
     cout<<endl;
     BTN* targetRoot = root3->left->right;
     printNodesAtKthDistance(root3, targetRoot, 2);
+    cout<<endl<<"LCA : "<<lca(root3, 6, 7)->data<<endl;
 
     return 0;
 }
