@@ -257,12 +257,13 @@ XXIX) Binary Trees (168)
 16) Max Sum Path from Node to Node
 17) Shortest dist. betn 2 nodes
 
-X3) Binary Search Tree (173)
+X3) Binary Search Tree (172)
 1) Insertion, Build, Deletion and Search 
 2) check for BST
 3) flatten a tree
-4) bst - construct from preorder
-5) catalan number concept
+// bst - construct from preorder: find inorder by sorting, then in O(log n) time create BST using both the traversals
+// sorted array to BST: use divide and conquer - divide in middle and create BST in O(logn) time
+4) catalan number concept: 
 // Set and Multiset STL
 
 X3I) Challenges - Tree

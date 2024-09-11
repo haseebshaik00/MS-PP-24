@@ -14,6 +14,48 @@ public:
     }
 };
 
+class LL{
+public:
+    BST* head;
+    BST* tail;
+
+    LL(){
+        head = NULL;
+        tail = NULL;
+    }
+};
+
+LL flatten(BST* root){
+    LL l;
+    if(root == NULL)
+        return l;
+    if(root->left == NULL && root->right == NULL){
+        l.head = l.tail = root;
+        return l;
+    }
+    if(root->left != NULL && root->right == NULL){
+        LL leftLL = flatten(root->left);
+        leftLL.tail->right = root;
+        l.head = leftLL.head;
+        l.tail = root;
+        return l;
+    }
+    if(root->right != NULL && root->left == NULL){
+        LL rightLL = flatten(root->right);
+        root->right = rightLL.head;
+        l.head = root;
+        l.tail = rightLL.tail;
+        return l;
+    }
+    LL leftLL = flatten(root->left);
+    LL rightLL = flatten(root->right);
+    leftLL.tail->right = root;
+    root->right = rightLL.head;
+    l.head = leftLL.head;
+    l.tail = rightLL.tail;
+    return l;
+}
+
 BST* insertNode(BST *root, int d){
     if(root == NULL)
         return new BST(d);
@@ -129,6 +171,13 @@ int main(){
     BFSnewLine(root);
     if(isBST(root)) cout<<"IS BST"<<endl;
     else cout<<"IS NOT BST"<<endl;
+    LL l = flatten(root);
+    BST *temp = l.head;
+    while(temp != NULL){
+        cout<<temp->data<<"->";
+        temp = temp->right;
+    }
+    cout<<"END"<<endl;
 
     return 0;
 }
