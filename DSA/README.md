@@ -63,4 +63,5 @@ https://www.geeksforgeeks.org/duplicates-in-an-array-in-on-time-and-by-using-o1-
 16) oops webinar 1 & 2 - operator n function overloading | vectors n cpp stl
 17) OOPS
 18) Reverse a LinkedList in groups of size k - learn recursive soln
-19) 
+19) Problems related to BTN and stack - see green book initial pages
+20) 

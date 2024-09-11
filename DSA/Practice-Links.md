@@ -256,3 +256,14 @@ XXIX) Binary Trees (168)
 15) LCA - lowest common ancestor
 16) Max Sum Path from Node to Node
 17) Shortest dist. betn 2 nodes
+
+X3) Binary Search Tree (173)
+1) Insertion, Build, Deletion and Search 
+2) check for BST
+3) flatten a tree
+4) bst - construct from preorder
+5) catalan number concept
+// Set and Multiset STL
+
+X3I) Challenges - Tree
+1) 
