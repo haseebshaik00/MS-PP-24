@@ -107,6 +107,14 @@ BST* deleteIT(BST* root, int d){
     return root;
 }
 
+bool isBST(BST* root, int l=INT_MIN, int r=INT_MAX){
+    if(root == NULL)
+        return true;
+    if(root->data >= l && root->data<=r && isBST(root->left, l, root->data) && isBST(root->right, root->data, r))
+        return true;
+    return false;
+}
+
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
@@ -116,9 +124,11 @@ int main(){
     BFSnewLine(root);
     cout<<"Node 4 is ";
     if(searchIT(root, 4)) cout<<"Found"<<endl;
-    else cout<<"Not Found"<<endl;\
+    else cout<<"Not Found"<<endl;
     deleteIT(root, 3);
     BFSnewLine(root);
+    if(isBST(root)) cout<<"IS BST"<<endl;
+    else cout<<"IS NOT BST"<<endl;
 
     return 0;
 }
