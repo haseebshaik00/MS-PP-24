@@ -263,9 +263,10 @@ X3) Binary Search Tree (172)
 3) flatten a tree
 // bst - construct from preorder: find inorder by sorting, then in O(log n) time create BST using both the traversals
 // sorted array to BST: use divide and conquer - divide in middle and create BST in O(logn) time
-// catalan number concept: 
+// catalan number concept   
 // Set and Multiset STL
 // Multiset Custom class
 
 X3I) Challenges - Tree
-1) 
+1) Same Tree
+2) 
