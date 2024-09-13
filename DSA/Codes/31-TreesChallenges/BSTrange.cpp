@@ -46,9 +46,10 @@ void preOrderPrint(BST* root){
 void rangePrint(BST* root, int a, int b){
 	if(root == NULL)
 		return;
+	rangePrint(root->left, a, b);
 	if(root->data >= a && root->data<=b)
 		cout<<root->data<<" ";
-
+	rangePrint(root->right, a, b);
 }
 
 int main(){
@@ -59,9 +60,12 @@ int main(){
 	cin>>t;
 	while(t--){
 		BST* root = build();
+		cout<<"# Preorder : ";
 		preOrderPrint(root);
+		cout<<endl;
 		int a, b;
 		cin>>a>>b;
+		cout<<"# Nodes within range are : ";
 		rangePrint(root, a, b);
 		cout<<endl;
 	}
