@@ -273,5 +273,5 @@ X3I) Challenges - Tree
 3) BST in a given range
 4) Bottom View
 5) Zig Zag
-6) Replace sum of greater nodes
+6) Replace sum of greater nodes 
 7) 
