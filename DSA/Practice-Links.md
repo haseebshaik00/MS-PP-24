@@ -247,7 +247,7 @@ XXIX) Binary Trees (168)
 6) Diameter O(n^2)
 7) Diameter O(n)
 8) Sum Replacement
-9) Height Balanced Treee
+9) Height Balanced Tree
 10) Balanced Tree from Array
 11) Tree from PRE and POST
 12) Right View
@@ -272,4 +272,6 @@ X3I) Challenges - Tree
 2) Sum At Level K
 3) BST in a given range
 4) Bottom View
-5) 
+5) Zig Zag
+6) Replace sum of greater nodes
+7) 
