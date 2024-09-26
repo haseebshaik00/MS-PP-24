@@ -274,4 +274,7 @@ X3I) Challenges - Tree
 4) Bottom View
 5) Zig Zag
 6) Replace sum of greater nodes 
-7) 
+7) Left View
+8) Top View
+9) Largest BST: https://www.geeksforgeeks.org/problems/largest-bst/1
+10) 
