@@ -251,7 +251,7 @@ XXIX) Binary Trees (168)
 10) Balanced Tree from Array
 11) Tree from PRE and POST
 12) Right View
-13) Nodes at a given distance from K
+13) Nodes at a given distance from K: https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/
 14) Mirror BTN
 15) LCA - lowest common ancestor
 16) Max Sum Path from Node to Node
@@ -277,4 +277,4 @@ X3I) Challenges - Tree
 7) Left View
 8) Top View
 9) Largest BST: https://www.geeksforgeeks.org/problems/largest-bst/1
-10) 
+10) Symmetric tree: https://leetcode.com/problems/symmetric-tree/description/
