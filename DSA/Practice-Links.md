@@ -267,7 +267,7 @@ X3) Binary Search Tree (172)
 // Set and Multiset STL
 // Multiset Custom class
 
-X3I) Challenges - Tree
+X3I) Challenges - Tree (182)
 1) Same Tree
 2) Sum At Level K
 3) BST in a given range
@@ -278,3 +278,14 @@ X3I) Challenges - Tree
 8) Top View
 9) Largest BST: https://www.geeksforgeeks.org/problems/largest-bst/1
 10) Symmetric tree: https://leetcode.com/problems/symmetric-tree/description/
+
+X32) Heaps ()
+1) Insert, Delete + Heapify, Get, Size
+2) Array to Heap - O(n logn) and O(n)
+3) HeapSort
+// priority queue STL
+// PQ for custom classes
+4) Join the ropes: https://www.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1
+5) Running median of a integer stream: 
+6) merge k sorted arrays: https://www.naukri.com/code360/problems/merge-k-sorted-arrays_975379
+7) 
