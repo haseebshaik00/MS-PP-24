@@ -288,4 +288,7 @@ X32) Heaps ()
 4) Join the ropes: https://www.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1
 5) Running median of a integer stream: 
 6) merge k sorted arrays: https://www.naukri.com/code360/problems/merge-k-sorted-arrays_975379
-7) 
+7) kth smallest element in a 2d sorted matrix: https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/
+8) hotel visits: https://ide.codingblocks.com/s/380255
+https://ide.codingblocks.com/s/198442?_ga=2.178682468.1156519533.1727580140-674054011.1703753790
+9) Top k most frequent number in a stream: https://leetcode.com/problems/top-k-frequent-elements/description/
