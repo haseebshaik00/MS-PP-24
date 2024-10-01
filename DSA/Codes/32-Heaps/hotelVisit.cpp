@@ -1,24 +1,33 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+#define ll long long
+
 int main(){
-	int q,k;
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+
+	ll q, k, d, a, b;
+	priority_queue<ll> pq;
 	cin>>q>>k;
-	priority_queue<pair<int,int>,vector<pair<int,int>>,function<bool(pair<int,int >,pair<int,int >)>> pq(check);
-	pair<int,int> p;
-	int t;
 	while(q--){
-		cin>>t;
-		if(t==1){
-			cin>>p.first>>p.second;
-            if(pq.size()<k){
-		        pq.push(p);
-            }
-            else if(check(p,pq.top())){
-				pq.pop();
-				pq.push(p);
+		cin>>d;
+		if(d==1){
+			cin>>a>>b;
+			ll c = pow(a, 2) + pow(b, 2);
+			if(pq.size() >= k){
+				if(c < pq.top()){
+					pq.pop();
+					pq.push(c);
+				}
 			}
+			else
+				pq.push(c);
 		}
 		else{
-			cout<<(pq.top().first*pq.top().first)+(pq.top().second*pq.top().second)<<endl;
+			cout<<pq.top()<<endl;
 		}
-	}
+	}	
+	
 	return 0;
 }
