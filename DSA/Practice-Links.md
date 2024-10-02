@@ -299,4 +299,6 @@ X33) Hashing ()
 // Unordered Map Custom Class
 // PhoneBook
 2) Vertical Order Tree Print
-3) 
+3) Subarray sum zero: https://www.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1
+4) Longest Subarray with 0 sum: https://www.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1
+5) 
