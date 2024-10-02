@@ -301,4 +301,6 @@ X33) Hashing ()
 2) Vertical Order Tree Print
 3) Subarray sum zero: https://www.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1
 4) Longest Subarray with 0 sum: https://www.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1
-5) 
+5) Longest Subarray with k sum: 
+6) LCS O(n): https://leetcode.com/problems/longest-consecutive-sequence/
+7) Minimum Window Substring: 

@@ -41,6 +41,10 @@ detailed explanation: https://stackoverflow.com/questions/31162367/significance-
 - reverse()
 - pair<dataType, dataType> s[n];
 
+# Notes
+- https://www.bigocheatsheet.com/ 
+- 
+
 
 * TODO
 1) https://www.geeksforgeeks.org/maximum-xor-of-two-numbers-in-an-array/
