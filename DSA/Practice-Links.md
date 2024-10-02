@@ -279,7 +279,7 @@ X3I) Challenges - Tree (182)
 9) Largest BST: https://www.geeksforgeeks.org/problems/largest-bst/1
 10) Symmetric tree: https://leetcode.com/problems/symmetric-tree/description/
 
-X32) Heaps ()
+X32) Heaps (191)
 1) Insert, Delete + Heapify, Get, Size
 2) Array to Heap - O(n logn) and O(n)
 3) HeapSort
@@ -292,3 +292,11 @@ X32) Heaps ()
 8) hotel visits: https://ide.codingblocks.com/s/380255
 https://ide.codingblocks.com/s/198442?_ga=2.178682468.1156519533.1727580140-674054011.1703753790
 9) Top k most frequent number in a stream: https://leetcode.com/problems/top-k-frequent-elements/description/
+
+X33) Hashing ()
+1) Implementation Hashtable - insert, delete, search, erase, print, []
+// Map and Unordered Map STL
+// Unordered Map Custom Class
+// PhoneBook
+2) Vertical Order Tree Print
+3) 
