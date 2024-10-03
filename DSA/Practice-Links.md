@@ -293,7 +293,7 @@ X32) Heaps (191)
 https://ide.codingblocks.com/s/198442?_ga=2.178682468.1156519533.1727580140-674054011.1703753790
 9) Top k most frequent number in a stream: https://leetcode.com/problems/top-k-frequent-elements/description/
 
-X33) Hashing ()
+X33) Hashing (198)
 1) Implementation Hashtable - insert, delete, search, erase, print, []
 // Map and Unordered Map STL
 // Unordered Map Custom Class
@@ -304,4 +304,7 @@ X33) Hashing ()
 5) Longest Subarray with k sum: https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1
 6) LCS O(n): https://leetcode.com/problems/longest-consecutive-sequence/
 7) Minimum Window Substring: https://leetcode.com/problems/minimum-window-substring/description/
-8) 
+// Triangles and Rectangles - check notes
+
+X34) Tries()
+1) 
