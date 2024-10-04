@@ -307,4 +307,6 @@ X33) Hashing (198)
 // Triangles and Rectangles - check notes
 
 X34) Tries()
-1) 
+1) Trie Implementation: 
+2) Smallest Unique Prefix Array: 
+3) 
