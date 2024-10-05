@@ -70,4 +70,5 @@ https://www.geeksforgeeks.org/duplicates-in-an-array-in-on-time-and-by-using-o1-
 19) Problems related to BTN and stack - see green book initial pages
 20) efficient approach for pre and in to tree : https://www.geeksforgeeks.org/construct-tree-from-given-inorder-and-preorder-traversal/
 21) emplace and const like basic things in cpp
-22) 
+22) hash, heap, trees, stack quizzes
+23) 

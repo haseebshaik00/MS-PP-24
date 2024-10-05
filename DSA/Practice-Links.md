@@ -310,4 +310,8 @@ X34) Tries()
 1) Trie Implementation: 
 2) Smallest Unique Prefix Array: 
 3) Maximum xor pair in an array
-4) 
+4) Subarray with max xor pair - do 34.3 on cumulative xor array
+
+X35) Challenges - Hash n Tries
+1) Unlock
+2) 
