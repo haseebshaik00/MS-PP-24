@@ -306,13 +306,13 @@ X33) Hashing (198)
 7) Minimum Window Substring: https://leetcode.com/problems/minimum-window-substring/description/
 // Triangles and Rectangles - check notes
 
-X34) Tries()
+X34) Tries (202)
 1) Trie Implementation: 
 2) Smallest Unique Prefix Array: 
 3) Maximum xor pair in an array: 
 4) Subarray with max xor pair - do 34.3 on cumulative xor array
 
-X35) Challenges - Hash n Tries
+X35) Challenges - Hash n Tries (206)
 1) Unlock
 2) Subarray with distinct elements
 3) Digital Dictionary
@@ -321,4 +321,5 @@ X35) Challenges - Hash n Tries
 // 34.3 34.4 35.4 Trie Interview -- all are based on the same XOR concept - do look
 
 X36) Greedy Algo ()
-1) 
+1) Indian Coin Change: 
+2) 
