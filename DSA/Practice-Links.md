@@ -309,10 +309,16 @@ X33) Hashing (198)
 X34) Tries()
 1) Trie Implementation: 
 2) Smallest Unique Prefix Array: 
-3) Maximum xor pair in an array
+3) Maximum xor pair in an array: 
 4) Subarray with max xor pair - do 34.3 on cumulative xor array
 
 X35) Challenges - Hash n Tries
 1) Unlock
 2) Subarray with distinct elements
-3) 
+3) Digital Dictionary
+4) Range XOR
+// Trie Interview - extended concepts of 34.4 check notes
+// 34.3 34.4 35.4 Trie Interview -- all are based on the same XOR concept - do look
+
+X36) Greedy Algo ()
+1) 
