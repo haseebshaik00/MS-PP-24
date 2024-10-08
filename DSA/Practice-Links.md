@@ -322,4 +322,9 @@ X35) Challenges - Hash n Tries (206)
 
 X36) Greedy Algo ()
 1) Indian Coin Change: 
-2) 
+2) Activity selection:
+3) Connecting wires:
+4) Biased Standing: 
+5) Load Balancer:
+6) Kingdom defense: 
+7) Chopsticks
