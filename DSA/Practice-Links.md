@@ -314,4 +314,5 @@ X34) Tries()
 
 X35) Challenges - Hash n Tries
 1) Unlock
-2) 
+2) Subarray with distinct elements
+3) 
