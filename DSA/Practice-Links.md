@@ -326,5 +326,5 @@ X36) Greedy Algo ()
 3) Connecting wires:
 4) Biased Standing: 
 5) Load Balancer:
-6) Kingdom defense: 
-7) Chopsticks
+6) Kingdom defense:
+7) Chopsticks: 
