@@ -3,7 +3,7 @@ using namespace std;
 
 class Car{
 private:
-    // Data Members
+    // Data Members / Attributes / Properties
     float price;
     int modelNo;
     string name;
@@ -74,7 +74,7 @@ public:
     void setType(char *t){
         type = t;
     }
-    // Member Functions
+    // Member Functions / Methods
     float discount(const float n){
         price = (1-n/100) * price;
         return (1-n/100) * price;
