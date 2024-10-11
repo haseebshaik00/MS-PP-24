@@ -31,6 +31,8 @@ int maxProfit(vector<int> &values, vector<int> &weights, int n, int w)
 }
 
 // Doesn't work for large n values - use DP in that case
+// 0-1 Knapsack can be done using only recursion, DP and not Greedy Algo
+// Fractional Knapsack can be done using all 3 
 
 int main(){
     ios_base::sync_with_stdio(false);
