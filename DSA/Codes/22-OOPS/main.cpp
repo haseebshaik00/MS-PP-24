@@ -28,7 +28,8 @@ public:
         name=n;
         type=t;
     }
-    // Copy Constructor
+    // Default Copy Constructor
+    //Custom Copy Constructor
     Car(const Car &x):msp(x.msp){
         cout<<"Copy Constructor"<<endl;
         price = x.price;
@@ -91,6 +92,7 @@ public:
         cout<<"Destructor"<<endl;
         if(type!=NULL){
             delete []type;
+            type = NULL;
         }
     }
 };
