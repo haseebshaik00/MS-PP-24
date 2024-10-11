@@ -11,6 +11,27 @@ int knapsack(int w[], int p[], int n, int k){
     return max(inc, exc);
 }
 
+// Soln 2
+void knapsack(vector<int> v,vector<int> we,int n,int w, int i, int tp, int tw, int &ans){
+	if(i >= n){
+		ans = max(ans, tp);
+		return;
+	}
+	if(tw+we[i] <= w)
+		knapsack(v, we, n, w, i+1, tp+v[i], tw+we[i], ans);
+	knapsack(v, we, n, w, i+1, tp, tw, ans);
+	return;
+}
+
+int maxProfit(vector<int> &values, vector<int> &weights, int n, int w)
+{
+	int totalProfit = 0, totalWeight=0, ans=0;
+	knapsack(values, weights, n, w, 0, totalProfit, totalWeight, ans);
+	return ans;
+}
+
+// Doesn't work for large n values - use DP in that case
+
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
