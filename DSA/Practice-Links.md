@@ -320,7 +320,7 @@ X35) Challenges - Hash n Tries (206)
 // Trie Interview - extended concepts of 34.4 check notes
 // 34.3 34.4 35.4 Trie Interview -- all are based on the same XOR concept - do look
 
-X36) Greedy Algo ()
+X36) Greedy Algo (217)
 1) Indian Coin Change: 
 2) Activity selection:
 3) Connecting wires:
@@ -332,3 +332,6 @@ X36) Greedy Algo ()
 9) Min Circles: 
 10) Fractional Knapsack: https://www.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1
 11) Deepak and his journey: 
+
+X37) Dynamic Programming ()
+1) 
