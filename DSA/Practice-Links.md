@@ -334,4 +334,6 @@ X36) Greedy Algo (217)
 11) Deepak and his journey: 
 
 X37) Dynamic Programming ()
-1) 
+1) Fibonacci: 
+2) Min to One: 
+3) Min Coin Change: 
