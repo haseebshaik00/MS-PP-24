@@ -330,4 +330,5 @@ X36) Greedy Algo ()
 7) Chopsticks: 
 8) Expedition: 
 9) Min Circles: 
-10)  
+10) Fractional Knapsack: https://www.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1
+11) Deepak and his journey: 
