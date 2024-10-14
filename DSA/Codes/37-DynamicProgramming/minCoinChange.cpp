@@ -14,7 +14,18 @@ int minCoin(int a[], int n, int k, int dp[]){
 }
 
 int minCoin1(int a[], int n, int k){
-    return 0;
+    int dp[k+1] = {0};
+    for(int i=1; i<=k; i++){
+        int ans = INT_MAX, subProblem = INT_MAX;
+        for(int j=0; j<n; j++){
+            if((i-a[j]) >= 0){
+                subProblem = dp[i-a[j]];
+                ans = min(ans, subProblem+1);
+            }
+        }
+        dp[i] = ans;
+    }
+    return dp[k];
 }
 
 int main(){
