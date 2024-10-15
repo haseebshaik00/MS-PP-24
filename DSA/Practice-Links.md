@@ -338,4 +338,7 @@ X37) Dynamic Programming ()
 2) Min to One: 
 3) Min Coin Change: 
 4) Wine Problem: 
-5) 
+5) Ladder: 
+6) Rod Cutting: 
+7) 
+8) 
