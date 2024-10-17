@@ -302,7 +302,7 @@ X33) Hashing (198)
 3) Subarray sum zero: https://www.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1
 4) Longest Subarray with 0 sum: https://www.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1
 5) Longest Subarray with k sum: https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1
-6) LCS O(n): https://leetcode.com/problems/longest-consecutive-sequence/
+6) Longest Consecutive Subsequence O(n): https://leetcode.com/problems/longest-consecutive-sequence/
 7) Minimum Window Substring: https://leetcode.com/problems/minimum-window-substring/description/
 // Triangles and Rectangles - check notes
 
@@ -320,7 +320,7 @@ X35) Challenges - Hash n Tries (206)
 // Trie Interview - extended concepts of 34.4 check notes
 // 34.3 34.4 35.4 Trie Interview -- all are based on the same XOR concept - do look
 
-X36) Greedy Algo (217)
+X36) Greedy Algo (218)
 1) Indian Coin Change: 
 2) Activity selection:
 3) Connecting wires:
@@ -332,6 +332,7 @@ X36) Greedy Algo (217)
 9) Min Circles: 
 10) Fractional Knapsack: https://www.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1
 11) Deepak and his journey: 
+12) Min Platforms: https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1
 
 X37) Dynamic Programming ()
 1) Fibonacci: 
