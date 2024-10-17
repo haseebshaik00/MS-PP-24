@@ -346,4 +346,6 @@ X37) Dynamic Programming ()
 9) LIS 2:
 10) LIS 3: 
 11) Matrix Chain Multiplication: https://www.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1
-12) 
+12) Cell Mitosis: 
+13) Mixtures: 
+14) Friends Problem: 
