@@ -341,5 +341,9 @@ X37) Dynamic Programming ()
 4) Wine Problem: 
 5) Ladder: 
 6) Rod Cutting: 
-7) 
-8) 
+7) Longest Common Subsequence:
+8) LIS 1:
+9) LIS 2:
+10) LIS 3: 
+11) Matrix Chain Multiplication: https://www.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1
+12) 
