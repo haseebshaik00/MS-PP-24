@@ -352,5 +352,5 @@ X37) Dynamic Programming ()
 15) Maximum Product Subarray: https://leetcode.com/problems/maximum-product-subarray/
 16) Optimal Game Stratergy: https://www.geeksforgeeks.org/problems/optimal-strategy-for-a-game-1587115620/1
 17) Minimum cost path: 
-18) 
-19) 
+18) Unique Paths: https://leetcode.com/problems/unique-paths/
+19) Elephant in chess:
