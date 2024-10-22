@@ -9,7 +9,6 @@ int main() {
     cin>>n>>x>>y>>z;
 
     int dp[n+1] = {-1};
-
     for(int i=2; i<=n; i++){
         if(i%2 == 0)
             dp[i] = min(dp[i/2]+x, dp[i-1]+y);
