@@ -351,4 +351,4 @@ X37) Dynamic Programming ()
 14) Friends Problem: 
 15) Maximum Product Subarray: https://leetcode.com/problems/maximum-product-subarray/
 16) Optimal Game Stratergy: https://www.geeksforgeeks.org/problems/optimal-strategy-for-a-game-1587115620/1
-17) 
+17) Minimum cost path: 
