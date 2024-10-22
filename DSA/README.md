@@ -73,3 +73,5 @@ https://www.geeksforgeeks.org/duplicates-in-an-array-in-on-time-and-by-using-o1-
 22) hash, heap, trees, stack, greedy, DP quizzes
 23) Huffman Coding
 24) Matrix Multiplication and Matrix Exponentiation revise
+25) PALINDROME SUBSEQUENCE - REVERSE N LCS -- think
+26) daily temp, next greater element - mono stack
