@@ -345,7 +345,7 @@ X37) Dynamic Programming ()
 8) LIS 1:
 9) LIS 2:
 10) LIS 3: 
-11) Matrix Chain Multiplication: https://www.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1
+11) Matrix Chain Multiplication: https://www.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1  O(n^3)
 12) Cell Mitosis: 
 13) Mixtures: 
 14) Friends Problem: 
@@ -355,3 +355,7 @@ X37) Dynamic Programming ()
 18) Unique Paths: https://leetcode.com/problems/unique-paths/
 19) Elephant in chess:
 20) Robot Paths: https://www.codechef.com/problems/CD1IT4
+
+X39) Striver Sheet()
+1) 4sum: https://leetcode.com/problems/4sum/
+2) 

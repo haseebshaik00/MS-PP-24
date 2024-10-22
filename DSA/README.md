@@ -72,3 +72,4 @@ https://www.geeksforgeeks.org/duplicates-in-an-array-in-on-time-and-by-using-o1-
 21) emplace and const like basic things in cpp
 22) hash, heap, trees, stack, greedy, DP quizzes
 23) Huffman Coding
+24) Matrix Multiplication and Matrix Exponentiation revise
