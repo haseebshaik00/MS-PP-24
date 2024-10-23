@@ -360,4 +360,5 @@ X39) Striver Sheet()
 1) 4sum: https://leetcode.com/problems/4sum/
 2) reverse string: https://leetcode.com/problems/reverse-words-in-a-string/description/
 3) Longest Palindrome Substring: https://leetcode.com/problems/longest-palindromic-substring/
-4) 
+4) Longest Palindrome Subsequece: https://leetcode.com/problems/longest-palindromic-subsequence/
+5) 
