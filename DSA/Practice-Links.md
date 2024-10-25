@@ -355,6 +355,13 @@ X37) Dynamic Programming ()
 18) Unique Paths: https://leetcode.com/problems/unique-paths/
 19) Elephant in chess:
 20) Robot Paths: https://www.codechef.com/problems/CD1IT4
+21) No. of Binary Strings: 
+22) 0-1 Knapsack: 
+23) 0-N Knapsack: 
+24) LCS with 3 strings:
+25) k ordered LCS: 
+26) 1 Count: 
+27) 
 
 X39) Striver Sheet()
 1) 4sum: https://leetcode.com/problems/4sum/
