@@ -371,4 +371,6 @@ X39) Striver Sheet()
 5) Count number of subarrays with given xor K: https://www.interviewbit.com/problems/subarray-with-given-xor/ 
 6) Longest substring with no repeating chars: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/ 
 7) Roman To Int: https://leetcode.com/problems/roman-to-integer/
-8) 
+8) Int to Roman: https://leetcode.com/problems/integer-to-roman/
+9) Longest Common Prefix: https://leetcode.com/problems/longest-common-prefix/
+10) 
