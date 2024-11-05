@@ -360,7 +360,7 @@ X37) Dynamic Programming ()
 23) 0-N Knapsack: 
 24) LCS with 3 strings:
 25) k ordered LCS: 
-26) 1 Count: 
+26) No consecutive 1: https://www.geeksforgeeks.org/problems/consecutive-1s-not-allowed1912/1 
 27) 
 
 X39) Striver Sheet()
