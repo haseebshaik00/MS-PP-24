@@ -368,4 +368,7 @@ X39) Striver Sheet()
 2) reverse string: https://leetcode.com/problems/reverse-words-in-a-string/description/
 3) Longest Palindrome Substring: https://leetcode.com/problems/longest-palindromic-substring/
 4) Longest Palindrome Subsequece: https://leetcode.com/problems/longest-palindromic-subsequence/
-5) 
+5) Count number of subarrays with given xor K: https://www.interviewbit.com/problems/subarray-with-given-xor/ 
+6) Longest substring with no repeating chars: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/ 
+7) Roman To Int: https://leetcode.com/problems/roman-to-integer/
+8) 
