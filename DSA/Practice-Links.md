@@ -373,4 +373,9 @@ X39) Striver Sheet()
 7) Roman To Int: https://leetcode.com/problems/roman-to-integer/
 8) Int to Roman: https://leetcode.com/problems/integer-to-roman/
 9) Longest Common Prefix: https://leetcode.com/problems/longest-common-prefix/
-10) 
+10) Rabin Karp: https://leetcode.com/problems/repeated-string-match/description/
+11) Rotate LL: https://leetcode.com/problems/rotate-list/
+12) Remove Duplicates from sorted array: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+13) 3sum: https://leetcode.com/problems/3sum/
+14) Clone a Linked List with random and next pointer: https://leetcode.com/problems/copy-list-with-random-pointer/description/
+15) 
