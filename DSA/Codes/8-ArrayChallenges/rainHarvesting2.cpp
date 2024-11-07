@@ -24,3 +24,16 @@ int main(){
 
 	return 0;
 }
+
+int trap(vector<int>& v) {
+        int n = v.size(), ans=0;
+        vector<int> left(n), right(n);
+        left[0]=v[0]; right[n-1]=v[n-1];
+        for(int i=1; i<n; i++)
+            left[i] = max(v[i], left[i-1]);
+        for(int i=n-2; i>=0; i--)
+            right[i] = max(v[i], right[i+1]);
+        for(int i=0; i<n; i++)
+            ans += min(left[i], right[i]) - v[i];
+        return ans;
+    }
