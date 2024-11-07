@@ -48,7 +48,7 @@ VII) Problem solving in 2D Arrays (31)
 5) Max Sum Submatrix Sorted Row and Column: https://www.geeksforgeeks.org/maximum-sum-of-any-submatrix-of-a-matrix-which-is-sorted-row-wise-and-column-wise/
 
 VIII) Array Challenges (38)
-1) Rain Water Harvesting: https://www.geeksforgeeks.org/trapping-rain-water/ 
+1) Rain Water Harvesting: https://leetcode.com/problems/trapping-rain-water/
 2) Max Circular subarray Sum: https://www.geeksforgeeks.org/maximum-contiguous-circular-sum/ 
 3) Max length Bitonic Subarray: https://www.geeksforgeeks.org/maximum-length-bitonic-subarray/
 4) Biggest Number: https://www.geeksforgeeks.org/given-an-array-of-numbers-arrange-the-numbers-to-form-the-biggest-number/
@@ -378,4 +378,5 @@ X39) Striver Sheet()
 12) Remove Duplicates from sorted array: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 13) 3sum: https://leetcode.com/problems/3sum/
 14) Clone a Linked List with random and next pointer: https://leetcode.com/problems/copy-list-with-random-pointer/description/
-15) 
+15) Job scheduling: https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1
+16) Assign cookies: https://leetcode.com/problems/assign-cookies/
