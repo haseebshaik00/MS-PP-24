@@ -358,9 +358,9 @@ X37) Dynamic Programming (252)
 21) No. of Binary Strings: https://www.geeksforgeeks.org/problems/consecutive-1s-not-allowed1912/1 
 22) 0-1 Knapsack: https://www.naukri.com/code360/problems/1072980
 23) 0-N Knapsack: https://www.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1
-24) LCS with 3 strings: 
-25) k ordered LCS: 
-26) No consecutive 1: 
+24) LCS with 3 strings: https://www.geeksforgeeks.org/problems/lcs-of-three-strings0028/1
+25) k ordered LCS: https://www.hackerearth.com/problem/algorithm/mancunian-and-k-ordered-lcs-e6a4b8c6/
+26) 1 Count: check code Coding Blocks
 27) Minimum Money needed: 
 28) Exchanging Coins: 
 29) Wild card pattern matching: 
