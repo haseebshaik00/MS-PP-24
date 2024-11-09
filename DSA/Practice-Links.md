@@ -334,7 +334,7 @@ X36) Greedy Algo (218)
 11) Deepak and his journey: 
 12) Min Platforms: https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1
 
-X37) Dynamic Programming ()
+X37) Dynamic Programming (252)
 1) Fibonacci: 
 2) Min to One: 
 3) Min Coin Change: 
@@ -355,13 +355,20 @@ X37) Dynamic Programming ()
 18) Unique Paths: https://leetcode.com/problems/unique-paths/
 19) Elephant in chess:
 20) Robot Paths: https://www.codechef.com/problems/CD1IT4
-21) No. of Binary Strings: 
-22) 0-1 Knapsack: 
-23) 0-N Knapsack: 
-24) LCS with 3 strings:
+21) No. of Binary Strings: https://www.geeksforgeeks.org/problems/consecutive-1s-not-allowed1912/1 
+22) 0-1 Knapsack: https://www.naukri.com/code360/problems/1072980
+23) 0-N Knapsack: https://www.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1
+24) LCS with 3 strings: 
 25) k ordered LCS: 
-26) No consecutive 1: https://www.geeksforgeeks.org/problems/consecutive-1s-not-allowed1912/1 
-27) 
+26) No consecutive 1: 
+27) Minimum Money needed: 
+28) Exchanging Coins: 
+29) Wild card pattern matching: 
+30) Count subsequences:  
+31) subset sum to target:   
+32) Ugly Nos.: 
+33) Optimal Game Strategy 2: 
+34) Brackets all over: 
 
 X39) Striver Sheet()
 1) 4sum: https://leetcode.com/problems/4sum/
