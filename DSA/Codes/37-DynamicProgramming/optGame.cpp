@@ -1,6 +1,7 @@
 long long int optGame(int a[], int n, int i, int j, vector<vector<long long int>> &dp){
         if(i>j)
             return 0;
+        // dp[i][j] - refers profit from i to j
         if(dp[i][j] != -1)
             return dp[i][j];
         long long int op1 = a[i] + min(optGame(a, n, i+2, j, dp), optGame(a, n, i+1, j-1, dp));

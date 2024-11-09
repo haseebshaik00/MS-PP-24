@@ -10,6 +10,7 @@ Keeping a tab of my forthcoming 2 years journey. Please ignore!
 - <https://drive.google.com/drive/u/0/folders/1yA9TOgpPUq4KF9BEWLNB179b-dxkWU1z>
 - <https://neetcode.io/>
 - <https://leetcode.com/problemset/>
+- Interview Core Topics + System Design Notes: https://docs.google.com/document/d/18nrof3Wok7DoYrtuoWtYwAXxFIar6tzIK6Tg7F_z7mc/edit?usp=sharing 
 
 2) WebDev Roadmap
 

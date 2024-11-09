@@ -367,8 +367,7 @@ X37) Dynamic Programming (252)
 30) Count subsequences:  
 31) subset sum to target:   
 32) Ugly Nos.: 
-33) Optimal Game Strategy 2: 
-34) Brackets all over: 
+33) Brackets all over: 
 
 X39) Striver Sheet()
 1) 4sum: https://leetcode.com/problems/4sum/
