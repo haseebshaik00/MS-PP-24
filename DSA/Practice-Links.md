@@ -361,8 +361,8 @@ X37) Dynamic Programming (252)
 24) LCS with 3 strings: https://www.geeksforgeeks.org/problems/lcs-of-three-strings0028/1
 25) k ordered LCS: https://www.hackerearth.com/problem/algorithm/mancunian-and-k-ordered-lcs-e6a4b8c6/
 26) 1 Count: check code Coding Blocks
-27) Minimum Money needed: 
-28) Exchanging Coins: 
+27) Minimum Money needed: min 01 Knapsack with O(n) space
+28) Exchanging Coins:  
 29) Wild card pattern matching: 
 30) Count subsequences:  
 31) subset sum to target:   
