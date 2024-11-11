@@ -370,6 +370,7 @@ X37) Dynamic Programming (251)
 33) Count subsequences:  coding blocks question
 
 X38) Graphs ()
+Adjacency List Implementation
 1) 
 2) 
 3) 
