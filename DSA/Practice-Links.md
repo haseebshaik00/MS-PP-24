@@ -334,7 +334,7 @@ X36) Greedy Algo (218)
 11) Deepak and his journey: 
 12) Min Platforms: https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1
 
-X37) Dynamic Programming (252)
+X37) Dynamic Programming (251)
 1) Fibonacci: 
 2) Min to One: 
 3) Min Coin Change: 
@@ -367,7 +367,19 @@ X37) Dynamic Programming (252)
 30) subset sum to target: https://www.geeksforgeeks.org/subset-sum-problem-dp-25/
 31) Ugly Nos.: https://www.geeksforgeeks.org/ugly-numbers/
 32) Brackets all over: coding blocks question
-33) Count subsequences:  
+33) Count subsequences:  coding blocks question
+
+X38) Graphs ()
+1) 
+2) 
+3) 
+4) 
+5) 
+6) 
+7) 
+8) 
+9) 
+10) 
 
 X39) Striver Sheet()
 1) 4sum: https://leetcode.com/problems/4sum/
