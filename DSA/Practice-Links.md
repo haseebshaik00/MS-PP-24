@@ -361,13 +361,13 @@ X37) Dynamic Programming (252)
 24) LCS with 3 strings: https://www.geeksforgeeks.org/problems/lcs-of-three-strings0028/1
 25) k ordered LCS: https://www.hackerearth.com/problem/algorithm/mancunian-and-k-ordered-lcs-e6a4b8c6/
 26) 1 Count: check code Coding Blocks
-27) Minimum Money needed: min 01 Knapsack with O(n) space
+27) Minimum Money needed: min 01 Knapsack with O(n) space https://www.geeksforgeeks.org/space-optimized-dp-solution-0-1-knapsack-problem/ 
 28) Exchanging Coins:  coding blocks questions
-29) Wild card pattern matching: 
-30) Count subsequences:  
-31) subset sum to target:   
-32) Ugly Nos.: 
-33) Brackets all over: 
+29) Wild card pattern matching:  coding blocks questions
+30) subset sum to target: https://www.geeksforgeeks.org/subset-sum-problem-dp-25/
+31) Ugly Nos.: https://www.geeksforgeeks.org/ugly-numbers/
+32) Brackets all over: coding blocks question
+33) Count subsequences:  
 
 X39) Striver Sheet()
 1) 4sum: https://leetcode.com/problems/4sum/
