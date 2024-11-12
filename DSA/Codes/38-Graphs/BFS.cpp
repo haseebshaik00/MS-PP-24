@@ -59,3 +59,26 @@ int main(){
 
     return 0;
 }
+
+
+// gfg
+vector<int> bfsOfGraph(vector<vector<int>> &adj) {
+        queue<int> q;
+        vector<int> v;
+        unordered_map<int, bool> visited;
+        q.push(0);
+        visited[0] = true;
+        int n = adj.size();
+        while(!q.empty()){
+            int temp = q.front();
+            q.pop();
+            v.push_back(temp);
+            for(auto x:adj[temp]){
+                if(!visited[x]){
+                    q.push(x);
+                    visited[x]=true;
+                }
+            }
+        }
+        return v;
+    }

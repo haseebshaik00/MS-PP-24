@@ -372,9 +372,9 @@ X37) Dynamic Programming (251)
 X38) Graphs ()
 Adjacency List Implementation
 Generic Graph Implementation
-1) Clone Graph
-2) BFS
-3) 
+1) Clone Graph: https://leetcode.com/problems/clone-graph/
+2) BFS: https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1
+3) Single Source Shortest Path using BFS (unweighted): 
 4) 
 5) 
 6) 
@@ -382,6 +382,8 @@ Generic Graph Implementation
 8) 
 9) 
 10) 
+11) 
+12) 
 
 X39) Striver Sheet()
 1) 4sum: https://leetcode.com/problems/4sum/
