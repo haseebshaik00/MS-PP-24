@@ -375,7 +375,7 @@ Generic Graph Implementation
 1) Clone Graph: https://leetcode.com/problems/clone-graph/
 2) BFS: https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1
 3) Single Source Shortest Path using BFS (unweighted): coding blocks ques
-4) Snakes & Ladders: 
+4) Snakes & Ladders: Check notes
 5) DFS: https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1
 6) Connected Components using DFS Graphs: 
 7) DAG's Topological Sort Using DFS Graphs: 
