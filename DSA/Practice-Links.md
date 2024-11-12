@@ -371,8 +371,9 @@ X37) Dynamic Programming (251)
 
 X38) Graphs ()
 Adjacency List Implementation
-1) 
-2) 
+Generic Graph Implementation
+1) Clone Graph
+2) BFS
 3) 
 4) 
 5) 
