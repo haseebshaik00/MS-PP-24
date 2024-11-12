@@ -369,21 +369,26 @@ X37) Dynamic Programming (251)
 32) Brackets all over: coding blocks question
 33) Count subsequences:  coding blocks question
 
-X38) Graphs ()
+X38) Graphs (268)
 Adjacency List Implementation
 Generic Graph Implementation
 1) Clone Graph: https://leetcode.com/problems/clone-graph/
 2) BFS: https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1
-3) Single Source Shortest Path using BFS (unweighted): 
-4) 
-5) 
-6) 
-7) 
-8) 
-9) 
-10) 
-11) 
-12) 
+3) Single Source Shortest Path using BFS (unweighted): coding blocks ques
+4) Snakes & Ladders: 
+5) DFS: https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1
+6) Connected Components using DFS Graphs: 
+7) DAG's Topological Sort Using DFS Graphs: 
+8) Topological Sort Using BFS Graphs: 
+9) Undirected Graph is a Tree or Not: 
+10) Cycle Detection in Directed Graph using DFS: 
+11) Cycle Detection Undirected Graph using DFS: 
+12) Cycle Detection in Directed Graph using BFS: 
+13) Cycle Detection Undirected Graph using BFS: 
+14) Number of islands(Do in Grid and Graph Both):
+15) Bipartite Check using BFS: 
+16) Bipartite Check using DFS: 
+17) Dijksta Algo: 
 
 X39) Striver Sheet()
 1) 4sum: https://leetcode.com/problems/4sum/
