@@ -22,12 +22,12 @@ public:
         map<int, bool> visited;
         int c=0;
         for(auto x:l){
-            if(!visited[x]){
+            if(!visited[x.first]){
                 cout<<c<<"-> ";
-                dfs_helper(src, visited);
+                dfs_helper(x.first, visited);
+                c++;
+                cout<<endl;
             }
-            c++;
-            cout<<endl;
         }
     }
 };
