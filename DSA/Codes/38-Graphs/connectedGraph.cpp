@@ -18,9 +18,17 @@ public:
                 dfs_helper(y, visited);
     }
 
-    void dfs(int src){
+    void connectedGraphs(){
         map<int, bool> visited;
-        dfs_helper(src, visited);
+        int c=0;
+        for(auto x:l){
+            if(!visited[x]){
+                cout<<c<<"-> ";
+                dfs_helper(src, visited);
+            }
+            c++;
+            cout<<endl;
+        }
     }
 };
 
@@ -33,26 +41,11 @@ int main(){
     g.addEdge(0, 3);
     g.addEdge(2, 3);
     g.addEdge(1, 2);
-    g.addEdge(3, 4);
-    g.addEdge(4, 5);
-    g.dfs(0);
+    g.addEdge(0, 4);
+    g.addEdge(6, 5);
+    g.addEdge(6, 7);
+    g.addEdge(8, 8);
+    g.connectedGraphs();
 
     return 0;
 }
-
-// gfg
-vector<int> v;
-    
-    void dfs(const int x, map<int, bool> &visited, const vector<vector<int>>& adj){
-        v.push_back(x);
-        visited[x] = true;
-        for(auto y:adj[x])
-            if(!visited[y])
-                dfs(y, visited, adj);
-    }
-    
-    vector<int> dfsOfGraph(vector<vector<int>>& adj) {
-        map<int, bool> m;
-        dfs(0, m, adj);
-        return v;
-    }
