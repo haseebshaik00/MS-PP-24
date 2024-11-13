@@ -377,10 +377,10 @@ Generic Graph Implementation
 3) Single Source Shortest Path using BFS (unweighted): coding blocks ques
 4) Snakes & Ladders: Check notes
 5) DFS: https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1
-6) Connected Components using DFS Graphs: 
+6) Connected Components using DFS Graphs: CB
 7) DAG's Topological Sort Using DFS Graphs: 
 8) Topological Sort Using BFS Graphs: 
-9) Undirected Graph is a Tree or Not: 
+9) Undirected Graph is a Tree or Not: CB
 10) Cycle Detection in Directed Graph using DFS: 
 11) Cycle Detection Undirected Graph using DFS: 
 12) Cycle Detection in Directed Graph using BFS: 
