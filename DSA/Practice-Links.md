@@ -379,12 +379,20 @@ Generic Graph Implementation - genericGraph.cpp
 5) DFS: https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1
 6) Connected Components using DFS Graphs: CB
 7) DAG's Topological Sort Using DFS Graphs: https://www.geeksforgeeks.org/problems/topological-sort/1
+// add ordering .. only for DAG
 8) Topological Sort Using BFS Graphs: https://www.geeksforgeeks.org/problems/topological-sort/1
+// inner degree of vertices .. only for DAG
 9) Undirected Graph is a Tree or Not: https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-bfs/
+// same as undirected bfs - 10 
 10) Cycle Detection in UnDirected Graph using BFS: https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-bfs/
+// visit check parent
 11) Cycle Detection Undirected Graph using DFS: https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-dfs/
-12) Cycle Detection in Directed Graph using BFS: https://www.geeksforgeeks.org/detect-cycle-in-a-directed-graph-using-bfs/
-13) Cycle Detection Directed Graph using DFS: https://takeuforward.org/data-structure/detect-a-cycle-in-directed-graph-topological-sort-kahns-algorithm-g-23/
+// visit check parent
+12) Cycle Detection in Directed Graph using BFS: https://www.geeksforgeeks.org/detect-cycle-in-a-directed-graph-using-bfs/ 
+// Kahn Algo / same as topo bfs / just check topo sort vector size != n
+13) Cycle Detection Directed Graph using DFS: https://takeuforward.org/data-structure/
+detect-a-cycle-in-directed-graph-topological-sort-kahns-algorithm-g-23/
+// maintain stack -- check path
 14) Number of islands(Do in Grid and Graph Both): 
 15) Bipartite Check using BFS: 
 16) Bipartite Check using DFS: 
