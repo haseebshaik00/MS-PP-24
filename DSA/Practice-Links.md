@@ -390,6 +390,7 @@ Generic Graph Implementation - genericGraph.cpp
 // visit check parent
 12) Cycle Detection in Directed Graph using BFS: https://www.geeksforgeeks.org/detect-cycle-in-a-directed-graph-using-bfs/ 
 // Kahn Algo / same as topo bfs / just check topo sort vector size != n
+https://leetcode.com/problems/course-schedule/description/ -- 38.12 (practice)
 13) Cycle Detection Directed Graph using DFS: https://takeuforward.org/data-structure/
 detect-a-cycle-in-directed-graph-topological-sort-kahns-algorithm-g-23/
 // maintain stack -- check path
