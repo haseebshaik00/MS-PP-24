@@ -383,9 +383,9 @@ Generic Graph Implementation - genericGraph.cpp
 9) Undirected Graph is a Tree or Not: https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-bfs/
 10) Cycle Detection in UnDirected Graph using BFS: https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-bfs/
 11) Cycle Detection Undirected Graph using DFS: https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-dfs/
-12) Cycle Detection in Directed Graph using BFS: 
-13) Cycle Detection Directed Graph using DFS: 
-14) Number of islands(Do in Grid and Graph Both):
+12) Cycle Detection in Directed Graph using BFS: https://www.geeksforgeeks.org/detect-cycle-in-a-directed-graph-using-bfs/
+13) Cycle Detection Directed Graph using DFS: https://takeuforward.org/data-structure/detect-a-cycle-in-directed-graph-topological-sort-kahns-algorithm-g-23/
+14) Number of islands(Do in Grid and Graph Both): 
 15) Bipartite Check using BFS: 
 16) Bipartite Check using DFS: 
 17) Flood Fill Algo: 

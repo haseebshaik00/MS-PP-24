@@ -11,27 +11,32 @@ public:
             l[y].push_back(x);
     }
 
-    bool detectCycleHelper(int node, vector<bool> &visited, vector<bool> &stack){
-        visited[node] = true;
-        stack[node] = true;
-
-        for(auto x: l[node]){
-            if(stack[x])
+    bool dfsHelper(vector<bool> &visited, vector<bool> &stackPack, int i){
+        visited[i] = true;
+        stackPack[i] = true;
+        for(auto x:l[i]){
+            if(stackPack[x])
                 return true;
             else if(!visited[x]){
-                bool hasCycle = detectCycleHelper(x, visited, stack);
-                if(hasCycle) return true;
+                if(dfsHelper(visited, stackPack, x))
+                    return true;
             }
         }
-        stack[node] = false;
+        stackPack[i]=false;
         return false;
     }
 
     bool detectCycle(){
         int n = l.size();
         vector<bool> visited(n, false);
-        vector<bool> stack(n, false);
-        return detectCycleHelper(0, visited, stack);
+        vector<bool> stackPack(n, false);
+        for(int i=0; i<n; i++){
+            if(!visited[i]){
+                if(dfsHelper(visited, stackPack, i))
+                    return true;
+            }
+        }
+        return false;
     }
 };
 
