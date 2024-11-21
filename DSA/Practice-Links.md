@@ -399,7 +399,7 @@ detect-a-cycle-in-directed-graph-topological-sort-kahns-algorithm-g-23/
 16) Bipartite Check using BFS: https://leetcode.com/problems/is-graph-bipartite/
 17) Bipartite Check using DFS: https://leetcode.com/problems/is-graph-bipartite/
 18) Flood Fill Algo: https://www.geeksforgeeks.org/problems/flood-fill-algorithm1856/1
-19) Dijksta Algo: 
+19) Dijksta Algo: https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1
 
 X39) Striver Sheet()
 1) 4sum: https://leetcode.com/problems/4sum/
