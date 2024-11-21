@@ -369,7 +369,7 @@ X37) Dynamic Programming (251)
 32) Brackets all over: coding blocks question
 33) Count subsequences:  coding blocks question
 
-X38) Graphs (269)
+X38) Graphs (270)
 Adjacency List Implementation - graph.cpp
 Generic Graph Implementation - genericGraph.cpp
 1) Clone Graph: https://leetcode.com/problems/clone-graph/
@@ -394,11 +394,12 @@ https://leetcode.com/problems/course-schedule/description/ -- 38.12 (practice)
 13) Cycle Detection Directed Graph using DFS: https://takeuforward.org/data-structure/
 detect-a-cycle-in-directed-graph-topological-sort-kahns-algorithm-g-23/
 // maintain stack -- check path
-14) Number of islands(Do in Grid and Graph Both): 
-15) Bipartite Check using BFS: 
-16) Bipartite Check using DFS: 
-17) Flood Fill Algo: 
-18) Dijksta Algo: 
+14) Number of islands (BFS): https://leetcode.com/problems/number-of-islands/ 
+15) No. of distinct islands (DFS): https://takeuforward.org/data-structure/number-of-distinct-islands/
+16) Bipartite Check using BFS: https://leetcode.com/problems/is-graph-bipartite/
+17) Bipartite Check using DFS: https://leetcode.com/problems/is-graph-bipartite/
+18) Flood Fill Algo: https://www.geeksforgeeks.org/problems/flood-fill-algorithm1856/1
+19) Dijksta Algo: 
 
 X39) Striver Sheet()
 1) 4sum: https://leetcode.com/problems/4sum/
