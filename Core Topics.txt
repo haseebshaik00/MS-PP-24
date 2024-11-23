@@ -1,0 +1,5 @@
+DS Algo: https://github.com/haseebshaik00/MS-PP-24/tree/main/DSA/Codes
+DSA Notes: https://drive.google.com/file/d/1r9lbw_83Y8IAV7gJtmGMxaCVx1uagFnK/view?usp=sharing
+Interview Core Topics: https://docs.google.com/document/d/18nrof3Wok7DoYrtuoWtYwAXxFIar6tzIK6Tg7F_z7mc/edit?usp=sharing
+Core Topics (Old): https://drive.google.com/file/d/1QNhTDtRMY3al2HsWqbcJA-WPAOj-aJMj/view?usp=sharing
+SQL & Time Complexity: https://drive.google.com/file/d/1cogpBAYcRMlgdyEw20eXwj4YLR48vNjZ/view?usp=sharing
