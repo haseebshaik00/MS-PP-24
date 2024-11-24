@@ -4,6 +4,7 @@ Keeping a tab of my forthcoming 2 years journey. Please ignore!
 
 ## Plan
 
+- Tech Stack
 - Internet Basics: HTTP, DNS, SSL, SEO, IP, CORS, API, and REST
 - Terminal Commands
 - Git and Github
