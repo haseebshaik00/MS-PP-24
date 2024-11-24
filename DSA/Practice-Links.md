@@ -418,3 +418,5 @@ X39) Striver Sheet(286)
 14) Clone a Linked List with random and next pointer: https://leetcode.com/problems/copy-list-with-random-pointer/description/
 15) Job scheduling: https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1
 16) Assign cookies: https://leetcode.com/problems/assign-cookies/
+17) Combination Sum: https://leetcode.com/problems/combination-sum/
+18) Combination Sum 2: https://leetcode.com/problems/combination-sum-ii/
