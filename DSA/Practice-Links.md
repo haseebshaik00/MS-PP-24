@@ -420,3 +420,5 @@ X39) Striver Sheet(286)
 16) Assign cookies: https://leetcode.com/problems/assign-cookies/
 17) Combination Sum: https://leetcode.com/problems/combination-sum/
 18) Combination Sum 2: https://leetcode.com/problems/combination-sum-ii/
+19) Palindromic Partitioning: https://leetcode.com/problems/palindrome-partitioning/
+20) k permut: https://leetcode.com/problems/permutation-sequence/
