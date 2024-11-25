@@ -55,6 +55,7 @@ Refer more: <https://github.com/haseebshaik00/FullStack_NodeJS_Live_March2020/bl
 ## FrontEnd
 
 **1) HTML**  
+While both "semantic" and "metadata" relate to providing information about data, "semantic" focuses on the meaning and interpretation of that data, while "metadata" refers to the descriptive details about the data itself, like its source, creation date, and format; essentially, semantic metadata is a layer of metadata that explicitly describes the meaning of the data, allowing computers to understand its context and relationships better.
 a) html5 boilerplate and description of each element and attribute in it  
 <https://github.com/haseebshaik00/FullStack_NodeJS_Live_March2020/blob/master/Lecture01/html-basics/index.html>  
 b) normal text, tags - para"p-/p", break"br", italic "i-/i" or "em-/em", bold "b-/b" or "strong-/strong", underline"u-/u",
