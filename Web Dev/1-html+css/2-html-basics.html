@@ -166,8 +166,10 @@
     <!-- default target - opens in the same tab -->
     <h3><u>Links, Inner Links and iframes</u></h3>
     <a href="https://www.google.com" target="_self">same page google</a> <br>
+    
     <!-- opens in the new tab -->
     <a href="https://www.google.com" target="_blank">new page google</a> <br>
+    
     <!-- _self: the current browsing context. (Default)
     _blank: usually a new tab, but users can configure browsers to open a new window instead.
     _parent: the parent browsing context of the current one. If no parent, behaves as _self.
@@ -178,7 +180,9 @@
     <!-- Inner Links -->
     <ul>
         <li><a href="#link1">First Link</a></li>
-        <li><a href="#link2">Second Link</a></li>
+        <li><a href="#link1" target="_self">First Link</a></li>
+        <li><a href="#link1" target="_parent">First Link</a></li>
+        <li><a href="#link2" target="_top">Second Link</a></li>
         <li><a href="#link3" target="_blank">Third Link</a></li>
     </ul>
 
@@ -200,8 +204,8 @@
         <li><a href="./3-html-inner-link.html" target="frames2">Render 3-html-inner-link.html in iframe2</a></li>
         <li><a href="./2-html-basics.html" target="frames2">Render 2-html-basics.html in iframe2</a></li>
         
-        <!-- trigerring further targets the very same iframe not the inside one -->
-        <li>See termination of recursion in 3rd box of iframe</li>
+        <!-- parent can't be rendered inside child check iframe 2(after clicking the above link) and iframe3-->
+        <li>See termination of recursion in 3rd box of iframe in iframe2</li>
         
         <li><a href="https://www.google.com" target="_parent">Parent Page google</a></li>
         <li><a href="https://www.google.com" target="_top">Top Page google</a></li>
@@ -212,7 +216,7 @@
     <iframe name="frames3" src="./2-html-basics.html" height="200" width="400" frameborder="1"></iframe>
 
     <!-- Media -->
-    <h4><u>Media</u></h4>    
+    <h4><u>Media</u></h4>
     <img src="./public/media/pic.jpg" height="400" width="600" alt="Batman">
     <video src="./public/media/video.mp4" height="400" width="400" controls autoplay preload="auto"></video>
     <!-- info for preload
@@ -265,6 +269,14 @@
                 <input name="radioOpt" id="r3" value="radio3" type="radio">
                 <label for="r3">Radio 3</label>
             </li>
+            <li>
+                <input name="radioOpt" id="r4" value="radio4" type="radio"/>
+                <label for="r4">Radio 4</label>
+            </li>
+            <li>
+                <input type="radio" id="r5" name="radioOpt" value="radio4">
+                <label for="r5">Radio 5</label>
+            </li>
         </ul>
         <ul type="none">
             <h4>Checkbox: </h4>
@@ -301,6 +313,7 @@
         </select>
         <br><br>
         <button type="submit">Submit</button>
+        <input type="button" id="cancelButton" value="Cancel">
     </form>
 
 </body>
