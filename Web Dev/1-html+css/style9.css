@@ -4,14 +4,15 @@
     width: 300px;
     margin: 50px;
     border: solid 1px crimson;
-    border-radius: 1px;
+    border-radius: 10px;
     box-shadow: rebeccapurple 3px 3px 10px;
     display: inline-flex;
 
     /* flex properties*/
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
+    /* flex-flow: column wrap-reverse; */
     justify-content: end;
     align-items: baseline;
     align-content: flex-start;

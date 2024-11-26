@@ -38,7 +38,7 @@
 }
 
 .box1{
-    background-color: black;
+    background-color: blueviolet;
     height: 100px;
     width: 100px;
     margin: 10px;
@@ -50,6 +50,13 @@
     text-align: center;
     line-height: 40px;
 }
+
+/* min-width and max-width in Media Queries:
+min-width: Specifies the minimum width of the viewport for the styles to be applied. 
+The styles will apply if the viewport is equal to or greater than the specified width.
+
+max-width: Specifies the maximum width of the viewport for the styles to be applied. 
+The styles will apply if the viewport is equal to or less than the specified width. */
 
 /* for min-width start with min pixels and go on -- min-width means keep this property from this point -- kind of min start */
 /* use for starting point of development in mobiles */

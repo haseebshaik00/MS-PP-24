@@ -104,7 +104,7 @@ b) display: flex;
 c) flex-wrap: wrap; // flex-flow: wrap row;
 d) flex-direction: row; /* the above two statements short form : flex-flow:row wrap*/
 e) justify-content: flex-end; /* how items within a row are aligned in order*/
-f) align-items: baseline; /* align items within the row perpendicularly*/
+f) align-items: baseline; /* align items within the row along the cross axis*/
 g) align-content: flex-end; /* how rows all together are aligned*/
 h) gap: 20px 30px;
 i) order: 1;
