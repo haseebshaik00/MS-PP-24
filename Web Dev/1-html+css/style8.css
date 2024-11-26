@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .container{
     background-color: olivedrab;
     height: 400px;
@@ -6,7 +10,7 @@
     margin-top: 150px;
     border: solid 2px darkolivegreen;
     box-shadow: greenyellow 2px 2px 5px;
-    border-radius: 2px;
+    border-radius: 10px;
 }
 
 .box{
@@ -16,12 +20,11 @@
     display: inline-block;
     margin: 20px;
     border: solid 2px whitesmoke;
-    border-radius: 2px;
+    border-radius: 10px;
 }
 
 .player{
     transform: translateY(150px);
-    transition: 1s linear;
 }
 
 .enemy{

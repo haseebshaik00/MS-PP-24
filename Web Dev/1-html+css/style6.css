@@ -11,7 +11,7 @@ div{
     font-weight: bolder;
     color: white;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 200px;
     margin-left: 100px;
 }
 
@@ -28,7 +28,7 @@ div{
 }
 
 .three{
-    transform: scale(2,2);
+    transform: scale(2);
     /* transform: scale(2); = transform: scale(2,2); */
     transform: scaleX(2);
     transform: scaleY(3);
