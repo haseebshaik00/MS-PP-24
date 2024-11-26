@@ -61,6 +61,13 @@ input::placeholder {
     color: red;
   }
 
+a:hover{
+    color: darkblue;
+}
+a:active{
+    color:pink;
+}
+
 /* more pseudo selectors - nth-child(), last-child, first-child, placeholder, link, visited   */
 
 /* Attribute Selector */
@@ -77,6 +84,7 @@ h1 + p {
 /* General Sibling */
 h1 ~ p {
     font-weight: bolder;
+    color: blue;
 }
 
 /* Child */
