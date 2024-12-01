@@ -115,7 +115,7 @@ m) flex: 3 0 200px;
 n) align-self: center;
 
 **4) Media Queries**
-a) All possible queries  
+a) All possible queries
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .example {background: red;}

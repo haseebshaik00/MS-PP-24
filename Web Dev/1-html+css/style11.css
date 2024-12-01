@@ -25,12 +25,11 @@
     left: 600px;
 }
 
-/* .one{
+.one{
     position: static;
     top: 100px;
     left: 200px;
-} */
-/* no sense to use left right top down here */
+}
 
 .one{
     position: relative;
