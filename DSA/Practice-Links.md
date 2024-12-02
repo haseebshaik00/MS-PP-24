@@ -72,13 +72,13 @@ X) STL (48)
 
 XI) Binary Search (56)
 1) First & Last Occurence: 
-2) Pivot Element: 
-2) Monotonic Search Spaces:
-3) Book Allocation: 
+2) Pivot Element: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
+2) Monotonic Search Spaces: 
+3) Book Allocation: https://www.interviewbit.com/problems/allocate-books/
 4) PRATA: 
 5) Winning CB Scholarship: 
 6) Painter's Problem: 
-7) kth Root: 
+7) kth Root: https://www.naukri.com/code360/problems/1062679?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
 8) Pivot in a sorted rotated array: https://medium.com/@utkarsh.gupta0311/finding-the-pivot-in-a-rotated-and-sorted-array-using-binary-search-in-c-fdac97e566ce
 https://www.youtube.com/watch?v=vF7gk4iaklA
 
@@ -158,11 +158,11 @@ XIX) Recursion (Part 4- Subset Based) (108)
 5) String Generation Acode: 
 
 XX) Recursion (Part 5-Backtracking) (113)
-1) Rat in a maze: 
+1) Rat in a maze: https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
 2) Permutation: 
 3) Unique Permutation: 
-4) N-queen Backtracking: 
-5) Sudoku: 
+4) N-queen Backtracking: https://leetcode.com/problems/n-queens/description/
+5) Sudoku: https://leetcode.com/problems/sudoku-solver/description/
 
 XXI) Recursion Practice Problems (120)
 1) String Remove Duplicates
@@ -401,7 +401,7 @@ detect-a-cycle-in-directed-graph-topological-sort-kahns-algorithm-g-23/
 18) Flood Fill Algo: https://www.geeksforgeeks.org/problems/flood-fill-algorithm1856/1
 19) Dijksta Algo: https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1
 
-X39) Striver Sheet(286)
+X39) Striver Sheet(290)
 1) 4sum: https://leetcode.com/problems/4sum/
 2) reverse string: https://leetcode.com/problems/reverse-words-in-a-string/description/
 3) Longest Palindrome Substring: https://leetcode.com/problems/longest-palindromic-substring/
@@ -422,3 +422,10 @@ X39) Striver Sheet(286)
 18) Combination Sum 2: https://leetcode.com/problems/combination-sum-ii/
 19) Palindromic Partitioning: https://leetcode.com/problems/palindrome-partitioning/
 20) k permut: https://leetcode.com/problems/permutation-sequence/
+21) M coloring: https://www.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1
+22) Word break: https://www.naukri.com/code360/problems/983635?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
+23) Aggressive Cows: https://www.naukri.com/code360/problems/983635?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
+24) Median in a row-wise sorted Matrix: https://www.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=median-in-a-row-wise-sorted-matrix
+25) Single Element in a Sorted Array: https://leetcode.com/problems/single-element-in-a-sorted-array/description/
+26) K-th element of two Arrays: https://www.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1
+27) Median of Two Sorted Arrays: https://leetcode.com/problems/median-of-two-sorted-arrays/description/
