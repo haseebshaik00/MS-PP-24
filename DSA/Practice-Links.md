@@ -439,7 +439,7 @@ detect-a-cycle-in-directed-graph-topological-sort-kahns-algorithm-g-23/
 18) Flood Fill Algo: https://leetcode.com/problems/flood-fill/description/
 19) Dijksta Algo: https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1
 
-X39) Striver Sheet(326)
+X39) Striver Sheet(327)
 1) 4sum: https://leetcode.com/problems/4sum/
 2) reverse string: https://leetcode.com/problems/reverse-words-in-a-string/description/
 3) Longest Palindrome Substring: https://leetcode.com/problems/longest-palindromic-substring/
