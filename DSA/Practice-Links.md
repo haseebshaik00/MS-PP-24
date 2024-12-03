@@ -64,6 +64,8 @@ IX) String Challenges (45)
 5) String Compression: https://www.geeksforgeeks.org/valid-compressed-string/
 6) Sanket and Strings(sliding window): https://discuss.codingblocks.com/t/sanket-and-strings-dsa-question-practicing-strings/155569
 7) Is CB No.: https://discuss.codingblocks.com/t/finding-cb-numbers/135077
+// check String Part 2 OF https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems
+
 
 X) STL (48)
 1) Money Problem: https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/
@@ -75,9 +77,13 @@ XI) Binary Search (56)
 2) Pivot Element: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
 2) Monotonic Search Spaces: 
 3) Book Allocation: https://www.interviewbit.com/problems/allocate-books/
+2) Pivot Element: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
+2) Monotonic Search Spaces: 
+3) Book Allocation: https://www.interviewbit.com/problems/allocate-books/
 4) PRATA: 
 5) Winning CB Scholarship: 
 6) Painter's Problem: 
+7) kth Root: https://www.naukri.com/code360/problems/1062679?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
 7) kth Root: https://www.naukri.com/code360/problems/1062679?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
 8) Pivot in a sorted rotated array: https://medium.com/@utkarsh.gupta0311/finding-the-pivot-in-a-rotated-and-sorted-array-using-binary-search-in-c-fdac97e566ce
 https://www.youtube.com/watch?v=vF7gk4iaklA
@@ -159,12 +165,15 @@ XIX) Recursion (Part 4- Subset Based) (108)
 
 XX) Recursion (Part 5-Backtracking) (113)
 1) Rat in a maze: https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
+1) Rat in a maze: https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
 2) Permutation: 
 3) Unique Permutation: 
 4) N-queen Backtracking: https://leetcode.com/problems/n-queens/description/
 5) Sudoku: https://leetcode.com/problems/sudoku-solver/description/
+4) N-queen Backtracking: https://leetcode.com/problems/n-queens/description/
+5) Sudoku: https://leetcode.com/problems/sudoku-solver/description/
 
-XXI) Recursion Practice Problems (120)
+XXI) Recursion Practice Problems (123)
 1) String Remove Duplicates
 2) Tiling Problem 2:
 3) Move X to end: 
@@ -191,7 +200,7 @@ XXIII) Generic Programming in C++:
 2) Iterator
 3) Comparator
 
-XXIV) Linked Lists: (130)
+XXIV) Linked Lists: (133)
 1) Insertion, Deletion, Length, Print, Search, Input, Overload
 2) Reverse
 3) Reverse Recursion
@@ -205,7 +214,7 @@ XXIV) Linked Lists: (130)
 // Forward List & List STL
 10) List - Adjacency List for Weighted Graphs
 
-XXV) Linked List Challenges: (141)
+XXV) Linked List Challenges: (144)
 1) Remove nth node from back of the LL
 2) Add 2 Numbers
 3) Delete a node when a node is given
@@ -218,68 +227,92 @@ XXV) Linked List Challenges: (141)
 10) Insertion Sort LL
 11) Floyd Cycle Removal
 
-XXVI) Stack: (146)
-// Implementation And STL
-// Min Max Stack
+XXVI) Stack: (149)
+// Implementation And STL: https://www.geeksforgeeks.org/problems/implement-stack-using-array/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=implement-stack-using-array
+// Min Max Stack: https://leetcode.com/problems/min-stack/description/
 1) Reverse a Stack
 2) Recursive Reverse
-3) Balanced Paranthesis
-4) Stock Span
+3) Balanced Paranthesis: https://leetcode.com/problems/valid-parentheses/
+4) Stock Span: https://leetcode.com/problems/online-stock-span/description/
 5) Histogram Area: https://leetcode.com/problems/largest-rectangle-in-histogram/description/
 
-XXVII) Queue: (148)
-// Circular Queue, Queue with List and STL Implementation 
+
+XXVII) Queue: (151)
+// Circular Queue
+// Queue with List and STL Implementation: https://www.geeksforgeeks.org/problems/implement-queue-using-array/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=implement-queue-using-array
+// stack using 1 queue: https://leetcode.com/problems/implement-stack-using-queues/description/
+// queue using stack O(1) AMORTIZED METHOD: https://leetcode.com/problems/implement-queue-using-stacks/description/
+// queue with 2 stacks
+// stack with 2 queue 
 1) First Non repeating char
 2) Max Unique Substring Length
 
-XXVIII) SQD Challenges (151)
+XXVIII) SQD Challenges (154)
 // stack reverse & reverse rec
-1) Next Greater Element (Leetcode 2)
+1) Next Greater Element (Leetcode 2): https://leetcode.com/problems/next-greater-element-i/description/
 2) Redundant Parathesis 
 3) Importance of Time (Deque)
 
-XXIX) Binary Trees (168)
+XXIX) Binary Trees (173)
+// bt from pre in: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/
+// bt from post in: https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/
 1) build-preorder and print-pre, in, post
-2) Height and printKthLevel
-3) Level Order
+https://leetcode.com/problems/binary-tree-preorder-traversal/description/
+https://leetcode.com/problems/binary-tree-postorder-traversal/description/
+https://leetcode.com/problems/binary-tree-inorder-traversal/description/
+2) Height and printKthLevel: https://leetcode.com/problems/maximum-depth-of-binary-tree/description/
+3) Level Order: https://leetcode.com/problems/binary-tree-level-order-traversal/description/
 4) BFS and BFS New Line
 5) Count no of nodes and node sum
 6) Diameter O(n^2)
-7) Diameter O(n)
+7) Diameter O(n): https://leetcode.com/problems/diameter-of-binary-tree/description/
 8) Sum Replacement
-9) Height Balanced Tree
-10) Balanced Tree from Array
+9) Height Balanced Tree: 
+10) Balanced Tree from Array: https://leetcode.com/problems/balanced-binary-tree/description/
 11) Tree from PRE and POST
 12) Right View
 13) Nodes at a given distance from K: https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/
-14) Mirror BTN
-15) LCA - lowest common ancestor
-16) Max Sum Path from Node to Node
+14) Mirror BTN: https://www.geeksforgeeks.org/problems/mirror-tree/1
+15) LCA - lowest common ancestor: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/
+16) Max Sum Path from Node to Node: https://leetcode.com/problems/binary-tree-maximum-path-sum/description/
 17) Shortest dist. betn 2 nodes
+18) Root to Leaf Paths: https://www.geeksforgeeks.org/problems/root-to-leaf-paths/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=root-to-leaf-paths
+19) symmetric tree: https://leetcode.com/problems/symmetric-tree/description/
 
-X3) Binary Search Tree (172)
+X3) Binary Search Tree (180)
 1) Insertion, Build, Deletion and Search 
 2) check for BST
 3) flatten a tree
+4) floor, ceil in BST: https://www.naukri.com/code360/problems/floor-from-bst_920457?source=youtube&campaign=Striver_Tree_Videos&utm_source=youtube&utm_medium=affiliate&utm_campaign=Striver_Tree_Videos
+https://www.naukri.com/code360/problems/ceil-from-bst_920464?source=youtube&campaign=Striver_Tree_Videos&utm_source=youtube&utm_medium=affiliate&utm_campaign=Striver_Tree_Videos
+
+5) KTH smallest and largest element: https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
+https://www.geeksforgeeks.org/problems/kth-largest-element-in-bst/1
+
+6) BST Iterator: https://leetcode.com/problems/binary-search-tree-iterator/description/
+7) Serialize and Deserialize Binary Tree
+https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/
 // bst - construct from preorder: find inorder by sorting, then in O(log n) time create BST using both the traversals
 // sorted array to BST: use divide and conquer - divide in middle and create BST in O(logn) time
 // catalan number concept   
 // Set and Multiset STL
 // Multiset Custom class
 
-X3I) Challenges - Tree (182)
-1) Same Tree
+X3I) Challenges - Tree (191)
+1) Same Tree: https://leetcode.com/problems/same-tree/description/
 2) Sum At Level K
 3) BST in a given range
-4) Bottom View
-5) Zig Zag
+4) Bottom View: https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1
+5) Zig Zag: https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/
 6) Replace sum of greater nodes 
-7) Left View
-8) Top View
+7) Left View: https://www.geeksforgeeks.org/problems/left-view-of-binary-tree/1
+8) Top View: https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1
 9) Largest BST: https://www.geeksforgeeks.org/problems/largest-bst/1
 10) Symmetric tree: https://leetcode.com/problems/symmetric-tree/description/
+// in, pre, post traversal - single go - https://www.naukri.com/code360/problems/981269?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
+11) boundary of tree - https://leetcode.com/problems/boundary-of-binary-tree/description/
 
-X32) Heaps (191)
+X32) Heaps (200)
 1) Insert, Delete + Heapify, Get, Size
 2) Array to Heap - O(n logn) and O(n)
 3) HeapSort
@@ -293,12 +326,12 @@ X32) Heaps (191)
 https://ide.codingblocks.com/s/198442?_ga=2.178682468.1156519533.1727580140-674054011.1703753790
 9) Top k most frequent number in a stream: https://leetcode.com/problems/top-k-frequent-elements/description/
 
-X33) Hashing (198)
+X33) Hashing (207)
 1) Implementation Hashtable - insert, delete, search, erase, print, []
 // Map and Unordered Map STL
 // Unordered Map Custom Class
 // PhoneBook
-2) Vertical Order Tree Print
+2) Vertical Order Tree Print: https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/description/
 3) Subarray sum zero: https://www.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1
 4) Longest Subarray with 0 sum: https://www.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1
 5) Longest Subarray with k sum: https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1
@@ -306,13 +339,17 @@ X33) Hashing (198)
 7) Minimum Window Substring: https://leetcode.com/problems/minimum-window-substring/description/
 // Triangles and Rectangles - check notes
 
-X34) Tries (202)
-1) Trie Implementation: 
+X34) Tries (211)
+1) Trie Implementation: https://leetcode.com/problems/implement-trie-prefix-tree/description/
+https://www.naukri.com/code360/problems/implement-trie_1387095?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_tries_videos
 2) Smallest Unique Prefix Array: 
-3) Maximum xor pair in an array: 
-4) Subarray with max xor pair - do 34.3 on cumulative xor array
+3) Maximum xor pair in an array: https://leetcode.com/problems/maximum-xor-with-an-element-from-array/description/
+4) Subarray with max xor pair - do 34.3 on cumulative xor array: https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/description/
+Complete String: https://www.naukri.com/code360/problems/complete-string_2687860?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_tries_videos
+Count Distinct Substrings: https://www.naukri.com/code360/problems/count-distinct-substrings_985292?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_tries_videos
+Power Set: https://www.geeksforgeeks.org/problems/power-set4302/1
 
-X35) Challenges - Hash n Tries (206)
+X35) Challenges - Hash n Tries (215)
 1) Unlock
 2) Subarray with distinct elements
 3) Digital Dictionary
@@ -320,7 +357,7 @@ X35) Challenges - Hash n Tries (206)
 // Trie Interview - extended concepts of 34.4 check notes
 // 34.3 34.4 35.4 Trie Interview -- all are based on the same XOR concept - do look
 
-X36) Greedy Algo (218)
+X36) Greedy Algo (227)
 1) Indian Coin Change: 
 2) Activity selection:
 3) Connecting wires:
@@ -334,13 +371,13 @@ X36) Greedy Algo (218)
 11) Deepak and his journey: 
 12) Min Platforms: https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1
 
-X37) Dynamic Programming (251)
+X37) Dynamic Programming (261)
 1) Fibonacci: 
 2) Min to One: 
 3) Min Coin Change: 
 4) Wine Problem: 
 5) Ladder: 
-6) Rod Cutting: 
+6) Rod Cutting: https://leetcode.com/problems/minimum-cost-to-cut-a-stick/description/
 7) Longest Common Subsequence:
 8) LIS 1:
 9) LIS 2:
@@ -368,8 +405,9 @@ X37) Dynamic Programming (251)
 31) Ugly Nos.: https://www.geeksforgeeks.org/ugly-numbers/
 32) Brackets all over: coding blocks question
 33) Count subsequences:  coding blocks question
+34) Max Sum Increasing Subsequence: https://www.geeksforgeeks.org/problems/maximum-sum-increasing-subsequence4749/1
 
-X38) Graphs (270)
+X38) Graphs (280)
 Adjacency List Implementation - graph.cpp
 Generic Graph Implementation - genericGraph.cpp
 1) Clone Graph: https://leetcode.com/problems/clone-graph/
@@ -398,10 +436,10 @@ detect-a-cycle-in-directed-graph-topological-sort-kahns-algorithm-g-23/
 15) No. of distinct islands (DFS): https://takeuforward.org/data-structure/number-of-distinct-islands/
 16) Bipartite Check using BFS: https://leetcode.com/problems/is-graph-bipartite/
 17) Bipartite Check using DFS: https://leetcode.com/problems/is-graph-bipartite/
-18) Flood Fill Algo: https://www.geeksforgeeks.org/problems/flood-fill-algorithm1856/1
+18) Flood Fill Algo: https://leetcode.com/problems/flood-fill/description/
 19) Dijksta Algo: https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1
 
-X39) Striver Sheet(290)
+X39) Striver Sheet(326)
 1) 4sum: https://leetcode.com/problems/4sum/
 2) reverse string: https://leetcode.com/problems/reverse-words-in-a-string/description/
 3) Longest Palindrome Substring: https://leetcode.com/problems/longest-palindromic-substring/
@@ -420,7 +458,7 @@ X39) Striver Sheet(290)
 16) Assign cookies: https://leetcode.com/problems/assign-cookies/
 17) Combination Sum: https://leetcode.com/problems/combination-sum/
 18) Combination Sum 2: https://leetcode.com/problems/combination-sum-ii/
-19) Palindromic Partitioning: https://leetcode.com/problems/palindrome-partitioning/
+19) Palindromic Partitioning: https://www.geeksforgeeks.org/problems/palindromic-patitioning4845/1
 20) k permut: https://leetcode.com/problems/permutation-sequence/
 21) M coloring: https://www.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1
 22) Word break: https://www.naukri.com/code360/problems/983635?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
@@ -429,3 +467,26 @@ X39) Striver Sheet(290)
 25) Single Element in a Sorted Array: https://leetcode.com/problems/single-element-in-a-sorted-array/description/
 26) K-th element of two Arrays: https://www.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1
 27) Median of Two Sorted Arrays: https://leetcode.com/problems/median-of-two-sorted-arrays/description/
+28) sort a stack: https://www.naukri.com/code360/problems/sort-a-stack_985275?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
+29) Next Smaller Element: https://www.interviewbit.com/problems/nearest-smaller-element/
+30) LRU cache (IMPORTANT): https://leetcode.com/problems/lru-cache/description/
+31) LFU cache: https://leetcode.com/problems/lfu-cache/description/
+32) Sliding window maximum: https://leetcode.com/problems/sliding-window-maximum/description/
+33) Rotting oranges: https://leetcode.com/problems/rotting-oranges/description/
+34) Find the maximum of minimums of every window size: https://www.naukri.com/code360/problems/max-of-min_982935?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
+35) Morris In/Pre Traversal:
+https://www.naukri.com/code360/problems/preorder-traversal_3838888?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
+https://leetcode.com/problems/binary-tree-inorder-traversal/description/
+36) Max width of binary tree: https://leetcode.com/problems/maximum-width-of-binary-tree/
+37) Flatten a bt: https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/
+38) Child Sum Property: https://www.geeksforgeeks.org/problems/children-sum-parent/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=hildren-sum-parent
+39) BST - Populate Next Right pointers of Tree - https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/
+40) lca BST - https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/
+41) solve 5 Binary Tree Miscellaneous Questions
+42) Edit Distance: https://leetcode.com/problems/edit-distance/description/
+43) Word Break: https://leetcode.com/problems/word-break/description/
+44) Egg Drop: https://www.geeksforgeeks.org/problems/egg-dropping-puzzle-1587115620/1
+45) Partition Equal Subset Sum: https://leetcode.com/problems/partition-equal-subset-sum/description/
+46) Minimum Path Sum: https://leetcode.com/problems/minimum-path-sum/description/
+
+47) Matrix Exponentiation: https://www.geeksforgeeks.org/matrix-exponentiation/
