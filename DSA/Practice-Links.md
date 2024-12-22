@@ -1,6 +1,6 @@
 I) Searching (2)
-1) Linear Search: https://www.geeksforgeeks.org/linear-search/
-2) Binary Search: https://leetcode.com/problems/binary-search/
+1) Linear Search: https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1 (1:21 mins)
+2) Binary Search: https://leetcode.com/problems/binary-search/ 
 
 II) Sorting (7)
 1) Bubble Sort: https://www.geeksforgeeks.org/bubble-sort/
@@ -488,5 +488,3 @@ https://leetcode.com/problems/binary-tree-inorder-traversal/description/
 44) Egg Drop: https://www.geeksforgeeks.org/problems/egg-dropping-puzzle-1587115620/1
 45) Partition Equal Subset Sum: https://leetcode.com/problems/partition-equal-subset-sum/description/
 46) Minimum Path Sum: https://leetcode.com/problems/minimum-path-sum/description/
-
-47) Matrix Exponentiation: https://www.geeksforgeeks.org/matrix-exponentiation/
