@@ -30,6 +30,14 @@ console.log(a(), typeof a());
 console.log(a, typeof a);
 
 // 2) functions.js
+function a1(){ //function declaration
+    return 1;
+}
+
+let b1 = function () { //function expression
+    return 1;
+}
+
 console.log(beta()); //hoisting
 
 function alpha () {
@@ -51,7 +59,7 @@ console.log(gamma());
 console.log(beta());
 
 // null - 0 - false - undefined - '' all act as false hence can be used in if  
-function area(height, width) {
+function area(height, width) { // just change logic to make a function act as polymorphism
     if (!width) {
         return Math.PI * height * height;
     }
