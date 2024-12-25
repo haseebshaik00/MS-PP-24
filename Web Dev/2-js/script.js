@@ -69,6 +69,13 @@ function area(height, width) { // just change logic to make a function act as po
 console.log('area 3,4 ', area(3,4));
 console.log('area 4 ', area(4));
 
+// def add(a, b):  # 'a' and 'b' are parameters
+//     return a + b
+
+// result = add(5, 3)  # 5 and 3 are arguments
+// print(result)  # Output: 8
+
+
 function hello () {
     let arguments = 'asdasd'; //dont take the variable name arguments
     console.log('hello world ' + arguments[0] + arguments[1]);
@@ -76,7 +83,7 @@ function hello () {
 
 function hello1 () {
     let argument = 'asdasd'; //dont take the variable name arguments
-    console.log('hello world ' + arguments[0] + arguments[1]);
+    console.log('hello world ' + arguments[0] + arguments[1]); // arguments store all the arguments paraments in an array
     console.log('hello world ' + argument[0] + argument[1]);
 }
 
@@ -88,6 +95,8 @@ hello1('Arnav', 'Gupta');
 
 // 3) higher_order_functions.js
 //https://github.com/haseebshaik00/FullStack_NodeJS_Live_March2020/tree/master/Lecture05/js-basics
+// first order func- defined by global scope and can be directly called
+// HOF - if a prog lang allows you to pass function as a argument and/or return function through a function
 // a) returning a function
 function createGreeter(greet_msg)
 {
@@ -99,8 +108,8 @@ function createGreeter(greet_msg)
 }
 
 let g1 = createGreeter('Hi');
-console.log(typeof g1);
-console.log(g1('haseeb'));
+console.log(typeof g1); // fuction
+console.log(g1('haseeb')); // undefined
 
 function getName() {
     return document.getElementById('namebox').value;
@@ -149,16 +158,31 @@ let t = 40; //block scope
 
 let u1 = [1,2,3];
 console.log(u1.length);
-console.log(u1["length"]);
+console.log("length", u1["length"]);
+
 for(let i of u1){ //forof loop
     console.log(i);
 }
 for(let index in u1){ //indexin loop
-    console.log(index);
+    console.log(u1[index]);
 }
 
+// Array Functions
+u1.push("g");
+u1.push("3");
+console.log(u1);
+u1.pop();
+console.log(u1);
+console.log(u1.indexOf('g'));
+u1.shift();
+console.log(u1);
+u1.unshift("apple");
+console.log(u1);
+
 // oops in javascript - allows us to create objects without a class 
-// example of an object in js - js object ~ json object~ js object notation object 
+// example of an object in js - js object ~ json object~ (js object notation) object 
+
+// ************* Object Creation *************
 // a) object creation normal
 var bird = {
     x:100,y:200,array:[1,2,3],
@@ -168,13 +192,12 @@ var bird = {
 }; // all keys are strings
 
 console.log(bird['x']); // numeric literals can also be accessed with this or any other literals
-console.log(bird.x); //bird's can be accessed in 2 ways
+console.log(bird.x); //bird's object attributes can be accessed in these 2 ways
 
 //foreach loop - can be used only with array, sets and maps
-bird.array.forEach(function(i,j){
+bird.eggs.forEach(function(i,j){
     console.log(i,j);
 });
-
 
 // b) object creation with function declaration
 function student(id,name){
@@ -192,6 +215,7 @@ class Studentregd{
     }
 };
 
+// class expression
 let Studentregd2 = class{
     constructor(id,name){
         this.id = id;
@@ -208,8 +232,15 @@ let str = "hello world"
 console.log(str);
 let str1 = 'haseeb s\'s';
 console.log(str1);
+
 let str2 = "haseeb"; // ECMAScript 2016
+// with backticks we can have template.
 console.log(`hi ${str2}`);
+
+// if the string is too long it can be written with forward slash
+let str5 = "rfer \
+ecr\
+ect";
 
 //string functions
 s = "haseeb is a good boy";
@@ -229,19 +260,23 @@ for(let i of u){
     console.log(i); 
 } 
 for(let index in u){ 
-    console.log(index); 
+    console.log(u[index]); 
 }
+// push, pop, shift, unshift
+// we can unshift and push more than 1 element in an array directly;
+// u.unshift("kiwi", "banana");
 console.log(u.slice(6));
 console.log(u.slice(4,6));
 console.log(u.slice(-4,-2));
 console.log(u);
-let v = u.splice(2,6); 
+let v = u.splice(2,6);  // mutates the array
 console.log(v);
 console.log(u);
-u.splice(1,3,"x","x");
+u.splice(1,3,"x","x"); // update data
 console.log(u);
-console.log(v.concat(1)); // doesnt mutate the original array; we can concat arrays with arrays also
-
+console.log(v.concat(1, 2, 3)); // doesnt mutate the original array; we can concat arrays with arrays also
+console.log(v.concat(1));
+console.log(v.concat([1, 2, 3]));
 
 // 6) closure.js
 
