@@ -185,7 +185,7 @@ console.log(u1);
 // ************* Object Creation *************
 // a) object creation normal
 var bird = {
-    x:100,y:200,array:[1,2,3],
+    x:100,y:200,arrayBird:[1,2,3],
     f: function(){
         console.log(this.x); 
     }
@@ -195,7 +195,7 @@ console.log(bird['x']); // numeric literals can also be accessed with this or an
 console.log(bird.x); //bird's object attributes can be accessed in these 2 ways
 
 //foreach loop - can be used only with array, sets and maps
-bird.eggs.forEach(function(i,j){
+bird.arrayBird.forEach(function(i,j){
     console.log(i,j);
 });
 
@@ -242,6 +242,11 @@ let str5 = "rfer \
 ecr\
 ect";
 
+// no need of \ in backticks
+let str5 = `rfer  
+ecr
+ect`;
+
 //string functions
 s = "haseeb is a good boy";
 console.log(s.length);
@@ -279,9 +284,10 @@ console.log(v.concat(1));
 console.log(v.concat([1, 2, 3]));
 
 // 6) closure.js
-
+// at the time when function is created, all the scope that were present will captured by the function and will 
+// persist until the scope of a function ends  
 function outer(arg1) {
-    let var1 = 10
+    let var1 = 10 // line 2
     let x = 10
     
     function inner(arg2) {
@@ -299,13 +305,42 @@ let x = outer('param1', 11)
 // typeof x == 'function'
 // x == inner
 // scope of arg1 and var1 are from lines 2 to 10
-x('param2')
+x('param2');
+
+// outer function arguments are not available in inner func, but inner arguments are surely available in inner func
+//In JavaScript, closures are a powerful feature that allows functions to access variables from their outer (enclosing) scope, 
+// even after that scope has exited. Closures are created whenever a function is defined inside another function and gains 
+// access to the outer function's variables.
+/*
+Data Privacy and Encapsulation
+Closures can create private variables that are not accessible from the outside, 
+mimicking encapsulation in object-oriented programming.
+function counter() {
+    let count = 0; // Private variable
+    return function() {
+        count++;
+        return count;
+    };
+}
+const increment = counter();
+console.log(increment()); // 1
+console.log(increment()); // 2
+*/
+
 
 // 7) this.js
+
 // Answer in context of C++/Java
 // What does the keyword "this" mean, what does it refer to ?
 // In which places in code can we NOT use "this" ?
 
+// in java cpp, this is written in class, although java everyone has class
+// in cpp, this can not be written in static methods
+// this points to an object
+
+// this in JS
+// In non–strict mode, this is always a reference to an object. In strict mode, it can be any value.
+// The value of this depends on in which context it appears: function, class, or global.
 function checkThis() {
     console.log(this)
   }
@@ -326,6 +361,20 @@ function checkThis() {
       },
     },
   }
+
+// in console
+// obj.d() then output is object as this points to the object
+// let z = obj.d; 
+// z() is called then this points to window
+// - bounded on runtime
+
+let newObject = {
+    10: 11111
+}
+ 
+// access 10 as newObject["10"] 
+// not like newObject.10 because js doenst allow numeric literal as key 
+// but we are converting numeric to string in (line-2) line 368
 
 // 8) stringliteral.js
 // He said, "This is is awesome!"
@@ -351,15 +400,14 @@ let g12 = 'Good Morning ' + name
 
 let g2 = `Good Morning ${name}`
 
-let s7 = `10 + 2 = ${10 + 2}` // inside ${} we can write any valid js
+let s7 = `10 + 2 = ${10 + 2}` // inside ${} we can write any valid js ******* IMPPPP ****** ${} work only with backticks
 
-// 9) equality and prototype based inheritance
-
-console.log(1 == '1') // true
-console.log(1 === '1') // false
+// 9) equality and sameness and prototype based inheritance
+console.log(1 == '1') // true - Abstract Equality
+console.log(1 === '1') // false - Strict Equality
 
 // peculiar cases 
-
+// the conversions for this (different datatypes on both ends) kind of comparisions are done through chart - check docs
 console.log(0 == '') // true, because Number('') == 0
 
 console.log('false' == false) // false
@@ -377,7 +425,8 @@ let obj1 = {
     c: 30
 }
 
-let obj2 = Object.create(obj1)
+let obj2 = Object.create(obj1) // prototype based inheritence
+// OOPS - exists in js but internally everthing is handled through prototype(__proto__)
 obj2.p = 'adg'
 obj2.q = 'dgn'
 obj2.r = 'dfn'
@@ -390,6 +439,7 @@ obj3.__proto__.__proto__ - {a: 10, b: 20, c: 30}
 obj3.__proto__.__proto__.__proto__ -{constructor: ƒ, __defineGetter__: ƒ, __defineSetter__: ƒ, 
     hasOwnProperty: ƒ, __lookupGetter__: ƒ, …} // default prototype
 obj3.__proto__.__proto__.__proto__.__proto__ - null
+dont use proto in production level, use only for debugging
 */
 
 // obj3.__proto__ == obj2
@@ -411,7 +461,6 @@ obj3.__proto__.__proto__.__proto__.__proto__ - null
         ~~suppose ob1 has a as 10 and ob2 is inheriting ob1, then ob2.a++ will give ob2 a 
         new a with value 11 but ob1.a will remain same that is 10 and if ob3 is inherting 
         ob2 then ob3 will get a with 11
-
 */
 
 // 10) prototypes.js
@@ -427,7 +476,8 @@ let fun = function () { console.log ('yay!') }  // 3 levels from null
 // x == y : true <- what does this mean ? 
 // this means they are reference to the same object in memory 
 
-console.log('======= types =======')
+console.log('======= types =======') 
+// all the below items are function which create items of their respective datatypes
 console.log('typeof String', typeof String)
 console.log('typeof Boolean', typeof Boolean)
 console.log('typeof Number', typeof Number)
@@ -444,7 +494,7 @@ console.log(fun.__proto__.__proto__ == obj6.__proto__)
 
 // Everything indirectly inherits from the same thing
 // that obj is inherited from 
-// i.e. in Javascript, everything is essentially an Object
+// i.e. in Javascript, everything(number, string, boolean) is essentially an Object
 
 console.log('======= prototypes ======= ')
 console.log(obj6.__proto__ == Object.prototype)
@@ -472,8 +522,16 @@ ob1 = Object.create(Object.prototype);
 */
 
 // String.prototype inherits from Object.prototype
-// typeof Object.create(Boolean.prototype) -> ??
+// typeof Object.create(Boolean.prototype) -> ?? object
+// let x = Object.create(Boolean.prototype)
+// but typeof bool -> boolean and typeof x -> object
 // 2 items can have the same proto but their typeof should be same is not necessary
+
+/*
+You cannot access prototype on a string literal (or any primitive value like s = "a") because primitives do not 
+have a prototype property. The prototype property is specific to constructor functions and is used to define properties 
+and methods that are inherited by objects created by that constructor.
+*/
 
 console.log(str3.charAt(4))
 console.log(typeof str3.charAt) // ? 
@@ -488,6 +546,8 @@ console.log(str3.charAt(1))
 // String.prototype contains all default string functions
 // like charAt, indexOf, substring, slice etc 
 
+
+// here join reference is copied into joinoriginal
 Array.prototype.joinOriginal = Array.prototype.join
 
 Array.prototype.join = function () {
@@ -505,6 +565,9 @@ Array.prototype.join = function () {
  */
 
 // 11) classes.js
+
+// Classes are a template for creating objects. They encapsulate data with code to work on that data. 
+// Classes in JS are built on prototypes but also have some syntax and semantics that are unique to classes.
 
 class Person {
     constructor(name, age) {
