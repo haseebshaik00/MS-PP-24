@@ -2,6 +2,16 @@
 // async - js script parallel download with the html file and executes as soon as it's downloaded.
 // defer - script run/executes after the html file has been parsed.
 
+/** JS Concepts
+ * Basics (Datatypes, Functions, HOF, Hoisting)
+ * Closure
+ * this
+ * Objects n Classes
+ * Prototype based inheritance
+ * Promises
+ * IIFE
+ */
+
 console.log("External Script");
 
 // let x = 1
@@ -610,15 +620,14 @@ class Person {
   function Person2 (name, age) {
     this.name = name 
     this.age = age
-}
+    }
 
-function Student2 () { // no need to inherit using funcs
+function Student2 () { // no need to inherit using funcs - use classes directly
 
 }
 
 let p11 = new Person2('John Doe', 22)
 // new keyword is not required to call the function but in classes it is
-
 
 // 12) promises.js
 function fakedownload (done){
