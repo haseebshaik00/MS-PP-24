@@ -164,7 +164,7 @@ console.log(q);
 
 r = 20; //global scope
 var s = 30; //function scope
-let t = 40; //block scope
+const and let t = 40; //block scope
 
 let u1 = [1,2,3];
 console.log(u1.length);
@@ -253,7 +253,7 @@ ecr\
 ect";
 
 // no need of \ in backticks
-let str5 = `rfer  
+let str6 = `rfer  
 ecr
 ect`;
 
@@ -629,7 +629,9 @@ function Student2 () { // no need to inherit using funcs - use classes directly
 let p11 = new Person2('John Doe', 22)
 // new keyword is not required to call the function but in classes it is
 
-// 12) promises.js
+// 12) promises.js [ES6, also known as ECMAScript 2015 Promises]
+
+// a) fakedownload function without promise
 function fakedownload (done){
     setTimeout(function(){
         let downloadedData1 =  "file.txt";
@@ -642,6 +644,7 @@ fakedownload(function (data){
     console.log(data);
 });
 
+// b) fakedownload function with promise
 function fakePromise(correct){
     return new Promise( function(resolve, reject){
         setTimeout(function(){
@@ -680,14 +683,12 @@ function fakePromise(correct){
 }
 
 let d1 = fakePromise(true);
-
 // catch defined
 d1.catch(function(err){
     console.log(err);
 })
 
-
-// the promise is already reolved and this then can be executed afterwards also whenever we want
+// the promise is already resolved and this then can be executed afterwards also whenever we want
 // .. this is called as deferred resolve
 setTimeout(function(){
     d1.then( function (data){
@@ -700,7 +701,7 @@ setTimeout(function(){
 // 13) iife.js
 // immediately invoked function expression - helps create a local scope without polluting the global scope
 
-//a
+//a - encapsulate the function into an object and call direclty
 (function sayHello(){
     console.log("hello");
 })();
@@ -709,15 +710,15 @@ setTimeout(function(){
     console.log("hello");
 })();
 
-//b
+//b - create local/block scope without polluting the global scope 
 if(true){
     (function(){
         var a = 10;
     })();
 }
-console.log(a);
+console.log(a); // error
 
-//c
+//c - minification
 (function (l,p,r,s){
     l("3^4 =  " + p(3,4));
 })(console.log, Math.pow, Math.sin, Math.sqrt);
@@ -727,7 +728,8 @@ for(var i=0; i<10; i++){
     setTimeout(function(){
         console.log(i);
     }, 100);
-} // print 10 - 10 times can be avoided using let or the below method
+} // print 10 - 10 times can be avoided using 
+//  let (it creates internal closure which get bounds with every iteration of function)  or the below method
 
 for(var i=0; i<10; i++){
     (function(j){
@@ -750,7 +752,6 @@ var id = setInterval(function(){
 }, 100);
 clearInterval(id);
 
-
 var id1;
 var count1 = 0;
 function sayHi(){
@@ -761,4 +762,3 @@ function sayHi(){
 }
 
 var id2 = setInterval(sayHi, 100);
-
