@@ -736,7 +736,7 @@ for(var i=0; i<10; i++){
         setTimeout(function(){
         console.log(j);
     }, 100);})(i);
-} 
+}
 
 for(var i=0; i<10; i++){
     setTimeout(console.log, 100, i);
