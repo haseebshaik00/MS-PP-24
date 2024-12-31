@@ -45,7 +45,7 @@ dee.previousElementSibling.previousElementSibling.children[0].appendChild(m1)
 
 // 5) innerHTML performance // always reduce number of times you are calling innerHTML - as it takes a lot of time in processing
 var i1 = document.getElementsByTagName('p')[1];
-window.onload = function ()
+window.onload = function () // take action when the dom is loaded
 {
     i1.innerHTML = "a";
     i1.onclick = function(){
@@ -65,7 +65,7 @@ xBtn.onclick = function(event){
     event.target.parentElement.remove();
 }
 
-// 8) move the todo up 
+// 8) move the todo up
 let xBtn1 = document.createElement('button');
 xBtn1.innerText = 'Up';
 xBtn1.onclick = function(event){
@@ -74,25 +74,33 @@ xBtn1.onclick = function(event){
     );
 }
 
-// -------- jQuery --------
-//jQuery - helps in DOM manipulation; event handling; hiding, showing stuff; toggling stuff; animation; form validation and manipulation
-// jQuery also helps in AJAX - without changing the page, req to backend and fetch data from API and stuff   
+// ---------------------------------------------------------------------------------------------------------//
+// --------------------------------------------- jQuery ----------------------------------------------------//
+// jQuery - helps in DOM manipulation; event handling; hiding, showing stuff;                               //
+// toggling stuff; animation; form validation and manipulation                                              //
+// jQuery also helps in AJAX - without changing the page, req to backend and fetch data from API and stuff  //
+// ---------------------------------------------------------------------------------------------------------//
+// ---------------------------------------------------------------------------------------------------------//
 
-$; // jQuery
+$; // 1) jQuery object - can also be written as jQuery;
+// $ == jQuery : true
 
-// selectors
+// 2) selectors
 $('p'); //here the selectors works same as css attribute selector
-$('.class1'); 
-$('#school'); //returns object(array with all the required tags given) whereas getElementById('school') returns 
-//tags with contents inside it. the object's first element is equal to getElementById('school')
+$('.class1');
+$('#school'); //returns object(array with all the required tags given) -- returns an object which is wrapped inside a jQuery prototype
+// whereas getElementById('school') returns tags with contents inside it. the object's first element is equal to getElementById('school')
+// $('#one') == document.getElementById('one'); -- false
+// $('#one')[0] == document.getElementById('one'); -- true
+// No, the result of $('p') in jQuery is not an array. It is a jQuery object, which is a specialized object that behaves somewhat like an array 
+// but has additional methods and properties provided by jQuery.
 
-
-//changing attributes and style
+// 3) changing attributes and style
 let x = $('#school');
 x.text(); // returns text
 x.text('bob'); // changes text
-x.html(); // returns text with tags
-x.html("<b> bob </b>"); // changes text .. we can also include html tags in this
+x.html(); // returns html
+x.html("<b> bob </b>"); // changes html .. we can also include html tags in this
 x.attr('height'); // returns height
 x.attr('height', '800'); // sets height
 x.attr('style', 'color:red');
@@ -100,12 +108,12 @@ x.css('color');
 x.css('color', 'blue');
 x.css('font-size', '20pt').attr('width', '200');
 
-//appending and prepending
+// 4) appending and prepending
 // $(() => {}) if your script tag and jquery is inlcuded in head, then use this as this works when the whole window is loaded/ready
 // anything you want to do with DOM, you can directly start writing the script file or jquery commands if your 
 // jquery and script tag is mentioned in the body 
 
-// appending and prepending
+// 5) appending and prepending
 /*
     <input id="item" type="text">
     <button id="prepend"></button>
@@ -113,8 +121,8 @@ x.css('font-size', '20pt').attr('width', '200');
     <ul id="list"></ul>
 */
 $(() => {
-    // we can write functions in two ways
-    $('#prepend').click(() => {
+    // we can write functions in two ways func() or () => {} func expression
+    $('#prepend').click(function() { // HOF
         let text1 = $('#item').val(); //val() returns the value and val("adfa") sets the value
         //$('#list').prepend($('<li> ${text1} </li>')); // element creater not a selector as jquery can detect the starting <
         $('#list').prepend($('<li>').text(text1));
@@ -127,10 +135,10 @@ $(() => {
 
 
 // --------- AJAX ---------
-// mmakes xhr = xml http req
+// makes xhr(xml http req) call
 $(() => {
     $('#fetch').click(() =>{
-        //asynchronous get req .. this is an asynchronous func hence we will recieve the result in a callback
+        //asynchronous get req .. this is an asynchronous func hence we will recieve the result in the callback
         $.get("https://newsapi.org/v2/everything?q=tesla&from=2021-12-29&sortBy=publishedAt&apiKey=09aa6966a0724e0697d17efa3ddb62a9", 
         (data) => {
             console.log(data);
