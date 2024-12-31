@@ -1,12 +1,12 @@
 // ------ DOM ----------
-// select
+// 1) select
 console.log(document);     // document object - entire page
 console.log(document.body); //just the body
 console.log(document.getElementsByTagName('p'));
 console.log(document.getElementsByClassName('details'));
 console.log(document.getElementById('school'));
 
-//content
+// 2) content
 var p2 = document.getElementById('school');
 console.log(p2);
 console.log(p2.innerText); // content inside
@@ -14,7 +14,7 @@ console.log(p2.innerHTML); // content with all the elements inside
 console.log(p2.outerText); // whole p content
 console.log(p2.outerHTML); // whole p element + content
 
-// attribute
+// 3) attribute
 p2.innerText="w";
 p2.innerHTML="<b> avd </b>";
 p2.getAttribute('class');
@@ -22,12 +22,11 @@ p2.getAttribute('id');
 p2.setAttribute('contentEditable', true);
 p2.setAttribute('spellcheck',false);
 console.log(p2.outerHTML);
-// for input boxes, use p2.value for fetching p2.innerText; more input box commands - p2.validity
+// for input boxes, use p2.value for fetching p2.innerText; see more attributes by - p2.validity
 
-
-// traverse, replace and remove
+// 4) traverse, replace and remove
 /* can be used to traverse in stuff like list where you have parent and child basically
-let m = 1; // a list element basically which is selected from console
+let m = temp0; // a list element basically which is selected from console
 m.parentElement;
 m.children;
 m.previousElementSibling;
@@ -35,41 +34,38 @@ m.nextElementSibling;
 m.children[0].children;
 
 m1 = temp0
-m1.parentElement.remove(m1);
+m1.parentElement.remove();
 m1.parentElement - // exists but isnt available on the page 
 dee.appendChild(m1.parentElement)
 
-m1.remove
+m1.remove()
 dee.previousElementSibling.previousElementSibling.children[0].appendChild(m1)
-
 // li parent element gives li tag 
 */
 
-// innerHTML performance
-
+// 5) innerHTML performance // always reduce number of times you are calling innerHTML - as it takes a lot of time in processing
 var i1 = document.getElementsByTagName('p')[1];
-
 window.onload = function ()
 {
     i1.innerHTML = "a";
     i1.onclick = function(){
         i1.innerHTML = "b";
     }
-} // always reduce number of times you are calling innerHTML - takes a lot of time in processing
+}
 
-
-//createElement - instead of innerHTML try to use a combination of createElement and appendChild - also the
+// 6) createElement - instead of innerHTML try to use a combination of createElement and appendChild - also the
 // combination differs from case to case
 let item = document.createElement('li');
+item.innerText = i;
 
-//remove button on click
+// 7) remove button on click
 let xBtn = document.createElement('button');
 xBtn.innerText = 'x';
 xBtn.onclick = function(event){
     event.target.parentElement.remove();
 }
 
-//move the todo up 
+// 8) move the todo up 
 let xBtn1 = document.createElement('button');
 xBtn1.innerText = 'Up';
 xBtn1.onclick = function(event){
@@ -79,8 +75,8 @@ xBtn1.onclick = function(event){
 }
 
 // -------- jQuery --------
-//jQuery - helps in DOM manipulation; hiding, showing stuff; toggling stuff
-// jQuery also helps in AJAX - without changing the page req to backend and fetch data from API and stuff   
+//jQuery - helps in DOM manipulation; event handling; hiding, showing stuff; toggling stuff; animation; form validation and manipulation
+// jQuery also helps in AJAX - without changing the page, req to backend and fetch data from API and stuff   
 
 $; // jQuery
 
