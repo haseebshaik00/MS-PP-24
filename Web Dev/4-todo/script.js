@@ -48,3 +48,18 @@ window.onload = () => {
         list.appendChild(listItem);
     }
 };
+
+// jQuery TODO
+$(() => {
+    let input = $('#jInput');
+    let append = $('#jAppend');
+    let prepend = $('#jPrepend');
+    let list = $('#jList');
+
+    append.click(() => {
+        list.append($('<li>').text(input.val()));
+    });
+    prepend.click(() => {
+        list.prepend($('<li>').text(input.val()));
+    })
+});
