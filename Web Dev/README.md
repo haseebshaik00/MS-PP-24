@@ -180,6 +180,7 @@ p)
       let text1 = $('#item').val();
       $('#list').append($('<li>').text(text1));
     });
+q) css variables var() and calc()
 
 ## Backend  
 
@@ -187,7 +188,9 @@ p)
 
 1) js interpreter running in terminal  
 2) the outer most scope in browser is window and in node terminal it is global  
-3) stuff like window, document, window.location, window.localStorage are not available in terminal
+3) stuff like window, document, window.location, window.localStorage are not available in terminal/global in node
+window - acts as the outermost global scope of browser
+window - also has info related to the browser
 4) basically the DOM in browser js doesnt exist in node and BOM(window) scope of browser became global in the terminal  
 5) the console of browser became the terminal in node  
 6) chrome js engine (V8 engine) + file system + network + http = nodejs  
