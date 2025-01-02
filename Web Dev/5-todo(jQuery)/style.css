@@ -1,0 +1,10 @@
+* {
+    font-family: 'Poppins';
+    background-color: whitesmoke;
+}
+
+#taskList li.done{
+    color: grey;
+    font-style: italic;
+    text-decoration: line-through;
+}
