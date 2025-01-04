@@ -39,6 +39,7 @@ $(() => {
         if(inputTask.val() == '') alert('Enter Task Name')
         else itemAdd()
     });
+    btnAdd.click(() => {});
     btnReset.click(() => {
         inputTask.val('');
         buttonToggle();
