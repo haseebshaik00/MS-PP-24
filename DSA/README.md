@@ -79,4 +79,4 @@ https://www.geeksforgeeks.org/duplicates-in-an-array-in-on-time-and-by-using-o1-
 26) daily temp, next greater element - mono stack
 27) Fibonacci - matrix exponentiation
 28) learn how to use 1d dp in 2d dp problems
-29) 
+29) emplace() and emplace_back() in unordered_map ---- IMPPP
