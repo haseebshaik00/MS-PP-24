@@ -1,11 +1,11 @@
 I) Searching (2)
-1) Linear Search: https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1 (1:21 mins)
-2) Binary Search: https://leetcode.com/problems/binary-search/ (2:02 mins)
+1) Linear Search: https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1 (0:51 mins)
+2) Binary Search: https://leetcode.com/problems/binary-search/ (1:51 mins)
 
 II) Sorting (7)
-1) Bubble Sort: https://www.geeksforgeeks.org/problems/bubble-sort/1 (2:11 mins)
+1) Bubble Sort: https://www.geeksforgeeks.org/problems/bubble-sort/1 (1:27 mins)
 2) Selection Sort: https://www.geeksforgeeks.org/problems/selection-sort/1 (3:25 mins)
-3) Insertion Sort: https://www.geeksforgeeks.org/problems/insertion-sort/1  (8:10 mins)
+3) Insertion Sort: https://www.geeksforgeeks.org/problems/insertion-sort/1  (3:55 mins)
 4) STL sort with Comparator: https://www.geeksforgeeks.org/sort-c-stl/
 5) Bubble Sort with Comparator: https://coderanch.com/t/374811/java/Bubble-Sort-Set-Comparator
 
@@ -15,7 +15,7 @@ III) Arrays (13)
 3) Maximum Subarray Sum O(n^2): https://www.scaler.com/topics/maximum-subarray-sum/
 4) Maximum Subarray Sum O(n): Kadance Algo: https://leetcode.com/problems/maximum-subarray/
 5) Two Pointer Approach: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
-6) Two Pointer 3 sum: https://www.geeksforgeeks.org/find-a-triplet-that-sum-to-a-given-value/
+6) Two Pointer 3 sum: https://www.geeksforgeeks.org/problems/triplet-sum-in-array-1587115621/1
 
 IV) 2D Arrays (18)
 1) Wave Print: https://www.geeksforgeeks.org/print-matrix-in-wave-form/
@@ -65,7 +65,6 @@ IX) String Challenges (45)
 6) Sanket and Strings(sliding window): https://discuss.codingblocks.com/t/sanket-and-strings-dsa-question-practicing-strings/155569
 7) Is CB No.: https://discuss.codingblocks.com/t/finding-cb-numbers/135077
 // check String Part 2 OF https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems
-
 
 X) STL (48)
 1) Money Problem: https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/

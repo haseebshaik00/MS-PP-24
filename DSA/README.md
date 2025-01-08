@@ -43,10 +43,14 @@ Subset = 2^n
 - reverse()
 - pair<dataType, dataType> s[n];
 
+## run code in vscode
+- g++ STLsort.cpp
+- ./a.out
+
 # Notes
 - https://www.bigocheatsheet.com/ 
-- 
-
+- memset(a,0,n); - works on 1d array
+- dp[100][100] = {0} do this for 2d array or use vectors or loops to fill 0
 
 * TODO
 1) https://www.geeksforgeeks.org/maximum-xor-of-two-numbers-in-an-array/
