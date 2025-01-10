@@ -3,7 +3,7 @@
 using namespace std;
 
 bool compare(int a, int b){
-    return a>b;
+    return a<b; // decreasing
 }
 
 void bubbleSortComp(int a[], int n, bool (&comp)(int a, int b)){
