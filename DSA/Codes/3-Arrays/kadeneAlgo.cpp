@@ -1,6 +1,15 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+int maxSubArray(vector<int>& nums) {
+        int maxSum=nums[0], cSum=0;
+        for(int num: nums){
+            cSum = max(num, num+cSum);
+            maxSum = max(cSum, maxSum);
+        }
+        return maxSum;
+    }
+
 int main(){
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);

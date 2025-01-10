@@ -19,12 +19,12 @@ III) Arrays (13)
 
 IV) 2D Arrays (18)
 1) Wave Print: https://www.geeksforgeeks.org/print-matrix-in-wave-form/
-2) Spiral Print: https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/
-3) Piyush and Magical Park: https://www.youtube.com/watch?v=3J1tAsoZ7-g 
-4) Rotate Image: https://www.geeksforgeeks.org/inplace-rotate-square-matrix-by-90-degrees/
-5) Staircase Search: https://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/
+2) Spiral Print: https://www.geeksforgeeks.org/problems/spirally-traversing-a-matrix-1587115621/1
+3) Piyush and Magical Park: https://www.youtube.com/watch?v=3J1tAsoZ7-g
+4) Rotate Image: https://www.geeksforgeeks.org/problems/rotate-by-90-degree-1587115621/1
+5) Staircase Search: https://www.geeksforgeeks.org/problems/search-in-a-matrix17201720/1
 - 2D character Array
-- 2D Array Dynamic Allocation 
+- 2D Array Dynamic Allocation
 
 V) Character Array (22)
 - Input Output
@@ -278,7 +278,7 @@ https://leetcode.com/problems/binary-tree-inorder-traversal/description/
 18) Root to Leaf Paths: https://www.geeksforgeeks.org/problems/root-to-leaf-paths/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=root-to-leaf-paths
 19) symmetric tree: https://leetcode.com/problems/symmetric-tree/description/
 
-X3) Binary Search Tree (180)
+X30) Binary Search Tree (180)
 1) Insertion, Build, Deletion and Search 
 2) check for BST
 3) flatten a tree

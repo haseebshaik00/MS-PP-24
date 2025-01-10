@@ -314,5 +314,4 @@ download("someurl.com")
     .then(function(resizedFilename){
             console.log("resized file is at : " + resizedFilename);
     })
-
 */
