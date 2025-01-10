@@ -1,6 +1,18 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// bool matSearch(vector<vector<int>> &mat, int x) {
+//     int m=mat.size(), n=mat[0].size();
+//     int j=n-1, i=0;
+//     while(i<m and j>=0){
+//         int y=mat[i][j];
+//         if(x==y) return true;
+//         else if(x>y) i++;
+//         else j--;
+//     }
+//     return false;
+// }
+
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);

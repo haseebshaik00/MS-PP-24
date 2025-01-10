@@ -11,6 +11,24 @@ using namespace std;
 Output
 Yes
 13
+
+    int i=0, j=0;
+    while(i<m){
+        char ch = a[i][j];
+        if(s<k){
+            cout<<"Fail!";
+            break;
+        }
+        if(ch == '*') s+=5;
+        else if(ch == '.') s-=2;
+        else{
+            j=0; i++;
+            continue;
+        }
+        j++;
+        if(j==n){j=0; i++; continue;}
+        else s--;
+    }
 */
 
 int main(){
