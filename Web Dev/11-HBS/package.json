@@ -1,0 +1,15 @@
+{
+  "name": "11-hbs",
+  "version": "1.0.0",
+  "description": "hbs - Handlebars is a templating engine that allows you to generate HTML dynamically by combining templates with data.  It's commonly used in web applications to simplify rendering dynamic content on the server or client side.  Handlebars templates are written in a way that separates the HTML structure from the data, making it easier to  maintain and reuse code.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "hbs": "^4.2.0"
+  }
+}
