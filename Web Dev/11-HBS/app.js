@@ -18,6 +18,7 @@ app.get('/', (req, res) => {
         title: 'TODO List', 
         tasks
     });
+    // if written this statement app.set('view engine', 'hbs'); then just write res.render('home', {});
 });
 
 app.listen('4444', (req, res) => {

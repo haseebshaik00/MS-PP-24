@@ -38,7 +38,7 @@ app.get('/form', (req, res) => {
     res.sendFile(__dirname + '/form.html');
 });
 
-// URL Path parameters
+// URL Path parameters - can get overwritten so use carefully
 app.get('/:city/:state', (req, res) => {
     res.send("Welcome to " + req.params.city + ', ' + req.params.state + '!');
 })
