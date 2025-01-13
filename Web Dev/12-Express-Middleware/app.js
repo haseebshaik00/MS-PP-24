@@ -5,7 +5,7 @@ app.set('view engine', 'hbs'); // setting view engine as hbs
 app.set('views', __dirname + '/views'); // setting the views directory
 
 app.use(express.json()); // to parse json
-app.use(express.urlencoded({extended : true}));
+app.use(express.urlencoded({extended : true})); // to parse stuff inside req.body
 app.use("/public", express.static(__dirname + "/public")); // setting the public folder
 // app.use("/todo", todoRoute); // for routing purpose
 

@@ -181,6 +181,15 @@ p)
       $('#list').append($('<li>').text(text1));
     });
 q) css variables var() and calc()
+r) onload functions
+window.onload = () => {
+
+}; // normal function
+
+$(() => {
+
+}); // callback function
+s) ajax - asynchronous js and xml - without reloading the page ajax can run get n post req 
 
 ## Backend  
 
@@ -209,16 +218,28 @@ node app.js - to run node on terminal
 3) to render templates we write res.render() not res.send()  
 4) if we modify a req in a particular middleware then in the next middleware also the req will get updated  
 5) frontend files can be in public or in views but views generally contains templates .. in public folder we keep static files and in views folder we generally keep templates files whose data can be changed based on the requirement through server  
-6) (frontend+backend) - industry level -  you can either load a whole public folder and send ajax calls (here ajax calls works directly without loading the page) from js files to the server (js is enabled on frontend)
+
+### IMPORTANT
+6) (frontend+backend) - industry level 
+-  you load a whole public folder
+- and send ajax calls to the API from js files to the server (here ajax calls works directly without loading the page)
+- considering (js is enabled on frontend)
 .. the source code will not have the list items as the list items are added through jquery  
 <https://github.com/coding-blocks-archives/WebNodeLive2017Winter/tree/master/Webinar12/express_sample>
+
 OR
-(pure backend) - the source code will have the list items as we send a html page as a response
+
+(pure backend) 
+- server side scripting
+- the html page is made on the server using templates and sent directly to render on frontend
+- the source code will have the list items as we send a html page as a response
 do the manipulations in the server and send the reponse in the hbs templates (works even when js is not enabled on frontend)  
 <https://github.com/coding-blocks-archives/WebNodeLive2017Winter/tree/master/Webinar12/express_server_rendering>
-7) you can use routes to simplify the app.js file  
+
+7) you can use routes to simplify the app.js file using routes
 <https://github.com/coding-blocks-archives/WebNodeLive2017Winter/blob/master/Webinar12/express_server_rendering/server.js>
 <https://github.com/coding-blocks-archives/WebNodeLive2017Winter/blob/master/Webinar12/express_server_rendering/routes/todos.js>
+
 8) ajax post & get request :  
 $.post('/todos/',{task: newTodo},function (data) {
                 todoList.empty();
@@ -233,9 +254,10 @@ $.get("https://newsapi.org/v2/everything?q=tesla&from=2021-12-29&sortBy=publishe
                 $('#list1').append($('<li>').text(i.title));
             });
         })
+
 9) Commands  
-app.use(express.json()); // to parse json
-app.use(express.urlencoded({ extended : true})); // to parse stuff inside req.body
+app.use(express.json()); // to parse json in post request
+app.use(express.urlencoded({ extended : true})); // to parse stuff inside req.body of post request
 app.set('view engine', 'hbs'); // setting view engine as hbs
 app.set('views',__dirname + '/views'); // setting the views directory
 app.use("/xyz", express.static(__dirname + "/public")); // setting the public folder
