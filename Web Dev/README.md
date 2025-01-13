@@ -220,7 +220,7 @@ node app.js - to run node on terminal
 5) frontend files can be in public or in views but views generally contains templates .. in public folder we keep static files and in views folder we generally keep templates files whose data can be changed based on the requirement through server  
 
 ### IMPORTANT
-6) (frontend+backend) - industry level 
+6) (frontend+backend) - industry level (13) Express-Routes 
 -  you load a whole public folder
 - and send ajax calls to the API from js files to the server (here ajax calls works directly without loading the page)
 - considering (js is enabled on frontend)
@@ -229,7 +229,7 @@ node app.js - to run node on terminal
 
 OR
 
-(pure backend) 
+(pure backend) -- (11) HBS
 - server side scripting
 - the html page is made on the server using templates and sent directly to render on frontend
 - the source code will have the list items as we send a html page as a response
