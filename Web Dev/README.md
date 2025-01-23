@@ -263,6 +263,33 @@ app.set('views',__dirname + '/views'); // setting the views directory
 app.use("/xyz", express.static(__dirname + "/public")); // setting the public folder
 app.use("/todo", todoRoute); // for routing purpose
 
+10) Node process variable: In Node.js, process variables are properties and methods available in the global process object, which provides information and control over the current Node.js process. These variables allow you to interact with the runtime environment and manage the lifecycle of the application.
+
+console.log(process.env.NODE_ENV);
+Provides access to environment variables.
+Commonly used for storing configuration values, like API keys, database credentials, or application settings.
+
+process.argv
+// Run with: node script.js arg1 arg2
+console.log(process.argv);
+// Output: ['/path/to/node', '/path/to/script.js', 'arg1', 'arg2']
+An array containing the command-line arguments passed when the script was executed.
+The first two elements are:
+Path to the Node.js binary.
+Path to the script being executed.
+Subsequent elements are additional arguments.
+
+console.log('Environment:', process.env.NODE_ENV || 'development');
+console.log('Command-line args:', process.argv.slice(2));
+console.log('Current Directory:', process.cwd());
+console.log('Process ID:', process.pid);
+console.log('Memory Usage:', process.memoryUsage());
+
+if (process.argv.includes('--exit')) {
+  console.log('Exiting process...');
+  process.exit(0); // Exits gracefully
+}
+
 ## Database
 
 ## SQL
@@ -273,7 +300,7 @@ app.use("/todo", todoRoute); // for routing purpose
 4) aggregate functions- min(), max(), avg(), sum(), count(), count(*), std.dev(), variance(); clause- order by - asc/desc, group by (used with) HAVING; SQL queries- UPDATE, DELETE, drop table, alter table- add & modify, subtable; inserting text in query; subqueries- expression subquery, inline view/dynamic table concept and quadratic subquery <https://www.youtube.com/watch?v=2gMwtwLtWSY>  
 5) sequence: select->from->where->group by->having->order by  
 6) sql+express : <https://github.com/coding-blocks-archives/WebNodeLive2017Winter/tree/master/Webinar13>
-as a backend functioning website and also as an API  
+as a backend functioning website and also as an API
 
 ## Sequelize Library
 
