@@ -82,7 +82,3 @@ DELETE FROM Employees WHERE EmployeeID = 1; # DELETE
 ## Queries
 
 Cheatsheet: https://learnsql.com/blog/sql-basics-cheat-sheet/sql-basics-cheat-sheet-letter.pdf
-
-auto_increment
-
-
