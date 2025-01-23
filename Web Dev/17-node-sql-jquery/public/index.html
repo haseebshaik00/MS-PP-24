@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./script.js" async defer></script>
+</head>
+<body>
+    <h2>Add Student Form</h2>
+    <form>
+        <input type="number" name="id" placeholder="ID" id="inpId"> <br><br>
+        <input type="text" name="name" placeholder="Name" id="inpName"> <br><br>
+        <input type="number" name="age" placeholder="Age" id="inpAge"> <br><br>
+        <input type="text" name="notes" placeholder="Notes" id="inpNotes"> <br><br>
+        <button type="submit" id="btnSubmit">Submit</button>
+    </form>
+
+    <br><br>
+    
+    <h2>Students</h2>
+    <table border="1" id="tableStudents" cellSpacing="20" cellPadding="10">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Notes</th>
+        </tr>
+        <tr>
+            <td>Sample</td>
+            <td>Sample</td>
+            <td>Sample</td>
+            <td>Sample</td>
+        </tr>
+    </table>
+</body>
+</html>

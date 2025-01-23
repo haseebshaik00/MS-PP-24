@@ -302,6 +302,39 @@ if (process.argv.includes('--exit')) {
 6) sql+express : <https://github.com/coding-blocks-archives/WebNodeLive2017Winter/tree/master/Webinar13>
 as a backend functioning website and also as an API
 
+application/
+├── node_modules/       # Installed npm packages
+├── src/                # Application source code
+│   ├── config/         # Configuration files (e.g., database, environment)
+│   │   ├── db.js
+│   │   └── appConfig.js
+│   ├── controllers(or)components/    # Application controllers (handling requests)
+│   │   └── userController.js
+│   ├── models/         # Database models (e.g., Mongoose, Sequelize)
+│   │   └── userModel.js
+│   ├── routes/         # Route definitions
+│   │   └── userRoutes.js
+│   ├── services/       # Business logic/services
+│   │   └── userService.js
+│   ├── middleware/     # Custom middleware
+│   │   └── authMiddleware.js
+│   ├── utils(or)helpers/          # Utility functions/helpers
+│   │   └── logger.js
+│   ├── app.js          # Main application setup
+│   └── server.js       # Entry point for starting the server
+├── tests/              # Unit and integration tests
+│   └── userController.test.js
+├── public/             # Static assets (images, stylesheets, etc.)
+├── views/              # Templates (if using a templating engine like EJS, Pug, HBS)
+├── .env                # Environment variables
+├── .gitignore          # Git ignore file
+├── package.json        # NPM dependencies and scripts
+├── package-lock.json   # Dependency tree lock file
+└── README.md           # Project documentation
+
+app.js (use app.use() to define routes) -> routes (define all crud operations, point to the controller)-> 
+controllers (point to db here, do all the db work here) 
+
 ## Sequelize Library
 
 1) object relation mapper, connect with various type of sql dbs, save data in form of js objects, automatically creates sql queries which automatically save data into databases, tables ~ definition/schema , object here is a row  
