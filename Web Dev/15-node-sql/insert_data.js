@@ -8,7 +8,7 @@ const con = mysql.createConnection({
 });
 
 
-con.query(`INSERT INTO students values(4, "Adam", 25, "Man")`,(err, result) => {
+con.query(`INSERT INTO students values(4, "Adam", 25, "Man")`, (err, result) => {
     if(err)
         console.log(err);
     else{

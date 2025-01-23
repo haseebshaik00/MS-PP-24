@@ -8,13 +8,11 @@ app.set('views', __dirname + '/views');
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 app.use('/public', express.static(__dirname + '/public'));
-// app.use('/x', xRoute);
+app.use('/todos', todoRoute);
 
 app.get('/', (req, res) => {
     res.send("Hi!");
 });
-
-app.use('/todos', todoRoute);
 
 app.listen(4441, () => {
     console.log("Server started at http://localhost:4441");
