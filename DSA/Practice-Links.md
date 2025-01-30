@@ -1,7 +1,7 @@
 TODO:
 I) 1, 2
 II) 1, 2, 3
-III) 4, 5, 6
+III) 4, 6
 IV) 2, 5
 
 I) Searching (2)
@@ -28,7 +28,7 @@ IV) 2D Arrays (18)
 2) Spiral Print: https://www.geeksforgeeks.org/problems/spirally-traversing-a-matrix-1587115621/1
 3) Piyush and Magical Park: https://www.youtube.com/watch?v=3J1tAsoZ7-g
 4) Rotate Image: https://www.geeksforgeeks.org/problems/rotate-by-90-degree-1587115621/1
-5) Staircase Search: https://www.geeksforgeeks.org/problems/search-in-a-matrix17201720/1
+5) Staircase Search: https://leetcode.com/problems/search-a-2d-matrix/
 - 2D character Array
 - 2D Array Dynamic Allocation
 

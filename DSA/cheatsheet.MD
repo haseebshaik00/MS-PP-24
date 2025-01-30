@@ -3,6 +3,15 @@
 1) Size of array
 sizeof(a)/sizeof(a[0])
 
+2) Pass 1D array to a function
+- Using a Pointer (Decay to Pointer): void func(int *arr, int size) : Array decays to a pointer, losing its original size.
+- Using Array Syntax: void func(int arr[], int size) : same as above
+- Using Fixed-Size Array: void func(int arr[3]) : Only works for fixed-size arrays
+- Using References: void func(int (&arr)[3]) : Preserves size, doesn’t decay to a pointer, Works only for arrays of fixed size.
+
+3) Pass 2D array to a function
+
+
 #include<climits>
 INT_MIN
 INT_MAX
@@ -36,4 +45,3 @@ greater<T>(), less<T>(), equal_to<T>(), Custom functors
 
 ## Utility Components
 pair, tuple, optional, variant, any
-
