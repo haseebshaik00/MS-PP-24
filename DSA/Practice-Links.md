@@ -1,3 +1,9 @@
+TODO:
+I) 1, 2
+II) 1, 2, 3
+III) 4, 5, 6
+IV) 2, 5
+
 I) Searching (2)
 1) Linear Search: https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1 (0:51 mins)
 2) Binary Search: https://leetcode.com/problems/binary-search/ (1:51 mins)
@@ -13,7 +19,7 @@ III) Arrays (13)
 1) Generating Subarrays: https://www.tutorialspoint.com/find-all-the-subarrays-of-a-given-array-in-java
 2) Maximum Subarray Sum O(n^3): https://www.scaler.com/topics/maximum-subarray-sum/
 3) Maximum Subarray Sum O(n^2): https://www.scaler.com/topics/maximum-subarray-sum/
-4) Maximum Subarray Sum O(n): Kadance Algo: https://leetcode.com/problems/maximum-subarray/
+4) Maximum Subarray Sum O(n): Kadance Algo: https://leetcode.com/problems/maximum-subarray/ (1:51 mins)
 5) Two Pointer Approach: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
 6) Two Pointer 3 sum: https://www.geeksforgeeks.org/problems/triplet-sum-in-array-1587115621/1
 

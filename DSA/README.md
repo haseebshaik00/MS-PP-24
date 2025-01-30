@@ -84,3 +84,5 @@ https://www.geeksforgeeks.org/duplicates-in-an-array-in-on-time-and-by-using-o1-
 27) Fibonacci - matrix exponentiation
 28) learn how to use 1d dp in 2d dp problems
 29) emplace() and emplace_back() in unordered_map ---- IMPPP
+30) see how to do 3 sum two pointer approach using hashing which reduces the O(n^2) complexity
+31) 
