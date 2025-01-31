@@ -10,10 +10,10 @@ sizeof(a)/sizeof(a[0])
 - Using References: void func(int (&arr)[3]) : Preserves size, doesn’t decay to a pointer, Works only for arrays of fixed size.
 
 3) Pass 2D array to a function
-- 
-- 
-- 
-- 
+- Using Pointer: void printArray(int (*arr)[3], int rows) //void printArray(int arr[2][3]); eventually decays to a pointer *arr[3]
+- Using Array Syntax: void printArray(int arr[][3], int rows) 
+- Use a Pointer to Pointer: void printArray(int** arr, int rows, int cols)
+- Using Reference: void printArray(int (&arr)[2][3])
 
 #include<climits>
 INT_MIN
