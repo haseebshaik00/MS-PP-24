@@ -6,7 +6,7 @@
 brew install mysql
 brew services start mysql
 mysql_secure_installation # set your password
-mysql -u root -p # login with password - haseeb123; use root as haseeb
+mysql -u root -p # login with password - haseeb123;
 ```
 
 ## Users
@@ -16,10 +16,11 @@ SELECT User, Host FROM mysql.user; # show all users along with their host
 
 CREATE USER 'someuser'@'localhost' IDENTIFIED BY 'somepassword'; # create user - haseeb(user), host(localhost) and haseeb123(password)
 
-# Grant All Priveleges On All Databases; * . * as myTestDB.*
 # create db first and then grant user access to the db; don't do *.*
-# flow: create db -> create user -> use db -> grant access only to the DB -> exit -> login with new user -> check dbs
+# flow: login root user -> create db -> create user -> use db -> grant access only to the DB -> logout root(exit;) -> login with new user -> check dbs
 # follow the above flow everytime while creating a new user!
+
+# Grant All Priveleges On All Databases; * . * as myTestDB.*
 GRANT ALL PRIVILEGES ON * . * TO 'someuser'@'localhost';
 FLUSH PRIVILEGES;
 
@@ -47,6 +48,7 @@ USE acme;
 # Create table
 create table students(ID INT PRIMARY KEY, NAME VARCHAR(50), AGE INT, NOTES VARCHAR(100));
 show tables;
+describe <table_name>; # show table config
 DROP TABLE tablename;
 
 INSERT INTO students values (1, "Haseeb", 24, "MSCS Student"); # single record

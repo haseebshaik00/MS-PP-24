@@ -10,7 +10,10 @@ sizeof(a)/sizeof(a[0])
 - Using References: void func(int (&arr)[3]) : Preserves size, doesn’t decay to a pointer, Works only for arrays of fixed size.
 
 3) Pass 2D array to a function
-
+- 
+- 
+- 
+- 
 
 #include<climits>
 INT_MIN
