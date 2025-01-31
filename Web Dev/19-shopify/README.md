@@ -33,3 +33,19 @@ npm i express hbs mysql2 sequelize
 - src: app.js, config, controllers, middlewares, models, routes, services, utils
 - test: test files (optional)
 - README.md and .gitignore
+
+## app.js Setup
+```bash
+const express = require('express');
+const app = express();
+
+app.set('view engine', 'hbs');
+app.set('views', __dirname + '../public/views');
+
+app.use(express.json());
+app.use(express.urlencoded({ extended : true}));
+app.use("/public", express.static(__dirname + "../public"));
+# app.use("/todo", todoRoute);
+
+app.listen('4444', () => console.log("Server started on http://localhost:4444"));
+```
