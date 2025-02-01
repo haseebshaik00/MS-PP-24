@@ -24,7 +24,8 @@ int main(){
     cin.getline(y, 20);
     cout<<x<<" "<<y<<endl;
 
-    char aa[100][100];
+    char aa[100][100]; // occupy initial memory
+    // char b[][100]; // gives error rows must be defined
     int n;
     cin>>n;
     cin.get(); // to dump enter key value
@@ -35,7 +36,7 @@ int main(){
 
     char b[] = {'h', 'i', '\0'}; // sizeof = 3 ; strlen(b)=2;
     char g[] = "ji"; // delimeter is automatically appended in the end hence; sizeof = 3 ; strlen(b)=2;
-    // cout<<b<<endl; - prints address of b
+    cout<<b<<endl; // prints b ; &b - prints address of b
 
     char cd[] = "haseeb";
     cout<<sizeof(cd)<<" "<<strlen(cd); // 7 6

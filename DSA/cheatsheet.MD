@@ -15,6 +15,12 @@ sizeof(a)/sizeof(a[0])
 - Use a Pointer to Pointer: void printArray(int** arr, int rows, int cols)
 - Using Reference: void printArray(int (&arr)[2][3])
 
+3) char strings
+- cin.get(s, 10); // take input of a string
+- cin.get(); //cin.ignore(); // use to ignore enter pressed after input
+- instead of that, point 1 n 2, use -- cin.getline(x, 10);
+
+
 #include<climits>
 INT_MIN
 INT_MAX
