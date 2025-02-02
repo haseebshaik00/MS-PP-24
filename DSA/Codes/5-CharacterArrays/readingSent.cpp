@@ -3,7 +3,7 @@ using namespace std;
 
 void readLine(char a[], int n, char c){
     char ch;
-    cin.get(ch); //ch = cin.get()
+    cin.get(ch); //ch = cin.get() -- take input of the first character
     int i = 0;
     while(ch != c){
         a[i] = ch;

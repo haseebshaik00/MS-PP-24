@@ -335,6 +335,8 @@ application/
 app.js (use app.use() to define routes) -> routes (define all crud operations, point to the controller)-> 
 controllers (point to db here, do all the db work here) 
 
+require('x') -> looks for x.js then x.json then x/index.js
+
 ## Sequelize Library (ORM)
 
 1) object relation mapper, connect with various type of sql dbs, save data in form of js objects, automatically creates sql queries which automatically save data into databases, tables ~ definition/schema , object here is a row  

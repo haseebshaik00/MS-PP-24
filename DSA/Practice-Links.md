@@ -2,7 +2,10 @@ TODO:
 I) 1, 2
 II) 1, 2, 3
 III) 4, 6
-IV) 2, 5
+IV) 2, 4, 5
+v) 2, 3, 4
+VI) 
+VII) 
 
 I) Searching (2)
 1) Linear Search: https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1 (0:51 mins)
@@ -21,13 +24,13 @@ III) Arrays (13)
 3) Maximum Subarray Sum O(n^2): https://www.scaler.com/topics/maximum-subarray-sum/
 4) Maximum Subarray Sum O(n): Kadance Algo: https://leetcode.com/problems/maximum-subarray/ (1:51 mins)
 5) Two Pointer Approach: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
-6) Two Pointer 3 sum: https://www.geeksforgeeks.org/problems/triplet-sum-in-array-1587115621/1
+6) Two Pointer 3 sum: https://leetcode.com/problems/3sum/description/
 
 IV) 2D Arrays (18)
 1) Wave Print: https://www.geeksforgeeks.org/print-matrix-in-wave-form/
-2) Spiral Print: https://www.geeksforgeeks.org/problems/spirally-traversing-a-matrix-1587115621/1
+2) Spiral Print: https://leetcode.com/problems/spiral-matrix/description/
 3) Piyush and Magical Park: https://www.youtube.com/watch?v=3J1tAsoZ7-g
-4) Rotate Image: https://www.geeksforgeeks.org/problems/rotate-by-90-degree-1587115621/1
+4) Rotate Image: https://leetcode.com/problems/rotate-image/
 5) Staircase Search: https://leetcode.com/problems/search-a-2d-matrix/
 - 2D character Array
 - 2D Array Dynamic Allocation
@@ -35,8 +38,8 @@ IV) 2D Arrays (18)
 V) Character Array (22)
 - Input Output
 1) Reading Sentence: https://www.geeksforgeeks.org/how-to-input-or-read-a-character-word-and-a-sentence-from-user-in-c/
-2) Palindrome: https://www.geeksforgeeks.org/program-to-check-if-an-array-is-palindrome-or-not/
-3) Removing Duplicate: https://www.geeksforgeeks.org/remove-duplicates-from-a-given-string/
+2) Palindrome: https://leetcode.com/problems/valid-palindrome/
+3) Removing Duplicate: https://leetcode.com/problems/remove-duplicate-letters/
 4) Largest String: https://www.sololearn.com/en/Discuss/1169907/longest-string-in-an-array-in-c
 
 VI) Strings (26)
