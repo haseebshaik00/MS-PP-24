@@ -337,6 +337,45 @@ controllers (point to db here, do all the db work here)
 
 require('x') -> looks for x.js then x.json then x/index.js
 
+## Import and Export in Node and ES6
+CommonJS method to export and import (Node)
+module.exports = {
+  db, User, Product
+}
+const { User, Product } = require('./db');
+const db = require('./db');
+
+ES6 methods
+1- export - use anywhere anytime just add {} in import
+export { users, products };
+import { users, products } from '../models/model.js';
+
+2- export default - use when exporting only one object/function/variable
+if exporting many wrap them and export and import using single variable and access using '.'
+export deafault users;
+import users from '../models/model.js';
+
+
+## Status codes:
+2xx - Successful
+200 OK: The request was successful, and the server returned the requested data.
+201 Created: The request was successful, and a new resource has been created.
+204 No Content: The request was successful, but there is no content to return
+
+4xx - Client Error
+400 Bad Request: The request cannot be processed due to malformed syntax.
+401 Unauthorized: Authentication is required to access the resource.
+403 Forbidden: The client does not have permission to access the resource.
+404 Not Found: The requested resource could not be found.
+405 Method Not Allowed: The method used in the request is not allowed for the resource.
+408 Request Timeout: The server timed out waiting for the request.
+
+5xx - Server Error
+500 Internal Server Error: The server encountered an error while processing the request.
+502 Bad Gateway: The server received an invalid response from an upstream server.
+503 Service Unavailable: The server is temporarily unavailable, often due to overload or maintenance.
+504 Gateway Timeout: The server did not receive a timely response from an upstream server.
+
 ## Sequelize Library (ORM)
 
 1) object relation mapper, connect with various type of sql dbs, save data in form of js objects, automatically creates sql queries which automatically save data into databases, tables ~ definition/schema , object here is a row  
