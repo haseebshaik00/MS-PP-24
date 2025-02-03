@@ -39,7 +39,8 @@ V) Character Array (22)
 - Input Output
 1) Reading Sentence: https://www.geeksforgeeks.org/how-to-input-or-read-a-character-word-and-a-sentence-from-user-in-c/
 2) Palindrome: https://leetcode.com/problems/valid-palindrome/
-3) Removing Duplicate: https://leetcode.com/problems/remove-duplicate-letters/
+3) Removing Duplicate: https://leetcode.com/problems/remove-duplicate-letters/ (TODO)
+https://www.geeksforgeeks.org/problems/remove-all-duplicates-from-a-given-string4321/1
 4) Largest String: https://www.sololearn.com/en/Discuss/1169907/longest-string-in-an-array-in-c
 
 VI) Strings (26)
@@ -447,7 +448,7 @@ detect-a-cycle-in-directed-graph-topological-sort-kahns-algorithm-g-23/
 18) Flood Fill Algo: https://leetcode.com/problems/flood-fill/description/
 19) Dijksta Algo: https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1
 
-X39) Striver Sheet(327)
+X39) Striver Sheet(328)
 1) 4sum: https://leetcode.com/problems/4sum/
 2) reverse string: https://leetcode.com/problems/reverse-words-in-a-string/description/
 3) Longest Palindrome Substring: https://leetcode.com/problems/longest-palindromic-substring/
@@ -496,3 +497,4 @@ https://leetcode.com/problems/binary-tree-inorder-traversal/description/
 44) Egg Drop: https://www.geeksforgeeks.org/problems/egg-dropping-puzzle-1587115620/1
 45) Partition Equal Subset Sum: https://leetcode.com/problems/partition-equal-subset-sum/description/
 46) Minimum Path Sum: https://leetcode.com/problems/minimum-path-sum/description/
+47) Removing Duplicate: https://leetcode.com/problems/remove-duplicate-letters/ (TODO)
