@@ -1,11 +1,8 @@
 TODO:
-I) 1, 2
-II) 1, 2, 3
-III) 4, 6
-IV) 2, 4, 5
-v) 2, 3, 4
-VI) 
-VII) 
+I) 1, 2 II) 1, 2, 3
+III) 4, 6 IV) 2, 4, 5
+V) 2, 3.2 VI) 2
+VII) 3, 
 
 I) Searching (2)
 1) Linear Search: https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1 (0:51 mins)

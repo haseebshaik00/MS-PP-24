@@ -83,6 +83,13 @@ s.c_str() → Converts string to char*.
 - `str a(c)` - char array to string where c is char* array
 - `if(a.find(b) != string::npos) return true;` check if string b is a substring of a or not
 
+## Utility - Pair
+#include <utility> 
+pair<int, string> p = {1, "Hello"};
+pair<int, char> p1(10, 'A');  // Using constructor
+pair<string, double> p2 = make_pair("Price", 99.99); // Using make_pair
+map m.insert(pair<int, string>(2, "Two"));
+
 ## STL
 The C++ Standard Template Library (STL) is a powerful set of generic classes and functions that provide common data structures and algorithms. It includes containers, iterators, algorithms, and function objects, making it easier to write efficient and reusable code.
 
