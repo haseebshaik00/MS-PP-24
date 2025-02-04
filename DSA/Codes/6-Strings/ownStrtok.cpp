@@ -4,6 +4,8 @@ using namespace std;
 char* myStrtok( char* s, char d){
     static char* input = NULL;
 
+    // If s is not NULL, it means it's the first call, so input is set to s.
+    // If input is already NULL (end of the string), return NULL.
     if(s != NULL)
         input = s;
     if(input == NULL)

@@ -41,8 +41,47 @@ s.c_str() → Converts string to char*.
 
 ## Strings
 - convert string to lowercase: transform(str.begin(), str.end(), str.begin(), ::tolower);
-- 
-
+- String i/o
+    char *s= NULL; // null string - char pointer not pointing to anything - dangerous to handle - not a valid string - shows undefined behaviour
+    string s0; // null string
+    string s1="Hello", s2("ji"), s3(s2);
+    string s4=s3;
+    char a[] ={'j','o','\0'};
+    string s5(a);
+    cout<<s0<<" "<<s1<<" "<<s2<<" "<<s3<<" "<<s4<<" "<<s5<<endl;
+- C++ String Functions
+- `str1 + str2` – Concatenates two strings.  
+- `str1.append(str2);` – Appends `str2` to `str1`.  
+- `str[index]` – Accesses character at the given index.  
+- `str.at(index);` – Accesses character at the given index with bounds checking.  
+- `str.front();` – Returns the first character of the string.  
+- `str.back();` – Returns the last character of the string.  
+- `str.length();` – Returns the length of the string.  
+- `str.size();` – Returns the number of characters (same as `length()`).  
+- `str.capacity();` – Returns the storage capacity of the string.  
+- `str.empty();` – Checks if the string is empty.  
+- `str.resize(new_size);` – Resizes the string to the given size.  
+- `str.substr(pos, len);` – Extracts a substring from the string.  
+- `str.find("word");` – Finds the first occurrence of "word".  
+- `str.rfind("word");` – Finds the last occurrence of "word".  
+- `str1.compare(str2);` – Compares two strings lexicographically.  
+- `str.insert(pos, "text");` – Inserts "text" at a given position.  
+- `str.erase(pos, len);` – Erases `len` characters from `pos`.  
+- `str.replace(pos, len, "new text");` – Replaces a portion with new text.  
+- `str.push_back('A');` – Appends a character at the end.  
+- `str.pop_back();` – Removes the last character.  
+- `std::stoi(str);` – Converts string to an integer.  
+- `std::to_string(num);` – Converts a number to a string.
+- `std::stol(str);` – Converts string to a long.  
+- `std::stoll(str);` – Converts string to a long long.  
+- `std::stof(str);` – Converts string to a float.  
+- `std::stod(str);` – Converts string to a double.  
+- `std::stold(str);` – Converts string to a long double.
+- `std::transform(str.begin(), str.end(), str.begin(), ::toupper);` – Converts to uppercase.  
+- `std::transform(str.begin(), str.end(), str.begin(), ::tolower);` – Converts to lowercase.  
+- `str.c_str();` – Returns a `const char*` (C-style string).
+- `str a(c)` - char array to string where c is char* array
+- `if(a.find(b) != string::npos) return true;` check if string b is a substring of a or not
 
 ## STL
 The C++ Standard Template Library (STL) is a powerful set of generic classes and functions that provide common data structures and algorithms. It includes containers, iterators, algorithms, and function objects, making it easier to write efficient and reusable code.
