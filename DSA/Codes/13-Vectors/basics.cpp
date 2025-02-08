@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
 
 int main(){
@@ -52,7 +53,7 @@ int main(){
     cout<<v.front()<<endl;
     cout<<v.back()<<endl;
     for(auto x:v)
-        cout<<x<<" ";
+        cout<<"-"<<x<<" ";
     cout<<endl;
     vector<int> v6;
     v6.resize(100); // always do this
