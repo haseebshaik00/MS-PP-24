@@ -220,7 +220,7 @@ XXIV) Linked Lists: (133)
 // Forward List & List STL
 10) List - Adjacency List for Weighted Graphs
 
-XXV) Linked List Challenges: (144)
+XXV) Linked List Challenges: (144) + 1
 1) Remove nth node from back of the LL
 2) Add 2 Numbers
 3) Delete a node when a node is given
@@ -232,6 +232,8 @@ XXV) Linked List Challenges: (144)
 9) Even After Odd
 10) Insertion Sort LL
 11) Floyd Cycle Removal
+12) Reorder List: https://leetcode.com/problems/reorder-list/description/
+13) merge k sorted list: https://leetcode.com/problems/merge-k-sorted-lists/description/ 
 
 XXVI) Stack: (149)
 // Implementation And STL: https://www.geeksforgeeks.org/problems/implement-stack-using-array/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=implement-stack-using-array
@@ -241,7 +243,6 @@ XXVI) Stack: (149)
 3) Balanced Paranthesis: https://leetcode.com/problems/valid-parentheses/
 4) Stock Span: https://leetcode.com/problems/online-stock-span/description/
 5) Histogram Area: https://leetcode.com/problems/largest-rectangle-in-histogram/description/
-
 
 XXVII) Queue: (151)
 // Circular Queue

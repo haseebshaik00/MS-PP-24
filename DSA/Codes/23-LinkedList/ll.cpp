@@ -92,6 +92,8 @@ void deleteTail(Node* &head){
 void deleteMiddle(Node* &head, int p){
     if(head == NULL)
         return;
+    if(p==0)
+        deleteHead(head);
     if(p >= length(head))
         deleteTail(head);
     Node *temp=head, *prev=NULL;
