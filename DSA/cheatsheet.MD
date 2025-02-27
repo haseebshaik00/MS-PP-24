@@ -1,19 +1,15 @@
 # Cheatsheet
 
-## run code in vscode
+## Notes:
+
+1) run code in vscode
 - g++ STLsort.cpp -o a
 - ./a
 [OR]
 - g++ STLsort.cpp
 - ./a.out
 
-# Notes
-- https://www.bigocheatsheet.com/ 
-- memset(a,0,n); - works on 1d array
-- dp[100][100] = {0} do this for 2d array or use vectors or loops to fill 0
-- vector<vector<int>> dp(m, vector<int>(n, 0));
-
-## Introduction
+2) Introduction
 - Read input as fast as possible: https://www.geeksforgeeks.org/fast-io-for-competitive-programming/ ;  
 detailed explanation: https://stackoverflow.com/questions/31162367/significance-of-ios-basesync-with-stdiofalse-cin-tienull
 - C++ libraries list
@@ -33,23 +29,38 @@ detailed explanation: https://stackoverflow.com/questions/31162367/significance-
 - Subarray = n*(n+1)/2
 Subseqeunce = (2^n) -1 (non-empty subsequences)
 Subset = 2^n
+- https://www.bigocheatsheet.com/
+- memset(a,0,n); - works on 1d array
+- dp[100][100] = {0} do this for 2d array or use vectors or loops to fill 0
+- vector<vector<int>> dp(m, vector<int>(n, 0));
+- Study - 0-GeneralConcepts folder
 
-## Arrays
 
-1) Size of array: sizeof(a)/sizeof(a[0])
-2) Pass 1D array to a function
+* Pass 1D array to a function *
 - Using a Pointer (Decay to Pointer): void func(int *arr, int size) : Array decays to a pointer, losing its original size.
-- Using Array Syntax: void func(int arr[], int size) : same as above
+- Using Array Syntax: void func(int arr[], int size) : same as above -- use this
 - Using Fixed-Size Array: void func(int arr[3]) : Only works for fixed-size arrays
 - Using References: void func(int (&arr)[3]) : Preserves size, doesn’t decay to a pointer, Works only for arrays of fixed size.
-3) Pass 2D array to a function
-- Using Pointer: void printArray(int (*arr)[3], int rows) //void printArray(int arr[2][3]); eventually decays to a pointer *arr[3]
-- Using Array Syntax: void printArray(int arr[][3], int rows) 
+
+* Pass 2D array to a function *
 - Use a Pointer to Pointer: void printArray(int** arr, int rows, int cols)
+- Using Pointer: void printArray(int (*arr)[3], int rows)
+//void printArray(int arr[2][3]); eventually decays to a pointer *arr[3]
+- Using Array Syntax: void printArray(int arr[][3], int rows) 
+- Using Fixes sizes: void printArray(int arr[2][3])
 - Using Reference: void printArray(int (&arr)[2][3])
 
-## Char
+* diff between array and pointer
 
+* char array exception
+
+
+## Functions
+
+1) Arrays
+- Size of array: sizeof(a)/sizeof(a[0])
+
+2) Char
 - cin.get(s, 10); // take input of a string
 - cin.get(); //cin.ignore(); // use to ignore enter pressed after input
 - instead of that, point 1 n 2, use -- cin.getline(x, 10);
@@ -73,7 +84,7 @@ strncat(dest, src, n) → Appends first n characters of src to dest.
 string(1, c) → Converts char to string.
 s.c_str() → Converts string to char*.
 
-## Strings
+3) Strings
 - convert string to lowercase: transform(str.begin(), str.end(), str.begin(), ::tolower);
 - String i/o
     char *s= NULL; // null string - char pointer not pointing to anything - dangerous to handle - not a valid string - shows undefined behaviour
@@ -117,48 +128,48 @@ s.c_str() → Converts string to char*.
 - `str a(c)` - char array to string where c is char* array
 - `if(a.find(b) != string::npos) return true;` check if string b is a substring of a or not
 
-## Utility - Pair
+4) Utility - Pair
 #include <utility> 
 pair<int, string> p = {1, "Hello"};
 pair<int, char> p1(10, 'A');  // Using constructor
 pair<string, double> p2 = make_pair("Price", 99.99); // Using make_pair
 map m.insert(pair<int, string>(2, "Two"));
 
-## STL
+5) STL
 The C++ Standard Template Library (STL) is a powerful set of generic classes and functions that provide common data structures and algorithms. It includes containers, iterators, algorithms, and function objects, making it easier to write efficient and reusable code.
 
-### Containers
+5.1-Containers
 Sequential Containers: vector, deque, list, forward_list, array, string
 Associative Containers: set, multiset, map, multimap
 Unordered Containers: unordered_set, unordered_multiset, unordered_map, unordered_multimap
 
-### Iterators
+5.2-Iterators
 Input Iterator: istream_iterator
 Output Iterator: ostream_iterator
 Forward Iterator: forward_list
 Bidirectional Iterator: list, set, map
 Random Access Iterator: vector, deque
 
-### Algorithms
+5.3-Algorithms
 #include<algorithm>
-Sorting: sort(), stable_sort(), partial_sort()
+Sorting: sort()
 Searching: binary_search(), find(), equal_range()
 Modifying: copy(), replace(), fill()
 Numeric: accumulate(), inner_product(), partial_sum()
-Set Operations: set_union(), set_intersection()
-min() max()
+Set Operations: set_union(), set_ihntersection()
+min n max - min() max()
+reverse()
 
-### Function Objects (Functors)
+5.4-Function Objects (Functors)
 greater<T>(), less<T>(), equal_to<T>(), Custom functors
 
-### Utility Components
+5.5-Utility Components
 pair, tuple, optional, variant, any
 
-## Miscellaneous
+6) Miscellaneous
 - #include<climits>: INT_MIN, INT_MAX
 
-
-* TODO
+## TODO
 - macros
 - tertiary operator time
 1) https://www.geeksforgeeks.org/maximum-xor-of-two-numbers-in-an-array/
