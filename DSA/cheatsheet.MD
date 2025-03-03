@@ -105,7 +105,9 @@ strncpy(dest, src, n) → Copies first n characters of src to dest.
 strcat(dest, src) → Appends src to dest.
 strncat(dest, src, n) → Appends first n characters of src to dest.
 string(1, c) → Converts char to string.
-s.c_str() → Converts string to char*.
+
+string str = "Hello, How are you?";
+char* ptr = strtok((char *)str.c_str(), " ");
 
 3) Strings
 - convert string to lowercase: transform(str.begin(), str.end(), str.begin(), ::tolower);
@@ -116,35 +118,39 @@ s.c_str() → Converts string to char*.
     string s4=s3;
     char a[] ={'j','o','\0'};
     string s5(a);
+    getline(cin, s6);
     cout<<s0<<" "<<s1<<" "<<s2<<" "<<s3<<" "<<s4<<" "<<s5<<endl;
 - C++ String Functions
 - `str1 + str2` – Concatenates two strings.  
 - `str1.append(str2);` – Appends `str2` to `str1`.  
+
 - `str[index]` – Accesses character at the given index.  
-- `str.at(index);` – Accesses character at the given index with bounds checking.  
+- `str.at(index);` – Accesses character at the given index with bounds checking.
+
 - `str.front();` – Returns the first character of the string.  
 - `str.back();` – Returns the last character of the string.  
+- `str.push_back('A');` – Appends a character at the end.  
+- `str.pop_back();` – Removes the last character.  
+
 - `str.length();` – Returns the length of the string.  
 - `str.size();` – Returns the number of characters (same as `length()`).  
 - `str.capacity();` – Returns the storage capacity of the string.  
 - `str.empty();` – Checks if the string is empty.  
 - `str.resize(new_size);` – Resizes the string to the given size.  
+
 - `str.substr(pos, len);` – Extracts a substring from the string.  
 - `str.find("word");` – Finds the first occurrence of "word".  
 - `str.rfind("word");` – Finds the last occurrence of "word".  
 - `str1.compare(str2);` – Compares two strings lexicographically.  
+
 - `str.insert(pos, "text");` – Inserts "text" at a given position.  
 - `str.erase(pos, len);` – Erases `len` characters from `pos`.  
 - `str.replace(pos, len, "new text");` – Replaces a portion with new text.  
-- `str.push_back('A');` – Appends a character at the end.  
-- `str.pop_back();` – Removes the last character.  
+
 - `std::stoi(str);` – Converts string to an integer.  
-- `std::to_string(num);` – Converts a number to a string.
 - `std::stol(str);` – Converts string to a long.  
-- `std::stoll(str);` – Converts string to a long long.  
-- `std::stof(str);` – Converts string to a float.  
-- `std::stod(str);` – Converts string to a double.  
-- `std::stold(str);` – Converts string to a long double.
+- `std::to_string(num);` – Converts a number to a string.
+
 - `std::transform(str.begin(), str.end(), str.begin(), ::toupper);` – Converts to uppercase.  
 - `std::transform(str.begin(), str.end(), str.begin(), ::tolower);` – Converts to lowercase.  
 - `str.c_str();` – Returns a `const char*` (C-style string).
