@@ -198,7 +198,17 @@ pair, tuple, optional, variant, any
 6) Miscellaneous
 - #include<climits>: INT_MIN, INT_MAX
 
+## Concepts
+
+- Sliding Window/Two Pointer
+1) Constant k - constant window size
+2) Longest subarray/substring with sum<=k
+3) No. of subarray with sum = k
+
+https://www.geeksforgeeks.org/window-sliding-technique/
+
 ## TODO
+- sliding window
 - macros
 - tertiary operator time
 1) https://www.geeksforgeeks.org/maximum-xor-of-two-numbers-in-an-array/
