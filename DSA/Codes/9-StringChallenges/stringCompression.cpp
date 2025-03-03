@@ -21,3 +21,24 @@ int main(){
 
     return 0;
 }
+
+
+//gfg question
+int checkCompressed(string S, string T) {
+        int j = 0, i = 0;
+        while (i < T.length()) {
+            if (isdigit(T[i])) {
+                int c = 0;
+                while (i < T.length() && isdigit(T[i])) {
+                    c = c * 10 + (T[i] - '0');
+                    i++;
+                }
+                j += c;
+            } else {
+                if (j >= S.length() || S[j] != T[i]) 
+                    return 0;
+                i++; j++;
+            }
+        }
+        return j == S.length();
+    }

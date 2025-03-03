@@ -3,7 +3,8 @@
 I) 1, 2 II) 1, 2, 3
 III) 4, 6 IV) 2, 4, 5
 V) 2, 3.2 VI) 2
-VII) 3, 5 VIII) 1, 2
+VII) 3, 5 VIII) 1, 2, 3, 6, 7
+IX) 5, 
 
 I) Searching (2)
 1) Linear Search: https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1 (0:51 mins)
@@ -72,7 +73,6 @@ IX) String Challenges (45)
 5) String Compression: https://www.geeksforgeeks.org/valid-compressed-string/
 6) Sanket and Strings(sliding window): https://discuss.codingblocks.com/t/sanket-and-strings-dsa-question-practicing-strings/155569
 7) Is CB No.: https://discuss.codingblocks.com/t/finding-cb-numbers/135077
-// check String Part 2 OF https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems
 
 X) STL (48)
 1) Money Problem: https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/
@@ -497,3 +497,4 @@ https://leetcode.com/problems/binary-tree-inorder-traversal/description/
 45) Partition Equal Subset Sum: https://leetcode.com/problems/partition-equal-subset-sum/description/
 46) Minimum Path Sum: https://leetcode.com/problems/minimum-path-sum/description/
 47) Removing Duplicate: https://leetcode.com/problems/remove-duplicate-letters/ (TODO)
+// check String Part 2 OF https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems
