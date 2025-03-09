@@ -53,24 +53,23 @@ Subset = 2^n
 * diff between array and pointer
 Key Points for Pointers to Arrays:
 Increment (p++):
-
 Valid for pointers: The pointer can be incremented to point to the next element in the array (p++ moves to the next element).
 Invalid for arrays: You cannot increment the array itself, as the array name is a constant pointer.
-Reassignment (p = new_value):
 
+Reassignment (p = new_value):
 Valid for pointers: You can reassign a pointer to point to a different memory location or part of an array.
 Invalid for arrays: The array name is fixed, and you cannot reassign the array.
-Reinitialize (p = {new_values}):
 
+Reinitialize (p = {new_values}):
 Valid for pointers: The pointer can be reassigned to another location or array.
 Invalid for arrays: You cannot "reinitialize" an array once it has been defined.
-Mutability (Modifiable contents):
 
+Mutability (Modifiable contents):
 Valid for pointers: You can modify the contents of the array or string that the pointer points to (*p = value or p[0] = 'x';).
 Valid for arrays: You can modify individual elements of the array (a[0] = 9; or str[0] = 'H';).
 For strings: You can modify the characters if the string is not a string literal (e.g., *p = 'x'; for char *p).
-Mutability (Array itself):
 
+Mutability (Array itself):
 Valid for pointers: The pointer itself can be reassigned to point to a different memory location or array.
 Invalid for arrays: The array itself cannot be reassigned or moved in memory.
 

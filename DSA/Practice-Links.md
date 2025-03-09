@@ -4,7 +4,8 @@ I) 1, 2 II) 1, 2, 3
 III) 4, 6 IV) 2, 4, 5
 V) 2, 3.2 VI) 2
 VII) 3, 5 VIII) 1, 2, 3, 6, 7
-IX) 5, 
+IX) 5 X) 1,2,3
+XI) 
 
 I) Searching (2)
 1) Linear Search: https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1 (0:51 mins)
