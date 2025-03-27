@@ -4,8 +4,7 @@ I) 1, 2 II) 1, 2, 3
 III) 4, 6 IV) 2, 4, 5
 V) 2, 3.2 VI) 2
 VII) 3, 5 VIII) 1, 2, 3, 6, 7
-IX) 5 X) 1,2,3
-XI) 
+IX) 5 XI) 
 
 I) Searching (2)
 1) Linear Search: https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1 (0:51 mins)
@@ -74,11 +73,6 @@ IX) String Challenges (45)
 5) String Compression: https://www.geeksforgeeks.org/valid-compressed-string/
 6) Sanket and Strings(sliding window): https://discuss.codingblocks.com/t/sanket-and-strings-dsa-question-practicing-strings/155569
 7) Is CB No.: https://discuss.codingblocks.com/t/finding-cb-numbers/135077
-
-X) STL (48)
-1) Money Problem: https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/
-2) Next Permutation: https://www.geeksforgeeks.org/next-permutation/
-3) Activity Selection Problem: https://www.geeksforgeeks.org/activity-selection-problem-greedy-algo-1/
 
 XI) Binary Search (56)
 1) First & Last Occurence: 
@@ -368,7 +362,7 @@ X35) Challenges - Hash n Tries (215)
 
 X36) Greedy Algo (227)
 1) Indian Coin Change: 
-2) Activity selection:
+2) Activity selection: https://www.geeksforgeeks.org/activity-selection-problem-greedy-algo-1/
 3) Connecting wires:
 4) Biased Standing: 
 5) Load Balancer:
@@ -383,7 +377,7 @@ X36) Greedy Algo (227)
 X37) Dynamic Programming (261)
 1) Fibonacci: 
 2) Min to One: 
-3) Min Coin Change: 
+3) Min Coin Change: Money Problem: https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/
 4) Wine Problem: 
 5) Ladder: 
 6) Rod Cutting: https://leetcode.com/problems/minimum-cost-to-cut-a-stick/description/

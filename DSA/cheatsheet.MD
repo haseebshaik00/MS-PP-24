@@ -12,24 +12,26 @@
 2) Introduction
 - Read input as fast as possible: https://www.geeksforgeeks.org/fast-io-for-competitive-programming/ ;  
 detailed explanation: https://stackoverflow.com/questions/31162367/significance-of-ios-basesync-with-stdiofalse-cin-tienull
-- C++ libraries list
-- C++ STL  
-- Size of an array  
-- memset(a, 0, n);  
 - STL <https://www.geeksforgeeks.org/the-c-standard-template-library-stl/>
-- Boolean Comparator
 - https://www.geeksforgeeks.org/pass-array-to-functions-in-cpp/
 - https://www.geeksforgeeks.org/pass-2d-array-parameter-to-functions-in-cpp/
 - https://www.geeksforgeeks.org/difference-between-null-strings-and-empty-string-in-cpp/
 - https://www.geeksforgeeks.org/whats-difference-between-char-s-and-char-s-in-c/ 
 - https://www.geeksforgeeks.org/memory-layout-of-c-program/
 - https://www.youtube.com/watch?v=m1UzSfgjA4Y 
-- sort() - By default, it uses QuickSort, but if QuickSort is doing unfair partitioning and taking more than N*logN time, it switches to HeapSort. When the array size becomes very small, it switches to InsertionSort. 
 - https://stackoverflow.com/questions/42638999/why-cant-i-increment-an-array
-- Subarray = n*(n+1)/2
-Subseqeunce = (2^n) -1 (non-empty subsequences)
-Subset = 2^n
 - https://www.bigocheatsheet.com/
+- https://www.baeldung.com/cs/compiler-linker-assembler-loader
+- https://www.geeksforgeeks.org/difference-between-linker-and-loader/
+- sort() - By default, it uses QuickSort, but if QuickSort is doing unfair partitioning and taking more than N*logN time, it switches to HeapSort. When the array size becomes very small, it switches to InsertionSort. 
+- Boolean Comparator
+- C++ libraries list
+- C++ STL  
+- Size of an array  
+- memset(a, 0, n);  
+- Total no. of:
+Subarray/substring = n*(n+1)/2
+Subseqeunce/Subset = (2^n) -1 (non-empty subsequences) or 2^n
 - memset(a,0,n); - works on 1d array
 - dp[100][100] = {0} do this for 2d array or use vectors or loops to fill 0
 - vector<vector<int>> dp(m, vector<int>(n, 0));
@@ -103,21 +105,20 @@ strcpy(dest, src) → Copies src to dest.
 strncpy(dest, src, n) → Copies first n characters of src to dest.
 strcat(dest, src) → Appends src to dest.
 strncat(dest, src, n) → Appends first n characters of src to dest.
-string(1, c) → Converts char to string.
+char ch = 'a';
+string str(1, ch); → Converts char to string.
 
 string str = "Hello, How are you?";
 char* ptr = strtok((char *)str.c_str(), " ");
 
 3) Strings
-- convert string to lowercase: transform(str.begin(), str.end(), str.begin(), ::tolower);
 - String i/o
     char *s= NULL; // null string - char pointer not pointing to anything - dangerous to handle - not a valid string - shows undefined behaviour
     string s0; // null string
     string s1="Hello", s2("ji"), s3(s2);
     string s4=s3;
     char a[] ={'j','o','\0'};
-    string s5(a);
-    getline(cin, s6);
+    getline(cin, s5);
     cout<<s0<<" "<<s1<<" "<<s2<<" "<<s3<<" "<<s4<<" "<<s5<<endl;
 - C++ String Functions
 - `str1 + str2` – Concatenates two strings.  
