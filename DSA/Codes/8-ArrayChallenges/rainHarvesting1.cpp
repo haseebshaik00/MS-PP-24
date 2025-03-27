@@ -28,3 +28,21 @@ int main(){
 
 	return 0;
 }
+
+int trap(vector<int>& height) {
+        int n = height.size();
+        int rmax=height[n-1], lmax=height[0], lo=0, hi=n-1, ans=0;
+        while(lo<=hi){
+            if(lmax<=rmax){
+                ans += max(0, lmax-height[lo]);
+                lmax = max(lmax, height[lo]);
+                lo++;
+            }
+            else{
+                ans += max(0, rmax-height[hi]);
+                rmax = max(height[hi], rmax);
+                hi--;
+            }
+        }
+        return ans;
+    }
