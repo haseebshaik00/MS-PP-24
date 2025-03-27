@@ -19,6 +19,23 @@ int findElement(int a[], int n, int k){
     return -1;
 }
 
+int findMin(vector<int>& nums) {
+        int n = nums.size();
+        int i=0, j=n-1, ans=INT_MAX;
+        while(i<=j){
+            int mid = (i+j)/2;
+            if(nums[i]<=nums[mid]){
+                ans = min(nums[i], ans);
+                i=mid+1;
+            }
+            else{
+                ans = min(nums[mid], ans);
+                j=mid-1;
+            }
+        }
+        return ans;
+    }
+    
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);

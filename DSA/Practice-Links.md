@@ -74,21 +74,19 @@ IX) String Challenges (45)
 6) Sanket and Strings(sliding window): https://discuss.codingblocks.com/t/sanket-and-strings-dsa-question-practicing-strings/155569
 7) Is CB No.: https://discuss.codingblocks.com/t/finding-cb-numbers/135077
 
-XI) Binary Search (56)
-1) First & Last Occurence: 
-2) Pivot Element: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
-2) Monotonic Search Spaces: 
-3) Book Allocation: https://www.interviewbit.com/problems/allocate-books/
-2) Pivot Element: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
-2) Monotonic Search Spaces: 
-3) Book Allocation: https://www.interviewbit.com/problems/allocate-books/
-4) PRATA: 
-5) Winning CB Scholarship: 
-6) Painter's Problem: 
-7) kth Root: https://www.naukri.com/code360/problems/1062679?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
-7) kth Root: https://www.naukri.com/code360/problems/1062679?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
-8) Pivot in a sorted rotated array: https://medium.com/@utkarsh.gupta0311/finding-the-pivot-in-a-rotated-and-sorted-array-using-binary-search-in-c-fdac97e566ce
-https://www.youtube.com/watch?v=vF7gk4iaklA
+XI) Binary Search (56) 2
+1) First & Last Occurence: Check Folder 11
+2) Pivot/Minimum Element in rotated sorted array: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+3) BS in rotated sorted array: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
+4) Monotonic Search Spaces: 
+5) Book Allocation: https://www.interviewbit.com/problems/allocate-books/
+6) Pivot Element: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
+7) Monotonic Search Spaces: 
+8) Book Allocation: https://www.interviewbit.com/problems/allocate-books/
+9) PRATA: 
+10) Winning CB Scholarship: 
+11) Painter's Problem: 
+12) kth Root: https://www.naukri.com/code360/problems/1062679?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
 
 XII) Searching and Sorting (62)
 // Bubble Selection and Insert Sort

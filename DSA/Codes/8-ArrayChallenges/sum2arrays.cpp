@@ -3,7 +3,7 @@ using namespace std;
 
 void findSum(int a[], int b[], int n, int m){
 	int c = 0, csum=0, j=m-1;
-	for(int i=n-1; i>=0; i--){
+	for(int i=n-1; i>=0; i--){ 
 		if(j>=0){
 			csum = a[i] + b[j] + c;
 			j--;
