@@ -1,46 +1,37 @@
-#include<bits/stdc++.h>
-using namespace std;
-
-bool isPossible(int a[], int n, int m, int mid){
-    int s = 1, read = 0;
-    for(int i=0; i<n; i++){
-        if(read + a[i] > mid){
-            read = a[i];
-            s++;
-            if(s>m) return false;
-        }
-        else{
+bool allocateBooks(vector<int> &a, int n, int b, int mid) {
+    int totalStd = 1, read = 0;
+    for (int i = 0; i < n; i++) {
+        if (a[i] > mid) return false; // can't allocate book bigger than mid
+        if (read + a[i] <= mid)
             read += a[i];
+        else {
+            totalStd++;
+            read = a[i];
+            if (totalStd > b)
+                return false;
         }
     }
     return true;
 }
 
-int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
+int Solution::books(vector<int> &A, int B) {
+    int n = A.size();
+    if (B > n) return -1; // not enough books for students
 
-    int n, m, i=INT_MIN, j=0, mid, ans, d;
-    cin>>n>>m;
-    int a[n];
-    memset(a, 0, n);
-    for(int k=0; k<n; k++){
-        cin>>a[k];
-        j += a[k];
-        i = max(i, a[k]);
-    }
-    if(m > n){
-        cout<<"-1"<<endl;
-        return 0;
-    }
-    while(i<=j){
-        mid = (i+j)/2;
-        if(isPossible(a, n, m, mid)){
+    int low = *max_element(A.begin(), A.end());  // no student can get less than the largest book
+    int  high = 0;
+    for(int k=0; k<n; k++)
+        high += A[k];
+    int ans = high;
+
+    while (low <= high) {
+        int mid = (low + high) / 2;
+        if (allocateBooks(A, n, B, mid)) {
             ans = mid;
-            j = mid-1;
+            high = mid - 1;
+        } else {
+            low = mid + 1;
         }
-        else i = mid+1;
     }
-    cout<<ans<<endl;
-    return 0;
+    return ans;
 }

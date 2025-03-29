@@ -7,6 +7,25 @@ bool isPossible(ll n, ll k, ll mid){
 	return false;
 }
 
+bool isPoss(int m, int n, int mid){
+  if(pow(mid, n) <= m)
+    return true;
+  return false;
+}
+
+int NthRoot(int n, int m) {
+  int i=0, j=m, ans=-1;
+  while(i<=j){
+    int mid = (i+j)/2;
+    if(isPoss(m, n, mid)){
+      ans = mid;
+      i=mid+1;
+    }
+    else j = mid-1;
+  }
+  return (pow(ans,n) == m) ? ans : -1;
+}
+
 int main(){
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);

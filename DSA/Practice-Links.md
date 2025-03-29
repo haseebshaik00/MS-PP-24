@@ -74,19 +74,17 @@ IX) String Challenges (45)
 6) Sanket and Strings(sliding window): https://discuss.codingblocks.com/t/sanket-and-strings-dsa-question-practicing-strings/155569
 7) Is CB No.: https://discuss.codingblocks.com/t/finding-cb-numbers/135077
 
-XI) Binary Search (56) 2
-1) First & Last Occurence: Check Folder 11
+XI) Binary Search (56) 2, 3, 
+1) First & Last Occurence: 11.firstandlastoccurences.cpp
 2) Pivot/Minimum Element in rotated sorted array: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 3) BS in rotated sorted array: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
-4) Monotonic Search Spaces: 
-5) Book Allocation: https://www.interviewbit.com/problems/allocate-books/
-6) Pivot Element: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
-7) Monotonic Search Spaces: 
-8) Book Allocation: https://www.interviewbit.com/problems/allocate-books/
-9) PRATA: 
-10) Winning CB Scholarship: 
-11) Painter's Problem: 
-12) kth Root: https://www.naukri.com/code360/problems/1062679?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
+4) Monotonic Search Spaces: 11.monotonicsearchspaces.cpp
+5) kth Root: https://www.naukri.com/code360/problems/1062679?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
+6) Aggressive Cows: https://www.geeksforgeeks.org/problems/aggressive-cows/0
+7) Book Allocation: https://www.interviewbit.com/problems/allocate-books/
+8) PRATA: 
+9) Winning CB Scholarship: 
+10) Painter's Problem: 
 
 XII) Searching and Sorting (62)
 // Bubble Selection and Insert Sort

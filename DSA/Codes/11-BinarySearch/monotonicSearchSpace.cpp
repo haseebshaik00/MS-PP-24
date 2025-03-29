@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// search space = 0 - n
+
 float sqrtRoot(int n, int p){
     int i=0, j=n, mid, m;
     float ans;
@@ -30,7 +32,8 @@ int main(){
     cin.tie(NULL);
 
     int n, p;
-    cin>>n>>p;
+    cin>>n;
+    p=2; // no of decimal places needed
     cout<<sqrtRoot(n, p);
 
     return 0;
