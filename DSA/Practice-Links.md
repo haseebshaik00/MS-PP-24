@@ -4,7 +4,7 @@ I) 1, 2 II) 1, 2, 3
 III) 4, 6 IV) 2, 4, 5
 V) 2, 3.2 VI) 2
 VII) 3, 5 VIII) 1, 2, 3, 6, 7
-IX) 5 XI) 
+IX) 5 XI) 2, 3, 5, 6, 7, 8, 10
 
 I) Searching (2)
 1) Linear Search: https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1 (0:51 mins)
@@ -74,7 +74,7 @@ IX) String Challenges (45)
 6) Sanket and Strings(sliding window): https://discuss.codingblocks.com/t/sanket-and-strings-dsa-question-practicing-strings/155569
 7) Is CB No.: https://discuss.codingblocks.com/t/finding-cb-numbers/135077
 
-XI) Binary Search (56) 2, 3, 
+XI) Binary Search (56) 2, 3, 5, 6, 7, 8, 10
 1) First & Last Occurence: 11.firstandlastoccurences.cpp
 2) Pivot/Minimum Element in rotated sorted array: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 3) BS in rotated sorted array: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
@@ -82,9 +82,9 @@ XI) Binary Search (56) 2, 3,
 5) kth Root: https://www.naukri.com/code360/problems/1062679?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
 6) Aggressive Cows: https://www.geeksforgeeks.org/problems/aggressive-cows/0
 7) Book Allocation: https://www.interviewbit.com/problems/allocate-books/
-8) PRATA: 
-9) Winning CB Scholarship: 
-10) Painter's Problem: 
+8) PRATA: https://www.spoj.com/problems/PRATA/
+9) Winning CB Scholarship: https://www.youtube.com/watch?v=YM7S1eaoCFQ
+10) Painter's Problem: https://www.geeksforgeeks.org/problems/the-painters-partition-problem1535/1
 
 XII) Searching and Sorting (62)
 // Bubble Selection and Insert Sort
