@@ -5,6 +5,7 @@ III) 4, 6 IV) 2, 4, 5
 V) 2, 3.2 VI) 2
 VII) 3, 5 VIII) 1, 2, 3, 6, 7
 IX) 5 XI) 2, 3, 5, 6, 7, 8, 10
+XII) all 6
 
 I) Searching (2)
 1) Linear Search: https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1 (0:51 mins)
@@ -86,9 +87,9 @@ XI) Binary Search (56) 2, 3, 5, 6, 7, 8, 10
 9) Winning CB Scholarship: https://www.youtube.com/watch?v=YM7S1eaoCFQ
 10) Painter's Problem: https://www.geeksforgeeks.org/problems/the-painters-partition-problem1535/1
 
-XII) Searching and Sorting (62)
+XII) Searching and Sorting (62) all 6
 // Bubble Selection and Insert Sort
-1) DNF Sort: https://www.youtube.com/watch?v=2C4CQ32961Y
+1) DNF Sort: https://leetcode.com/problems/sort-colors/
 2) Couting Sort: https://www.geeksforgeeks.org/counting-sort/
 3) Merge Sort: https://www.geeksforgeeks.org/merge-sort/
 4) Quick Sort: https://www.geeksforgeeks.org/quick-sort-algorithm/
