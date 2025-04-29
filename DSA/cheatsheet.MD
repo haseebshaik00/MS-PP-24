@@ -245,3 +245,11 @@ https://www.geeksforgeeks.org/duplicates-in-an-array-in-on-time-and-by-using-o1-
 28) learn how to use 1d dp in 2d dp problems
 29) emplace() and emplace_back() in unordered_map ---- IMPPP
 30) see how to do 3 sum two pointer approach using hashing which reduces the O(n^2) complexity
+
+
+## Trim a string
+size_t start = 0;
+while (start < s.size() && isspace(s[start])) start++;
+size_t end = s.size();
+while (end > start && isspace(s[end - 1])) end--;
+s = s.substr(start, end - start);
