@@ -302,6 +302,7 @@ if (process.argv.includes('--exit')) {
 6) sql+express : <https://github.com/coding-blocks-archives/WebNodeLive2017Winter/tree/master/Webinar13>
 as a backend functioning website and also as an API
 
+```bash
 application/
 ├── node_modules/       # Installed npm packages
 ├── src/                # Application source code
@@ -331,6 +332,7 @@ application/
 ├── package.json        # NPM dependencies and scripts
 ├── package-lock.json   # Dependency tree lock file
 └── README.md           # Project documentation
+```
 
 app.js (use app.use() to define routes) -> routes (define all crud operations, point to the controller)-> 
 controllers (point to db here, do all the db work here) 
