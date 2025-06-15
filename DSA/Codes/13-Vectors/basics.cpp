@@ -9,7 +9,7 @@ int main(){
     // initialization and declaration
     vector<int> v;
     vector<int> v1{1,2,3,4,5};
-    vector<int> v2(5,0);
+    vector<int> v2(5,0); // same as vector<int> v2(5);
     vector<int> v3(v1);
     vector<int> v4(v1.begin(), v1.end());
 
