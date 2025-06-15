@@ -50,7 +50,7 @@ char* ptr = strtok((char *)str.c_str(), " ");
 
 - `str.front();` – Returns the first character of the string.  
 - `str.back();` – Returns the last character of the string.  
-- `str.push_back('A');` – Appends a character at the end.  
+- `str.push_back('A');` – Appends character(s) at the end.  
 - `str.pop_back();` – Removes the last character.  
 
 - `str.length();` – Returns the length of the string.  
@@ -71,29 +71,21 @@ char* ptr = strtok((char *)str.c_str(), " ");
 - `std::stoi(str);` – Converts string to an integer.  
 - `std::stol(str);` – Converts string to a long.  
 - `std::to_string(num);` – Converts a number to a string.
+- `str.c_str();` – Returns a `const char*` (C-style string).
+- `str a(c)` - char array to string where c is char* array
 
 - `std::transform(str.begin(), str.end(), str.begin(), ::toupper);` – Converts to uppercase.  
 - `std::transform(str.begin(), str.end(), str.begin(), ::tolower);` – Converts to lowercase.  
-- `str.c_str();` – Returns a `const char*` (C-style string).
-- `str a(c)` - char array to string where c is char* array
 - `if(a.find(b) != string::npos) return true;` check if string b is a substring of a or not
 
-4) Utility - Pair
-#include <utility> 
-- pair<int, string> p = {1, "Hello"};
-- p.first=1; p.second="hi";
-- pair<int, string> p2(p);
-- pair<int, char> p1(10, 'A');  // Using constructor
-- pair<string, double> p2 = make_pair("Price", 99.99); // Using make_pair
-- map m.insert(pair<int, string>(2, "Two"));
-
-5) STL
+4) STL
 The C++ Standard Template Library (STL) is a powerful set of generic classes and functions that provide common data structures and algorithms. It includes containers, iterators, algorithms, and function objects, making it easier to write efficient and reusable code.
 
 5.1-Containers
 Sequential Containers: vector, deque, list, forward_list, array, string
 Associative Containers: set, multiset, map, multimap
 Unordered Containers: unordered_set, unordered_multiset, unordered_map, unordered_multimap
+Adapter: stack, queue, priority_queue
 
 5.2-Iterators
 Input Iterator: istream_iterator
@@ -101,6 +93,7 @@ Output Iterator: ostream_iterator
 Forward Iterator: forward_list
 Bidirectional Iterator: list, set, map
 Random Access Iterator: vector, deque
+Types: begin(), end(), rbegin(), const_iterator, etc.
 
 5.3-Algorithms
 #include<algorithm>
@@ -109,32 +102,40 @@ Introsort begins with quicksort. If the recursion depth becomes too large, indic
 it switches to heapsort. Finally, insertion sort is used on small subarrays to improve performance. This strategy ensures that std::sort 
 provides an average time complexity of O(n log n) with a worst-case guarantee of O(n log n), making it a robust and efficient sorting algorithm.
 - Searching: binary_search(), find(), equal_range()
-- Modifying: copy(), replace(), fill()
-- Numeric: accumulate(), inner_product(), partial_sum()
-- Set Operations: set_union(), set_ihntersection()
-- min n max - min() max()
-- reverse()
-- fill(begin(a), end(a), 0);
+- Modifying: {copy(), replace(), fill()} - belong to algorithm library, emplace() -container method
+fill(begin(a), end(a), 0);
 for(int i = 0; i < 3; i++)
     fill(begin(a[i]), end(a[i]), 0);
+- Numeric: accumulate(), inner_product(), partial_sum()
+- Set Operations: set_union(), set_intersection()
+- min n max - min() max()
+- reverse(), count(), lower_bound(), upper_bound(), rotate(), *min_element, *max_element, equal(), distance()
 
 5.4-Function Objects (Functors)
 greater<T>(), less<T>(), equal_to<T>(), Custom functors
 
 5.5-Utility Components
-pair, tuple, optional, variant, any
+pair, tuple, optional, variant, any, make_pair(), swap(), move(),
+std::next(iterator it, int n = 1);  // moves forward by n
+std::prev(iterator it, int n = 1);  // moves backward by n
+- Utility - Pair
+#include <utility> 
+- pair<int, string> p = {1, "Hello"};
+- p.first=1; p.second="hi";
+- pair<int, string> p2(p);
+- pair<int, char> p1(10, 'A');  // Using constructor
+- pair<string, double> p2 = make_pair("Price", 99.99); // Using make_pair
+- map m.insert(pair<int, string>(2, "Two"));
 
 6) Miscellaneous
 - #include<climits>: INT_MIN, INT_MAX
 - inline/lambda function: bubbleSortComp(a, n, [](int a, int b) { return a < b; });
 
 ## Concepts
-
 - Sliding Window/Two Pointer
 1) Constant k - constant window size
 2) Longest subarray/substring with sum<=k
 3) No. of subarray with sum = k
-
 
 ## Notes:
 1) run code in vscode
@@ -221,6 +222,17 @@ Invalid for arrays: The array itself cannot be reassigned or moved in memory.
 * char array exception
 char *p = "haseeb"
 you cant do p[0]='x'; as haseeb is stored in code section of the memory
+
+* array pointers
+int a[] = {1, 2, 3};
+cout << "a       (int*):     " << a << endl; // 0x16bb62a78
+cout << "&a[0]   (int*):     " << &a[0] << endl; // 0x16bb62a78
+cout << "&a      (int (*)[3]): " << &a << endl; // 0x16bb62a78 - same as above but type is diff
+--- hence a = &a = &a[0]
+cout << "&a + 1  (next array): " << (&a + 1) << endl; // 0x16bb62a84 - similar to whole a + 1
+cout << "a + 1  (next array element): " << (a + 1) << endl; // 0x16b5c6a7c - similar to &a[0] + 1
+
+![alt text](image.png)
 
 ## TODO
 - sliding window

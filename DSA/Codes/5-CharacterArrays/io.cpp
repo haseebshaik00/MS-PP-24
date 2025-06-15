@@ -37,6 +37,11 @@ int main(){
     char b[] = {'h', 'i', '\0'}; // sizeof = 3 ; strlen(b)=2;
     char g[] = "ji"; // delimeter is automatically appended in the end hence; sizeof = 3 ; strlen(b)=2;
     cout<<b<<endl; // prints b ; &b - prints address of b
+    // cout << b; treats b as a C-style string - cout has an overloaded operator<< for char* that prints characters until it encounters '\0'
+    // Because cout has special overloads:
+    // For char* → prints as string
+    // For void*, int*, etc. → prints address
+    // For char arrays (with \0) → interpreted as a null-terminated string
 
     char cd[] = "haseeb";
     cout<<sizeof(cd)<<" "<<strlen(cd); // 7 6

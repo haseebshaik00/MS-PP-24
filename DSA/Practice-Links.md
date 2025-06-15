@@ -1,10 +1,15 @@
 ## TODO: (15)
-
 I) 1, 2 II) 1, 2, 3
 III) 4, 6 IV) 2, 4, 5
-V) 2, 3.2 VI) 2
-VII) 3, 5 VIII) 1, 2, 3, 6, 7
-IX) 5 XI) 2, 3, 5, 6, 7, 8, 10
+- arrays passed to functions
+- 2d array allocation
+- pointers
+- Dynamic Memory Allocation
+V) 2, 3.1 3.2(TODO) VI) 2
+- STL, Vectors, Maps
+VII) 3, 5 VIII) 1, 2, 3, 6, 7 IX) 5 
+Topic 1: Array and Hashing
+XI) 2, 3, 5, 6, 7, 8, 10
 XII) all 6
 
 I) Searching (2)
@@ -74,6 +79,8 @@ IX) String Challenges (45)
 5) String Compression: https://www.geeksforgeeks.org/valid-compressed-string/
 6) Sanket and Strings(sliding window): https://discuss.codingblocks.com/t/sanket-and-strings-dsa-question-practicing-strings/155569
 7) Is CB No.: https://discuss.codingblocks.com/t/finding-cb-numbers/135077
+
+X) STL - Indian money change, Next permutation
 
 XI) Binary Search (56) 2, 3, 5, 6, 7, 8, 10
 1) First & Last Occurence: 11.firstandlastoccurences.cpp

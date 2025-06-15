@@ -10,6 +10,19 @@ void removeDup(char a[], int n){
     a[++i] = '\0';
 }
 
+// User function template for C++
+string removeDuplicates(string &s) {
+    unordered_map<char, bool> m;
+    int n = s.length(); string ans = "";
+    for(auto x:s){
+        if(!m[x]){
+            ans += x;
+            m[x] = true;
+        }
+    }
+    return ans;
+}
+
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);

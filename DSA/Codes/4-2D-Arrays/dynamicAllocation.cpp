@@ -7,7 +7,7 @@ int main(){
 
     int m, n;
     cin>>m>>n;
-    // int *b = new int[m]; -- Allocates memory for m integers
+    // int *b = new int[m]; -- dynamic array: pointer to an array of size m - Allocates memory for m integers
     int **a = new int*[m]; // pointer to array of pointers - // Allocates memory for 10 integer pointers
     for(int i=0; i<m; i++)
         a[i] = new int[n]; // assign each row with n size columns
