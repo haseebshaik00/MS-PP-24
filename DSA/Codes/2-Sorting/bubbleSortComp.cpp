@@ -25,6 +25,7 @@ int main(){
     for(int i=0;i<n;i++)
         cin>>a[i];
     bubbleSortComp(a, n, compare);
+    // bubbleSortComp(a, n, [](int a, int b) { return a < b; });
     for(int i=0;i<n;i++)
         cout<<a[i]<<" ";
 

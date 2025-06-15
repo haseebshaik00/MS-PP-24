@@ -9,11 +9,11 @@ XII) all 6
 
 I) Searching (2)
 1) Linear Search: https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1 (0:51 mins)
-2) Binary Search: https://leetcode.com/problems/binary-search/ (1:51 mins)
+2) Binary Search: https://leetcode.com/problems/binary-search/ (1:26 mins)
 
 II) Sorting (7)
 1) Bubble Sort: https://www.geeksforgeeks.org/problems/bubble-sort/1 (1:27 mins)
-2) Selection Sort: https://www.geeksforgeeks.org/problems/selection-sort/1 (3:25 mins)
+2) Selection Sort: https://www.geeksforgeeks.org/problems/selection-sort/1 (2:52 mins)
 3) Insertion Sort: https://www.geeksforgeeks.org/problems/insertion-sort/1  (3:55 mins)
 4) STL sort with Comparator: https://www.geeksforgeeks.org/sort-c-stl/
 5) Bubble Sort with Comparator: https://coderanch.com/t/374811/java/Bubble-Sort-Set-Comparator

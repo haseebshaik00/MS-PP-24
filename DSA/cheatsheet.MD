@@ -1,88 +1,9 @@
 # Cheatsheet
 
-## Notes:
-
-1) run code in vscode
-- g++ STLsort.cpp -o a
-- ./a
-[OR]
-- g++ STLsort.cpp
-- ./a.out
-
-2) Introduction
-- Read input as fast as possible: https://www.geeksforgeeks.org/fast-io-for-competitive-programming/ ;  
-detailed explanation: https://stackoverflow.com/questions/31162367/significance-of-ios-basesync-with-stdiofalse-cin-tienull
-- STL <https://www.geeksforgeeks.org/the-c-standard-template-library-stl/>
-- https://www.geeksforgeeks.org/pass-array-to-functions-in-cpp/
-- https://www.geeksforgeeks.org/pass-2d-array-parameter-to-functions-in-cpp/
-- https://www.geeksforgeeks.org/difference-between-null-strings-and-empty-string-in-cpp/
-- https://www.geeksforgeeks.org/whats-difference-between-char-s-and-char-s-in-c/ 
-- https://www.geeksforgeeks.org/memory-layout-of-c-program/
-- https://www.youtube.com/watch?v=m1UzSfgjA4Y 
-- https://stackoverflow.com/questions/42638999/why-cant-i-increment-an-array
-- https://www.bigocheatsheet.com/
-- https://www.baeldung.com/cs/compiler-linker-assembler-loader
-- https://www.geeksforgeeks.org/difference-between-linker-and-loader/
-- sort() - By default, it uses QuickSort, but if QuickSort is doing unfair partitioning and taking more than N*logN time, it switches to HeapSort. When the array size becomes very small, it switches to InsertionSort. 
-- Boolean Comparator
-- C++ libraries list
-- C++ STL  
-- Size of an array  
-- memset(a, 0, n);  
-- Total no. of:
-Subarray/substring = n*(n+1)/2
-Subseqeunce/Subset = (2^n) -1 (non-empty subsequences) or 2^n
-- memset(a,0,n); - works on 1d array
-- dp[100][100] = {0} do this for 2d array or use vectors or loops to fill 0
-- vector<vector<int>> dp(m, vector<int>(n, 0));
-- Study - 0-GeneralConcepts folder
-
-
-* Pass 1D array to a function *
-- Using a Pointer (Decay to Pointer): void func(int *arr, int size) : Array decays to a pointer, losing its original size.
-- Using Array Syntax: void func(int arr[], int size) : same as above -- use this
-- Using Fixed-Size Array: void func(int arr[3]) : Only works for fixed-size arrays
-- Using References: void func(int (&arr)[3]) : Preserves size, doesn’t decay to a pointer, Works only for arrays of fixed size.
-
-* Pass 2D array to a function *
-- Use a Pointer to Pointer: void printArray(int** arr, int rows, int cols)
-- Using Pointer: void printArray(int (*arr)[3], int rows)
-//void printArray(int arr[2][3]); eventually decays to a pointer *arr[3]
-- Using Array Syntax: void printArray(int arr[][3], int rows) 
-- Using Fixes sizes: void printArray(int arr[2][3])
-- Using Reference: void printArray(int (&arr)[2][3])
-
-* diff between array and pointer
-Key Points for Pointers to Arrays:
-Increment (p++):
-Valid for pointers: The pointer can be incremented to point to the next element in the array (p++ moves to the next element).
-Invalid for arrays: You cannot increment the array itself, as the array name is a constant pointer.
-
-Reassignment (p = new_value):
-Valid for pointers: You can reassign a pointer to point to a different memory location or part of an array.
-Invalid for arrays: The array name is fixed, and you cannot reassign the array.
-
-Reinitialize (p = {new_values}):
-Valid for pointers: The pointer can be reassigned to another location or array.
-Invalid for arrays: You cannot "reinitialize" an array once it has been defined.
-
-Mutability (Modifiable contents):
-Valid for pointers: You can modify the contents of the array or string that the pointer points to (*p = value or p[0] = 'x';).
-Valid for arrays: You can modify individual elements of the array (a[0] = 9; or str[0] = 'H';).
-For strings: You can modify the characters if the string is not a string literal (e.g., *p = 'x'; for char *p).
-
-Mutability (Array itself):
-Valid for pointers: The pointer itself can be reassigned to point to a different memory location or array.
-Invalid for arrays: The array itself cannot be reassigned or moved in memory.
-
-* char array exception
-char *p = "haseeb"
-you cant do p[0]='x'; as haseeb is stored in code section of the memory
-
 ## Functions
-
 1) Arrays
 - Size of array: sizeof(a)/sizeof(a[0])
+- Fill array with 0 - memset(a, 0, sizeof(a));
 
 2) Char
 - cin.get(s, 10); // take input of a string
@@ -183,13 +104,19 @@ Random Access Iterator: vector, deque
 
 5.3-Algorithms
 #include<algorithm>
-Sorting: sort()
-Searching: binary_search(), find(), equal_range()
-Modifying: copy(), replace(), fill()
-Numeric: accumulate(), inner_product(), partial_sum()
-Set Operations: set_union(), set_ihntersection()
-min n max - min() max()
-reverse()
+- Sorting: sort()
+Introsort begins with quicksort. If the recursion depth becomes too large, indicating a potential worst-case scenario for quicksort, 
+it switches to heapsort. Finally, insertion sort is used on small subarrays to improve performance. This strategy ensures that std::sort 
+provides an average time complexity of O(n log n) with a worst-case guarantee of O(n log n), making it a robust and efficient sorting algorithm.
+- Searching: binary_search(), find(), equal_range()
+- Modifying: copy(), replace(), fill()
+- Numeric: accumulate(), inner_product(), partial_sum()
+- Set Operations: set_union(), set_ihntersection()
+- min n max - min() max()
+- reverse()
+- fill(begin(a), end(a), 0);
+for(int i = 0; i < 3; i++)
+    fill(begin(a[i]), end(a[i]), 0);
 
 5.4-Function Objects (Functors)
 greater<T>(), less<T>(), equal_to<T>(), Custom functors
@@ -199,6 +126,7 @@ pair, tuple, optional, variant, any
 
 6) Miscellaneous
 - #include<climits>: INT_MIN, INT_MAX
+- inline/lambda function: bubbleSortComp(a, n, [](int a, int b) { return a < b; });
 
 ## Concepts
 
@@ -207,7 +135,92 @@ pair, tuple, optional, variant, any
 2) Longest subarray/substring with sum<=k
 3) No. of subarray with sum = k
 
-https://www.geeksforgeeks.org/window-sliding-technique/
+
+## Notes:
+1) run code in vscode
+- g++ STLsort.cpp -o a
+- ./a
+[OR]
+- g++ STLsort.cpp
+- ./a.out
+
+2) Introduction
+- Read input as fast as possible: https://www.geeksforgeeks.org/fast-io-for-competitive-programming/ ;  
+detailed explanation: https://stackoverflow.com/questions/31162367/significance-of-ios-basesync-with-stdiofalse-cin-tienull
+- STL <https://www.geeksforgeeks.org/the-c-standard-template-library-stl/>
+- https://www.geeksforgeeks.org/pass-array-to-functions-in-cpp/
+- https://www.geeksforgeeks.org/pass-2d-array-parameter-to-functions-in-cpp/
+- https://www.geeksforgeeks.org/difference-between-null-strings-and-empty-string-in-cpp/
+- https://www.geeksforgeeks.org/whats-difference-between-char-s-and-char-s-in-c/ 
+- https://www.geeksforgeeks.org/memory-layout-of-c-program/
+- https://www.youtube.com/watch?v=m1UzSfgjA4Y 
+- https://stackoverflow.com/questions/42638999/why-cant-i-increment-an-array
+- https://www.bigocheatsheet.com/
+- https://www.baeldung.com/cs/compiler-linker-assembler-loader
+- https://www.geeksforgeeks.org/difference-between-linker-and-loader/
+- sort() - By default, it uses QuickSort, but if QuickSort is doing unfair partitioning and taking more than N*logN time, it switches to HeapSort. When the array size becomes very small, it switches to InsertionSort. 
+- Boolean Comparator
+- C++ libraries list
+- C++ STL
+- For binary search and two pointer approach the array must always be sorted.
+- Total no. of:
+Subarray/substring = n*(n+1)/2
+Subseqeunce/Subset = (2^n) -1 (non-empty subsequences) or 2^n
+- memset(a,0,n); - works on 1d array
+- dp[100][100] = {0} do this for 2d array or use vectors or loops to fill 0
+- vector<vector<int>> dp(m, vector<int>(n, 0));
+- Study - 0-GeneralConcepts folder
+
+3) Trim a string
+size_t start = 0;
+while (start < s.size() && isspace(s[start])) start++;
+size_t end = s.size();
+while (end > start && isspace(s[end - 1])) end--;
+s = s.substr(start, end - start);
+
+4) Array Passing
+- In cpp all arrays are always passed as pointers!
+
+* Pass 1D array to a function *
+- Using a Pointer (Decay to Pointer): void func(int *arr, int size) : Array decays to a pointer, losing its original size.
+- Using Array Syntax: void func(int arr[], int size) : same as above -- use this
+- Using Fixed-Size Array: void func(int arr[3]) : Only works for fixed-size arrays
+- Using References: void func(int (&arr)[3]) : Preserves size, doesn’t decay to a pointer, Works only for arrays of fixed size.
+
+* Pass 2D array to a function *
+- Use a Pointer to Pointer: void printArray(int** arr, int rows, int cols)
+- Using Pointer: void printArray(int (*arr)[3], int rows)
+//void printArray(int arr[2][3]); eventually decays to a pointer *arr[3]
+- Using Array Syntax: void printArray(int arr[][3], int rows) 
+- Using Fixes sizes: void printArray(int arr[2][3])
+- Using Reference: void printArray(int (&arr)[2][3])
+
+* diff between array and pointer
+Key Points for Pointers to Arrays:
+Increment (p++):
+Valid for pointers: The pointer can be incremented to point to the next element in the array (p++ moves to the next element).
+Invalid for arrays: You cannot increment the array itself, as the array name is a constant pointer.
+
+Reassignment (p = new_value):
+Valid for pointers: You can reassign a pointer to point to a different memory location or part of an array.
+Invalid for arrays: The array name is fixed, and you cannot reassign the array.
+
+Reinitialize (p = {new_values}):
+Valid for pointers: The pointer can be reassigned to another location or array.
+Invalid for arrays: You cannot "reinitialize" an array once it has been defined.
+
+Mutability (Modifiable contents):
+Valid for pointers: You can modify the contents of the array or string that the pointer points to (*p = value or p[0] = 'x';).
+Valid for arrays: You can modify individual elements of the array (a[0] = 9; or str[0] = 'H';).
+For strings: You can modify the characters if the string is not a string literal (e.g., *p = 'x'; for char *p).
+
+Mutability (Array itself):
+Valid for pointers: The pointer itself can be reassigned to point to a different memory location or array.
+Invalid for arrays: The array itself cannot be reassigned or moved in memory.
+
+* char array exception
+char *p = "haseeb"
+you cant do p[0]='x'; as haseeb is stored in code section of the memory
 
 ## TODO
 - sliding window
@@ -245,11 +258,5 @@ https://www.geeksforgeeks.org/duplicates-in-an-array-in-on-time-and-by-using-o1-
 28) learn how to use 1d dp in 2d dp problems
 29) emplace() and emplace_back() in unordered_map ---- IMPPP
 30) see how to do 3 sum two pointer approach using hashing which reduces the O(n^2) complexity
-
-
-## Trim a string
-size_t start = 0;
-while (start < s.size() && isspace(s[start])) start++;
-size_t end = s.size();
-while (end > start && isspace(s[end - 1])) end--;
-s = s.substr(start, end - start);
+31) use direct comp function in sort: lambda funcs + functors
+32) https://www.geeksforgeeks.org/window-sliding-technique/
