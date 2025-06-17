@@ -289,8 +289,9 @@ https://www.geeksforgeeks.org/duplicates-in-an-array-in-on-time-and-by-using-o1-
 30) see how to do 3 sum two pointer approach using hashing which reduces the O(n^2) complexity
 31) use direct comp function in sort: lambda funcs + functors
 32) https://www.geeksforgeeks.org/window-sliding-technique/
-
+33) sort map
 
 ## Part 1: Array & Hashing
 - we cant sort maps, unordered_map, set and unordered_set (we can only sort random access iterators/sequence containers)
--  
+- unique/duplicate elements - think of set
+- https://neetcode.io/problems/string-encode-and-decode
