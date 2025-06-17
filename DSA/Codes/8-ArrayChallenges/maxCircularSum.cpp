@@ -34,3 +34,22 @@ int main(){
 
 	return 0;
 }
+
+
+class Solution {
+  public:
+    int circularSubarraySum(vector<int> &arr) {
+        // code here
+        int n = arr.size(), totalSum=0;
+        int currSum=0, maxSum = arr[0], currSumMin=0, minSum = arr[0];
+        for(auto &x: arr){
+            totalSum += x;
+            currSum = max(x, x+currSum);
+            maxSum = max(currSum, maxSum);
+            currSumMin = min(x, x+currSumMin);
+            minSum = min(currSumMin, minSum);
+        }
+        if(maxSum < 0) return maxSum;
+        return max(maxSum, totalSum - minSum);
+    }
+};

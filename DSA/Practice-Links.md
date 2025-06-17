@@ -7,7 +7,7 @@ III) 4, 6 IV) 2, 4, 5
 - Dynamic Memory Allocation
 V) 2, 3.1 3.2(TODO) VI) 2
 - STL, Vectors, Maps
-VII) 3, 5 VIII) 1, 2, 3, 6, 7 IX) 5 
+VII) 3, 4, 5 VIII) all IX) 5 
 Topic 1: Array and Hashing
 XI) 2, 3, 5, 6, 7, 8, 10
 XII) all 6
@@ -59,17 +59,17 @@ VII) Problem solving in 2D Arrays (31)
 1) Sum of all submatrices O(n^6): https://www.geeksforgeeks.org/sum-of-all-submatrices-of-a-given-matrix/
 2) Sum of all submatrices O(n^4): https://www.geeksforgeeks.org/sum-of-all-submatrices-of-a-given-matrix/
 3) Sum of all submatrices O(n^2): https://www.geeksforgeeks.org/sum-of-all-submatrices-of-a-given-matrix/
-4) Submatrix Sum Query: https://www.geeksforgeeks.org/submatrix-sum-queries/
+4) Submatrix Sum Query: Notes(similar to 2) + https://www.geeksforgeeks.org/problems/queries-on-a-matrix0443/1
 5) Max Sum Submatrix Sorted Row and Column: https://www.geeksforgeeks.org/maximum-sum-of-any-submatrix-of-a-matrix-which-is-sorted-row-wise-and-column-wise/
 
 VIII) Array Challenges (38)
 1) Rain Water Harvesting: https://leetcode.com/problems/trapping-rain-water/
-2) Max Circular subarray Sum: https://www.geeksforgeeks.org/maximum-contiguous-circular-sum/ 
-3) Max length Bitonic Subarray: https://www.geeksforgeeks.org/maximum-length-bitonic-subarray/
-4) Biggest Number: https://www.geeksforgeeks.org/given-an-array-of-numbers-arrange-the-numbers-to-form-the-biggest-number/
+2) Max Circular subarray Sum: https://www.geeksforgeeks.org/problems/max-circular-subarray-sum-1587115620/1
+3) Max length Bitonic Subarray: https://www.geeksforgeeks.org/problems/maximum-length-bitonic-subarray5730/1
+4) Biggest Number: https://www.geeksforgeeks.org/problems/largest-number-formed-from-an-array1117/1
 5) Chewbacca Number: https://github.com/jackiehluo/practice/blob/master/codeforces/500s/514a-chewbacca-and-number.cpp
-6) Sum of 2 arrays: https://www.geeksforgeeks.org/add-two-numbers-represented-by-two-arrays/
-7) Factorial of a big number: https://www.geeksforgeeks.org/factorial-large-number/
+6) Sum of 2 arrays: https://www.geeksforgeeks.org/problems/add-two-numbers-represented-by-two-arrays2408/1
+7) Factorial of a big number: https://www.geeksforgeeks.org/problems/factorials-of-large-numbers2508/1
 
 IX) String Challenges (45)
 1) Upper Lower Case: https://www.geeksforgeeks.org/isupper-islower-application-c/

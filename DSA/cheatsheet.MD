@@ -234,6 +234,12 @@ cout << "a + 1  (next array element): " << (a + 1) << endl; // 0x16b5c6a7c - sim
 
 ![alt text](image.png)
 
+* ASCII Values
+- A-Z: 65-90
+- a-z: 97-122
+- space: 32
+- 0-9: 48-57
+
 ## TODO
 - sliding window
 - macros

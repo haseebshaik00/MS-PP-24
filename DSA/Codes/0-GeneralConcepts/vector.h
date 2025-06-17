@@ -9,8 +9,15 @@ class vectorMock{
     }
 
     void push_back(int x){
-        if(cs == ms)
-            ms = ms*2;
+        if(cs == ms){
+            int *newArray = new int[ms*2];
+            for(int i=0; i<ms; i++)
+                newArray[i] = a[i];
+            delete []a;
+            a=newArray;
+            delete []newArray;
+            newArray = NULL;
+        }
         a[cs] = x;
         cs++;
     }
