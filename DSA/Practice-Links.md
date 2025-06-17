@@ -1,14 +1,27 @@
 ## TODO: (15)
-I) 1, 2 II) 1, 2, 3
-III) 4, 6 IV) 2, 4, 5
-- arrays passed to functions
-- 2d array allocation
-- pointers
-- Dynamic Memory Allocation
-V) 2, 3.1 3.2(TODO) VI) 2
-- STL, Vectors, Maps
-VII) 3, 4, 5 VIII) all IX) 5 
+
+I) 1, 2
+II) 1, 2, 3
+III) 4, 6
+IV) 2, 4, 5
+
+- arrays passed to functions (Notes)
+- 2d array allocation (Notes)
+- pointers (Notes)
+- Dynamic Memory Allocation (Notes)
+
+V) 2, 3.1 3.2 (TODO)
+VI) 2
+
+- STL, Vectors (Notes)
+
+VII) 3, 4, 5
+VIII) all
+IX) 5, 6, 7(check the substrings concept here)
+
+- Maps (Notes)
 Topic 1: Array and Hashing
+
 XI) 2, 3, 5, 6, 7, 8, 10
 XII) all 6
 
@@ -73,10 +86,10 @@ VIII) Array Challenges (38)
 
 IX) String Challenges (45)
 1) Upper Lower Case: https://www.geeksforgeeks.org/isupper-islower-application-c/
-2) Max Frequency Character: https://www.geeksforgeeks.org/return-maximum-occurring-character-in-the-input-string/
+2) Max Frequency Character: https://www.geeksforgeeks.org/problems/maximum-occuring-character-1587115620/1
 3) Can Your Read This: https://www.geeksforgeeks.org/implementing-of-strtok-function-in-c/
 4) Palindrome Recursive: https://www.geeksforgeeks.org/recursive-function-check-string-palindrome/
-5) String Compression: https://www.geeksforgeeks.org/valid-compressed-string/
+5) String Compression: https://www.geeksforgeeks.org/problems/valid-compressed-string--170647/1
 6) Sanket and Strings(sliding window): https://discuss.codingblocks.com/t/sanket-and-strings-dsa-question-practicing-strings/155569
 7) Is CB No.: https://discuss.codingblocks.com/t/finding-cb-numbers/135077
 

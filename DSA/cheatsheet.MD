@@ -240,6 +240,17 @@ cout << "a + 1  (next array element): " << (a + 1) << endl; // 0x16b5c6a7c - sim
 - space: 32
 - 0-9: 48-57
 
+- Convert char digit to int: 
+char ch = '7';
+int digit = ch - '0';  // 55 - 48 = 7
+- Convert int digit to char:
+int digit = 7;
+char ch = digit + '0';  // 7 + 48 = 55 → '7'
+- Map capital letters (A–Z) to values (e.g., 0–25 or 1–26):
+char ch = 'C';
+int val = ch - 'A';  // 67 - 65 = 2  (0-based)
+int val = ch - 'A' + 1;  // = 3 (1-based)
+
 ## TODO
 - sliding window
 - macros
@@ -278,3 +289,8 @@ https://www.geeksforgeeks.org/duplicates-in-an-array-in-on-time-and-by-using-o1-
 30) see how to do 3 sum two pointer approach using hashing which reduces the O(n^2) complexity
 31) use direct comp function in sort: lambda funcs + functors
 32) https://www.geeksforgeeks.org/window-sliding-technique/
+
+
+## Part 1: Array & Hashing
+- we cant sort maps, unordered_map, set and unordered_set (we can only sort random access iterators/sequence containers)
+-  

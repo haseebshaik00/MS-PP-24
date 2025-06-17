@@ -23,6 +23,28 @@ int main(){
 }
 
 
+// gfg question 
+// User function Template for C++
+
+class Solution {
+  public:
+    int checkCompressed(string S, string T) {
+        int s=S.length(), t=T.length(), j=0;
+        string x = "";
+        for(int i=0; i<t; i++){
+            if(T[i]<='9' && T[i]>='0') x += T[i];
+            else{
+                if(x != "") j += stoi(x);
+                if(T[i] != S[j]) return 0;
+                j++; x="";
+            }
+        }
+        if(x != "") j += stoi(x);
+        return j==s;
+    }
+};
+
+
 //gfg question
 int checkCompressed(string S, string T) {
         int j = 0, i = 0;
