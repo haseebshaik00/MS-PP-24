@@ -2,11 +2,6 @@
 using namespace std;
 #define ll long long
 
-bool isPossible(ll n, ll k, ll mid){
-	if(pow(mid, k) <= n) return true;
-	return false;
-}
-
 bool isPoss(int m, int n, int mid){
   if(pow(mid, n) <= m)
     return true;
@@ -24,6 +19,11 @@ int NthRoot(int n, int m) {
     else j = mid-1;
   }
   return (pow(ans,n) == m) ? ans : -1;
+}
+
+bool isPossible(ll n, ll k, ll mid){
+	if(pow(mid, k) <= n) return true;
+	return false;
 }
 
 int main(){

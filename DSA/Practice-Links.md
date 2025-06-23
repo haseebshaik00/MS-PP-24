@@ -22,7 +22,7 @@ IX) 5, 6, 7(check the substrings concept here)
 - Maps (Notes)
 Topic 1: Array and Hashing
 
-XI) 2, 3, 5, 6, 7, 8, 10
+XI) 2, 3, 5, 6, 7, 8
 XII) all 6
 
 I) Searching (2)
@@ -95,7 +95,7 @@ IX) String Challenges (45)
 
 X) STL - Indian money change, Next permutation
 
-XI) Binary Search (56) 2, 3, 5, 6, 7, 8, 10
+XI) Binary Search (56)
 1) First & Last Occurence: 11.firstandlastoccurences.cpp
 2) Pivot/Minimum Element in rotated sorted array: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 3) BS in rotated sorted array: https://leetcode.com/problems/search-in-rotated-sorted-array/description/

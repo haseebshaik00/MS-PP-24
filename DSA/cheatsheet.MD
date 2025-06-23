@@ -251,6 +251,21 @@ char ch = 'C';
 int val = ch - 'A';  // 67 - 65 = 2  (0-based)
 int val = ch - 'A' + 1;  // = 3 (1-based)
 
+- sum += (v[i] + k - 1) / k;  // equivalent to ceil(v[i] / k) -- ceil(a / b)
+- ceil(a / b) ≡ (a + b - 1) / b
+
+- cout << fixed << setprecision(p) << sqroot(n, p);
+- double result = sqroot(n, p);
+stringstream ss;
+ss << fixed << setprecision(p) << result;
+string formattedResult = ss.str();
+
+
+----
+Two pointer approach - lower envelope technique
+Binary Search - sorted, monotonic search space
+----
+
 ## TODO
 - sliding window
 - macros
