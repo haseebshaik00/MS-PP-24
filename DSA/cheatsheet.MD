@@ -260,6 +260,10 @@ stringstream ss;
 ss << fixed << setprecision(p) << result;
 string formattedResult = ss.str();
 
+- string s1, s2;
+size_t f = s1.find(s2);
+if(f != string::npos) cout<<"found"<<endl;
+(or) if(s1.find(s2) != string::npos) cout<<"found"<<endl;
 
 ----
 Two pointer approach - lower envelope technique

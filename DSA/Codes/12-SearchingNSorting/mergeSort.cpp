@@ -1,42 +1,20 @@
-#include<bits/stdc++.h>
-using namespace std;
-
-// Divide and Conquer Sorting Algo
-void mergeThem(int a[], int s, int e){
-    int temp[100] = {0};
-    int mid = (s+e)/2;
-    int i=s, j=mid+1, k=s;
-    while(i<=mid && j<=e){
-        if(a[i] < a[j]) temp[k++] = a[i++];
-        else temp[k++] = a[j++];
+void merge(vector<int>& arr, int l, int r){
+        int i=l, mid=(l+r)/2;
+        int j=mid+1, temp[r-l+1]={0}, k=0;
+        while(i<=mid && j<=r){
+            if(arr[i] < arr[j]) temp[k++] = arr[i++];
+            else temp[k++] = arr[j++];
+        }
+        while(i<=mid) temp[k++] = arr[i++];
+        while(j<=r) temp[k++] = arr[j++];
+        for(int i=l; i<=r; i++) arr[i] = temp[i-l];
     }
-    while(i<=mid) temp[k++] = a[i++];
-    while(j<=e) temp[k++] = a[j++];
-    for(int i=s; i<=e; i++)
-        a[i] = temp[i];
-}
-
-void mergeSort(int a[], int s, int e){
-    if(s>=e) return;
-    int mid = (s+e)/2;
-    mergeSort(a, s, mid);
-    mergeSort(a, mid+1, e);
-    mergeThem(a, s, e);
-}
-
-int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-
-    int n;
-    cin>>n;
-    int a[n];
-    memset(a, 0, n);
-    for(int i=0; i<n; i++)
-        cin>>a[i];
-    mergeSort(a, 0, n-1);
-    for(auto x:a)
-        cout<<x<<" ";
-
-    return 0;
-}
+  
+    void mergeSort(vector<int>& arr, int l, int r) {
+        // code here
+        if (l >= r) return;
+        int mid = (l+r)/2;
+        mergeSort(arr, l, mid);
+        mergeSort(arr, mid+1, r);
+        merge(arr, l, r);
+    }

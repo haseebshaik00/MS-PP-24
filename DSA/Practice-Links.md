@@ -108,7 +108,7 @@ XI) Binary Search (56)
 10) Painter's Problem: https://www.geeksforgeeks.org/problems/the-painters-partition-problem1535/1
 
 XII) Searching and Sorting (62) all 6
-// Bubble Selection and Insert Sort
+// Bubble, Selection and Insert Sort
 1) DNF Sort: https://leetcode.com/problems/sort-colors/
 2) Couting Sort: https://www.geeksforgeeks.org/counting-sort/
 3) Merge Sort: https://www.geeksforgeeks.org/merge-sort/

@@ -16,6 +16,21 @@ void countingSort(int a[], int n){
 		cout<<x<<" ";
 }
 
+// gfg soln
+string countSort(string arr) {
+        int count[26]={0}, n=arr.length();
+        vector<char> output(n);; string s="";
+        for(auto &x: arr) count[x-'a']++;
+        for(int i=1; i<26; i++) count[i]+=count[i-1];
+        for(int i=n-1; i>=0; --i){
+            char c = arr[i];
+            output[count[c-'a']-1] = c;
+            count[c-'a']--;
+        }
+        for(auto &x: output) s += x;
+        return s;
+    }
+
 int main(){
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
