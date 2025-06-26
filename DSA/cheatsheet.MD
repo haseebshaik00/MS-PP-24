@@ -270,6 +270,8 @@ Two pointer approach - lower envelope technique
 Binary Search - sorted, monotonic search space
 ----
 
+- static_cast<int>(ans);  // Cast back to int if needed == ll int to int
+
 ## TODO
 - sliding window
 - macros

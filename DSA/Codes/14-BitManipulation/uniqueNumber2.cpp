@@ -1,6 +1,17 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// GFG Soln
+vector<int> singleNum(vector<int>& arr) {
+	int ans=0, fNo=0, sNo=0;
+	for(auto &x: arr) ans ^= x;
+	int firstNoMask = ans & ~(ans-1);
+	for(auto &x: arr)
+		if(firstNoMask & x) fNo ^= x;
+	sNo = ans^fNo;
+	return {min(fNo, sNo), max(fNo, sNo)};
+}
+
 int main(){
     ios_base::sync_with_stdio(false);
 	cin.tie(NULL);

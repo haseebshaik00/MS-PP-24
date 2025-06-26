@@ -122,17 +122,18 @@ XIII) Vectors (64)
 2) Container Design & Templates: https://github.com/haseebshaik00/MS-PP-24/blob/main/DSA/Codes/11-Vectors/vectorClass.cpp & https://github.com/haseebshaik00/MS-PP-24/blob/main/DSA/Codes/11-Vectors/vector.h 
 
 XIV) Bit Masking (75)
-1) Unique Number 1:
-2) Bit Manipulation:
-3) Replace bits n m: 
-4) Count set bits:
-5) Decimal to Binary: 
-6) Unique Number 2:
-7) Unique Number 3:
-8) Fast Exponentiation: 
-9) Subsets: 
-10) Xor in range a->b : 
-11) Max xor in range a b: https://www.geeksforgeeks.org/maximum-xor-value-of-a-pair-from-a-range/
+1) Unique Number 1: https://www.geeksforgeeks.org/problems/find-unique-number/1
+2) Unique Number 2: https://www.geeksforgeeks.org/problems/finding-the-numbers0215/1
+3) Unique Number 3: https://www.geeksforgeeks.org/problems/find-element-occuring-once-when-all-other-are-present-thrice/1
+4) Xor in range a->b : https://www.geeksforgeeks.org/problems/find-xor-of-numbers-from-l-to-r/1
+5) Max xor in range a b: https://www.geeksforgeeks.org/dsa/maximum-xor-value-of-a-pair-from-a-range/
+- Concepts: Check Notes
+    a) Bit Manipulation
+    b) Replace bits n m 
+    c) Count set bits
+    d) Decimal to Binary
+    e) Fast Exponentiation
+    f) Subsets
 
 XV) Number Theory (85)
 // Prime No. - Brute Force O(n); Optimised O(root(n)); Prime Seive O(n logn(logn))
