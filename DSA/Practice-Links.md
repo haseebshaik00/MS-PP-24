@@ -21,9 +21,25 @@ IX) 5, 6, 7(check the substrings concept here)
 
 - Maps (Notes)
 Topic 1: Array and Hashing
+Topic 2: Two pointer
+Topic 3: Sliding window
+Topic 17: Math & Geometry
 
 XI) 2, 3, 5, 6, 7, 8
 XII) all 6
+Topic 5: Binary Search
+
+
+XIV) 1-5 + go through concepts
+XV) go through once
+Topic 18: Bit Manipulation
+
+XV1 - XXV : TODO
+
+XXVI) Stack: 
+Topic 4: Stack
+----------------------------------------------
+----------------------------------------------
 
 I) Searching (2)
 1) Linear Search: https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1 (0:51 mins)
@@ -122,11 +138,12 @@ XIII) Vectors (64)
 2) Container Design & Templates: https://github.com/haseebshaik00/MS-PP-24/blob/main/DSA/Codes/11-Vectors/vectorClass.cpp & https://github.com/haseebshaik00/MS-PP-24/blob/main/DSA/Codes/11-Vectors/vector.h 
 
 XIV) Bit Masking (75)
-1) Unique Number 1: https://www.geeksforgeeks.org/problems/find-unique-number/1
+1) Unique Number 1: https://leetcode.com/problems/single-number/
 2) Unique Number 2: https://www.geeksforgeeks.org/problems/finding-the-numbers0215/1
 3) Unique Number 3: https://www.geeksforgeeks.org/problems/find-element-occuring-once-when-all-other-are-present-thrice/1
 4) Xor in range a->b : https://www.geeksforgeeks.org/problems/find-xor-of-numbers-from-l-to-r/1
 5) Max xor in range a b: https://www.geeksforgeeks.org/dsa/maximum-xor-value-of-a-pair-from-a-range/
+- Signed and Unsigned Numbers concepts
 - Concepts: Check Notes
     a) Bit Manipulation
     b) Replace bits n m 
@@ -134,6 +151,7 @@ XIV) Bit Masking (75)
     d) Decimal to Binary
     e) Fast Exponentiation
     f) Subsets
+    g) Reverse bits
 
 XV) Number Theory (85)
 // Prime No. - Brute Force O(n); Optimised O(root(n)); Prime Seive O(n logn(logn))
@@ -512,3 +530,5 @@ https://leetcode.com/problems/binary-tree-inorder-traversal/description/
 47) Removing Duplicate: https://leetcode.com/problems/remove-duplicate-letters/ (TODO)
 // check String Part 2 OF https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems
 48) Longest repeating character replacement: https://leetcode.com/problems/longest-repeating-character-replacement/description/
+leetcode 560
+leetcode 974
