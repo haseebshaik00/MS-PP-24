@@ -1,58 +1,69 @@
 ## TODO: (15)
 
-I) 1, 2
-II) 1, 2, 3
-III) 4, 6
-IV) 2, 4, 5
+[1] 1, 2
+[2] 1, 2, 3, 5
+[3] 4, 6
+[4] 2, 4, 5
 
 - arrays passed to functions (Notes)
 - 2d array allocation (Notes)
 - pointers (Notes)
 - Dynamic Memory Allocation (Notes)
+[10] and [13] STL, Vectors (Notes)
 
-V) 2, 3.1 3.2 (TODO)
-VI) 2
+[5] 2, 3.1 3.2 (TODO)
+[6] 2
+[7] 3, 4, 5
+[8] all
+[9] 5, 6, 7(check the substrings concept here)
 
-- STL, Vectors (Notes)
+*Maps (Notes)*
 
-VII) 3, 4, 5
-VIII) all
-IX) 5, 6, 7(check the substrings concept here)
+Neetcode 1: Array and Hashing
+Neetcode 2: Two pointer
+Neetcode 3: Sliding window
+Neetcode 17: Math & Geometry
 
-- Maps (Notes)
-Topic 1: Array and Hashing
-Topic 2: Two pointer
-Topic 3: Sliding window
-Topic 17: Math & Geometry
+[12] all 6
 
-XI) 2, 3, 5, 6, 7, 8
-XII) all 6
-Topic 5: Binary Search
+[11] 2, 3, 5, 6, 7, 8
+Neetcode 5: Binary Search
+
+[14] 1-5 + go through concepts
+[15] go through all concepts once
+Neetcode 18: Bit Manipulation
+
+*TODO*
+[16] - [21] : Recursion
+[22] OOPS concepts
+[23] Generic Programming in C++
+
+Neetcode 6: Linked List
+[24] Linked Lists:
+[25] LL Challenges:
+
+[26] Stack: Vector Implementation + 1-6
+Neetcode 4: Stack
+
+[27] Queue
+[28] SQD Challenges
 
 
-XIV) 1-5 + go through concepts
-XV) go through once
-Topic 18: Bit Manipulation
-
-XV1 - XXV : TODO
-
-XXVI) Stack: 
-Topic 4: Stack
 ----------------------------------------------
 ----------------------------------------------
 
-I) Searching (2)
+[1] Searching (2)
 1) Linear Search: https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1 (0:51 mins)
 2) Binary Search: https://leetcode.com/problems/binary-search/ (1:26 mins)
 
-II) Sorting (7)
+[2] Sorting (7)
 1) Bubble Sort: https://www.geeksforgeeks.org/problems/bubble-sort/1 (1:27 mins)
 2) Selection Sort: https://www.geeksforgeeks.org/problems/selection-sort/1 (2:52 mins)
 3) Insertion Sort: https://www.geeksforgeeks.org/problems/insertion-sort/1  (3:55 mins)
 4) STL sort with Comparator: https://www.geeksforgeeks.org/sort-c-stl/
 5) Bubble Sort with Comparator: https://coderanch.com/t/374811/java/Bubble-Sort-Set-Comparator
 
-III) Arrays (13)
+[3] Arrays (13)
 1) Generating Subarrays: https://www.tutorialspoint.com/find-all-the-subarrays-of-a-given-array-in-java
 2) Maximum Subarray Sum O(n^3): https://www.scaler.com/topics/maximum-subarray-sum/
 3) Maximum Subarray Sum O(n^2): https://www.scaler.com/topics/maximum-subarray-sum/
@@ -60,7 +71,7 @@ III) Arrays (13)
 5) Two Pointer Approach: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
 6) Two Pointer 3 sum: https://leetcode.com/problems/3sum/description/
 
-IV) 2D Arrays (18)
+[4] 2D Arrays (18)
 1) Wave Print: https://www.geeksforgeeks.org/print-matrix-in-wave-form/
 2) Spiral Print: https://leetcode.com/problems/spiral-matrix/description/
 3) Piyush and Magical Park: https://www.youtube.com/watch?v=3J1tAsoZ7-g
@@ -69,7 +80,7 @@ IV) 2D Arrays (18)
 - 2D character Array
 - 2D Array Dynamic Allocation
 
-V) Character Array (22)
+[5] Character Array (22)
 - Input Output
 1) Reading Sentence: https://www.geeksforgeeks.org/how-to-input-or-read-a-character-word-and-a-sentence-from-user-in-c/
 2) Palindrome: https://leetcode.com/problems/valid-palindrome/
@@ -77,21 +88,21 @@ V) Character Array (22)
 https://www.geeksforgeeks.org/problems/remove-all-duplicates-from-a-given-string4321/1
 4) Largest String: https://www.sololearn.com/en/Discuss/1169907/longest-string-in-an-array-in-c
 
-VI) Strings (26)
+[6] Strings (26)
 - Strings Basics
 1) String Sorting: https://www.geeksforgeeks.org/sort-array-strings-according-string-lengths/
 2) STL String Tokenizer: https://www.geeksforgeeks.org/tokenizing-a-string-cpp/
 3) Make your own tokenizer: https://www.geeksforgeeks.org/implementing-of-strtok-function-in-c/
-4) String challenge: https://online.codingblocks.com/app/player/303566/content/301496/7135/lecture# 
+4) String challenge: https://online.codingblocks.com/app/player/303566/content/301496/7135/lecture#
 
-VII) Problem solving in 2D Arrays (31)
+[7] Problem solving in 2D Arrays (31)
 1) Sum of all submatrices O(n^6): https://www.geeksforgeeks.org/sum-of-all-submatrices-of-a-given-matrix/
 2) Sum of all submatrices O(n^4): https://www.geeksforgeeks.org/sum-of-all-submatrices-of-a-given-matrix/
 3) Sum of all submatrices O(n^2): https://www.geeksforgeeks.org/sum-of-all-submatrices-of-a-given-matrix/
 4) Submatrix Sum Query: Notes(similar to 2) + https://www.geeksforgeeks.org/problems/queries-on-a-matrix0443/1
 5) Max Sum Submatrix Sorted Row and Column: https://www.geeksforgeeks.org/maximum-sum-of-any-submatrix-of-a-matrix-which-is-sorted-row-wise-and-column-wise/
 
-VIII) Array Challenges (38)
+[8] Array Challenges (38)
 1) Rain Water Harvesting: https://leetcode.com/problems/trapping-rain-water/
 2) Max Circular subarray Sum: https://www.geeksforgeeks.org/problems/max-circular-subarray-sum-1587115620/1
 3) Max length Bitonic Subarray: https://www.geeksforgeeks.org/problems/maximum-length-bitonic-subarray5730/1
@@ -100,7 +111,7 @@ VIII) Array Challenges (38)
 6) Sum of 2 arrays: https://www.geeksforgeeks.org/problems/add-two-numbers-represented-by-two-arrays2408/1
 7) Factorial of a big number: https://www.geeksforgeeks.org/problems/factorials-of-large-numbers2508/1
 
-IX) String Challenges (45)
+[9] String Challenges (45)
 1) Upper Lower Case: https://www.geeksforgeeks.org/isupper-islower-application-c/
 2) Max Frequency Character: https://www.geeksforgeeks.org/problems/maximum-occuring-character-1587115620/1
 3) Can Your Read This: https://www.geeksforgeeks.org/implementing-of-strtok-function-in-c/
@@ -109,9 +120,9 @@ IX) String Challenges (45)
 6) Sanket and Strings(sliding window): https://discuss.codingblocks.com/t/sanket-and-strings-dsa-question-practicing-strings/155569
 7) Is CB No.: https://discuss.codingblocks.com/t/finding-cb-numbers/135077
 
-X) STL - Indian money change, Next permutation
+[10] STL - Indian money change, Next permutation
 
-XI) Binary Search (56)
+[11] Binary Search (56)
 1) First & Last Occurence: 11.firstandlastoccurences.cpp
 2) Pivot/Minimum Element in rotated sorted array: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 3) BS in rotated sorted array: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
@@ -123,7 +134,7 @@ XI) Binary Search (56)
 9) Winning CB Scholarship: https://www.youtube.com/watch?v=YM7S1eaoCFQ
 10) Painter's Problem: https://www.geeksforgeeks.org/problems/the-painters-partition-problem1535/1
 
-XII) Searching and Sorting (62) all 6
+[12] Searching and Sorting (62) all 6
 // Bubble, Selection and Insert Sort
 1) DNF Sort: https://leetcode.com/problems/sort-colors/
 2) Couting Sort: https://www.geeksforgeeks.org/counting-sort/
@@ -132,12 +143,12 @@ XII) Searching and Sorting (62) all 6
 5) Wave Sort: https://www.geeksforgeeks.org/sort-array-wave-form-2/
 6) Bucket Sort: https://www.geeksforgeeks.org/bucket-sort-2/
 
-XIII) Vectors (64)
+[13] Vectors (64)
 - Basics
 1) Car Sorting Problem (Vector n Class): https://www.geeksforgeeks.org/sorting-a-vector-in-c/ & https://discuss.codingblocks.com/t/car-sorting-problem/41147/2
 2) Container Design & Templates: https://github.com/haseebshaik00/MS-PP-24/blob/main/DSA/Codes/11-Vectors/vectorClass.cpp & https://github.com/haseebshaik00/MS-PP-24/blob/main/DSA/Codes/11-Vectors/vector.h 
 
-XIV) Bit Masking (75)
+[14] Bit Masking (75)
 1) Unique Number 1: https://leetcode.com/problems/single-number/
 2) Unique Number 2: https://www.geeksforgeeks.org/problems/finding-the-numbers0215/1
 3) Unique Number 3: https://www.geeksforgeeks.org/problems/find-element-occuring-once-when-all-other-are-present-thrice/1
@@ -153,7 +164,7 @@ XIV) Bit Masking (75)
     f) Subsets
     g) Reverse bits
 
-XV) Number Theory (85)
+[15] Number Theory (85)
 // Prime No. - Brute Force O(n); Optimised O(root(n)); Prime Seive O(n logn(logn))
 // Prime No. (1->n)- Brute Force O(n^2); Optimised O(n*root(n)); Prime Seive O(n logn(logn))
 // Prime Factorization - Brute Force O(n); Optimised O(root(n)); Prime Seive O(n logn(logn) + log(n))
@@ -170,21 +181,21 @@ XV) Number Theory (85)
 9) Modular Exponentiation
 10) Inclusion Exclusion Problem: 
 
-XVI) Recursion (Part 1- Basics) (90)
+[16] Recursion (Part 1- Basics) (90)
 1) Basics - (Factorial, Fibonacci, Inc and Dec): 
 2) Is Array sorted: 
 3) Binary Search: 
 4) Power (O(logN) and O(N)): 
 5) Multiply: 
 
-XVII) Recursion (Part 2- Implementation Based) (95)
+[17] Recursion (Part 2- Implementation Based) (95)
 1) First Occurence/Linear Search: 
 2) Last Occurence: 
 3) All Occurences: 
 4) Bubble Sort:
 5) Inversion Count: 
 
-XVIII) Recursion (Part 3- Quick Thinking) (103)
+[18] Recursion (Part 3- Quick Thinking) (103)
 1) 2048 Problem: 
 2) stoi: 
 3) replace Pi: 
@@ -194,14 +205,14 @@ XVIII) Recursion (Part 3- Quick Thinking) (103)
 7) Optimal Binary Strings: 
 8) Tower of Hanoi: 
 
-XIX) Recursion (Part 4- Subset Based) (108)
+[19] Recursion (Part 4- Subset Based) (108)
 1) Subsequence Generation: 
 2) Generate Brackets: 
 3) 0-1 Knapsack: 
 4) Phone Keyboard: 
 5) String Generation Acode: 
 
-XX) Recursion (Part 5-Backtracking) (113)
+[20] Recursion (Part 5-Backtracking) (113)
 1) Rat in a maze: https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
 1) Rat in a maze: https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
 2) Permutation: 
@@ -211,7 +222,7 @@ XX) Recursion (Part 5-Backtracking) (113)
 4) N-queen Backtracking: https://leetcode.com/problems/n-queens/description/
 5) Sudoku: https://leetcode.com/problems/sudoku-solver/description/
 
-XXI) Recursion Practice Problems (123)
+[21] Recursion Practice Problems (123)
 1) String Remove Duplicates
 2) Tiling Problem 2:
 3) Move X to end: 
@@ -223,7 +234,7 @@ XXI) Recursion Practice Problems (123)
 9) Funky Chess Board:
 10) Rat chases its cheese:  
 
-XXII) OOPS:
+[22] OOPS:
 1) Classes & Objects
 2) Data Mmebers n Functions
 3) Getter and Setter
@@ -233,12 +244,12 @@ XXII) OOPS:
 7) Destructor
 8) Initialisation Lists & Consts
 
-XXIII) Generic Programming in C++:
+[23] Generic Programming in C++:
 1) Template
 2) Iterator
 3) Comparator
 
-XXIV) Linked Lists: (133)
+[24] Linked Lists: (133)
 1) Insertion, Deletion, Length, Print, Search, Input, Overload
 2) Reverse
 3) Reverse Recursion
@@ -252,7 +263,7 @@ XXIV) Linked Lists: (133)
 // Forward List & List STL
 10) List - Adjacency List for Weighted Graphs
 
-XXV) Linked List Challenges: (144) + 1
+[25] Linked List Challenges: (144) + 1
 1) Remove nth node from back of the LL
 2) Add 2 Numbers
 3) Delete a node when a node is given
@@ -267,16 +278,16 @@ XXV) Linked List Challenges: (144) + 1
 12) Reorder List: https://leetcode.com/problems/reorder-list/description/
 13) merge k sorted list: https://leetcode.com/problems/merge-k-sorted-lists/description/ 
 
-XXVI) Stack: (149)
+[26] Stack: (149)
 // Implementation And STL: https://www.geeksforgeeks.org/problems/implement-stack-using-array/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=implement-stack-using-array
-// Min Max Stack: https://leetcode.com/problems/min-stack/description/
-1) Reverse a Stack
-2) Recursive Reverse
+1) Reverse a Stack: https://www.geeksforgeeks.org/problems/reverse-a-stack/1
+2) Recursive Reverse: https://www.geeksforgeeks.org/problems/reverse-a-stack/1
 3) Balanced Paranthesis: https://leetcode.com/problems/valid-parentheses/
-4) Stock Span: https://leetcode.com/problems/online-stock-span/description/
-5) Histogram Area: https://leetcode.com/problems/largest-rectangle-in-histogram/description/
+4) Min Max Stack: https://leetcode.com/problems/min-stack/description/
+5) Stock Span: https://leetcode.com/problems/online-stock-span/description/
+6) Histogram Area: https://leetcode.com/problems/largest-rectangle-in-histogram/description/
 
-XXVII) Queue: (151)
+[27] Queue: (151)
 // Circular Queue
 // Queue with List and STL Implementation: https://www.geeksforgeeks.org/problems/implement-queue-using-array/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=implement-queue-using-array
 // stack using 1 queue: https://leetcode.com/problems/implement-stack-using-queues/description/
@@ -286,13 +297,13 @@ XXVII) Queue: (151)
 1) First Non repeating char
 2) Max Unique Substring Length
 
-XXVIII) SQD Challenges (154)
+[28] SQD Challenges (154)
 // stack reverse & reverse rec
 1) Next Greater Element (Leetcode 2): https://leetcode.com/problems/next-greater-element-i/description/
 2) Redundant Parathesis 
 3) Importance of Time (Deque)
 
-XXIX) Binary Trees (173)
+[29] Binary Trees (173)
 // bt from pre in: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/
 // bt from post in: https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/
 1) build-preorder and print-pre, in, post
@@ -318,7 +329,7 @@ https://leetcode.com/problems/binary-tree-inorder-traversal/description/
 18) Root to Leaf Paths: https://www.geeksforgeeks.org/problems/root-to-leaf-paths/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=root-to-leaf-paths
 19) symmetric tree: https://leetcode.com/problems/symmetric-tree/description/
 
-X30) Binary Search Tree (180)
+[30] Binary Search Tree (180)
 1) Insertion, Build, Deletion and Search 
 2) check for BST
 3) flatten a tree
@@ -337,7 +348,7 @@ https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/
 // Set and Multiset STL
 // Multiset Custom class
 
-X3I) Challenges - Tree (191)
+[31] Challenges - Tree (191)
 1) Same Tree: https://leetcode.com/problems/same-tree/description/
 2) Sum At Level K
 3) BST in a given range
@@ -351,7 +362,7 @@ X3I) Challenges - Tree (191)
 // in, pre, post traversal - single go - https://www.naukri.com/code360/problems/981269?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
 11) boundary of tree - https://leetcode.com/problems/boundary-of-binary-tree/description/
 
-X32) Heaps (200)
+[32] Heaps (200)
 1) Insert, Delete + Heapify, Get, Size
 2) Array to Heap - O(n logn) and O(n)
 3) HeapSort
@@ -365,7 +376,7 @@ X32) Heaps (200)
 https://ide.codingblocks.com/s/198442?_ga=2.178682468.1156519533.1727580140-674054011.1703753790
 9) Top k most frequent number in a stream: https://leetcode.com/problems/top-k-frequent-elements/description/
 
-X33) Hashing (207)
+[33] Hashing (207)
 1) Implementation Hashtable - insert, delete, search, erase, print, []
 // Map and Unordered Map STL
 // Unordered Map Custom Class
@@ -378,7 +389,7 @@ X33) Hashing (207)
 7) Minimum Window Substring: https://leetcode.com/problems/minimum-window-substring/description/
 // Triangles and Rectangles - check notes
 
-X34) Tries (211)
+[34] Tries (211)
 1) Trie Implementation: https://leetcode.com/problems/implement-trie-prefix-tree/description/
 https://www.naukri.com/code360/problems/implement-trie_1387095?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_tries_videos
 2) Smallest Unique Prefix Array: 
@@ -388,7 +399,7 @@ Complete String: https://www.naukri.com/code360/problems/complete-string_2687860
 Count Distinct Substrings: https://www.naukri.com/code360/problems/count-distinct-substrings_985292?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_tries_videos
 Power Set: https://www.geeksforgeeks.org/problems/power-set4302/1
 
-X35) Challenges - Hash n Tries (215)
+[35] Challenges - Hash n Tries (215)
 1) Unlock
 2) Subarray with distinct elements
 3) Digital Dictionary
@@ -396,7 +407,7 @@ X35) Challenges - Hash n Tries (215)
 // Trie Interview - extended concepts of 34.4 check notes
 // 34.3 34.4 35.4 Trie Interview -- all are based on the same XOR concept - do look
 
-X36) Greedy Algo (227)
+[36] Greedy Algo (227)
 1) Indian Coin Change: 
 2) Activity selection: https://www.geeksforgeeks.org/activity-selection-problem-greedy-algo-1/
 3) Connecting wires:
@@ -410,7 +421,7 @@ X36) Greedy Algo (227)
 11) Deepak and his journey: 
 12) Min Platforms: https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1
 
-X37) Dynamic Programming (261)
+[37] Dynamic Programming (261)
 1) Fibonacci: 
 2) Min to One: 
 3) Min Coin Change: Money Problem: https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/
@@ -446,7 +457,7 @@ X37) Dynamic Programming (261)
 33) Count subsequences:  coding blocks question
 34) Max Sum Increasing Subsequence: https://www.geeksforgeeks.org/problems/maximum-sum-increasing-subsequence4749/1
 
-X38) Graphs (280)
+[38] Graphs (280)
 Adjacency List Implementation - graph.cpp
 Generic Graph Implementation - genericGraph.cpp
 1) Clone Graph: https://leetcode.com/problems/clone-graph/
@@ -478,7 +489,7 @@ detect-a-cycle-in-directed-graph-topological-sort-kahns-algorithm-g-23/
 18) Flood Fill Algo: https://leetcode.com/problems/flood-fill/description/
 19) Dijksta Algo: https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1
 
-X39) Striver Sheet(328)
+[39] Striver Sheet(328)
 1) 4sum: https://leetcode.com/problems/4sum/
 2) reverse string: https://leetcode.com/problems/reverse-words-in-a-string/description/
 3) Longest Palindrome Substring: https://leetcode.com/problems/longest-palindromic-substring/

@@ -2,42 +2,41 @@
 using namespace std;
 
 void transfer(stack<int> &s1, stack<int> &s2, int n){
-    for(int i=0; i<n; i++){
+    for(int i=0; i<n; ++i){
         s2.push(s1.top());
         s1.pop();
     }
 }
 
-void reverseStack(stack<int> &s1){
+void Reverse(stack<int> &s1) {
     stack<int> s2;
     int n = s1.size();
-    for(int i=0; i<n; i++){
-        int d = s1.top();
+    for(int i=0; i<n; ++i){
+        int x = s1.top();
         s1.pop();
         transfer(s1, s2, n-1-i);
-        s1.push(d);
+        s1.push(x);
         transfer(s2, s1, n-1-i);
     }
 }
 
-void insertAtBottom(stack<int> &s, int n){
-    if(s.empty()){
-        s.push(n);
+void insertBottom(stack<int> &s1, int x){
+    if(s1.empty()){
+        s1.push(x);
         return;
     }
-    int d = s.top();
-    s.pop();
-    insertAtBottom(s, n);
-    s.push(d);
+    int d = s1.top();
+    s1.pop();
+    insertBottom(s1, x);
+    s1.push(d);
 }
 
-void reverseStackRec(stack<int> &s){
-    if(s.empty())
-        return;
-    int d = s.top();
-    s.pop();
-    reverseStackRec(s);
-    insertAtBottom(s, d);
+void Reverse(stack<int> &s1) {
+    if(s1.empty()) return;
+    int x = s1.top();
+    s1.pop();
+    Reverse(s1);
+    insertBottom(s1, x);
 }
 
 void print(stack<int> s1){

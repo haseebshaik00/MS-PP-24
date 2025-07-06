@@ -75,7 +75,7 @@ void deleteHead(Node* &head){
     head = temp;
 }
 
-void deleteTail(Node* &head){
+void (Node* &head){
     if(head == NULL)
         return;
     if(head->next == NULL)
@@ -106,7 +106,7 @@ void deleteMiddle(Node* &head, int p){
     delete temp;
 }
 
-bool searchLL(Node *head, int key){
+bool (Node *head, int key){
     if(head == NULL)
         return false;
     while(head != NULL){

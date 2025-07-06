@@ -4,5 +4,6 @@
         "vector": "cpp",
         "xstring": "cpp",
         "__locale": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
