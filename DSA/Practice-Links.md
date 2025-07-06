@@ -1,4 +1,4 @@
-## TODO: (15)
+## TODO:
 
 [1] 1, 2
 [2] 1, 2, 3, 5
@@ -10,6 +10,7 @@
 - pointers (Notes)
 - Dynamic Memory Allocation (Notes)
 [10] and [13] STL, Vectors (Notes)
+*Maps (Notes)*
 
 [5] 2, 3.1 3.2 (TODO)
 [6] 2
@@ -17,18 +18,14 @@
 [8] all
 [9] 5, 6, 7(check the substrings concept here)
 
-*Maps (Notes)*
-
 Neetcode 1: Array and Hashing
 Neetcode 2: Two pointer
 Neetcode 3: Sliding window
 Neetcode 17: Math & Geometry
 
 [12] all 6
-
 [11] 2, 3, 5, 6, 7, 8
 Neetcode 5: Binary Search
-
 [14] 1-5 + go through concepts
 [15] go through all concepts once
 Neetcode 18: Bit Manipulation
@@ -39,15 +36,21 @@ Neetcode 18: Bit Manipulation
 [23] Generic Programming in C++
 
 Neetcode 6: Linked List
-[24] Linked Lists:
-[25] LL Challenges:
+[24] Linked Lists
+- LL (class + streams, length, insertAtHead, insertAtTail, insertAtMiddle, print, deleteHead, deleteTail, deleteMiddle, search)
+- findMiddleNode
+- remove cycle
+- DLL
+- CLL(insert, print, getNode, deleteNode)
+- List - Adjacency List for Weighted Graphs
+- Forward List & List STL
+[25] LL Challenges: 4, 6, 7, 8, 9, 10 (TODO ALL)
 
 [26] Stack: Vector Implementation + 1-6
 Neetcode 4: Stack
 
 [27] Queue
 [28] SQD Challenges
-
 
 ----------------------------------------------
 ----------------------------------------------
@@ -275,8 +278,6 @@ https://www.geeksforgeeks.org/problems/remove-all-duplicates-from-a-given-string
 9) Even After Odd
 10) Insertion Sort LL
 11) Floyd Cycle Removal
-12) Reorder List: https://leetcode.com/problems/reorder-list/description/
-13) merge k sorted list: https://leetcode.com/problems/merge-k-sorted-lists/description/ 
 
 [26] Stack: (149)
 // Implementation And STL: https://www.geeksforgeeks.org/problems/implement-stack-using-array/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=implement-stack-using-array

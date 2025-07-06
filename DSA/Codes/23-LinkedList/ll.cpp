@@ -4,7 +4,7 @@ using namespace std;
 class Node{
 public:
     int data;
-    Node *next;
+    Node *next;n
 
     Node(int d){
         data = d;
@@ -75,7 +75,7 @@ void deleteHead(Node* &head){
     head = temp;
 }
 
-void (Node* &head){
+void deleteTail(Node* &head){
     if(head == NULL)
         return;
     if(head->next == NULL)
@@ -106,7 +106,7 @@ void deleteMiddle(Node* &head, int p){
     delete temp;
 }
 
-bool (Node *head, int key){
+bool searchLL(Node *head, int key){
     if(head == NULL)
         return false;
     while(head != NULL){
