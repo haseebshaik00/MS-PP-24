@@ -12,7 +12,7 @@
 [10] and [13] STL, Vectors (Notes)
 *Maps (Notes)*
 
-[5] 2, 3.1 3.2 (TODO)
+[5] 2, 3.1, 3.2 (TODO)
 [6] 2
 [7] 3, 4, 5
 [8] all
@@ -46,11 +46,11 @@ Neetcode 6: Linked List
 - Forward List & List STL
 [25] LL Challenges: 4, 6, 7, 8, 9, 10 (TODO ALL)
 
-[26] Stack: Vector Implementation + 1-6
+[26] Stack: Vector Implementation + 1-7
 Neetcode 4: Stack
 
-[27] Queue
-[28] SQD Challenges
+[27] Queue: Concepts + 1, 2, 3
+[28] SQD Challenges: 
 
 ----------------------------------------------
 ----------------------------------------------
@@ -287,21 +287,19 @@ https://www.geeksforgeeks.org/problems/remove-all-duplicates-from-a-given-string
 4) Min Max Stack: https://leetcode.com/problems/min-stack/description/
 5) Stock Span: https://leetcode.com/problems/online-stock-span/description/
 6) Histogram Area: https://leetcode.com/problems/largest-rectangle-in-histogram/description/
+7) Next Greater Element: https://leetcode.com/problems/next-greater-element-i/description/
 
 [27] Queue: (151)
 // Circular Queue
 // Queue with List and STL Implementation: https://www.geeksforgeeks.org/problems/implement-queue-using-array/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=implement-queue-using-array
-// stack using 1 queue: https://leetcode.com/problems/implement-stack-using-queues/description/
-// queue using stack O(1) AMORTIZED METHOD: https://leetcode.com/problems/implement-queue-using-stacks/description/
-// queue with 2 stacks
-// stack with 2 queue 
-1) First Non repeating char
-2) Max Unique Substring Length
+1) stack with 2 queue: https://leetcode.com/problems/implement-stack-using-queues/description/ (can be done with 1 queue)
+2) queue with 2 stacks: https://leetcode.com/problems/implement-queue-using-stacks/description/ ()
+3) First Non repeating char: https://leetcode.com/problems/first-unique-character-in-a-string/description/
 
-[28] SQD Challenges (154)
-// stack reverse & reverse rec
-1) Next Greater Element (Leetcode 2): https://leetcode.com/problems/next-greater-element-i/description/
-2) Redundant Parathesis 
+[28] Deque:
+0) Maximum Element
+1) Max Unique Substring Length
+2) Redundant Parathesis
 3) Importance of Time (Deque)
 
 [29] Binary Trees (173)
