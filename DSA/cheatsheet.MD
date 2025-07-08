@@ -274,6 +274,38 @@ Binary Search - sorted, monotonic search space
 
 ![alt text](image-1.png)
 
+- insert, erase and remove
+vector<int> v = {1, 2, 3};
+v.insert(v.begin() + 1, 10);  // Insert 10 at index 1 => {1, 10, 2, 3}
+v.erase(v.begin() + 2);       // Remove element at index 2 => {1, 10, 3}
+v.erase(remove(v.begin(), v.end(), 10), v.end());  // Remove all 10s
+
+list<int> l = {1, 2, 3};
+auto it = l.begin();
+advance(it, 1);
+l.insert(it, 10);  // Insert 10 at second position => {1, 10, 2, 3}
+it = l.begin();
+advance(it, 2);
+l.erase(it);       // Remove third element => {1, 10, 3}
+l.remove(10);      // Remove all 10s => {1, 3}
+
+no remove() in map and set
+set<int> s;
+s.insert(5);
+s.insert(2);
+s.erase(5);              // Remove element with value 5
+s.erase(s.begin());      // Remove by iterator (first element)
+
+map<int, string> m;
+m.insert({1, "one"});
+m[2] = "two";            // Alternative insert/update
+m.erase(1);              // Erase by key
+auto it = m.find(2);
+if (it != m.end()) m.erase(it);  // Erase by iterator
+
+- Traversals
+![alt text](image-2.png)
+
 ## TODO
 - sliding window
 - macros
