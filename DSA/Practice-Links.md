@@ -297,10 +297,10 @@ https://www.geeksforgeeks.org/problems/remove-all-duplicates-from-a-given-string
 3) First Non repeating char: https://leetcode.com/problems/first-unique-character-in-a-string/description/
 
 [28] Deque:
-0) Maximum Element
-1) Max Unique Substring Length
-2) Redundant Parathesis
-3) Importance of Time (Deque)
+0) Maximum Element: https://leetcode.com/problems/sliding-window-maximum/description/
+1) Max Unique Substring Length: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+2) Redundant Parathesis: https://www.geeksforgeeks.org/problems/expression-contains-redundant-bracket-or-not/1
+3) Importance of Time (Deque): importanceTimeDeque.cpp
 
 [29] Binary Trees (173)
 // bt from pre in: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/
