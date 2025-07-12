@@ -28,10 +28,18 @@ Neetcode 17: Math & Geometry
 Neetcode 5: Binary Search
 [14] 1-5 + go through concepts
 [15] go through all concepts once
-Neetcode 18: Bit Manipulation
+Neetcode 18: Bit Manipulation 
+
+[16] - [21] : Recursion
+- Bubble Sort Recursive: https://www.geeksforgeeks.org/problems/bubble-sort/1
+- Inversion Count: https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1
+- All sorts (try here): https://leetcode.com/problems/sort-an-array/description/
+- Tiling Problem: https://www.geeksforgeeks.org/problems/ways-to-tile-a-floor5836/1 (Try solving using dp also)
+- Ways to reach nth stair: https://www.geeksforgeeks.org/problems/count-ways-to-reach-the-nth-stair-1587115620/1
+- Subset Generation: https://www.geeksforgeeks.org/dsa/generating-all-possible-subsequences-using-recursion/
+- Knapsack - https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1 (do with DP too)
 
 *TODO*
-[16] - [21] : Recursion
 [22] OOPS concepts
 [23] Generic Programming in C++
 
@@ -50,7 +58,7 @@ Neetcode 6: Linked List
 Neetcode 4: Stack
 
 [27] Queue: Concepts + 1, 2, 3
-[28] SQD Challenges: 
+[29] 
 
 ----------------------------------------------
 ----------------------------------------------
@@ -288,6 +296,7 @@ https://www.geeksforgeeks.org/problems/remove-all-duplicates-from-a-given-string
 5) Stock Span: https://leetcode.com/problems/online-stock-span/description/
 6) Histogram Area: https://leetcode.com/problems/largest-rectangle-in-histogram/description/
 7) Next Greater Element: https://leetcode.com/problems/next-greater-element-i/description/
+8) Redundant Parathesis: https://www.geeksforgeeks.org/problems/expression-contains-redundant-bracket-or-not/1
 
 [27] Queue: (151)
 // Circular Queue
@@ -299,8 +308,7 @@ https://www.geeksforgeeks.org/problems/remove-all-duplicates-from-a-given-string
 [28] Deque:
 0) Maximum Element: https://leetcode.com/problems/sliding-window-maximum/description/
 1) Max Unique Substring Length: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
-2) Redundant Parathesis: https://www.geeksforgeeks.org/problems/expression-contains-redundant-bracket-or-not/1
-3) Importance of Time (Deque): importanceTimeDeque.cpp
+2) Importance of Time (Deque): importanceTimeDeque.cpp
 
 [29] Binary Trees (173)
 // bt from pre in: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/

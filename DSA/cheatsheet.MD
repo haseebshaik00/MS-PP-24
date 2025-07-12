@@ -306,6 +306,8 @@ if (it != m.end()) m.erase(it);  // Erase by iterator
 - Traversals
 ![alt text](image-2.png)
 
+decreasing func | top-down | work and then call()
+increasing func | bottom-up | call() and then work
 ## TODO
 - sliding window
 - macros
