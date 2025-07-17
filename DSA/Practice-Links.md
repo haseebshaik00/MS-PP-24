@@ -30,6 +30,7 @@ Neetcode 5: Binary Search
 [15] go through all concepts once
 Neetcode 18: Bit Manipulation 
 
+Neetcode 9: Backtracking
 [16] - [21] : Recursion
 - Bubble Sort Recursive: https://www.geeksforgeeks.org/problems/bubble-sort/1
 - Inversion Count: https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1
@@ -38,6 +39,8 @@ Neetcode 18: Bit Manipulation
 - Ways to reach nth stair: https://www.geeksforgeeks.org/problems/count-ways-to-reach-the-nth-stair-1587115620/1
 - Subset Generation: https://www.geeksforgeeks.org/dsa/generating-all-possible-subsequences-using-recursion/
 - Knapsack - https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1 (do with DP too)
+- Rat Maze: https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
+- Sudoku Solver: https://leetcode.com/problems/sudoku-solver/description/
 
 *TODO*
 [22] OOPS concepts
@@ -53,11 +56,10 @@ Neetcode 6: Linked List
 - List - Adjacency List for Weighted Graphs
 - Forward List & List STL
 [25] LL Challenges: 4, 6, 7, 8, 9, 10 (TODO ALL)
-
 [26] Stack: Vector Implementation + 1-7
 Neetcode 4: Stack
-
 [27] Queue: Concepts + 1, 2, 3
+
 [29] 
 
 ----------------------------------------------
@@ -225,11 +227,8 @@ https://www.geeksforgeeks.org/problems/remove-all-duplicates-from-a-given-string
 
 [20] Recursion (Part 5-Backtracking) (113)
 1) Rat in a maze: https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
-1) Rat in a maze: https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
-2) Permutation: 
-3) Unique Permutation: 
-4) N-queen Backtracking: https://leetcode.com/problems/n-queens/description/
-5) Sudoku: https://leetcode.com/problems/sudoku-solver/description/
+2) Permutation: https://leetcode.com/problems/permutations/
+3) Unique Permutation: https://leetcode.com/problems/permutations/
 4) N-queen Backtracking: https://leetcode.com/problems/n-queens/description/
 5) Sudoku: https://leetcode.com/problems/sudoku-solver/description/
 

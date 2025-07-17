@@ -26,6 +26,40 @@ bool ratMaze(char maze[10][10], int output[10][10], int i, int j){
     return false;
 }
 
+// GFG Solution
+class Solution {
+  public:
+    vector<string> ans;
+    string curr="";
+    int n;
+    
+    void solveMaze(vector<vector<int>>& maze, int i, int j, char X){
+        // add push here to avoid pushing in the base case
+        if(i==n-1 && j==n-1){
+            curr.push_back(X);
+            ans.push_back(curr.substr(1, curr.length()-1));
+            curr.pop_back();
+            return;
+        }
+        if(i>=n || j>=n || i<0 || j<0 || maze[i][j]==0 || maze[i][j]==-1) return;
+        maze[i][j] = -1;
+        curr.push_back(X);
+        solveMaze(maze, i-1, j, 'U');
+        solveMaze(maze, i+1, j, 'D');
+        solveMaze(maze, i, j-1, 'L');
+        solveMaze(maze, i, j+1, 'R');
+        maze[i][j] = 1;
+        curr.pop_back();
+    }
+    
+    vector<string> ratInMaze(vector<vector<int>>& maze) {
+        n = maze.size();
+        solveMaze(maze, 0, 0, 'X');
+        sort(ans.begin(), ans.end());
+        return ans;
+    }
+};
+
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);

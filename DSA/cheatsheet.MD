@@ -308,6 +308,17 @@ if (it != m.end()) m.erase(it);  // Erase by iterator
 
 decreasing func | top-down | work and then call()
 increasing func | bottom-up | call() and then work
+
+- check box offset - sudoku solver backtracking
+for (int k = 0; k < 9; ++k) {
+    int r = 3 * (i/3) + k/3;
+    int c = 3 * (j/3) + k%3;
+    if (board[r][c] == ch) return false;
+}
+- valid sudoku
+subgrid = i/3 * 3 + j/3;
+
+
 ## TODO
 - sliding window
 - macros
