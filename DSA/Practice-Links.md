@@ -42,10 +42,6 @@ Neetcode 9: Backtracking
 - Rat Maze: https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
 - Sudoku Solver: https://leetcode.com/problems/sudoku-solver/description/
 
-*TODO*
-[22] OOPS concepts
-[23] Generic Programming in C++
-
 Neetcode 6: Linked List
 [24] Linked Lists
 - LL (class + streams, length, insertAtHead, insertAtTail, insertAtMiddle, print, deleteHead, deleteTail, deleteMiddle, search)
@@ -60,7 +56,11 @@ Neetcode 6: Linked List
 Neetcode 4: Stack
 [27] Queue: Concepts + 1, 2, 3
 
-[29] 
+Space and Time Complexity (Notes)
+[22] OOPS concepts
+[23] Generic Programming in C++
+
+[29] Binary Tree
 
 ----------------------------------------------
 ----------------------------------------------
