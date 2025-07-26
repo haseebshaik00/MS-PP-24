@@ -78,22 +78,26 @@ char* ptr = strtok((char *)str.c_str(), " ");
 - `std::transform(str.begin(), str.end(), str.begin(), ::tolower);` – Converts to lowercase.  
 - `if(a.find(b) != string::npos) return true;` check if string b is a substring of a or not
 
+Generic Programming in C++ - Containers + Algorithms
 4) STL
-The C++ Standard Template Library (STL) is a powerful set of generic classes and functions that provide common data structures and algorithms. It includes containers, iterators, algorithms, and function objects, making it easier to write efficient and reusable code.
+The C++ Standard Template Library (STL) is a powerful set of generic classes and functions that provide common data structures and algorithms.
+It includes containers, iterators, algorithms, and function objects, making it easier to write efficient and reusable code.
 
 5.1-Containers
-Sequential Containers: vector, deque, list, forward_list, array, string
-Associative Containers: set, multiset, map, multimap
-Unordered Containers: unordered_set, unordered_multiset, unordered_map, unordered_multimap
-Adapter: stack, queue, priority_queue
+- Sequential Containers: vector, deque, list, forward_list, array, string - implement data structures that can be accessed sequentially
+- Adapter: stack, queue, priority_queue - different interface with some constraints for sequential containers
+- Associative Containers: set, multiset, map, multimap - implement sorted DS that can be quickly searched O(log n)/most operations, 
+    usually implemented with red black tree - self balancing BST
+- Unordered Associative Containers: unordered_set, unordered_multiset, unordered_map, unordered_multimap - same as above but unordered, O(1)/most operations, 
+    implemented with hashmaps
 
-5.2-Iterators
-Input Iterator: istream_iterator
-Output Iterator: ostream_iterator
-Forward Iterator: forward_list
-Bidirectional Iterator: list, set, map
-Random Access Iterator: vector, deque
-Types: begin(), end(), rbegin(), const_iterator, etc.
+5.2-Iterators: helps to access data within a container with certain restrictions
+Input Iterator: istream_iterator - read
+Output Iterator: ostream_iterator - write
+Forward Iterator: forward_list - has i/o (read/write) ability too, moves in forward direction
+Bidirectional Iterator: list, set, map - has i/o (read/write) ability too, forward iterator moves in both directions
+Random Access Iterator: vector, deque - read/write in both directions and can jump too!
+Types: begin(), end(), rbegin(), rend(), const_iterator, etc.
 
 5.3-Algorithms
 #include<algorithm>
@@ -103,13 +107,16 @@ it switches to heapsort. Finally, insertion sort is used on small subarrays to i
 provides an average time complexity of O(n log n) with a worst-case guarantee of O(n log n), making it a robust and efficient sorting algorithm.
 - Searching: binary_search(), find(), equal_range()
 - Modifying: {copy(), replace(), fill()} - belong to algorithm library, emplace() -container method
-fill(begin(a), end(a), 0);
+replace(start_iterator, end_iterator, old_value, new_value);
+fill(v.begin() + 1, v.begin() + 4, 9); (or)
 for(int i = 0; i < 3; i++)
     fill(begin(a[i]), end(a[i]), 0);
 - Numeric: accumulate(), inner_product(), partial_sum()
 - Set Operations: set_union(), set_intersection()
 - min n max - min() max()
 - reverse(), count(), lower_bound(), upper_bound(), rotate(), *min_element, *max_element, equal(), distance()
+// Default comparison (==)
+equal(first1, last1, first2);
 
 5.4-Function Objects (Functors)
 greater<T>(), less<T>(), equal_to<T>(), Custom functors
@@ -130,12 +137,6 @@ std::prev(iterator it, int n = 1);  // moves backward by n
 6) Miscellaneous
 - #include<climits>: INT_MIN, INT_MAX
 - inline/lambda function: bubbleSortComp(a, n, [](int a, int b) { return a < b; });
-
-## Concepts
-- Sliding Window/Two Pointer
-1) Constant k - constant window size
-2) Longest subarray/substring with sum<=k
-3) No. of subarray with sum = k
 
 ## Notes:
 1) run code in vscode
