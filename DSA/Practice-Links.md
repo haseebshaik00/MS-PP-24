@@ -61,7 +61,7 @@ Space and Time Complexity (Notes)
 [23] Generic Programming in C++
 
 Neetcode 7: Trees
-[29] Binary Tree
+[29] Binary Tree: 13, 15, 17
 
 ----------------------------------------------
 ----------------------------------------------
@@ -331,8 +331,8 @@ https://leetcode.com/problems/binary-tree-inorder-traversal/description/
 13) Nodes at a given distance from K: https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/
 14) Mirror BTN: https://www.geeksforgeeks.org/problems/mirror-tree/1
 15) LCA - lowest common ancestor: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/
-16) Max Sum Path from Node to Node: https://leetcode.com/problems/binary-tree-maximum-path-sum/description/
-17) Shortest dist. betn 2 nodes
+16) Max Sum Path from any Node to Node: https://leetcode.com/problems/binary-tree-maximum-path-sum/description/
+17) Shortest dist. betn 2 nodes: https://www.geeksforgeeks.org/dsa/find-distance-between-two-nodes-of-a-binary-tree/
 18) Root to Leaf Paths: https://www.geeksforgeeks.org/problems/root-to-leaf-paths/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=root-to-leaf-paths
 19) symmetric tree: https://leetcode.com/problems/symmetric-tree/description/
 
