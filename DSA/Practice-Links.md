@@ -61,7 +61,7 @@ Space and Time Complexity (Notes)
 [23] Generic Programming in C++
 
 Neetcode 7: Trees
-[29] Binary Tree: 13, 15, 17
+[29] Binary Tree: 13, 15, 17, 18, 19
 
 ----------------------------------------------
 ----------------------------------------------
@@ -342,10 +342,8 @@ https://leetcode.com/problems/binary-tree-inorder-traversal/description/
 3) flatten a tree
 4) floor, ceil in BST: https://www.naukri.com/code360/problems/floor-from-bst_920457?source=youtube&campaign=Striver_Tree_Videos&utm_source=youtube&utm_medium=affiliate&utm_campaign=Striver_Tree_Videos
 https://www.naukri.com/code360/problems/ceil-from-bst_920464?source=youtube&campaign=Striver_Tree_Videos&utm_source=youtube&utm_medium=affiliate&utm_campaign=Striver_Tree_Videos
-
 5) KTH smallest and largest element: https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
 https://www.geeksforgeeks.org/problems/kth-largest-element-in-bst/1
-
 6) BST Iterator: https://leetcode.com/problems/binary-search-tree-iterator/description/
 7) Serialize and Deserialize Binary Tree
 https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/
