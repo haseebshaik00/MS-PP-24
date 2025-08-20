@@ -23,7 +23,7 @@ Neetcode 2: Two pointer
 Neetcode 3: Sliding window
 Neetcode 17: Math & Geometry
 
-[12] all 6
+[12] All 6
 [11] 2, 3, 5, 6, 7, 8
 Neetcode 5: Binary Search
 [14] 1-5 + go through concepts
@@ -62,6 +62,11 @@ Space and Time Complexity (Notes)
 
 Neetcode 7: Trees
 [29] Binary Tree: 13, 15, 17, 18, 19
+- flatten a tree: https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+[30] BST: 1, 3, 
+
+Set and Multiset STL Notes
+
 
 ----------------------------------------------
 ----------------------------------------------
@@ -337,9 +342,9 @@ https://leetcode.com/problems/binary-tree-inorder-traversal/description/
 19) symmetric tree: https://leetcode.com/problems/symmetric-tree/description/
 
 [30] Binary Search Tree (180)
-1) Insertion, Build, Deletion and Search 
+1) Insertion, Build, Search and Deletion 
 2) check for BST
-3) flatten a tree
+3) flatten a bst to ll: https://www.geeksforgeeks.org/problems/flatten-bst-to-sorted-list--111950/0
 4) floor, ceil in BST: https://www.naukri.com/code360/problems/floor-from-bst_920457?source=youtube&campaign=Striver_Tree_Videos&utm_source=youtube&utm_medium=affiliate&utm_campaign=Striver_Tree_Videos
 https://www.naukri.com/code360/problems/ceil-from-bst_920464?source=youtube&campaign=Striver_Tree_Videos&utm_source=youtube&utm_medium=affiliate&utm_campaign=Striver_Tree_Videos
 5) KTH smallest and largest element: https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
