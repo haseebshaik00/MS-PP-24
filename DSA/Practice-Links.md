@@ -63,6 +63,7 @@ Space and Time Complexity (Notes)
 Neetcode 7: Trees
 [29] Binary Tree: 13, 15, 17, 18, 19, 20
 [30] BST: 1, 3
+[31] Challenges: 2, 3, 4, 5, 8, 9, 11
 Set and Multiset STL Notes
 
 
@@ -358,12 +359,13 @@ https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/
 // Multiset Custom class
 
 [31] Challenges - Tree (191)
+0) level & pre (alone) order build of a tree : check files
 1) Same Tree: https://leetcode.com/problems/same-tree/description/
 2) Sum At Level K
 3) BST in a given range
 4) Bottom View: https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1
 5) Zig Zag: https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/
-6) Replace sum of greater nodes 
+6) Replace sum of greater nodes (BST)
 7) Left View: https://www.geeksforgeeks.org/problems/left-view-of-binary-tree/1
 8) Top View: https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1
 9) Largest BST: https://www.geeksforgeeks.org/problems/largest-bst/1
