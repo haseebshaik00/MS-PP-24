@@ -61,10 +61,8 @@ Space and Time Complexity (Notes)
 [23] Generic Programming in C++
 
 Neetcode 7: Trees
-[29] Binary Tree: 13, 15, 17, 18, 19
-- flatten a tree: https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
-[30] BST: 1, 3, 
-
+[29] Binary Tree: 13, 15, 17, 18, 19, 20
+[30] BST: 1, 3
 Set and Multiset STL Notes
 
 
@@ -340,6 +338,7 @@ https://leetcode.com/problems/binary-tree-inorder-traversal/description/
 17) Shortest dist. betn 2 nodes: https://www.geeksforgeeks.org/dsa/find-distance-between-two-nodes-of-a-binary-tree/
 18) Root to Leaf Paths: https://www.geeksforgeeks.org/problems/root-to-leaf-paths/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=root-to-leaf-paths
 19) symmetric tree: https://leetcode.com/problems/symmetric-tree/description/
+20) flatten a tree: https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
 
 [30] Binary Search Tree (180)
 1) Insertion, Build, Search and Deletion 
