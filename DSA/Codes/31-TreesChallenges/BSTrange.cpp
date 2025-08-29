@@ -1,3 +1,11 @@
+void rangePrint(TreeNode * root, int a, int b){
+	if(!root) return;
+	if(root->data > a) rangePrint(root->left, a, b); // only then left can have >= a
+	if(a <= root->data && root->data <= b) cout<<root->data<<" "; // print current if in range
+	if(root->data < b) rangePrint(root->right, a, b); // only then right can have <= b
+}
+
+// whole code
 #include<bits/stdc++.h>
 using namespace std;
 

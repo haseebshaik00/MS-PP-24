@@ -360,8 +360,9 @@ https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/
 [31] Challenges - Tree (191)
 0) level & pre (alone) order build of a tree : check files
 1) Same Tree: https://leetcode.com/problems/same-tree/description/
-2) Sum At Level K
-3) BST in a given range
+2) Sum At Level K: https://www.naukri.com/code360/problems/kth-level_920333
+Largest kth level sum: https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/description/
+3) BST in a given range: https://www.geeksforgeeks.org/dsa/print-bst-keys-in-the-given-range/
 4) Bottom View: https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1
 5) Zig Zag: https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/
 6) Replace sum of greater nodes (BST)
