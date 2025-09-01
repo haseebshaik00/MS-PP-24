@@ -66,6 +66,9 @@ Neetcode 7: Trees
 [31] Challenges: 2, 3, 4, 5, 8, 9, 11
 Set and Multiset STL Notes
 
+[32] Heaps: 
+Neetcode 8: Heaps
+
 ----------------------------------------------
 ----------------------------------------------
 
@@ -371,7 +374,7 @@ Largest kth level sum: https://leetcode.com/problems/maximum-level-sum-of-a-bina
 9) Largest BST: https://www.geeksforgeeks.org/problems/largest-bst/1
 10) Symmetric tree: https://leetcode.com/problems/symmetric-tree/description/
 // in, pre, post traversal - single go - https://www.naukri.com/code360/problems/981269?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
-11) boundary of tree - https://leetcode.com/problems/boundary-of-binary-tree/description/
+11) boundary of tree - https://www.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1
 
 [32] Heaps (200)
 1) Insert, Delete + Heapify, Get, Size

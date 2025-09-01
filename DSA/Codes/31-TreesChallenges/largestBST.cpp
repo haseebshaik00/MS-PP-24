@@ -1,3 +1,26 @@
+class Solution {
+  public:
+    
+    struct Info{
+        bool bst;
+        int size, mn, mx;
+    };
+    
+    Info largestFind(Node *root) {
+        if(!root) return { true, 0, INT_MAX, INT_MIN };
+        Info l = largestFind(root->left), r = largestFind(root->right);
+        if(l.bst && r.bst && l.mx < root->data && root->data < r.mn)
+            return {true, 1+l.size+r.size, min(l.mn, root->data), max(r.mx, root->data)};
+        else return {false, max(l.size, r.size), INT_MIN, INT_MAX};
+    }
+    
+    int largestBst(Node *root) {
+        return largestFind(root).size;
+    }
+};
+
+///////////////////
+
 class BSTNode{
 public:
     int mini;
