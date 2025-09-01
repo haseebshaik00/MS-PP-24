@@ -328,6 +328,9 @@ for (int k = 0; k < 9; ++k) {
 - valid sudoku
 subgrid = i/3 * 3 + j/3;
 
+- heap details
+![alt text](image-3.png)
+
 
 ## TODO
 - sliding window

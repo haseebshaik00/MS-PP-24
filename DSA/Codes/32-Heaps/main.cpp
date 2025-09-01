@@ -6,15 +6,15 @@ public:
     bool minHeap;
     vector<int> v;
 
+    Heap(int defaultSize=10, bool minMax=true){
+        minHeap = minMax;
+        v.reserve(defaultSize+1);
+        v.push_back(-1);
+    }
+
     bool compare(int a, int b){
         if(minHeap) return (a < b);
         return (a > b);
-    }
-
-    Heap(int defaultSize=10, bool minMax=true){
-        minHeap = minMax;
-        v.reserve(defaultSize);
-        v.push_back(-1);
     }
 
     void push(int d){
