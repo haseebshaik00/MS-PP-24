@@ -331,6 +331,21 @@ subgrid = i/3 * 3 + j/3;
 - heap details
 ![alt text](image-3.png)
 
+- Pq min heap using Functor logic:
+#include <queue>
+#include <vector>
+
+struct MinHeap {
+    bool operator()(const int& a, const int& b) const {
+        return a > b; // makes the smallest element the "top"
+    }
+};
+
+int main() {
+    std::priority_queue<int, std::vector<int>, MinHeap> pq;
+    // pq is now a min-heap
+}
+
 
 ## TODO
 - sliding window

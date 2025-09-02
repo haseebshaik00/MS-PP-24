@@ -157,34 +157,51 @@ int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-     // Min-heap
-    Heap minh(true);
-    for (int x : {5, 3, 8, 1, 7, 2}) minh.push(x);
-    cout << "Min-heap after pushes: "; minh.print();     // expect root = 1
-    cout << "Peek min: " << minh.get() << "\n";          // 1
-    while (!minh.isEmpty()) {
-        cout << "Pop " << minh.get() << " -> ";
-        minh.pop();
-        minh.print();
+    //  // Min-heap
+    // Heap minh(true);
+    // for (int x : {5, 3, 8, 1, 7, 2}) minh.push(x);
+    // cout << "Min-heap after pushes: "; minh.print();     // expect root = 1
+    // cout << "Peek min: " << minh.get() << "\n";          // 1
+    // while (!minh.isEmpty()) {
+    //     cout << "Pop " << minh.get() << " -> ";
+    //     minh.pop();
+    //     minh.print();
+    // }
+
+    // // Build Heap from an array - Floyd's Algo - O(n)
+    // cout<<endl<<"Build Heap"<<endl;
+    // vector<int> v, arr{4, 3, 5, 6, 1, 7, 8, 2, 9};
+    // v.reserve(arr.size() + 1);
+    // v.push_back(-1);
+    // v.insert(v.end(), arr.begin(), arr.end());
+    // buildMinHeap(v);
+    // print(v);
+
+    // // Heap Sort
+    // cout<<endl<<"Heap Sort"<<endl;
+    // vector<int> v, arr{4, 3, 5, 6, 1, 7, 8, 2, 9};
+    // v.reserve(arr.size() + 1);
+    // v.push_back(-1);
+    // v.insert(v.end(), arr.begin(), arr.end());
+    // heapSort(v);
+    // print(v);
+
+    // PQ STL
+    priority_queue<int> pq; // max heap
+    priority_queue<int, vector<int>, greater<int>> pq1; // min heap
+    
+
+    return 0;
+}
+
+class minHeap(){
+public:
+    void operator()(int a, int b){
+        return a>b;
     }
+};
 
-    // Build Heap from an array - Floyd's Algo - O(n)
-    cout<<endl<<"Build Heap"<<endl;
-    vector<int> v, arr{4, 3, 5, 6, 1, 7, 8, 2, 9};
-    v.reserve(arr.size() + 1);
-    v.push_back(-1);
-    v.insert(v.end(), arr.begin(), arr.end());
-    buildMinHeap(v);
-    print(v);
-
-    // Heap Sort
-    cout<<endl<<"Heap Sort"<<endl;
-    vector<int> v, arr{4, 3, 5, 6, 1, 7, 8, 2, 9};
-    v.reserve(arr.size() + 1);
-    v.push_back(-1);
-    v.insert(v.end(), arr.begin(), arr.end());
-    heapSort(v);
-    print(v);
-
+int main(){
+    priority_queue<int, vector<int>, minHeap> pq;
     return 0;
 }
