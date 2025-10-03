@@ -71,9 +71,10 @@ Heaps Notes:
 - Insert
 - Delete + Heapify
 - Get, Size
+- create heap inplace - O(n)
 - HeapSort
 priority queue STL + PQ for custom classes
-[32] Heaps: 2, 3, 4
+[32] Heaps: 4
 Neetcode 8: Heaps
 
 ----------------------------------------------
@@ -389,7 +390,7 @@ Largest kth level sum: https://leetcode.com/problems/maximum-level-sum-of-a-bina
 // PQ for custom classes
 // Array to Heap - O(n logn)
 2) Array to Heap - O(n)
-3) HeapSort
+3) HeapSort - O(n log n)
 4) Join the ropes: https://www.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1
 5) Running median of a integer stream: 
 6) merge k sorted arrays: https://www.naukri.com/code360/problems/merge-k-sorted-arrays_975379

@@ -346,6 +346,12 @@ int main() {
     // pq is now a min-heap
 }
 
+- const keyword
+✅ Shortcut to remember:
+
+Before the type → protects the thing being passed/returned (const int& x).
+
+After the function → promises "this function won’t change the object."
 
 ## TODO
 - sliding window
