@@ -31,11 +31,9 @@ int main(){
     cin.tie(NULL);
 
     vector<int> arr{2, 8, 0, 1, 4, 7};
-    vector<int> v; v.clear();
-    v.push_back(-1);
-    v.insert(v.end(), arr.begin(), arr.end());
-    heapSort(v);
-    for(auto &x:v) cout<<x<<" ";
+    arr.insert(arr.begin(), -1);
+    heapSort(arr);
+    for(auto &x:arr) cout<<x<<" ";
 
     return 0;
 }

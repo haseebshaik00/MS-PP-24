@@ -196,10 +196,10 @@ int main(){
 
 
 // PQ STL - custom class
-// class minHeap(){
+// class minHeap{
 // public:
-//     void operator()(int a, int b){
-//         return a>b;
+//     bool operator()(int a, int b){
+//         return a>b; - minHeap
 //     }
 // };
 
