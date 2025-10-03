@@ -23,6 +23,7 @@ int main(){
 
     vector<int> arr{2, 8, 0, 1, 4, 7};
     vector<int> v; v.clear();
+    v.reserve(arr.size() + 1);
     v.push_back(-1);
     v.insert(v.end(), arr.begin(), arr.end());
     buildHeap(v);
