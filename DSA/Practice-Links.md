@@ -66,7 +66,12 @@ Neetcode 7: Trees
 [31] Challenges: 2, 3, 4, 5, 8, 9, 11
 Set and Multiset STL Notes
 
-Heaps Notes: Insert, Delete + Heapify, Get, Size + HeapSort +
+-- Heaps --
+Heaps Notes:
+- Insert
+- Delete + Heapify
+- Get, Size
+- HeapSort
 priority queue STL + PQ for custom classes
 [32] Heaps: 2, 3, 4
 Neetcode 8: Heaps

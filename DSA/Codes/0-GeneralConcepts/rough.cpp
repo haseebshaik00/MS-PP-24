@@ -1,36 +1,10 @@
-#include<bits/stdc++.h>
-#include <iostream>
-using namespace std;
-
-class Node{
-public:
-    int data;
-    Node *next;
-    Node *prev;
-
-    Node(int data){
-        this->data = data;
-        next = nullptr;
-        prev = nullptr;
-    }
-
-    void push(int d){
-
-    }
-
-    void pop(){
-
-    }
-
-    
-};
-
-int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-
-    Node *n;
-
-
-    return 0;
-}
+for i = 1 to n-1:
+    ℓ = i + 1;  r = n
+    while ℓ ≤ r:
+        m = ⌊(ℓ + r)/2⌋
+        if A[m] + A[i] == 0: return yes
+        if A[i] + A[m] < 0:
+            l = m + 1      # need a larger A[m]
+        else:
+            r = m - 1      # need a smaller A[m]
+return no
