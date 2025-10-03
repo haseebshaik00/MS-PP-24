@@ -4,7 +4,7 @@ using namespace std;
 
 /* ---- Heap ----
 - Complete binary tree (all levels full except maybe the last, filled from left to right)
-- Index formulas (1-based):
+- Index formulas (1-based array):
     parent(i) = i/2
     left(i) child = 2*i
     right(i) child = 2*i+1
@@ -54,8 +54,8 @@ public:
         return (a>b);
     }
 
-    Heap(bool minMax=true, int defaultSize=10){
-        minHeap = minMax;
+    Heap(bool minHeap=true, int defaultSize=10){
+        this->minHeap = minHeap;
         v.reserve(defaultSize+1);
         v.clear();
         v.push_back(-1);
@@ -74,9 +74,7 @@ public:
     void push(int d){ // also called as sift up and percolate up - O(log n)
         v.push_back(d);
         if(size() == 1) return;
-        for(int idx = v.size()-1; 
-            idx>1 && compare(v[idx], v[idx/2]); 
-            idx = idx/2)
+        for(int idx = v.size()-1; idx>1 && compare(v[idx], v[idx/2]); idx = idx/2)
             swap(v[idx], v[idx/2]);
     }
 
@@ -106,7 +104,7 @@ public:
 };
 
 
-//  Build Heap from an array - Floyd's Algo - O(n)
+//  Build Heap from an array - Floyd's Algo - O(n)--------------
 void heapify(vector<int>& v, int idx){ // O(log n)
     int lc = 2*idx, rc = 2*idx + 1, minIdx = idx, lastIdx = v.size()-1;
     if(lc <= lastIdx && v[lc] < v[minIdx]) minIdx = lc;
@@ -126,8 +124,10 @@ void print(const vector<int>& v) {
     for (size_t i = 1; i < v.size(); ++i) cout << v[i] << ' ';
     cout<<endl;
 }
+// --------------------------------------------------------------
 
-// Heap Sort - O(n log n)
+
+// Heap Sort - O(n log n)// -------------------------------------
 void heapifyHeapSort(vector<int> &v, int idx, int n){
     int lc = 2*idx, rc = 2*idx+1, newIdx = idx;
     if(lc <= n && v[lc] > v[newIdx]) newIdx = lc;
@@ -151,6 +151,7 @@ void heapSort(vector<int> &v){
         heapifyHeapSort(v, 1, --n);
     }
 }
+// --------------------------------------------------------------
 
 
 int main(){
@@ -189,19 +190,20 @@ int main(){
     // PQ STL
     priority_queue<int> pq; // max heap
     priority_queue<int, vector<int>, greater<int>> pq1; // min heap
-    
 
     return 0;
 }
 
-class minHeap(){
-public:
-    void operator()(int a, int b){
-        return a>b;
-    }
-};
 
-int main(){
-    priority_queue<int, vector<int>, minHeap> pq;
-    return 0;
-}
+// PQ STL - custom class
+// class minHeap(){
+// public:
+//     void operator()(int a, int b){
+//         return a>b;
+//     }
+// };
+
+// int main(){
+//     priority_queue<int, vector<int>, minHeap> pq;
+//     return 0;
+// }
