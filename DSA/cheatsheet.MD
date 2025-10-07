@@ -353,6 +353,9 @@ Before the type → protects the thing being passed/returned (const int& x).
 
 After the function → promises "this function won’t change the object."
 
+[*] heaps
+- for heaps see if you could use min heap rather than max, this might save a lot of time meaning O(n log n ) can be done in O(n log k) sometimes!
+
 ## TODO
 - sliding window
 - macros

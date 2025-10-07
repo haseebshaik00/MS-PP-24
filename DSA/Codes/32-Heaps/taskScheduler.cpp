@@ -1,20 +1,17 @@
 int leastInterval(vector<char>& tasks, int n) {
-        int freq[26], time=0; memset(freq, 0, sizeof(freq));
+        int freq[26]; memset(freq, 0, sizeof(freq));
+        priority_queue<int> pq;
+        queue<pair<int,int>> q;
+        int time = 0;
         for(auto &x: tasks) freq[x-'A']++;
-        priority_queue<int> maxH;
-        queue<pair<int, int>> q;
-        for(int i=0; i<26; ++i)
-            if(freq[i]>0) maxH.push(freq[i]);
-        while(!maxH.empty() || !q.empty()){
-            while(!q.empty()){
-                if(q.front().second <= time){
-                    maxH.push(q.front().first);
-                    q.pop();
-                }
-                else break;
+        for(int i=0; i<26; ++i) if(freq[i]) pq.push(freq[i]);
+        while(!pq.empty() || !q.empty()){
+            while(!q.empty() && q.front().second <= time){
+                pq.push(q.front().first);
+                q.pop();
             }
-            if(maxH.empty()){++time; continue;}
-            int curr = maxH.top(); maxH.pop();
+            if(pq.empty()){ ++time; continue;};
+            int curr = pq.top(); pq.pop();
             --curr; ++time;
             if(curr) q.push({curr, time+n});
         }
