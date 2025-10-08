@@ -12,3 +12,17 @@ int kthSmallest(vector<vector<int>>& matrix, int k) {
         }
         return ans;
     }
+
+// leetcode
+int kthSmallest(vector<vector<int>>& matrix, int k) {
+        int n = matrix.size();
+        struct Node {int val, i, j;};
+        auto cmp = [](const Node &a, const Node &b){ return a.val > b.val;};
+        priority_queue<Node, vector<Node>, decltype(cmp)> pq(cmp);
+        for(int i=0; i<n; i++) pq.push({matrix[i][0], i, 0});
+        while(--k){
+            Node top = pq.top(); pq.pop();
+            if(top.j + 1 < n) pq.push({matrix[top.i][top.j+1], top.i, top.j+1});
+        }
+        return pq.top().val;
+    }
