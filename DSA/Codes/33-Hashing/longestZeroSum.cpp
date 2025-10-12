@@ -1,17 +1,13 @@
-
-int maxLen(vector<int>& a, int n) {
-        for(int i=1; i<n; i++)
-            a[i] += a[i-1];
-        int cMax=0, tMax=0;
-        unordered_map<int, int> m;
-        m.insert({0, -1});
-        for(int i=0; i<n; i++){
-            if(m.find(a[i]) == m.end())
-                m.insert({a[i], i});
-            else{
-                cMax = i-m[a[i]];
-                tMax = max(cMax, tMax);
-            }
+class Solution {
+  public:
+    int maxLength(vector<int>& arr) {
+        unordered_map<int, int> lastIdx;
+        int pre=0, ans=0; lastIdx[0] = -1;
+        for(int i=0; i<arr.size(); ++i){
+            pre += arr[i];
+            if(lastIdx.count(pre)) ans = max(ans, i-lastIdx[pre]);
+            else lastIdx[pre] = i;
         }
-        return tMax;
+        return ans;
     }
+};
