@@ -52,6 +52,8 @@ Neetcode 6: Linked List
 - List - Adjacency List for Weighted Graphs
 - Forward List & List STL
 [25] LL Challenges: 4, 6, 7, 8, 9, 10 (TODO ALL)
+
+
 [26] Stack: Vector Implementation + 1-7
 Neetcode 4: Stack
 [27] Queue: Concepts + 1, 2, 3
@@ -83,10 +85,8 @@ Neetcode 8: Heaps
 // Map and Unordered Map STL
 // Unordered Map Custom Class
 1) Vertical Order Tree Print: https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/description/
-2) Subarray sum zero: https://www.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1
-3) Longest Subarray with 0 sum: https://www.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1
-4) Subarray Sum Equals K: https://leetcode.com/problems/subarray-sum-equals-k/description/
-5) Longest Subarray with k sum: https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1
+2) Subarray Sum Equals K: https://leetcode.com/problems/subarray-sum-equals-k/description/
+3) Longest Subarray with k sum: https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1
 
 ----------------------------------------------
 ----------------------------------------------
