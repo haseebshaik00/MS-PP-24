@@ -1,26 +1,25 @@
 class Solution {
 public:
-    void vTravel(TreeNode* root, map<int, vector<pair<int, int>>> &m, int r, int c){
-        if(root == NULL) return;
-        vTravel(root->left, m, r+1, c-1);
-        m[c].push_back({r, root->val});
-        vTravel(root->right, m, r+1, c+1);
+    //O(n log n)
+    map<int, map<int, vector<int>>> nodes;
+    void dfs(TreeNode* root, int level, int dist){
+        if(!root) return;
+        dfs(root->left, level+1, dist-1);
+        nodes[dist][level].push_back(root->val);
+        dfs(root->right, level+1, dist+1);
     }
 
     vector<vector<int>> verticalTraversal(TreeNode* root) {
-        vector<vector<int>> v;
-        map<int, vector<pair<int, int>>> m;
-        vTravel(root, m, 0, 0);
-        for(auto x:m){
-            sort(x.second.begin(), x.second.end(), [](pair<int, int> a, pair<int, int> b) {
-                if (a.first == b.first) return a.second < b.second;
-                return a.first < b.first;
-            });
-            vector<int> v1;
-            for (auto p : x.second)
-                v1.push_back(p.second);
-            v.push_back(v1);
+        dfs(root, 0, 0);
+        vector<vector<int>> ans;
+        for(auto &x: nodes){
+            vector<int> v;
+            for(auto &y: x.second){
+                sort(y.second.begin(), y.second.end());
+                for(auto &z: y.second) v.push_back(z);
+            }
+            ans.push_back(v);
         }
-        return v;
+        return ans;
     }
 };
