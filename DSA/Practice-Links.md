@@ -88,6 +88,9 @@ Neetcode 8: Heaps
 2) Subarray Sum Equals K: https://leetcode.com/problems/subarray-sum-equals-k/description/
 3) Longest Subarray with k sum: https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1
 
+
+Neetcode 15: Greedy Algo
+Neetcode 16: Intervals
 ----------------------------------------------
 ----------------------------------------------
 
