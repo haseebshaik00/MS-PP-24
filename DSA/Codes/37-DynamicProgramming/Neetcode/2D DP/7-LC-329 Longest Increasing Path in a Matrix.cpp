@@ -1,3 +1,7 @@
+// 2D (memo)	Graph DP on grid (DAG)	O(mn)	O(mn)	
+// dp[r][c]=1+max(dp[nbr]) for nbr>grid[r][c]	
+// DFS+memo / topo by values.	
+// Top-down DFS + memo (no single for-loop order).
 class Solution {
 public:
     long long int m=0, n=0, ans=0;

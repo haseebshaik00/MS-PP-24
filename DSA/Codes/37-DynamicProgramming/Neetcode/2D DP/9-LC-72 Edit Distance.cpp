@@ -1,6 +1,6 @@
 class Solution {
 public:
-    // 2D (2-row)	Two-sequence edit	O(nm)	O(m)	
+    // 2D / 1D compressed	Two-sequence edit	O(nm)	O(m)	
     // dp[i][j]=min(prev[j]+1, cur[j-1]+1, prev[j-1]+(a!=b))	
     // Init row/col as 0..m / 0..n.	Bottom-up; i = 1→n; j = 1→m (forward).
     int minDistance(string word1, string word2) {

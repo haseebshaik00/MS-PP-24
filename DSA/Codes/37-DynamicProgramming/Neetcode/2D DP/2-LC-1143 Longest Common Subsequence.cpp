@@ -14,7 +14,7 @@ public:
     }
     */
 
-    // 2D (row-compressible)	Two-sequence DP	O(nm)	O(min(n,m))	
+    // 1D (row-compressible)	Two-sequence DP	O(nm)	O(min(n,m))	
     // dp[i][j]= a[i-1]==b[j-1]? prev[j-1]+1 : max(prev[j],cur[j-1])	
     // Usually keep two rows.	Bottom-up; i = 1→n, j = 1→m (forward).
     int longestCommonSubsequence(string text1, string text2) {
