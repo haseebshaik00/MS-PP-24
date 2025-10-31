@@ -1,0 +1,17 @@
+Node* cloneGraph(Node* node) {
+        if(!node) return nullptr;
+        unordered_map<Node*, Node*> nodesMap;
+        queue<Node*> q; q.push(node);
+        nodesMap[node] = new Node(node->val);
+        while(!q.empty()){
+            Node *temp = q.front(); q.pop();
+            for(auto &x: temp->neighbors){
+                if(!nodesMap.count(x)){
+                    nodesMap[x] = new Node(x->val);
+                    q.push(x);
+                }
+                nodesMap[temp]->neighbors.push_back(nodesMap[x]);
+            }
+        }
+        return nodesMap[node];
+    }
