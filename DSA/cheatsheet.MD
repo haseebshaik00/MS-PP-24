@@ -356,6 +356,9 @@ After the function → promises "this function won’t change the object."
 [*] heaps
 - for heaps see if you could use min heap rather than max, this might save a lot of time meaning O(n log n ) can be done in O(n log k) sometimes!
 
+* Graphs
+![alt text](image-4.png)
+
 ## TODO
 - sliding window
 - macros
