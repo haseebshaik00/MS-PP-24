@@ -43,3 +43,34 @@ public:
 };
 
 // O(n*m*26)
+class Solution {
+public:
+    int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
+        int L = beginWord.length(), ans=1;
+        unordered_set<string> words(wordList.begin(), wordList.end());
+        if(!words.count(endWord)) return 0;
+        words.erase(beginWord);
+        queue<string> q;
+        q.push(beginWord);
+        while(!q.empty()){
+            int sz = q.size();
+            while(sz--){
+                string x = q.front(); q.pop();
+                if(x == endWord) return ans;
+                for(int i=0; i<L; ++i){
+                    char ch = x[i];
+                    for(char j='a'; j<='z'; ++j){
+                        x[i] = j;
+                        if(words.count(x)){
+                            q.push(x);
+                            words.erase(x);
+                        }
+                    }
+                    x[i]=ch;
+                }
+            }
+            ++ans;
+        }
+        return 0;
+    }
+};
