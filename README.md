@@ -41,5 +41,4 @@ Keeping a tab of my forthcoming 2 years journey. Please ignore!
 
 6) Concepts to study later on:
 
-- Various web architectures
-- 
+- Web architectures
