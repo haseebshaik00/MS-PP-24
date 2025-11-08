@@ -361,6 +361,8 @@ After the function → promises "this function won’t change the object."
 
 ![alt text](image-5.png)
 
+![alt text](image-6.png)
+
 ## TODO
 - sliding window
 - macros
