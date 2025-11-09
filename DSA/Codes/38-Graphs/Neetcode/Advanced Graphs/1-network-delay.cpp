@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // Djikstra's Algo
     int networkDelayTime(vector<vector<int>>& times, int n, int k) {
         using P = pair<int, int>;
         const int mx = 1e9;

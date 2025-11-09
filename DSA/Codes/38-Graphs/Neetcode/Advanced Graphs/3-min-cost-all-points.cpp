@@ -1,6 +1,6 @@
 class Solution {
 public:
-    // Prim's Algo
+    // Prim's Algo - Min Spanning Tree
     int minCostConnectPoints(vector<vector<int>>& points) {
         using P = pair<vector<int>, int>;
         int n = points.size(), sum=0;
