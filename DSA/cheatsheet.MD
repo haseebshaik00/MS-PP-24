@@ -363,6 +363,10 @@ After the function → promises "this function won’t change the object."
 
 ![alt text](image-6.png)
 
+## C++ Type Conversions (int, char, string, char*)
+
+![alt text](image-7.png)
+
 ## TODO
 - sliding window
 - macros
