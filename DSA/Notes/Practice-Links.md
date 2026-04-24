@@ -104,6 +104,8 @@ Neetcode 12 : Advanced Graphs
 ----------------------------------------------
 ----------------------------------------------
 
+## Questions
+
 [1] Searching (2)
 1) Linear Search: https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1 (0:51 mins)
 2) Binary Search: https://leetcode.com/problems/binary-search/ (1:26 mins)
