@@ -588,5 +588,5 @@ https://leetcode.com/problems/binary-tree-inorder-traversal/description/
 47) Removing Duplicate: https://leetcode.com/problems/remove-duplicate-letters/ (TODO)
 // check String Part 2 OF https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems
 48) Longest repeating character replacement: https://leetcode.com/problems/longest-repeating-character-replacement/description/
-leetcode 560
-leetcode 974
+49) leetcode 560
+50) leetcode 974

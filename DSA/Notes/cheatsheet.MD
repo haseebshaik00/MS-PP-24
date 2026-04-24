@@ -233,7 +233,7 @@ cout << "&a      (int (*)[3]): " << &a << endl; // 0x16bb62a78 - same as above b
 cout << "&a + 1  (next array): " << (&a + 1) << endl; // 0x16bb62a84 - similar to whole a + 1
 cout << "a + 1  (next array element): " << (a + 1) << endl; // 0x16b5c6a7c - similar to &a[0] + 1
 
-![alt text](image.png)
+![alt text](../public/image.png)
 
 * ASCII Values
 - A-Z: 65-90
@@ -282,7 +282,7 @@ Binary Search - sorted, monotonic search space
 
 - static_cast<int>(ans);  // Cast back to int if needed == ll int to int
 
-![alt text](image-1.png)
+![alt text](../public/image-1.png)
 
 - insert, erase and remove
 vector<int> v = {1, 2, 3};
@@ -314,7 +314,7 @@ auto it = m.find(2);
 if (it != m.end()) m.erase(it);  // Erase by iterator
 
 - Traversals
-![alt text](image-2.png)
+![alt text](../public/image-2.png)
 
 decreasing func | top-down | work and then call()
 increasing func | bottom-up | call() and then work
@@ -329,7 +329,7 @@ for (int k = 0; k < 9; ++k) {
 subgrid = i/3 * 3 + j/3;
 
 - heap details
-![alt text](image-3.png)
+![alt text](../image-3.png)
 
 - Pq min heap using Functor logic:
 #include <queue>
@@ -357,15 +357,15 @@ After the function → promises "this function won’t change the object."
 - for heaps see if you could use min heap rather than max, this might save a lot of time meaning O(n log n ) can be done in O(n log k) sometimes!
 
 * Graphs
-![alt text](image-4.png)
+![alt text](../public/image-4.png)
 
-![alt text](image-5.png)
+![alt text](../public/image-5.png)
 
-![alt text](image-6.png)
+![alt text](../public/image-6.png)
 
 ## C++ Type Conversions (int, char, string, char*)
 
-![alt text](image-7.png)
+![alt text](../public/image-7.png)
 
 ## TODO
 - sliding window
